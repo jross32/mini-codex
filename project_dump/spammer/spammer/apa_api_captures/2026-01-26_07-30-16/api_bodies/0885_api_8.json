@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1850190,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 68813967,
+            "team": {
+              "id": 9828338,
+              "name": "Devil Eights",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 68876906,
+            "team": {
+              "id": 9828395,
+              "name": "Los Masca Brothers",
+              "number": "32104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

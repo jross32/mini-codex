@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.readme_locator.readme_locator.command import cmd_readme_locator

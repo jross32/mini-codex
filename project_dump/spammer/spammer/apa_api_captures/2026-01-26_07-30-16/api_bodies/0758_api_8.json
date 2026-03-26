@@ -1,0 +1,638 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1740591,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677872,
+            "team": {
+              "id": 12951912,
+              "name": "Chalk and Awe",
+              "number": "02202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016697,
+            "team": {
+              "id": 12864715,
+              "name": "Chalk and Awe",
+              "number": "02202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.14814814814814814,
+            "ppm": 0.4444444444444444,
+            "eightBallMatchPointsEarned": 4,
+            "matchesWon": 1,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90278276,
+            "team": {
+              "id": 12766846,
+              "name": "Chalk and Awe",
+              "number": "02202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4444444444444444,
+            "ppm": 1.3333333333333333,
+            "eightBallMatchPointsEarned": 8,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463693,
+            "team": {
+              "id": 12649889,
+              "name": "Chalk and Awe",
+              "number": "02202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88632831,
+            "team": {
+              "id": 12537008,
+              "name": "Chalk and Awe",
+              "number": "02202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3,
+            "ppm": 0.9,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 1,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88188867,
+            "team": {
+              "id": 12471183,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5185185185185185,
+            "ppm": 1.5555555555555556,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 87557216,
+            "team": {
+              "id": 12384040,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3333333333333333,
+            "ppm": 1,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 3,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 87185531,
+            "team": {
+              "id": 12336947,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 1.6,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 7,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86314964,
+            "team": {
+              "id": 12207209,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5833333333333334,
+            "ppm": 1.75,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 6,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86222048,
+            "team": {
+              "id": 12198435,
+              "name": "Chalk and Awe",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3888888888888889,
+            "ppm": 1.1666666666666667,
+            "eightBallMatchPointsEarned": 7,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 85629163,
+            "team": {
+              "id": 12119292,
+              "name": "Chalk and Awe",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2916666666666667,
+            "ppm": 0.875,
+            "eightBallMatchPointsEarned": 7,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84884009,
+            "team": {
+              "id": 12013429,
+              "name": "Chalk & Awe",
+              "number": "32114",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5151515151515151,
+            "ppm": 1.5454545454545454,
+            "eightBallMatchPointsEarned": 17,
+            "matchesWon": 8,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84882931,
+            "team": {
+              "id": 12013238,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 1.6,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 7,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84437960,
+            "team": {
+              "id": 11953359,
+              "name": "Chalk and Awe",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4166666666666667,
+            "ppm": 1.25,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84123896,
+            "team": {
+              "id": 11913486,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5,
+            "ppm": 1.5,
+            "eightBallMatchPointsEarned": 21,
+            "matchesWon": 8,
+            "matchesPlayed": 14,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 81703980,
+            "team": {
+              "id": 11568668,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0.358974358974359,
+            "ppm": 1.0769230769230769,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 5,
+            "matchesPlayed": 13,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 81159201,
+            "team": {
+              "id": 11496313,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4444444444444444,
+            "ppm": 1.3333333333333333,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80648650,
+            "team": {
+              "id": 11425894,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3666666666666667,
+            "ppm": 1.1,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 1,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80083454,
+            "team": {
+              "id": 11347663,
+              "name": "Chalk and Awe",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6666666666666666,
+            "ppm": 2,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 8,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 79655122,
+            "team": {
+              "id": 11291600,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.375,
+            "ppm": 1.125,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 78852035,
+            "team": {
+              "id": 11175999,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5666666666666667,
+            "ppm": 1.7,
+            "eightBallMatchPointsEarned": 17,
+            "matchesWon": 7,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 78337319,
+            "team": {
+              "id": 11105244,
+              "name": "Chalk and Awe",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.16666666666666666,
+            "ppm": 0.5,
+            "eightBallMatchPointsEarned": 3,
+            "matchesWon": 1,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 77612196,
+            "team": {
+              "id": 11005418,
+              "name": "Chalk and Awe",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 77155787,
+            "team": {
+              "id": 10943368,
+              "name": "Chalk and Awe",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6060606060606061,
+            "ppm": 1.8181818181818181,
+            "eightBallMatchPointsEarned": 20,
+            "matchesWon": 8,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 76280533,
+            "team": {
+              "id": 10818912,
+              "name": "Chalk and Awe",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 75817226,
+            "team": {
+              "id": 10758393,
+              "name": "The Unlucky Ones",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4888888888888889,
+            "ppm": 1.4666666666666666,
+            "eightBallMatchPointsEarned": 22,
+            "matchesWon": 7,
+            "matchesPlayed": 15,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 75645956,
+            "team": {
+              "id": 10736513,
+              "name": "The Unlucky Ones",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.19999999999999998,
+            "ppm": 0.6,
+            "eightBallMatchPointsEarned": 6,
+            "matchesWon": 2,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 69258047,
+            "team": {
+              "id": 9898476,
+              "name": "Cue Techs ( M )",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 5,
+            "matchesPlayed": 13,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 68684660,
+            "team": {
+              "id": 9828415,
+              "name": "Cue Techs",
+              "number": "02003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 1,
+            "matchesPlayed": 4,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 68133035,
+            "team": {
+              "id": 9644592,
+              "name": "Cue Techs",
+              "number": "02003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 6,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 68071931,
+            "team": {
+              "id": 9747309,
+              "name": "Da Shipwr3kz",
+              "number": "02003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

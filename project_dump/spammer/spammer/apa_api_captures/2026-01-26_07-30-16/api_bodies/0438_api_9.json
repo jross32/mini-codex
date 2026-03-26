@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 336512,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 31173138,
+            "team": {
+              "id": 4453009,
+              "name": "Cue Techs",
+              "number": "24303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 31173120,
+            "team": {
+              "id": 4453005,
+              "name": "Team 3",
+              "number": "24203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

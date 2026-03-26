@@ -1,0 +1,21 @@
+{
+  "project_name": "cyberpunk_bar_management_sim",
+  "game_type": "cyberpunk",
+  "engine_version": "v1",
+  "theme": "neon-noir",
+  "systems": [
+    "core",
+    "ui",
+    "entities",
+    "economy",
+    "missions",
+    "reputation",
+    "vendor",
+    "progression"
+  ],
+  "templates": [
+    "systems.hacking.hacking",
+    "systems.factions.reputation",
+    "systems.vendors.vendor"
+  ]
+}

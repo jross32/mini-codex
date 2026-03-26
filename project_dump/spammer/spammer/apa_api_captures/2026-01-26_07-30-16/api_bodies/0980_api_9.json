@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2012866,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86308486,
+            "team": {
+              "id": 12206831,
+              "name": "Crazy 8's",
+              "number": "42110",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.35714285714285715,
+            "ppm": 1.0714285714285714,
+            "eightBallMatchPointsEarned": 15,
+            "matchesWon": 5,
+            "matchesPlayed": 14,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

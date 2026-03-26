@@ -1,0 +1,44 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3128978,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 577389,
+            "teamNumber": "12206710",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Team Maribel Rebollar",
+            "disqualified": null,
+            "tournament": {
+              "name": "Aloha Challenge (Cameron)",
+              "id": 44968,
+              "startTime": "2024-01-14T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527736,
+            "teamNumber": "12119291",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

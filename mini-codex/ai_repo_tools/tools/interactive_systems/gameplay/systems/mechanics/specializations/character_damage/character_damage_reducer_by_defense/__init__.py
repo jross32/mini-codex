@@ -1,0 +1,1 @@
+from .command import cmd_character_damage_reducer_by_defense

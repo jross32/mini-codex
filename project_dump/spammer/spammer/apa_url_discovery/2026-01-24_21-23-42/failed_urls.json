@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://league.poolplayers.com/membercard",
+    "reason": "login_required",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "reason": "login_required",
+    "worker": 1
+  },
+  {
+    "url": "https://league.poolplayers.com/dashboard",
+    "reason": "login_required",
+    "worker": 4
+  },
+  {
+    "url": "https://league.poolplayers.com/news",
+    "reason": "login_required",
+    "worker": 3
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+    "reason": "login_required",
+    "worker": 1
+  },
+  {
+    "url": "https://league.poolplayers.com/login",
+    "reason": "login_required",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions",
+    "reason": "login_required",
+    "worker": 4
+  }
+]

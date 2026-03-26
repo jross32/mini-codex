@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 530234,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 68328469,
+            "team": {
+              "id": 9644562,
+              "name": "Castaneda's Hustlers",
+              "number": "24203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5875,
+            "ppm": 11.75,
+            "matchesWon": 8,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 141,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

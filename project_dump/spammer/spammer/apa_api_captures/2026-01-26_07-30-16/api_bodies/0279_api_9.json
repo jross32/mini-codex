@@ -1,0 +1,72 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 599430,
+        "sessions": [
+          {
+            "id": 138,
+            "name": "Spring 2026",
+            "__typename": "Session"
+          },
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 134,
+            "name": "Fall 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 133,
+            "name": "Summer 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 132,
+            "name": "Spring 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 66,
+            "name": "Summer 2008",
+            "__typename": "Session"
+          },
+          {
+            "id": 65,
+            "name": "Spring 2008",
+            "__typename": "Session"
+          },
+          {
+            "id": 61,
+            "name": "Fall 2007",
+            "__typename": "Session"
+          },
+          {
+            "id": 60,
+            "name": "Summer 2007",
+            "__typename": "Session"
+          },
+          {
+            "id": 57,
+            "name": "Summer 2006",
+            "__typename": "Session"
+          },
+          {
+            "id": 56,
+            "name": "Spring 2006",
+            "__typename": "Session"
+          },
+          {
+            "id": 55,
+            "name": "Fall 2005",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

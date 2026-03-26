@@ -1,0 +1,216 @@
+{
+  "structured_data": [],
+  "rendered_text": "Member ServicesJR My Membership Card/ID Edit Profile Settings Payments Logout1DashboardMatchesNewsEventsMy StatsPay for MatchesRulesMy LeaguesRio Grande Valley APAAPA NationalStoreTournament InfoDiscountsContactNeed Help?Matchup:6268Bad Boys (22204)A-Rack-Nophobia (22205) The Lucky Barrel \u00a0|\u00a0Sep 4, 8:00 PMDiv Rep: Mr. Vegas CamachoCall Division Rep Mr. Vegas Camacho @ +1 956 572 8638The Lucky BarrelFINAL SCOREBad Boys62VS.A-Rack-Nophobia68MATCH BREAKOUTAlexander Banda1SL12Pts EarnedMatch 131/31 - 28/31PE/PN1SLFrancisco PreciadoLAG8Pts EarnedAlberto RamonLAG1SL12Pts EarnedMatch 246/46 - 43/46PE/PN1SLEnrique Espino8Pts EarnedJavier AguilarLAG1SL6Pts EarnedMatch 328/38 - 31/31PE/PN1SLNoel Canales14Pts EarnedEddie GonzalezLAG1SL13Pts EarnedMatch 419/19 - 25/31PE/PN1SLJustin Urbano7Pts EarnedEmilio Acosta1SL4Pts EarnedMatch 517/31 - 31/31PE/PN1SLNacho PenningtonLAG16Pts Earned47Subtotal5315Bonus150Penalty00Adjustment062Total68\u00a92026 American Poolplayers AssociationPrivacy Policy Terms of Usev3.18.44\nStay informed with Member Services notifications!3For ExampleYou have pool league tonight! Don't ask me againNo ThanksNotify Me!",
+  "forms": [],
+  "links": {
+    "internal": [
+      {
+        "text": "Member Services",
+        "href": "/",
+        "title": "",
+        "target": "_self",
+        "class": "logo"
+      },
+      {
+        "text": " My Membership Card/ID",
+        "href": "/membercard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Edit Profile",
+        "href": "/profile",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Settings",
+        "href": "/settings",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Payments",
+        "href": "/payments",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Logout",
+        "href": "/login/destroy",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "",
+        "href": "/cart",
+        "title": "",
+        "target": "_self",
+        "class": "dropdown-toggle waves-effect waves-light"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/dashboard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Matches",
+        "href": "/matches",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "News",
+        "href": "/news",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Events",
+        "href": "/events/league/all",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "My Stats",
+        "href": "/RioGrandeValley/member/3400522",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Pay for Matches",
+        "href": "/store",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rules",
+        "href": "/rules",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rio Grande Valley APA",
+        "href": "/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Need Help?",
+        "href": "/help",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      }
+    ],
+    "external": [
+      {
+        "text": "Store",
+        "href": "https://shop.poolplayers.com",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://bd.poolplayers.com/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "",
+        "href": "https://www.distro.tv/live/billiard-tv/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "Tournament Info",
+        "href": "https://poolplayers.com/tournament-information",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Discounts",
+        "href": "https://poolplayers.com/discounts",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Contact",
+        "href": "https://poolplayers.com/contact/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-facebook tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-twitter tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/user/apaleagues",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-youtube tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/poolplayers/",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-instagram tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "Div Rep: Mr. Vegas CamachoCall Division Rep Mr. Vegas Camacho @ +1 956 572 8638",
+        "href": "tel:+19565728638",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://poolplayers.com/legal/privacy-policy/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://poolplayers.com/legal/apa-terms-of-use-agreement/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      }
+    ],
+    "ctas": [],
+    "navigation": []
+  }
+}

@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.config_sprawl.config_sprawl_score.command import cmd_config_sprawl_score

@@ -1,0 +1,435 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2936898,
+        "firstName": "Mary Lou",
+        "lastName": "Salinas",
+        "initials": "MS",
+        "aliases": [
+          {
+            "id": 2571954,
+            "displayName": "Mami Salinas",
+            "memberNumber": "78502607",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 3
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 3
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2571954,
+        "pastTeams": [
+          {
+            "id": 91725151,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 2,
+            "matchesWon": 2,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": null,
+            "team": {
+              "id": 12956667,
+              "name": "Palochones",
+              "division": {
+                "id": 425651,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277873,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "Mami",
+            "matchesPlayed": 9,
+            "matchesWon": 5,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 5,
+            "team": {
+              "id": 12766753,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 408934,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277686,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 8,
+            "matchesWon": 6,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 1,
+            "team": {
+              "id": 12766727,
+              "name": "Palochones",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90278308,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 5,
+            "team": {
+              "id": 12766850,
+              "name": "Palochones",
+              "division": {
+                "id": 408941,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056647,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12869209,
+              "name": "Palochones",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89801718,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Mami",
+            "matchesPlayed": 9,
+            "matchesWon": 6,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 5,
+            "team": {
+              "id": 12649806,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 398439,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463172,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 13,
+            "matchesWon": 8,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 3,
+            "team": {
+              "id": 12649761,
+              "name": "Palochones",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463726,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 11,
+            "matchesWon": 6,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 10,
+            "team": {
+              "id": 12649893,
+              "name": "Palochones",
+              "division": {
+                "id": 398445,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88632865,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 11,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 14,
+            "team": {
+              "id": 12537012,
+              "name": "Palochones",
+              "division": {
+                "id": 394849,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88633736,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 7,
+            "team": {
+              "id": 12537134,
+              "name": "Palochones",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677469,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951832,
+              "name": "Palochones",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677906,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951916,
+              "name": "Palochones",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016337,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Mami",
+            "matchesPlayed": 12,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 24,
+            "team": {
+              "id": 12864639,
+              "name": "Palochones",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016730,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": "Mami",
+            "matchesPlayed": 12,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 19,
+            "team": {
+              "id": 12864719,
+              "name": "Palochones",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

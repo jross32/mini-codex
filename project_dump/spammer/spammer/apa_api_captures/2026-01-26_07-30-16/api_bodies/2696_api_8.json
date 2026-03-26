@@ -1,0 +1,122 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3292210,
+        "member": {
+          "id": 3415339,
+          "consecutiveYearsPlayed": 2,
+          "membershipHistory": [
+            {
+              "id": 7516985,
+              "year": 2025,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 7553518,
+              "year": 2026,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            }
+          ],
+          "__typename": "Member"
+        },
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "players": [
+          {
+            "id": 91677900,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016724,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91725021,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90425827,
+            "session": {
+              "id": 136,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "id": 3292210,
+        "displayName": "Noe Garza",
+        "EightBallStats": [
+          {
+            "id": 803292210,
+            "matchesWon": 9,
+            "matchesPlayed": 25,
+            "CLA": 0,
+            "defensiveShotAvg": 1.64,
+            "matchCountForLastTwoYrs": 25,
+            "lastPlayed": "2025-12-18T00:00:00Z",
+            "__typename": "EightBallLifetimeStatistics"
+          }
+        ],
+        "NineBallStats": [
+          {
+            "id": 903292210,
+            "matchesWon": null,
+            "matchesPlayed": 0,
+            "CLA": 0,
+            "defensiveShotAvg": 0,
+            "matchCountForLastTwoYrs": 0,
+            "lastPlayed": null,
+            "__typename": "NineBallLifetimeStatistics"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

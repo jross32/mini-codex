@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>World Overview</h1>
+
+<div class="row">
+  <div class="col">
+    <canvas id="sim" width="560" height="560"></canvas>
+  </div>
+  <div class="col">
+    <div class="card">
+      <h3>Environment</h3>
+      <div id="environmentStatus">Loading...</div>
+    </div>
+    <div class="card">
+      <h3>Resources</h3>
+      <div id="resourceStatus">Loading...</div>
+    </div>
+  </div>
+</div>
+
+<div id="agentModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span id="closeModal" class="close">×</span>
+    <h3>Agent Inspector</h3>
+    <div id="agentDetails" class="card">(click an agent on the grid)</div>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('goals')">Goals</button>
+      <button class="tab-btn" onclick="showTab('memories')">Memories</button>
+      <button class="tab-btn" onclick="showTab('relationships')">Relationships</button>
+    </div>
+    <div id="goals" class="tab-content active">
+      <h4>Current Goals</h4>
+      <div id="agentGoals">Loading...</div>
+    </div>
+    <div id="memories" class="tab-content">
+      <h4>Recent Memories</h4>
+      <div id="agentMemories">Loading...</div>
+    </div>
+    <div id="relationships" class="tab-content">
+      <h4>Relationships</h4>
+      <div id="agentRelationships">Loading...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const cell = 40, pad = 10;
+
+async function getData() {
+    const res = await fetch("/simdata");
+    return await res.json();
+}
+
+function drawGrid(ctx, grid) {
+    ctx.strokeStyle = "#333";
+    for (let i = 0; i <= grid; i++) {
+        ctx.beginPath();
+        ctx.moveTo(pad + i * cell, pad);
+        ctx.lineTo(pad + i * cell, pad + grid * cell);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(pad, pad + i * cell);
+        ctx.lineTo(pad + grid * cell, pad + i * cell);
+        ctx.stroke();
+    }
+}
+
+function drawResources(ctx, resources) {
+    resources.forEach(r => {
+        ctx.fillStyle = r.type === 'food' ? '#81c784' : '#4fc3f7';
+        ctx.fillRect(pad + r.x * cell + 5, pad + r.y * cell + 5,
+                    cell - 10, cell - 10);
+        
+        // Show amount
+        ctx.fillStyle = '#fff';
+        ctx.font = '10px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(r.amount,
+                    pad + r.x * cell + cell/2,
+                    pad + r.y * cell + cell/2 + 4);
+    });
+}
+
+function drawAgents(ctx, agents) {
+    agents.forEach(a => {
+        const energy = a.energy || 50;
+        const r = Math.max(6, Math.min(14, energy / 5));
+        
+        // Draw agent circle
+        ctx.beginPath();
+        ctx.arc(pad + a.x * cell + cell / 2,
+                pad + a.y * cell + cell / 2, r, 0, 2 * Math.PI);
+        
+        // Color based on role
+        const roleColors = {
+            'farmer': '#a5d6a7',
+            'builder': '#fff176',
+            'miner': '#ce93d8',
+            'scientist': '#90caf9'
+        };
+        ctx.fillStyle = roleColors[a.role] || '#a5d6a7';
+        ctx.fill();
+        
+        // Show energy bar
+        ctx.fillStyle = '#333';
+        ctx.fillRect(pad + a.x * cell + 5,
+                    pad + a.y * cell + cell - 8,
+                    (cell - 10) * (energy / 100), 3);
+    });
+}
+
+async function updateEnvironmentStatus() {
+    const res = await fetch('/environment');
+    const env = await res.json();
+    const status = document.getElementById('environmentStatus');
+    status.innerHTML = `
+        <p><b>Weather:</b> ${env.weather}</p>
+        <p><b>Season:</b> ${env.season}</p>
+        <p><b>Time:</b> ${env.day_phase}</p>
+        <p><b>Effects:</b></p>
+        <ul>
+            ${Object.entries(env.effects).map(([k,v]) =>
+                `<li>${k}: ${v}</li>`).join('')}
+        </ul>
+    `;
+}
+
+async function updateResourceStatus() {
+    const res = await fetch('/resources');
+    const resources = await res.json();
+    const status = document.getElementById('resourceStatus');
+    const totals = resources.reduce((acc, r) => {
+        acc[r.type] = (acc[r.type] || 0) + r.amount;
+        return acc;
+    }, {});
+    status.innerHTML = `
+        <p><b>Total Resources:</b></p>
+        <ul>
+            ${Object.entries(totals).map(([k,v]) =>
+                `<li>${k}: ${v}</li>`).join('')}
+        </ul>
+    `;
+}
+
+async function draw() {
+    const data = await getData();
+    const grid = data.grid || 12;
+    const agents = data.agents || [];
+    const resources = data.resources || [];
+    
+    const size = grid * cell + pad * 2;
+    const canvas = document.getElementById("sim");
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext("2d");
+    
+    ctx.clearRect(0, 0, size, size);
+    drawGrid(ctx, grid);
+    drawResources(ctx, resources);
+    drawAgents(ctx, agents);
+    
+    updateEnvironmentStatus();
+    updateResourceStatus();
+}
+
+setInterval(draw, 800);
+draw();
+
+async function showAgentDetails(agentId) {
+    // Get goals
+    const goalsRes = await fetch(`/agent/goals/${agentId}`);
+    const goals = await goalsRes.json();
+    document.getElementById('agentGoals').innerHTML = goals.map(g =>
+        `<div class="goal-item">
+            <b>${g.type}</b> (${Math.round(g.progress*100)}%)
+            <div class="progress-bar">
+                <div class="progress" style="width:${g.progress*100}%"></div>
+            </div>
+         </div>`
+    ).join('');
+    
+    // Get memories
+    const memRes = await fetch(`/agent/memories/${agentId}`);
+    const memories = await memRes.json();
+    document.getElementById('agentMemories').innerHTML = memories.map(m =>
+        `<div class="memory-item">
+            <span class="time">${m.timestamp}</span>
+            <p>${m.description}</p>
+         </div>`
+    ).join('');
+    
+    // Get relationships
+    const relRes = await fetch(`/agent/relationships/${agentId}`);
+    const relationships = await relRes.json();
+    document.getElementById('agentRelationships').innerHTML = relationships.map(r =>
+        `<div class="relationship-item ${r.type}">
+            <b>${r.target_name}</b>
+            <div class="strength-bar">
+                <div class="strength" style="width:${(r.strength+1)*50}%"></div>
+            </div>
+         </div>`
+    ).join('');
+}
+
+// click-to-inspect
+document.getElementById("sim").addEventListener("click", async (ev) => {
+    const rect = ev.target.getBoundingClientRect();
+    const x = Math.floor((ev.clientX - rect.left - pad) / cell);
+    const y = Math.floor((ev.clientY - rect.top - pad) / cell);
+    
+    const res = await fetch(`/agent_at?x=${x}&y=${y}`);
+    const data = await res.json();
+    const modal = document.getElementById("agentModal");
+    const det = document.getElementById("agentDetails");
+    
+    if (data && data.id) {
+        const esc = str => String(str).replace(/[&<>'"]/g,
+            c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;',
+                   "'": '&#39;', '"': '&quot;' })[c]);
+        det.innerHTML = `
+            <b>ID:</b> ${esc(data.id)}<br>
+            <b>Name:</b> ${esc(data.name)}<br>
+            <b>Pos:</b> (${esc(data.x)},${esc(data.y)})<br>
+            <b>Age:</b> ${esc(data.age)}<br>
+            <b>Energy:</b> ${esc(data.energy)}<br>
+            <b>Role:</b> ${esc(data.role)}<br>
+            <b>Status:</b> ${esc(data.status)}
+        `;
+        showAgentDetails(data.id);
+    } else {
+        det.innerHTML = "(no agent on that cell)";
+    }
+    modal.style.display = "block";
+});
+
+function showTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // Show selected tab
+    document.getElementById(tabName).classList.add('active');
+    event.currentTarget.classList.add('active');
+}
+
+document.getElementById("closeModal").onclick = () => {
+    document.getElementById("agentModal").style.display = "none";
+};
+</script>
+{% endblock %}

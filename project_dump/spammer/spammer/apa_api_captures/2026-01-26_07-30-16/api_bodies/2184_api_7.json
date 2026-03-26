@@ -1,0 +1,78 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 85214472,
+            "team": {
+              "id": 12013249,
+              "name": "J&Bubbas (Feat) Taco Nava",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.16666666666666666,
+            "ppm": 0.5,
+            "eightBallMatchPointsEarned": 5,
+            "matchesWon": 2,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84883988,
+            "team": {
+              "id": 12013421,
+              "name": "Los Primos",
+              "number": "32115",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0.5238095238095238,
+            "ppm": 1.5714285714285714,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 5,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 84883857,
+            "team": {
+              "id": 12013379,
+              "name": "The Unwanted",
+              "number": "02002",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3333333333333333,
+            "ppm": 1,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 4,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

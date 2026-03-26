@@ -1,0 +1,11 @@
+{
+  "description": "Python import dependency graph - which files import which others",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    }
+  ],
+  "returns": "edges list and sorted importers/importees"
+}

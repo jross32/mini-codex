@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 851051,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 87207229,
+            "team": {
+              "id": 12340093,
+              "name": "Gilbert/ Rosie",
+              "number": "33306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.23076923076923075,
+            "ppm": 0.6923076923076923,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 4,
+            "matchesPlayed": 13,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 87389923,
+            "team": {
+              "id": 12336969,
+              "name": "IGY6",
+              "number": "03304",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3333333333333333,
+            "ppm": 1,
+            "eightBallMatchPointsEarned": 8,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

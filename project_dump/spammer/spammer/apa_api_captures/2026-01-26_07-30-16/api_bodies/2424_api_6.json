@@ -1,0 +1,435 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3275794,
+        "firstName": "Laura",
+        "lastName": "Vega Guevara",
+        "initials": "LV",
+        "aliases": [
+          {
+            "id": 3065536,
+            "displayName": "Laura Vega Guevara",
+            "memberNumber": "78503885",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 4
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3065536,
+        "pastTeams": [
+          {
+            "id": 91725025,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12956650,
+              "name": "Quete Importa",
+              "division": {
+                "id": 425649,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277693,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 12,
+            "matchesWon": 6,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 10,
+            "team": {
+              "id": 12766728,
+              "name": "Quete Importa",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90278316,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 6,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 7,
+            "team": {
+              "id": 12766851,
+              "name": "Quete Importa",
+              "division": {
+                "id": 408941,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056841,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": null,
+            "team": {
+              "id": 12869228,
+              "name": "Quete Importa",
+              "division": {
+                "id": 417920,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463178,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 11,
+            "team": {
+              "id": 12649762,
+              "name": "Quete Importa",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463733,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 11,
+            "matchesWon": 7,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 4,
+            "team": {
+              "id": 12649894,
+              "name": "Quete Importa",
+              "division": {
+                "id": 398445,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88633722,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 15,
+            "team": {
+              "id": 12537132,
+              "name": "Bad Boys",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89190216,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 4,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 13,
+            "team": {
+              "id": 12613220,
+              "name": "Quete Importa",
+              "division": {
+                "id": 394849,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89190239,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 12,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 13,
+            "team": {
+              "id": 12613335,
+              "name": "Quete Importa",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88188943,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 5,
+            "session": {
+              "id": 133,
+              "name": "Summer 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 11,
+            "team": {
+              "id": 12471192,
+              "name": "Bad Boys",
+              "division": {
+                "id": 382590,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677445,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 2,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": null,
+            "team": {
+              "id": 12951829,
+              "name": "Quete Importa",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677882,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 2,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951913,
+              "name": "Quete Importa",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016344,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 16,
+            "matchesWon": 8,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 5,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016737,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 4,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 13,
+            "team": {
+              "id": 12864720,
+              "name": "Quete Importa",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

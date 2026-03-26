@@ -1,0 +1,27 @@
+# Runtime log hygiene (conservative)
+# Ignore transient artifacts, keep stable JSON summaries/reports.
+
+# General transient logs
+*.log
+*.tmp
+
+# Root-level runtime logs
+agent_logs/tmp_*.py
+agent_logs/*.bak
+agent_logs/*.tmp
+agent_logs/*.log
+
+# Keep key root log artifacts
+!agent_logs/tool_observations.jsonl
+!agent_logs/tool_observations_summary.json
+!agent_logs/aish_usage.json
+!agent_logs/promotion_*.json
+
+# Nested runtime logs under toolkit internals
+ai_repo_tools/agent_logs/**
+!ai_repo_tools/agent_logs/
+!ai_repo_tools/agent_logs/**/*.json
+
+# Python cache
+__pycache__/
+*.pyc

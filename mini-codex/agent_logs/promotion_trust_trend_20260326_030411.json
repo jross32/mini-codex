@@ -1,0 +1,106 @@
+{
+  "schema_version": "promotion.v2",
+  "tool": "trust_trend",
+  "candidate_id": "v20260326_023946_candidate",
+  "gate_config_used": {
+    "correctness_floor": 1.0,
+    "max_slowdown_pct": 5.0,
+    "min_runs": 3,
+    "required_keys": [
+      "success",
+      "tool",
+      "overall",
+      "workers",
+      "summary"
+    ],
+    "enable_canary": false,
+    "canary_sample_count": 10
+  },
+  "baseline": {
+    "runs": 3,
+    "success_rate": 1.0,
+    "mean_ms": 413.545,
+    "performance": {
+      "mean": 413.545,
+      "p50": 302.325,
+      "p95": 302.325,
+      "p99": 302.325,
+      "max": 727.996,
+      "min": 210.316,
+      "stdev": 276.18
+    },
+    "payload_stability": {
+      "all_identical": false,
+      "differing_fields": [
+        "elapsed_ms"
+      ]
+    }
+  },
+  "candidate": {
+    "runs": 3,
+    "success_rate": 1.0,
+    "mean_ms": 229.875,
+    "performance": {
+      "mean": 229.875,
+      "p50": 233.941,
+      "p95": 233.941,
+      "p99": 233.941,
+      "max": 301.9,
+      "min": 153.783,
+      "stdev": 74.142
+    },
+    "payload_stability": {
+      "all_identical": false,
+      "differing_fields": [
+        "elapsed_ms"
+      ]
+    }
+  },
+  "checks": {
+    "correctness": {
+      "pass": true,
+      "floor": 1.0,
+      "actual": 1.0
+    },
+    "performance": {
+      "pass": true,
+      "max_slowdown_pct": 5.0,
+      "slowdown_pct": -44.414,
+      "variance_change_pct": -73.154
+    },
+    "regression": {
+      "pass": true,
+      "required_keys": [
+        "overall",
+        "success",
+        "summary",
+        "tool",
+        "workers"
+      ],
+      "behavioral_changes": [
+        {
+          "field": "elapsed_ms",
+          "baseline": 203,
+          "candidate": 140
+        }
+      ]
+    },
+    "safety": {
+      "pass": true,
+      "blocked_patterns_found": []
+    },
+    "non_determinism": {
+      "pass": false,
+      "differing_fields": [
+        "elapsed_ms"
+      ]
+    }
+  },
+  "gate_failures": [
+    "non_determinism"
+  ],
+  "decision": "reject",
+  "promoted": false,
+  "report_path": "c:\\Users\\justi\\Desktop\\Coding Projects\\mini-codex\\agent_logs\\promotion_trust_trend_20260326_030411.json",
+  "summary": "Promotion rejected for trust_trend candidate v20260326_023946_candidate. Gate failures: ['non_determinism']"
+}

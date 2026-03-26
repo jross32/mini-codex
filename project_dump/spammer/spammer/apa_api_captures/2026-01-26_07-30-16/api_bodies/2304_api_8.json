@@ -1,0 +1,19 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3010101,
+        "formats": [
+          "EIGHT"
+        ],
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isDefault": true,
+          "__typename": "League"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

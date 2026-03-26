@@ -1,0 +1,12 @@
+[
+  {
+    "name": "cookie_test",
+    "value": "1",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

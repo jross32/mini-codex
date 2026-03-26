@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3010101,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86325415,
+            "team": {
+              "id": 12198434,
+              "name": "Lethal 8's",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43333333333333335,
+            "ppm": 1.3,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

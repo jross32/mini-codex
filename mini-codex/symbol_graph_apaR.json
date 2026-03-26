@@ -1,0 +1,914 @@
+{
+  "symbols": {
+    "backend/app/admin.py": {
+      "imports": [
+        "__future__",
+        "auth",
+        "datetime",
+        "flask",
+        "models",
+        "sqlalchemy",
+        "typing",
+        "uuid"
+      ],
+      "exports": [
+        "_current_running",
+        "_ensure_runs_table",
+        "_get_run",
+        "_insert_run",
+        "_list_runs",
+        "_row_to_run",
+        "admin_health",
+        "admin_run_create",
+        "admin_run_detail",
+        "admin_runs_list",
+        "admin_status",
+        "require_admin"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Blueprint"
+        },
+        {
+          "from": "module",
+          "to": "_current_running"
+        },
+        {
+          "from": "module",
+          "to": "_ensure_runs_table"
+        },
+        {
+          "from": "module",
+          "to": "_get_run"
+        },
+        {
+          "from": "module",
+          "to": "_insert_run"
+        }
+      ]
+    },
+    "backend/app/auth.py": {
+      "imports": [
+        "__future__",
+        "collections",
+        "datetime",
+        "flask",
+        "functools",
+        "models",
+        "re",
+        "secrets",
+        "sqlalchemy",
+        "time",
+        "typing",
+        "werkzeug"
+      ],
+      "exports": [
+        "SimpleRateLimiter",
+        "_client_ip",
+        "_db",
+        "_error",
+        "_normalize_email",
+        "_rate_limit",
+        "_success",
+        "_user_payload",
+        "_validate_email",
+        "admin_required",
+        "auth_required",
+        "complete_onboarding",
+        "csrf",
+        "get_current_user",
+        "get_or_set_csrf_token",
+        "login",
+        "logout",
+        "me",
+        "signup"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Blueprint"
+        },
+        {
+          "from": "module",
+          "to": "SimpleRateLimiter"
+        },
+        {
+          "from": "module",
+          "to": "User"
+        },
+        {
+          "from": "module",
+          "to": "_client_ip"
+        },
+        {
+          "from": "module",
+          "to": "_db"
+        }
+      ]
+    },
+    "backend/app/cli.py": {
+      "imports": [
+        "__future__",
+        "click",
+        "subprocess",
+        "sys"
+      ],
+      "exports": [
+        "migrate"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "command"
+        },
+        {
+          "from": "module",
+          "to": "exit"
+        },
+        {
+          "from": "module",
+          "to": "option"
+        },
+        {
+          "from": "module",
+          "to": "run"
+        }
+      ]
+    },
+    "backend/app/config.py": {
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "os",
+        "pathlib"
+      ],
+      "exports": [
+        "Settings",
+        "get_settings"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Path"
+        },
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "getenv"
+        },
+        {
+          "from": "module",
+          "to": "int"
+        },
+        {
+          "from": "module",
+          "to": "lower"
+        }
+      ]
+    },
+    "backend/app/data_store.py": {
+      "imports": [
+        "__future__",
+        "datetime",
+        "json",
+        "pathlib",
+        "typing",
+        "zoneinfo"
+      ],
+      "exports": [
+        "DataStore",
+        "Dataset"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "FileNotFoundError"
+        },
+        {
+          "from": "module",
+          "to": "Path"
+        },
+        {
+          "from": "module",
+          "to": "ValueError"
+        },
+        {
+          "from": "module",
+          "to": "ZoneInfo"
+        },
+        {
+          "from": "module",
+          "to": "_build_indexes"
+        }
+      ]
+    },
+    "backend/app/db.py": {
+      "imports": [
+        "__future__",
+        "sqlalchemy"
+      ],
+      "exports": [
+        "build_engine",
+        "make_scoped_session"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "create_engine"
+        },
+        {
+          "from": "module",
+          "to": "scoped_session"
+        },
+        {
+          "from": "module",
+          "to": "sessionmaker"
+        }
+      ]
+    },
+    "backend/app/main.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "create_app"
+        },
+        {
+          "from": "module",
+          "to": "run"
+        }
+      ]
+    },
+    "backend/app/models.py": {
+      "imports": [
+        "__future__",
+        "datetime",
+        "sqlalchemy",
+        "uuid"
+      ],
+      "exports": [
+        "Base",
+        "User",
+        "UserContext"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DateTime"
+        },
+        {
+          "from": "module",
+          "to": "ForeignKey"
+        },
+        {
+          "from": "module",
+          "to": "String"
+        },
+        {
+          "from": "module",
+          "to": "bool"
+        },
+        {
+          "from": "module",
+          "to": "isoformat"
+        }
+      ]
+    },
+    "backend/app/routes.py": {
+      "imports": [
+        "__future__",
+        "data_store",
+        "datetime",
+        "flask",
+        "pathlib",
+        "snapshots",
+        "sqlalchemy",
+        "typing"
+      ],
+      "exports": [
+        "_as_int",
+        "_as_str",
+        "_diff_datasets",
+        "_ensure_list",
+        "_expanded_sets",
+        "_first_present",
+        "_match_date_filter_args",
+        "_match_summary",
+        "_player_summary",
+        "db_health",
+        "get_division",
+        "get_match",
+        "get_player",
+        "get_team",
+        "health",
+        "import_latest",
+        "list_divisions",
+        "list_matches",
+        "list_updates",
+        "meta",
+        "onboarding_divisions",
+        "onboarding_leagues",
+        "onboarding_sessions",
+        "onboarding_teams",
+        "search"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Blueprint"
+        },
+        {
+          "from": "module",
+          "to": "Path"
+        },
+        {
+          "from": "module",
+          "to": "_as_int"
+        },
+        {
+          "from": "module",
+          "to": "_as_str"
+        },
+        {
+          "from": "module",
+          "to": "_diff_datasets"
+        }
+      ]
+    },
+    "backend/app/seed.py": {
+      "imports": [
+        "__future__",
+        "datetime",
+        "models",
+        "werkzeug"
+      ],
+      "exports": [
+        "seed_users"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "User"
+        },
+        {
+          "from": "module",
+          "to": "add"
+        },
+        {
+          "from": "module",
+          "to": "app_context"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "commit"
+        }
+      ]
+    },
+    "backend/app/snapshots.py": {
+      "imports": [
+        "__future__",
+        "datetime",
+        "json",
+        "sqlalchemy",
+        "typing"
+      ],
+      "exports": [
+        "ensure_snapshot_table",
+        "latest_snapshot",
+        "list_snapshots",
+        "save_snapshot"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "begin"
+        },
+        {
+          "from": "module",
+          "to": "commit"
+        },
+        {
+          "from": "module",
+          "to": "connect"
+        },
+        {
+          "from": "module",
+          "to": "dict"
+        },
+        {
+          "from": "module",
+          "to": "dumps"
+        }
+      ]
+    },
+    "backend/app/stats.py": {
+      "imports": [
+        "__future__",
+        "data_store",
+        "typing"
+      ],
+      "exports": [
+        "matchup_history",
+        "recent_form",
+        "reliability_score"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "float"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "int"
+        },
+        {
+          "from": "module",
+          "to": "isinstance"
+        },
+        {
+          "from": "module",
+          "to": "len"
+        }
+      ]
+    },
+    "backend/app/user_context_routes.py": {
+      "imports": [
+        "__future__",
+        "auth",
+        "data_store",
+        "datetime",
+        "flask",
+        "models"
+      ],
+      "exports": [
+        "_validate_division",
+        "_validate_team",
+        "complete_onboarding",
+        "get_context",
+        "upsert_context"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Blueprint"
+        },
+        {
+          "from": "module",
+          "to": "UserContext"
+        },
+        {
+          "from": "module",
+          "to": "_error"
+        },
+        {
+          "from": "module",
+          "to": "_validate_division"
+        },
+        {
+          "from": "module",
+          "to": "_validate_team"
+        }
+      ]
+    },
+    "backend/app/__init__.py": {
+      "imports": [
+        "admin",
+        "auth",
+        "cli",
+        "config",
+        "data_store",
+        "db",
+        "flask",
+        "models",
+        "routes",
+        "sqlalchemy",
+        "user_context_routes"
+      ],
+      "exports": [
+        "create_app"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DataStore"
+        },
+        {
+          "from": "module",
+          "to": "Flask"
+        },
+        {
+          "from": "module",
+          "to": "add_command"
+        },
+        {
+          "from": "module",
+          "to": "build_engine"
+        },
+        {
+          "from": "module",
+          "to": "create_all"
+        }
+      ]
+    },
+    "backend/tests/test_auth.py": {
+      "imports": [
+        "__future__",
+        "app",
+        "datetime",
+        "json",
+        "os",
+        "tempfile",
+        "unittest",
+        "werkzeug"
+      ],
+      "exports": [
+        "AuthTestCase"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "TemporaryDirectory"
+        },
+        {
+          "from": "module",
+          "to": "User"
+        },
+        {
+          "from": "module",
+          "to": "_create_user"
+        },
+        {
+          "from": "module",
+          "to": "_csrf"
+        }
+      ]
+    },
+    "backend/tests/test_auth_cors.py": {
+      "imports": [
+        "app",
+        "pytest",
+        "werkzeug"
+      ],
+      "exports": [
+        "app",
+        "client",
+        "test_login_preflight",
+        "test_login_with_cors_headers"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "User"
+        },
+        {
+          "from": "module",
+          "to": "add"
+        },
+        {
+          "from": "module",
+          "to": "app_context"
+        },
+        {
+          "from": "module",
+          "to": "commit"
+        }
+      ]
+    },
+    "backend/tests/test_cors.py": {
+      "imports": [
+        "app",
+        "pytest"
+      ],
+      "exports": [
+        "app",
+        "client",
+        "test_cors_csrf_token_endpoint",
+        "test_cors_preflight_csrf_endpoint",
+        "test_cors_preflight_login_endpoint",
+        "test_cors_wrong_origin",
+        "test_csrf_token_fetch_works"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "create_app"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "get_json"
+        },
+        {
+          "from": "module",
+          "to": "len"
+        }
+      ]
+    },
+    "backend/tests/test_db_health.py": {
+      "imports": [
+        "__future__",
+        "app"
+      ],
+      "exports": [
+        "test_db_health_check_no_secrets",
+        "test_db_health_check_sqlite"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "lower"
+        },
+        {
+          "from": "module",
+          "to": "str"
+        },
+        {
+          "from": "module",
+          "to": "test_client"
+        }
+      ]
+    },
+    "backend/tests/test_mock_fallback.py": {
+      "imports": [
+        "app",
+        "pathlib",
+        "pytest"
+      ],
+      "exports": [
+        "app",
+        "client",
+        "test_health_endpoint_shows_data_source",
+        "test_meta_endpoint_shows_mock_data_flag",
+        "test_mock_data_fallback_when_no_data_dir"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DataStore"
+        },
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "create_app"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "get_json"
+        }
+      ]
+    },
+    "backend/tests/test_signup_error_debug.py": {
+      "imports": [
+        "__future__",
+        "app",
+        "sqlalchemy",
+        "unittest"
+      ],
+      "exports": [
+        "test_signup_error_generic_in_production",
+        "test_signup_error_shows_debug_in_dev"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "OperationalError"
+        },
+        {
+          "from": "module",
+          "to": "app_context"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "object"
+        },
+        {
+          "from": "module",
+          "to": "post"
+        }
+      ]
+    },
+    "backend/tests/test_signup_flow.py": {
+      "imports": [
+        "app",
+        "pytest",
+        "werkzeug"
+      ],
+      "exports": [
+        "app",
+        "client",
+        "test_login_after_signup",
+        "test_signup_flow_complete",
+        "test_signup_with_wrong_origin_rejected"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "app_context"
+        },
+        {
+          "from": "module",
+          "to": "create_all"
+        },
+        {
+          "from": "module",
+          "to": "create_app"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        }
+      ]
+    },
+    "backend/tests/test_user_context_validation.py": {
+      "imports": [
+        "__future__",
+        "app",
+        "datetime",
+        "json",
+        "os",
+        "tempfile",
+        "unittest",
+        "werkzeug"
+      ],
+      "exports": [
+        "UserContextValidationTestCase"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Settings"
+        },
+        {
+          "from": "module",
+          "to": "TemporaryDirectory"
+        },
+        {
+          "from": "module",
+          "to": "User"
+        },
+        {
+          "from": "module",
+          "to": "_create_user"
+        },
+        {
+          "from": "module",
+          "to": "_csrf"
+        }
+      ]
+    },
+    "backend/tests/__init__.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": []
+    }
+  },
+  "edges": [
+    {
+      "source": "backend/app/admin.py",
+      "target": "backend/app/auth.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/admin.py",
+      "target": "backend/app/models.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/auth.py",
+      "target": "backend/app/models.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/routes.py",
+      "target": "backend/app/data_store.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/routes.py",
+      "target": "backend/app/snapshots.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/seed.py",
+      "target": "backend/app/models.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/stats.py",
+      "target": "backend/app/data_store.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/user_context_routes.py",
+      "target": "backend/app/auth.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/user_context_routes.py",
+      "target": "backend/app/data_store.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/user_context_routes.py",
+      "target": "backend/app/models.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/admin.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/auth.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/cli.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/config.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/data_store.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/db.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/models.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/routes.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "target": "backend/app/user_context_routes.py",
+      "type": "import"
+    }
+  ],
+  "metadata": {
+    "parse_time_ms": 266.25,
+    "python_files_parsed": 23,
+    "total_symbols": 23
+  }
+}

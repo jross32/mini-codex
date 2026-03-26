@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3031992,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655937,
+            "teamNumber": "12471344",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 8",
+              "id": 52781,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 605082,
+            "teamNumber": "12384173",
+            "skillLevel": "4",
+            "standing": 129,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 9-Ball World Championship",
+              "id": 42064,
+              "startTime": "2024-08-13T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607426,
+            "teamNumber": "12206709",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 ALL VALLEY WORLD QUALIIFIER",
+              "id": 47558,
+              "startTime": "2024-06-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607434,
+            "teamNumber": "12207210",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 ALL VALLEY WORLD QUALIIFIER",
+              "id": 47558,
+              "startTime": "2024-06-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 585211,
+            "teamNumber": "12207210",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 596874,
+            "teamNumber": "12206709",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 598659,
+            "teamNumber": "12384173",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 577388,
+            "teamNumber": "12206709",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "Aloha Challenge (Cameron)",
+              "id": 44968,
+              "startTime": "2024-01-14T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 231459,
+            "skillLevel": "4",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "JESUS TELLEZ",
+              "id": 43910,
+              "startTime": "2023-09-29T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527753,
+            "teamNumber": "12013341",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

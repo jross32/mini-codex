@@ -1,0 +1,6 @@
+
+numpy
+pandas
+gym==0.26.2
+stable-baselines3==2.3.0
+torch

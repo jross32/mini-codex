@@ -1,0 +1,1 @@
+from .command import cmd_zoo_food_stall_type_selector

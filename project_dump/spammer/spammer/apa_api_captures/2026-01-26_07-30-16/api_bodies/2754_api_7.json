@@ -1,0 +1,392 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3319521,
+        "member": {
+          "id": 3435110,
+          "consecutiveYearsPlayed": 2,
+          "membershipHistory": [
+            {
+              "id": 7547396,
+              "year": 2025,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 2827188,
+              "year": 2007,
+              "leaguePaidIn": {
+                "id": 703,
+                "name": "APA League of the Rio Grande Valley",
+                "salutation": "Manny Rosado",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 3087416,
+              "year": 2008,
+              "leaguePaidIn": {
+                "id": 703,
+                "name": "APA League of the Rio Grande Valley",
+                "salutation": "Manny Rosado",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 3374176,
+              "year": 2009,
+              "leaguePaidIn": {
+                "id": 703,
+                "name": "APA League of the Rio Grande Valley",
+                "salutation": "Manny Rosado",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 3691811,
+              "year": 2010,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 3989767,
+              "year": 2011,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 4494827,
+              "year": 2013,
+              "leaguePaidIn": {
+                "id": 979,
+                "name": "Cameron County APA",
+                "salutation": "Cindy Plumas",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 7736726,
+              "year": 2026,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            }
+          ],
+          "__typename": "Member"
+        },
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "players": [
+          {
+            "id": 91677868,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91046400,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 68684537,
+            "session": {
+              "id": 79,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68359784,
+            "session": {
+              "id": 78,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 62028881,
+            "session": {
+              "id": 76,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 56621797,
+            "session": {
+              "id": 75,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 54607824,
+            "session": {
+              "id": 74,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 51295146,
+            "session": {
+              "id": 70,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 48793975,
+            "session": {
+              "id": 69,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46237228,
+            "session": {
+              "id": 68,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 46237546,
+            "session": {
+              "id": 68,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46360231,
+            "session": {
+              "id": 68,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 46360579,
+            "session": {
+              "id": 68,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 43700124,
+            "session": {
+              "id": 67,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 43700158,
+            "session": {
+              "id": 67,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 40874790,
+            "session": {
+              "id": 66,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 40874822,
+            "session": {
+              "id": 66,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 36141657,
+            "session": {
+              "id": 61,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 36141741,
+            "session": {
+              "id": 61,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 33684632,
+            "session": {
+              "id": 60,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 33684942,
+            "session": {
+              "id": 60,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "id": 3319521,
+        "displayName": "Andres Garcia",
+        "EightBallStats": [
+          {
+            "id": 803319521,
+            "matchesWon": 40,
+            "matchesPlayed": 69,
+            "CLA": 0,
+            "defensiveShotAvg": 1.19,
+            "matchCountForLastTwoYrs": 11,
+            "lastPlayed": "2026-01-15T00:00:00Z",
+            "__typename": "EightBallLifetimeStatistics"
+          }
+        ],
+        "NineBallStats": [
+          {
+            "id": 903319521,
+            "matchesWon": 65,
+            "matchesPlayed": 128,
+            "CLA": 5,
+            "defensiveShotAvg": 0.23,
+            "matchCountForLastTwoYrs": 0,
+            "lastPlayed": "2011-09-22T00:00:00Z",
+            "__typename": "NineBallLifetimeStatistics"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

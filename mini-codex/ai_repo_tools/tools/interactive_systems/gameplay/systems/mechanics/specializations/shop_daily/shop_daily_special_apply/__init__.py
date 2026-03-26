@@ -1,0 +1,1 @@
+from .command import cmd_shop_daily_special_apply

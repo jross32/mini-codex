@@ -1,0 +1,258 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3132870,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677898,
+            "team": {
+              "id": 12951915,
+              "name": "A-Rack-Nophobia",
+              "number": "02209",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91718108,
+            "team": {
+              "id": 12951702,
+              "name": "Nasty Beast",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6666666666666666,
+            "ppm": 2,
+            "eightBallMatchPointsEarned": 2,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277979,
+            "team": {
+              "id": 12766793,
+              "name": "Palochones",
+              "number": "42109",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 5,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016722,
+            "team": {
+              "id": 12864718,
+              "name": "A-Rack-Nophobia",
+              "number": "02205",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5185185185185185,
+            "ppm": 1.5555555555555556,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91725019,
+            "team": {
+              "id": 12956649,
+              "name": "A-Rack-Nophobia",
+              "number": "02205",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90400248,
+            "team": {
+              "id": 12766849,
+              "name": "Sour Patch Kids",
+              "number": "02205",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3333333333333333,
+            "ppm": 1,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 3,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463701,
+            "team": {
+              "id": 12649890,
+              "name": "Ballerz 956",
+              "number": "02203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5151515151515151,
+            "ppm": 1.5454545454545454,
+            "eightBallMatchPointsEarned": 17,
+            "matchesWon": 5,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88585676,
+            "team": {
+              "id": 12471344,
+              "name": "Palochones",
+              "number": "42102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6231884057971014,
+            "ppm": 1.8695652173913044,
+            "eightBallMatchPointsEarned": 43,
+            "matchesWon": 16,
+            "matchesPlayed": 23,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 4,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89186078,
+            "team": {
+              "id": 12537009,
+              "name": "Ballerz 956",
+              "number": "02203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6666666666666666,
+            "ppm": 2,
+            "eightBallMatchPointsEarned": 18,
+            "matchesWon": 7,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88632860,
+            "team": {
+              "id": 12537011,
+              "name": "Sour Patch Kids",
+              "number": "02205",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3333333333333333,
+            "ppm": 1,
+            "eightBallMatchPointsEarned": 1,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88189451,
+            "team": {
+              "id": 12471271,
+              "name": "Sour Patch Kids",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5833333333333334,
+            "ppm": 1.75,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88013926,
+            "team": {
+              "id": 12384043,
+              "name": "Sour Patch Kids",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4666666666666666,
+            "ppm": 1.4,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

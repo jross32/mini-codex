@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.monster_loot.monster_loot_gold_finalize.command import cmd_monster_loot_gold_finalize

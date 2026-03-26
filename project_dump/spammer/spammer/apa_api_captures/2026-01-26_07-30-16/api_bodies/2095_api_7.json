@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2864295,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 84438840,
+            "team": {
+              "id": 11953495,
+              "name": "N.T.P.T.N.T.",
+              "number": "02106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7037037037037037,
+            "ppm": 2.111111111111111,
+            "eightBallMatchPointsEarned": 19,
+            "matchesWon": 8,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

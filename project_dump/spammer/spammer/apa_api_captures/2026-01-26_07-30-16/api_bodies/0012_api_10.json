@@ -1,0 +1,1204 @@
+[
+  {
+    "data": {
+      "division": {
+        "id": 417530,
+        "teams": [
+          {
+            "isBye": false,
+            "id": 12864714,
+            "name": "Dead On",
+            "number": "02201",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016687,
+                "memberNumber": "78501196",
+                "displayName": "Chris Garza",
+                "matchesWon": 5,
+                "matchesPlayed": 12,
+                "pa": 0.3333333333333333,
+                "ppm": 1,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2311006,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016686,
+                "memberNumber": "78500754",
+                "displayName": "Julia Jordan",
+                "matchesWon": 5,
+                "matchesPlayed": 9,
+                "pa": 0.40740740740740744,
+                "ppm": 1.2222222222222223,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2073721,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016689,
+                "memberNumber": "78502883",
+                "displayName": "Amanda Cantwell",
+                "matchesWon": 3,
+                "matchesPlayed": 7,
+                "pa": 0.38095238095238093,
+                "ppm": 1.1428571428571428,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2993106,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016691,
+                "memberNumber": "78502110",
+                "displayName": "Denise Garza",
+                "matchesWon": 5,
+                "matchesPlayed": 9,
+                "pa": 0.4444444444444444,
+                "ppm": 1.3333333333333333,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3316786,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016693,
+                "memberNumber": "78504051",
+                "displayName": "Melody Tijerina",
+                "matchesWon": 2,
+                "matchesPlayed": 6,
+                "pa": 0.4444444444444444,
+                "ppm": 1.3333333333333333,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3356943,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016690,
+                "memberNumber": "78502880",
+                "displayName": "Alex Hernandez",
+                "matchesWon": 7,
+                "matchesPlayed": 11,
+                "pa": 0.5757575757575758,
+                "ppm": 1.7272727272727273,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3038547,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91046400,
+                "memberNumber": "78504483",
+                "displayName": "Andres Garcia",
+                "matchesWon": 4,
+                "matchesPlayed": 10,
+                "pa": 0.3666666666666667,
+                "ppm": 1.1,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3435110,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91074785,
+                "memberNumber": "78504003",
+                "displayName": "Kaylen Garcia",
+                "matchesWon": 4,
+                "matchesPlayed": 9,
+                "pa": 0.40740740740740744,
+                "ppm": 1.2222222222222223,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3339664,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864715,
+            "name": "Chalk and Awe",
+            "number": "02202",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016694,
+                "memberNumber": "78500777",
+                "displayName": "Ashley Dartt",
+                "matchesWon": 7,
+                "matchesPlayed": 9,
+                "pa": 0.5555555555555556,
+                "ppm": 1.6666666666666667,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2099036,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016697,
+                "memberNumber": "78501338",
+                "displayName": "Jose Vasquez",
+                "matchesWon": 1,
+                "matchesPlayed": 9,
+                "pa": 0.14814814814814814,
+                "ppm": 0.4444444444444444,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2324730,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016698,
+                "memberNumber": "78502483",
+                "displayName": "Rogerio Molina",
+                "matchesWon": 6,
+                "matchesPlayed": 10,
+                "pa": 0.4666666666666666,
+                "ppm": 1.4,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2706283,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016699,
+                "memberNumber": "78503865",
+                "displayName": "David Hernandez Garces",
+                "matchesWon": 3,
+                "matchesPlayed": 7,
+                "pa": 0.38095238095238093,
+                "ppm": 1.1428571428571428,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3275748,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016695,
+                "memberNumber": "78500658",
+                "displayName": "Steve Castillo",
+                "matchesWon": 8,
+                "matchesPlayed": 12,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2047605,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016696,
+                "memberNumber": "78500114",
+                "displayName": "Gilbert Duran",
+                "matchesWon": 2,
+                "matchesPlayed": 5,
+                "pa": 0.26666666666666666,
+                "ppm": 0.8,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 1651980,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016701,
+                "memberNumber": "78502249",
+                "displayName": "Yahir Silvan",
+                "matchesWon": 4,
+                "matchesPlayed": 10,
+                "pa": 0.39999999999999997,
+                "ppm": 1.2,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3401143,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91112156,
+                "memberNumber": "78504251",
+                "displayName": "Tristan Landgraf",
+                "matchesWon": 4,
+                "matchesPlayed": 8,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3439196,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12867592,
+            "name": "Cue-ligans",
+            "number": "02207",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91040482,
+                "memberNumber": "78502221",
+                "displayName": "Justin Ross",
+                "matchesWon": 1,
+                "matchesPlayed": 9,
+                "pa": 0.25925925925925924,
+                "ppm": 0.7777777777777778,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3400522,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052656,
+                "memberNumber": "78500261",
+                "displayName": "William McGinnis",
+                "matchesWon": 3,
+                "matchesPlayed": 7,
+                "pa": 0.3333333333333333,
+                "ppm": 1,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 1689161,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91040487,
+                "memberNumber": "78503663",
+                "displayName": "Rigo Almaraz",
+                "matchesWon": 7,
+                "matchesPlayed": 7,
+                "pa": 0.7142857142857143,
+                "ppm": 2.142857142857143,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3220735,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91043354,
+                "memberNumber": "78504318",
+                "displayName": "Rik Cavazos",
+                "matchesWon": 4,
+                "matchesPlayed": 12,
+                "pa": 0.3888888888888889,
+                "ppm": 1.1666666666666667,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3432311,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91041128,
+                "memberNumber": "78501548",
+                "displayName": "Ethan Boone",
+                "matchesWon": 5,
+                "matchesPlayed": 12,
+                "pa": 0.3888888888888889,
+                "ppm": 1.1666666666666667,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2532146,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052658,
+                "memberNumber": "78501902",
+                "displayName": "Bryan Edwards",
+                "matchesWon": 4,
+                "matchesPlayed": 6,
+                "pa": 0.611111111111111,
+                "ppm": 1.8333333333333333,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3353843,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91071833,
+                "memberNumber": "78504465",
+                "displayName": "Luis Sandoval",
+                "matchesWon": 4,
+                "matchesPlayed": 10,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3434645,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91109249,
+                "memberNumber": "78504232",
+                "displayName": "Arturo Rivera",
+                "matchesWon": 1,
+                "matchesPlayed": 9,
+                "pa": 0.2222222222222222,
+                "ppm": 0.6666666666666666,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3438913,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864716,
+            "name": "Ballerz 956",
+            "number": "02208",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016705,
+                "memberNumber": "78502111",
+                "displayName": "Richard Atkinson",
+                "matchesWon": 7,
+                "matchesPlayed": 12,
+                "pa": 0.5277777777777778,
+                "ppm": 1.5833333333333333,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3318162,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016702,
+                "memberNumber": "78501631",
+                "displayName": "Eduardo Moreno",
+                "matchesWon": 11,
+                "matchesPlayed": 15,
+                "pa": 0.5555555555555556,
+                "ppm": 1.6666666666666667,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2572365,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016707,
+                "memberNumber": "78502187",
+                "displayName": "Heather Galvan",
+                "matchesWon": 1,
+                "matchesPlayed": 5,
+                "pa": 0.19999999999999998,
+                "ppm": 0.6,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3374375,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052530,
+                "memberNumber": "78503632",
+                "displayName": "Antonio Puente $$$$",
+                "matchesWon": 3,
+                "matchesPlayed": 6,
+                "pa": 0.4444444444444444,
+                "ppm": 1.3333333333333333,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3222570,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052533,
+                "memberNumber": "78503816",
+                "displayName": "Humberto Sanchez $$$$",
+                "matchesWon": 7,
+                "matchesPlayed": 14,
+                "pa": 0.38095238095238093,
+                "ppm": 1.1428571428571428,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3234729,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052536,
+                "memberNumber": "78503993",
+                "displayName": "Albert Rodriguez",
+                "matchesWon": 3,
+                "matchesPlayed": 10,
+                "pa": 0.39999999999999997,
+                "ppm": 1.2,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3361608,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052538,
+                "memberNumber": "78504110",
+                "displayName": "Jose Luis Vargas",
+                "matchesWon": 1,
+                "matchesPlayed": 6,
+                "pa": 0.2222222222222222,
+                "ppm": 0.6666666666666666,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3413730,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052540,
+                "memberNumber": "78504112",
+                "displayName": "Enedelia Castillo",
+                "matchesWon": 2,
+                "matchesPlayed": 7,
+                "pa": 0.3333333333333333,
+                "ppm": 1,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3416798,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864717,
+            "name": "Bad Boys",
+            "number": "02204",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016709,
+                "memberNumber": "78501894",
+                "displayName": "Javier Aguilar",
+                "matchesWon": 8,
+                "matchesPlayed": 12,
+                "pa": 0.5833333333333334,
+                "ppm": 1.75,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2644424,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016710,
+                "memberNumber": "78501913",
+                "displayName": "Alberto Ramon",
+                "matchesWon": 2,
+                "matchesPlayed": 7,
+                "pa": 0.2857142857142857,
+                "ppm": 0.8571428571428571,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2644426,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016711,
+                "memberNumber": "78503211",
+                "displayName": "Maribel Rebollar",
+                "matchesWon": 6,
+                "matchesPlayed": 12,
+                "pa": 0.3611111111111111,
+                "ppm": 1.0833333333333333,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3128978,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016712,
+                "memberNumber": "78503357",
+                "displayName": "Felipe Trevino",
+                "matchesWon": 6,
+                "matchesPlayed": 8,
+                "pa": 0.5833333333333334,
+                "ppm": 1.75,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3156532,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016715,
+                "memberNumber": "78503791",
+                "displayName": "Alexander Banda",
+                "matchesWon": 7,
+                "matchesPlayed": 12,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3260483,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91047962,
+                "memberNumber": "78502186",
+                "displayName": "Emilio Acosta",
+                "matchesWon": 3,
+                "matchesPlayed": 6,
+                "pa": 0.3888888888888889,
+                "ppm": 1.1666666666666667,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3374006,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016716,
+                "memberNumber": "78502160",
+                "displayName": "Eddie Gonzalez",
+                "matchesWon": 5,
+                "matchesPlayed": 9,
+                "pa": 0.5555555555555556,
+                "ppm": 1.6666666666666667,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3360510,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91109618,
+                "memberNumber": "78502907",
+                "displayName": "El Bo Tellez",
+                "matchesWon": 1,
+                "matchesPlayed": 5,
+                "pa": 0.19999999999999998,
+                "ppm": 0.6,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3031992,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864718,
+            "name": "A-Rack-Nophobia",
+            "number": "02205",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016719,
+                "memberNumber": "78508336",
+                "displayName": "Nacho Pennington",
+                "matchesWon": 7,
+                "matchesPlayed": 10,
+                "pa": 0.5666666666666667,
+                "ppm": 1.7,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2756591,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016717,
+                "memberNumber": "78501571",
+                "displayName": "Enrique Espino",
+                "matchesWon": 2,
+                "matchesPlayed": 5,
+                "pa": 0.3333333333333333,
+                "ppm": 1,
+                "skillLevel": 6,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2545076,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016721,
+                "memberNumber": "78503919",
+                "displayName": "Agapito Gonzalez",
+                "matchesWon": 6,
+                "matchesPlayed": 7,
+                "pa": 0.6666666666666666,
+                "ppm": 2,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3292337,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016718,
+                "memberNumber": "78502399",
+                "displayName": "Francisco Preciado",
+                "matchesWon": 8,
+                "matchesPlayed": 10,
+                "pa": 0.6,
+                "ppm": 1.8,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2790949,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016720,
+                "memberNumber": "78503750",
+                "displayName": "Jose Sierra",
+                "matchesWon": 5,
+                "matchesPlayed": 11,
+                "pa": 0.48484848484848486,
+                "ppm": 1.4545454545454546,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3234695,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016723,
+                "memberNumber": "78502242",
+                "displayName": "Lizzetty Lara",
+                "matchesWon": 4,
+                "matchesPlayed": 8,
+                "pa": 0.4583333333333333,
+                "ppm": 1.375,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3399554,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016722,
+                "memberNumber": "78502109",
+                "displayName": "Justin Urbano",
+                "matchesWon": 6,
+                "matchesPlayed": 9,
+                "pa": 0.5185185185185185,
+                "ppm": 1.5555555555555556,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3314754,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016724,
+                "memberNumber": "78503662",
+                "displayName": "Noe Garza",
+                "matchesWon": 6,
+                "matchesPlayed": 14,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 2,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3415339,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864719,
+            "name": "Palochones",
+            "number": "02206",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016726,
+                "memberNumber": "78501257",
+                "displayName": "Mr. Vegas Camacho",
+                "matchesWon": 8,
+                "matchesPlayed": 14,
+                "pa": 0.4523809523809524,
+                "ppm": 1.3571428571428572,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2422506,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016727,
+                "memberNumber": "78502531",
+                "displayName": "Don Popis Saldivar",
+                "matchesWon": 3,
+                "matchesPlayed": 8,
+                "pa": 0.3333333333333333,
+                "ppm": 1,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2730496,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016729,
+                "memberNumber": "78502588",
+                "displayName": "Daddy Salinas Jr",
+                "matchesWon": 5,
+                "matchesPlayed": 8,
+                "pa": 0.5,
+                "ppm": 1.5,
+                "skillLevel": 5,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2936897,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016730,
+                "memberNumber": "78502607",
+                "displayName": "Mami Salinas",
+                "matchesWon": 3,
+                "matchesPlayed": 12,
+                "pa": 0.2222222222222222,
+                "ppm": 0.6666666666666666,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2936898,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016731,
+                "memberNumber": "78503004",
+                "displayName": "Keyla De La Cerda",
+                "matchesWon": 8,
+                "matchesPlayed": 10,
+                "pa": 0.7000000000000001,
+                "ppm": 2.1,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3073969,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016732,
+                "memberNumber": "78503069",
+                "displayName": "Noel Canales",
+                "matchesWon": 3,
+                "matchesPlayed": 7,
+                "pa": 0.4285714285714286,
+                "ppm": 1.2857142857142858,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3091445,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016725,
+                "memberNumber": "78501188",
+                "displayName": "La Bish Castaneda",
+                "matchesWon": 3,
+                "matchesPlayed": 7,
+                "pa": 0.4761904761904762,
+                "ppm": 1.4285714285714286,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2292958,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016728,
+                "memberNumber": "78502539",
+                "displayName": "Macho Alpha Contreras",
+                "matchesWon": 1,
+                "matchesPlayed": 7,
+                "pa": 0.19047619047619047,
+                "ppm": 0.5714285714285714,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2792334,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          },
+          {
+            "isBye": false,
+            "id": 12864720,
+            "name": "Quete Importa",
+            "number": "02203",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "division": {
+              "id": 417530,
+              "type": "EIGHT",
+              "__typename": "Division"
+            },
+            "roster": [
+              {
+                "id": 91016734,
+                "memberNumber": "78503287",
+                "displayName": "Carlos Orenday",
+                "matchesWon": 8,
+                "matchesPlayed": 11,
+                "pa": 0.5757575757575758,
+                "ppm": 1.7272727272727273,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3134543,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016733,
+                "memberNumber": "78502689",
+                "displayName": "Ernesto Lopez",
+                "matchesWon": 4,
+                "matchesPlayed": 9,
+                "pa": 0.40740740740740744,
+                "ppm": 1.2222222222222223,
+                "skillLevel": 7,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 2815958,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016737,
+                "memberNumber": "78503885",
+                "displayName": "Laura Vega Guevara",
+                "matchesWon": 4,
+                "matchesPlayed": 10,
+                "pa": 0.43333333333333335,
+                "ppm": 1.3,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3275794,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91016735,
+                "memberNumber": "78502046",
+                "displayName": "Raul Mata",
+                "matchesWon": 7,
+                "matchesPlayed": 12,
+                "pa": 0.5555555555555556,
+                "ppm": 1.6666666666666667,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3166354,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91040677,
+                "memberNumber": "78503452",
+                "displayName": "Brian Ortiz",
+                "matchesWon": 6,
+                "matchesPlayed": 9,
+                "pa": 0.5185185185185185,
+                "ppm": 1.5555555555555556,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3183390,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052508,
+                "memberNumber": "78504332",
+                "displayName": "Javier Galvan",
+                "matchesWon": 7,
+                "matchesPlayed": 11,
+                "pa": 0.48484848484848486,
+                "ppm": 1.4545454545454546,
+                "skillLevel": 4,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3433016,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91052647,
+                "memberNumber": "78503313",
+                "displayName": "Arely Lugo",
+                "matchesWon": 3,
+                "matchesPlayed": 11,
+                "pa": 0.3636363636363636,
+                "ppm": 1.0909090909090908,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3132086,
+                  "__typename": "Member"
+                }
+              },
+              {
+                "id": 91112157,
+                "memberNumber": "78504259",
+                "displayName": "Stephanie Alvear",
+                "matchesWon": 1,
+                "matchesPlayed": 1,
+                "pa": 0.6666666666666666,
+                "ppm": 2,
+                "skillLevel": 3,
+                "__typename": "EightBallPlayer",
+                "member": {
+                  "id": 3439227,
+                  "__typename": "Member"
+                }
+              }
+            ],
+            "__typename": "Team",
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            }
+          }
+        ],
+        "__typename": "Division"
+      }
+    }
+  }
+]

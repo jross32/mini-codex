@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.contracts.interfaces.cross_project.generators.engine_contract_generator.command import cmd_engine_contract_generator

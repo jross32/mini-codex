@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2861455,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 83599599,
+            "team": {
+              "id": 11839406,
+              "name": "Stroke of Luck",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.495,
+            "ppm": 9.9,
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

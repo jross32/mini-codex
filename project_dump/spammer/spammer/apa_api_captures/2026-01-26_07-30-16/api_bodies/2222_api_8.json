@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91016885,
+            "team": {
+              "id": 12864766,
+              "name": "J & Bubbas",
+              "number": "22003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4375,
+            "ppm": 8.75,
+            "matchesWon": 4,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 70,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91094638,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5583333333333333,
+            "ppm": 11.166666666666666,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 67,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

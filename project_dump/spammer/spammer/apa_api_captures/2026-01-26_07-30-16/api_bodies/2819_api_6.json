@@ -1,0 +1,41 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "fee": null,
+        "membershipExpires": "2026-12-31T23:59:59Z",
+        "setting": "894",
+        "leagues": [
+          {
+            "id": 894,
+            "name": "Rio Grande Valley APA",
+            "country": {
+              "id": 1,
+              "__typename": "Country"
+            },
+            "__typename": "League",
+            "isElectronicPaymentsEnabled": true
+          }
+        ],
+        "__typename": "Member"
+      },
+      "hqLeague": {
+        "id": 271,
+        "name": "APA",
+        "number": "000",
+        "country": {
+          "id": 1,
+          "__typename": "Country"
+        },
+        "__typename": "League"
+      },
+      "application": {
+        "checkoutDisabled": false,
+        "__typename": "Application"
+      }
+    }
+  }
+]

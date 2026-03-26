@@ -1,0 +1,63 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3360510,
+        "firstName": "Eddie",
+        "lastName": "Gonzalez",
+        "initials": "EG",
+        "aliases": [
+          {
+            "id": 3198462,
+            "displayName": "Eddie Gonzalez",
+            "memberNumber": "78502160",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3198462,
+        "formats": [
+          "EIGHT",
+          "NINE"
+        ],
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isDefault": true,
+          "__typename": "League"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from .command import cmd_shop_rare_trader_catalog_load

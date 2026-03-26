@@ -1,0 +1,24 @@
+{
+  "raw_prompt": "restaurant website with online ordering",
+  "normalized_prompt": "restaurant website with online ordering",
+  "app_type": "business_website",
+  "industry": "restaurant",
+  "core_features": [
+    "menu_browsing",
+    "online_ordering",
+    "order_status",
+    "admin_management"
+  ],
+  "pages": [
+    "home",
+    "menu",
+    "cart",
+    "checkout",
+    "admin"
+  ],
+  "non_functional_goals": [
+    "runnable_out_of_box",
+    "clear_project_structure",
+    "api_frontend_contract_alignment"
+  ]
+}

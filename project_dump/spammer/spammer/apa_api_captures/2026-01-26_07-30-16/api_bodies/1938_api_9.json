@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2768882,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91016834,
+            "team": {
+              "id": 12864757,
+              "name": "Cue'n Bees",
+              "number": "53302",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5925925925925926,
+            "ppm": 1.7777777777777777,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016731,
+            "team": {
+              "id": 12864719,
+              "name": "Palochones",
+              "number": "02206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7000000000000001,
+            "ppm": 2.1,
+            "eightBallMatchPointsEarned": 21,
+            "matchesWon": 8,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 3,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2292958,
+        "firstName": "Ysenia",
+        "lastName": "Castaneda",
+        "initials": "YC",
+        "aliases": [
+          {
+            "id": 1707832,
+            "displayName": "La Bish Castaneda",
+            "memberNumber": "78501188",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 1707832,
+        "formats": [
+          "EIGHT",
+          "NINE"
+        ],
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isDefault": true,
+          "__typename": "League"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

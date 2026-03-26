@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>CodeX — Self Modification</h1>
+<form method="POST" class="row">
+  {{ csrf_token() }}
+  <input type="text" name="instruction" placeholder="Describe the change" required />
+  <button type="submit">Evolve</button>
+</form>
+<p class="meta">Allowed files: {{ allowed|join(", ") }}</p>
+<h2>Recent Changes</h2>
+<div class="list">
+  {% for t, fn, summary, diff in changes %}
+  <div class="item">
+    <div class="meta">{{ t }} — <code>{{ fn }}</code></div>
+    <div class="bubble ai"><b>Summary:</b> {{ summary }}</div>
+    <form method="POST" action="{{ url_for('rollback', filename=fn) }}">
+      <button type="submit">Rollback</button>
+    </form>
+    <details>
+      <summary>Diff</summary>
+      <pre>{{ diff }}</pre>
+    </details>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

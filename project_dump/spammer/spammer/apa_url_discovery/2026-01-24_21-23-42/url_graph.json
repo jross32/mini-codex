@@ -1,0 +1,474 @@
+{
+  "https://league.poolplayers.com/RioGrandeValley": {
+    "url": "https://league.poolplayers.com/RioGrandeValley",
+    "depth": 0,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/": {
+    "url": "https://league.poolplayers.com/",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Member Services"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/membercard": {
+    "url": "https://league.poolplayers.com/membercard",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/profile": {
+    "url": "https://league.poolplayers.com/profile",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/settings": {
+    "url": "https://league.poolplayers.com/settings",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Settings"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/login/destroy": {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Logout"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/cart": {
+    "url": "https://league.poolplayers.com/cart",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": ""
+      }
+    ]
+  },
+  "https://league.poolplayers.com/dashboard": {
+    "url": "https://league.poolplayers.com/dashboard",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Dashboard"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/matches": {
+    "url": "https://league.poolplayers.com/matches",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Matches"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/news": {
+    "url": "https://league.poolplayers.com/news",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "News"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/league/all": {
+    "url": "https://league.poolplayers.com/events/league/all",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Events"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/member/3400522": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "My Stats"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/store": {
+    "url": "https://league.poolplayers.com/store",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/rules": {
+    "url": "https://league.poolplayers.com/rules",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Rules"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/help": {
+    "url": "https://league.poolplayers.com/help",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/forgot"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Need Help?"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/news": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/news",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "News"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/events": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/events",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Events"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Divisions"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/forgot": {
+    "url": "https://league.poolplayers.com/forgot",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/login/destroy",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/news",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/login",
+      "https://league.poolplayers.com/RioGrandeValley/divisions"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/login/destroy",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/news",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/login",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/login": {
+    "url": "https://league.poolplayers.com/login",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Login"
+      }
+    ]
+  }
+}

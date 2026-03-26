@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2545076,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597875,
+            "teamNumber": "12384172",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL BEST OF THE REST 2024",
+              "id": 45947,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 550472,
+            "teamNumber": "12198488",
+            "skillLevel": "6",
+            "standing": 17,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 9-Ball World Championships",
+              "id": 36832,
+              "startTime": "2023-08-08T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527755,
+            "teamNumber": "12134244",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527733,
+            "teamNumber": "12013247",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 211121,
+            "teamNumber": "10543962",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "LTC CAMERON 8 BALL",
+              "id": 13082,
+              "startTime": "2016-05-20T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 167823,
+            "teamNumber": "10379579",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 BALL LTC 2014-2015",
+              "id": 10581,
+              "startTime": "2015-06-05T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 157857,
+            "teamNumber": "10379579",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 BALL FALL TRICUP 2014",
+              "id": 10579,
+              "startTime": "2015-02-15T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 128299,
+            "teamNumber": "10253105",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "New Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL",
+              "id": 7762,
+              "startTime": "2014-06-20T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 19544,
+            "teamNumber": "9828381",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Adictos Al Billar",
+            "disqualified": null,
+            "tournament": {
+              "name": "LTC 2012",
+              "id": 1966,
+              "startTime": "2012-05-26T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 35011,
+            "teamNumber": "9828337",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Brown Town",
+            "disqualified": null,
+            "tournament": {
+              "name": "LTC 2012",
+              "id": 1965,
+              "startTime": "2012-05-26T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.test_presence.test_presence_check.command import cmd_test_presence_check

@@ -1,0 +1,120 @@
+{
+  "console": [
+    {
+      "type": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://league.poolplayers.com/6f4012e9cb63562420e7bbb0d8fac788.woff",
+      "location": {
+        "url": "https://league.poolplayers.com/RioGrandeValley/member/3416798/3294035/eight/137",
+        "lineNumber": 68,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:15:46.212418"
+    },
+    {
+      "type": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://league.poolplayers.com/d0a8a792283f3c80af881a19d72342ec.woff2",
+      "location": {
+        "url": "https://league.poolplayers.com/RioGrandeValley/member/3416798/3294035/eight/137",
+        "lineNumber": 68,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:15:46.215420"
+    },
+    {
+      "type": "warning",
+      "text": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+      ],
+      "timestamp": "2026-01-26T09:15:46.398636"
+    },
+    {
+      "type": "warning",
+      "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      ],
+      "timestamp": "2026-01-26T09:15:46.458477"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:15:46.594702"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:15:46.595704"
+    },
+    {
+      "type": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://league.poolplayers.com/be810be3a3e14c682a257d6eff341fe4.woff2",
+      "location": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "lineNumber": 92,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:15:47.138703"
+    },
+    {
+      "type": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://league.poolplayers.com/8e60b39cb88f09fc152ebe1a095110d8.woff2",
+      "location": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "lineNumber": 92,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:15:47.140702"
+    }
+  ],
+  "js_errors": [
+    {
+      "message": "Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).",
+      "stack": "FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at Z (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1780329)\n    at q (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1783418)\n    at https://league.poolplayers.com/8b426819be5e2b49d046.js:2:894",
+      "timestamp": "2026-01-26T09:15:46.959477"
+    }
+  ],
+  "performance": {
+    "dns_time": 0,
+    "tcp_time": 0,
+    "ttfb": 433,
+    "dom_interactive": 1327,
+    "dom_complete": 2200,
+    "load_time": 2202,
+    "heap_used": 25985985,
+    "heap_limit": 2160066560
+  },
+  "state_snapshots": []
+}

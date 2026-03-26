@@ -1,0 +1,45 @@
+{
+  "schema_version": "promotion.v1",
+  "tool": "trust_trend",
+  "candidate_id": "v20260326_023946_candidate",
+  "baseline": {
+    "runs": 2,
+    "success_rate": 1.0,
+    "mean_ms": 456.725
+  },
+  "candidate": {
+    "runs": 2,
+    "success_rate": 1.0,
+    "mean_ms": 440.418
+  },
+  "checks": {
+    "correctness": {
+      "pass": true,
+      "floor": 1.0,
+      "actual": 1.0
+    },
+    "performance": {
+      "pass": true,
+      "max_slowdown_pct": 10.0,
+      "slowdown_pct": -3.57
+    },
+    "regression": {
+      "pass": true,
+      "required_keys": [
+        "overall",
+        "success",
+        "summary",
+        "tool",
+        "workers"
+      ]
+    },
+    "safety": {
+      "pass": true,
+      "blocked_patterns_found": []
+    }
+  },
+  "decision": "promote",
+  "promoted": true,
+  "report_path": "c:\\Users\\justi\\Desktop\\Coding Projects\\mini-codex\\agent_logs\\promotion_trust_trend_20260326_023953.json",
+  "summary": "Promotion applied for trust_trend candidate v20260326_023946_candidate."
+}

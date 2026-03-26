@@ -1,0 +1,78 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3132870,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677898,
+            "team": {
+              "id": 12951915,
+              "name": "A-Rack-Nophobia",
+              "number": "02209",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91718108,
+            "team": {
+              "id": 12951702,
+              "name": "Nasty Beast",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6666666666666666,
+            "ppm": 2,
+            "eightBallMatchPointsEarned": 2,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277979,
+            "team": {
+              "id": 12766793,
+              "name": "Palochones",
+              "number": "42109",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 5,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

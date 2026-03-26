@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_is.character_is_alive_checker.command import cmd_character_is_alive_checker

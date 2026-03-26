@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1850190,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 81159208,
+            "team": {
+              "id": 11496314,
+              "name": "Palochones",
+              "number": "02106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43333333333333335,
+            "ppm": 1.3,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

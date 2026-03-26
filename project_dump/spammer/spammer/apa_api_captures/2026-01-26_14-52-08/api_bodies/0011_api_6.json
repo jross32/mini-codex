@@ -1,0 +1,188 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "__typename": "Member",
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com"
+      },
+      "league": {
+        "id": 894,
+        "name": "Rio Grande Valley APA",
+        "slug": "RioGrandeValley",
+        "isMine": true,
+        "logo": "https://assets.poolplayers.com/leaguecentral/APA/APA-Logo.png",
+        "homePageUrl": "rgv.apaleagues.com",
+        "facebookUrl": "www.facebook.com/APARGV",
+        "phone": "+19568216925",
+        "contacts": [
+          {
+            "id": 2222,
+            "firstName": "Erin",
+            "lastName": "Lacy",
+            "phone": null,
+            "__typename": "Contact"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "league": {
+        "id": 894,
+        "slug": "RioGrandeValley",
+        "divisions": [
+          {
+            "id": 417526,
+            "name": "Thursday Night Island 8",
+            "number": "020",
+            "__typename": "Division"
+          },
+          {
+            "id": 417516,
+            "name": "Btown Thursday APA 8",
+            "number": "021",
+            "__typename": "Division"
+          },
+          {
+            "id": 417530,
+            "name": "Thursday Brownsville DJ",
+            "number": "022",
+            "__typename": "Division"
+          },
+          {
+            "id": 417518,
+            "name": "McAllen Wednesday APA 8",
+            "number": "030",
+            "__typename": "Division"
+          },
+          {
+            "id": 417517,
+            "name": "Harlingen Wednesday APA 8",
+            "number": "033",
+            "__typename": "Division"
+          },
+          {
+            "id": 417522,
+            "name": "Harlingen Wednesday APA 8",
+            "number": "034",
+            "__typename": "Division"
+          },
+          {
+            "id": 417523,
+            "name": "McAllen Thursday APA 8",
+            "number": "041",
+            "__typename": "Division"
+          },
+          {
+            "id": 417525,
+            "name": "Mcallen Thursday 8 (2)",
+            "number": "042",
+            "__typename": "Division"
+          },
+          {
+            "id": 417535,
+            "name": "PI Monday APA 9",
+            "number": "220",
+            "__typename": "Division"
+          },
+          {
+            "id": 417524,
+            "name": "Thursday Brownsville 9 B",
+            "number": "222",
+            "__typename": "Division"
+          },
+          {
+            "id": 417519,
+            "name": "McAllen Wednesday APA 9",
+            "number": "230",
+            "__typename": "Division"
+          },
+          {
+            "id": 417521,
+            "name": "Harlingen Monday APA 9",
+            "number": "233",
+            "__typename": "Division"
+          },
+          {
+            "id": 417520,
+            "name": "McAllen Thursday APA 9",
+            "number": "241",
+            "__typename": "Division"
+          },
+          {
+            "id": 417529,
+            "name": "Thursday Mcallen 9 ball",
+            "number": "242",
+            "__typename": "Division"
+          },
+          {
+            "id": 417532,
+            "name": "Harlingen Doubles",
+            "number": "333",
+            "__typename": "Division"
+          },
+          {
+            "id": 417531,
+            "name": "Tuesday Edinburg Doubles",
+            "number": "350",
+            "__typename": "Division"
+          },
+          {
+            "id": 417534,
+            "name": "Ladies APA Night Hidalgo",
+            "number": "530",
+            "__typename": "Division"
+          },
+          {
+            "id": 417533,
+            "name": "Ladies APA Night Cameron",
+            "number": "533",
+            "__typename": "Division"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "division": {
+        "id": 417530,
+        "name": "Thursday Brownsville DJ",
+        "contacts": [],
+        "__typename": "Division"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      },
+      "division": {
+        "id": 417530,
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isMine": true,
+          "__typename": "League"
+        },
+        "__typename": "Division"
+      }
+    }
+  }
+]

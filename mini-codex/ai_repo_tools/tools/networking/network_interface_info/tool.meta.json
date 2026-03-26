@@ -1,0 +1,5 @@
+{
+  "description": "List local hostname and interface address candidates",
+  "args": [],
+  "returns": "hostname, fqdn, addresses, summary"
+}

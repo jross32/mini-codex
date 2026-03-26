@@ -1,0 +1,63 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2910208,
+        "firstName": "Nubia",
+        "lastName": "Villafuerte",
+        "initials": "NV",
+        "aliases": [
+          {
+            "id": 2538542,
+            "displayName": "Ceci Villafuerte",
+            "memberNumber": "78502393",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 2
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2538542,
+        "formats": [
+          "EIGHT",
+          "NINE"
+        ],
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isDefault": true,
+          "__typename": "League"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

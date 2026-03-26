@@ -1,0 +1,69 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2211324,
+        "firstName": "Hugo",
+        "lastName": "Teran",
+        "initials": "HT",
+        "aliases": [
+          {
+            "id": 1606859,
+            "displayName": "Hugo Teran",
+            "memberNumber": "78500503",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 5
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2211324,
+        "aliases": [
+          {
+            "id": 1606859,
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "isDefault": true,
+              "__typename": "League"
+            },
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

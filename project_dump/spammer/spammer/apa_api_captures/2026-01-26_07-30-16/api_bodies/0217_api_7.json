@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 851051,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 75644053,
+            "team": {
+              "id": 10736528,
+              "name": "Assassin's",
+              "number": "03305",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6190476190476191,
+            "ppm": 1.8571428571428572,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 6,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 75646073,
+            "team": {
+              "id": 10736516,
+              "name": "Browntown",
+              "number": "02107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.39999999999999997,
+            "ppm": 1.2,
+            "eightBallMatchPointsEarned": 6,
+            "matchesWon": 3,
+            "matchesPlayed": 5,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

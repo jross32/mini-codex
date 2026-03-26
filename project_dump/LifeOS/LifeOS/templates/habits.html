@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Habits | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-3">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <div class="subtle text-uppercase small">Habits</div>
+      <h3 class="fw-bold mb-0">Streaks & Heatmap</h3>
+    </div>
+    <span class="pill">Tracked: {{ data.habits|length }}</span>
+  </div>
+</div>
+<div class="grid-2">
+  {% for h in data.habits %}
+  <div class="card card-soft p-3">
+    <div class="d-flex justify-content-between align-items-center mb-1">
+      <div class="fw-semibold">{{ h.name }}</div>
+      <span class="badge bg-success">Streak {{ h.streak }}</span>
+    </div>
+    <div class="subtle small mb-2">Target: {{ h.target }}</div>
+    <div class="heatmap">
+      {% for v in h.history %}
+      <div class="heat-cell {% if v == 1 %}on{% endif %}"></div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 530234,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 75817202,
+            "team": {
+              "id": 10758390,
+              "name": "Eddie's Team",
+              "number": "02105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7777777777777778,
+            "ppm": 2.3333333333333335,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 6,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

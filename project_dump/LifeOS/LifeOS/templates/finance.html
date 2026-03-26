@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}Finance | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-3">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <div class="subtle text-uppercase small">Finance</div>
+      <h3 class="fw-bold mb-0">Accounts & Spend</h3>
+    </div>
+    <span class="pill">Accounts: {{ data.finances.accounts|length }}</span>
+  </div>
+</div>
+
+<div class="row g-3 mb-3">
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="section-title mb-2">Accounts</div>
+      <div class="list-plain">
+        {% for acct in data.finances.accounts %}
+        <li class="d-flex justify-content-between">
+          <span class="fw-semibold">{{ acct.name }}</span>
+          <span class="text-info">${{ '%.2f'|format(acct.balance) }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="section-title mb-2">Spend by Category</div>
+      {% for cat, amt in data.finances.by_category.items() %}
+      {% set width = (amt / 500)|round(2) * 100 %}
+      <div class="mb-2">
+        <div class="d-flex justify-content-between">
+          <span>{{ cat }}</span>
+          <span class="{{ 'text-success' if amt>0 else 'text-warning' }}">${{ '%.2f'|format(amt) }}</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width: {{ [width,100]|min }}%"></div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="section-title mb-2">Budgets</div>
+      <div class="list-plain">
+        {% for b in data.finances.budgets %}
+        {% set pct = (b.spent / b.limit * 100)|round(0) %}
+        <li>
+          <div class="d-flex justify-content-between">
+            <span class="fw-semibold">{{ b.category }}</span>
+            <span class="subtle">${{ b.spent }} / ${{ b.limit }}</span>
+          </div>
+          <div class="progress" role="progressbar" aria-valuenow="{{ pct }}" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: {{ pct }}%"></div>
+          </div>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="section-title mb-2">Recent Transactions</div>
+      <div class="list-plain">
+        {% for txn in data.finances.transactions %}
+        <li class="d-flex justify-content-between">
+          <span class="subtle">{{ txn.date }} · {{ txn.title }}</span>
+          <span class="{{ 'text-success' if txn.amount>0 else 'text-warning' }}">${{ '%.2f'|format(txn.amount) }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

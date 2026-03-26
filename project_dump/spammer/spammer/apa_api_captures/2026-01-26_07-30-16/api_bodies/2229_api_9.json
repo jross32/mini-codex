@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2941426,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 83725962,
+            "team": {
+              "id": 11839301,
+              "name": "Ice House",
+              "number": "02109",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0.2777777777777778,
+            "ppm": 0.8333333333333334,
+            "eightBallMatchPointsEarned": 5,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

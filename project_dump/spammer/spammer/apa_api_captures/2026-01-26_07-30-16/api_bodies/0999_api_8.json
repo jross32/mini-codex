@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2544750,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474528,
+            "teamNumber": "11913489",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2022 WPCQ",
+              "id": 35473,
+              "startTime": "2022-05-20T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 439193,
+            "teamNumber": "11756006",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 8 BALL 2021 WPCQ",
+              "id": 31845,
+              "startTime": "2021-06-25T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 341763,
+            "teamNumber": "11291600",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2019 8 BALL",
+              "id": 21546,
+              "startTime": "2019-05-17T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 85778,
+            "teamNumber": "10030775",
+            "skillLevel": "4",
+            "standing": 33,
+            "teamName": "Devil Eights ( T )",
+            "disqualified": null,
+            "tournament": {
+              "name": "8-Ball Open NTC 2013",
+              "id": 2984,
+              "startTime": "2013-08-18T00:00:00-08:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 87142,
+            "teamNumber": "10030803",
+            "skillLevel": "4",
+            "standing": 65,
+            "teamName": "Adictos Al Billar",
+            "disqualified": null,
+            "tournament": {
+              "name": "9-Ball Open NTC 2013",
+              "id": 2985,
+              "startTime": "2013-08-15T19:00:00-08:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 86606,
+            "teamNumber": "10030803",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Adictos Al Billar",
+            "disqualified": null,
+            "tournament": {
+              "name": "Makeup 9-Ball",
+              "id": 5704,
+              "startTime": "2013-07-13T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 82259,
+            "teamNumber": "10030803",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Adictos Al Billar",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 Ball LTC",
+              "id": 4621,
+              "startTime": "2013-06-15T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 76830,
+            "teamNumber": "10030775",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Devil Eights ( T )",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball LTC",
+              "id": 4620,
+              "startTime": "2013-06-08T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 66188,
+            "teamNumber": "10018036",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Devil Eights ( T )",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 ball Tri-cup",
+              "id": 4857,
+              "startTime": "2013-02-16T11:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 10121,
+            "teamNumber": "9644515",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Devil Eights",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 BALL TRI CUP",
+              "id": 1345,
+              "startTime": "2011-11-19T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

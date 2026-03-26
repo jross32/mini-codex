@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538603,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 75817224,
+            "team": {
+              "id": 10758393,
+              "name": "The Unlucky Ones",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3636363636363636,
+            "ppm": 1.0909090909090908,
+            "eightBallMatchPointsEarned": 12,
+            "matchesWon": 3,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 2,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

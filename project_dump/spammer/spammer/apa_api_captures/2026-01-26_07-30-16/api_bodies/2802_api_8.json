@@ -1,0 +1,1549 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "__typename": "Member",
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com"
+      },
+      "league": {
+        "id": 894,
+        "name": "Rio Grande Valley APA",
+        "slug": "RioGrandeValley",
+        "isMine": true,
+        "logo": "https://assets.poolplayers.com/leaguecentral/APA/APA-Logo.png",
+        "homePageUrl": "rgv.apaleagues.com",
+        "facebookUrl": "www.facebook.com/APARGV",
+        "phone": "+19568216925",
+        "contacts": [
+          {
+            "id": 2222,
+            "firstName": "Erin",
+            "lastName": "Lacy",
+            "phone": null,
+            "__typename": "Contact"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "division": {
+        "id": 417524,
+        "name": "Thursday Brownsville 9 B",
+        "contacts": [
+          {
+            "phone": "+19565728638",
+            "alias": {
+              "id": 1850190,
+              "displayName": "Mr. Vegas Camacho",
+              "__typename": "Alias"
+            },
+            "__typename": "DivisionContact"
+          }
+        ],
+        "__typename": "Division"
+      }
+    }
+  },
+  {
+    "data": {
+      "team": {
+        "id": 12864634,
+        "name": "Dead On",
+        "number": "22201",
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "division": {
+          "id": 417524,
+          "type": "NINE",
+          "__typename": "Division"
+        },
+        "roster": [
+          {
+            "id": 91016293,
+            "memberNumber": "78501196",
+            "displayName": "Chris Garza",
+            "matchesWon": 4,
+            "matchesPlayed": 6,
+            "pa": 0.5416666666666667,
+            "ppm": 10.833333333333334,
+            "skillLevel": 7,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 2311006,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91016291,
+            "memberNumber": "78500754",
+            "displayName": "Julia Jordan",
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "pa": 0.5357142857142857,
+            "ppm": 10.714285714285714,
+            "skillLevel": 5,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 2073721,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91016295,
+            "memberNumber": "78502883",
+            "displayName": "Amanda Cantwell",
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "pa": 0.5363636363636364,
+            "ppm": 10.727272727272727,
+            "skillLevel": 4,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 2993106,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91016297,
+            "memberNumber": "78502110",
+            "displayName": "Denise Garza",
+            "matchesWon": 3,
+            "matchesPlayed": 12,
+            "pa": 0.4,
+            "ppm": 8,
+            "skillLevel": 4,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 3316786,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91046487,
+            "memberNumber": "78501570",
+            "displayName": "Juan Sordia",
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "pa": 0.43,
+            "ppm": 8.6,
+            "skillLevel": 5,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 2544750,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91016298,
+            "memberNumber": "78504051",
+            "displayName": "Melody Tijerina",
+            "matchesWon": 4,
+            "matchesPlayed": 6,
+            "pa": 0.475,
+            "ppm": 9.5,
+            "skillLevel": 3,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 3356943,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91051208,
+            "memberNumber": "78502880",
+            "displayName": "Alex Hernandez",
+            "matchesWon": 9,
+            "matchesPlayed": 14,
+            "pa": 0.5892857142857143,
+            "ppm": 11.785714285714286,
+            "skillLevel": 4,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 3038547,
+              "__typename": "Member"
+            }
+          },
+          {
+            "id": 91074786,
+            "memberNumber": "78502630",
+            "displayName": "Katelynn Lee",
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "pa": 0.5,
+            "ppm": 10,
+            "skillLevel": 6,
+            "__typename": "NineBallPlayer",
+            "member": {
+              "id": 2934342,
+              "__typename": "Member"
+            }
+          }
+        ],
+        "__typename": "Team"
+      }
+    }
+  },
+  {
+    "data": {
+      "team": {
+        "id": 12864634,
+        "sessionBonusPoints": 0,
+        "sessionPoints": 955,
+        "sessionTotalPoints": 955,
+        "division": {
+          "id": 417524,
+          "isTournament": false,
+          "__typename": "Division"
+        },
+        "matches": [
+          {
+            "week": 1,
+            "type": "NINE",
+            "id": 48118077,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-09-04T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 78,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 52,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864636,
+              "name": "Ballerz 956",
+              "number": "22208",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 2,
+            "type": "NINE",
+            "id": 48118081,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-09-11T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 58,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 72,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864638,
+              "name": "A-Rack-Nophobia",
+              "number": "22205",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 3,
+            "type": "NINE",
+            "id": 48118085,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-09-18T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 54,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 76,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 4,
+            "type": "NINE",
+            "id": 48118089,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-09-25T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 84,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 46,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864637,
+              "name": "Bad Boys",
+              "number": "22204",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 5,
+            "type": "NINE",
+            "id": 48118093,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-10-02T20:00:00-05:00",
+            "isMine": true,
+            "isPaid": true,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 82,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 48,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12867593,
+              "name": "Cue-ligans",
+              "number": "22207",
+              "isMine": true,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": [
+              {
+                "id": 1427606,
+                "order": {
+                  "id": 2027593,
+                  "member": {
+                    "id": 1689161,
+                    "firstName": "William",
+                    "lastName": "McGinnis",
+                    "__typename": "Member"
+                  },
+                  "__typename": "Order"
+                },
+                "__typename": "MatchOrder"
+              }
+            ],
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 6,
+            "type": "NINE",
+            "id": 48118097,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-10-09T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 78,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 52,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864639,
+              "name": "Palochones",
+              "number": "22206",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 7,
+            "type": "NINE",
+            "id": 48118101,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-10-16T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 73,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 57,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864635,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 8,
+            "type": "NINE",
+            "id": 48118105,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-10-23T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 82,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 48,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864636,
+              "name": "Ballerz 956",
+              "number": "22208",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 9,
+            "type": "NINE",
+            "id": 48118109,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-10-30T20:00:00-05:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 65,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 65,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864638,
+              "name": "A-Rack-Nophobia",
+              "number": "22205",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 10,
+            "type": "NINE",
+            "id": 48118113,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-11-06T20:00:00-06:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 78,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 52,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 11,
+            "type": "NINE",
+            "id": 48118117,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-11-13T20:00:00-06:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 67,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 63,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864637,
+              "name": "Bad Boys",
+              "number": "22204",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 12,
+            "type": "NINE",
+            "id": 48118121,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-11-20T20:00:00-06:00",
+            "isMine": true,
+            "isPaid": true,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 58,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 67,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12867593,
+              "name": "Cue-ligans",
+              "number": "22207",
+              "isMine": true,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": [
+              {
+                "id": 1506542,
+                "order": {
+                  "id": 2116166,
+                  "member": {
+                    "id": 3400522,
+                    "firstName": "Justin",
+                    "lastName": "Ross",
+                    "__typename": "Member"
+                  },
+                  "__typename": "Order"
+                },
+                "__typename": "MatchOrder"
+              }
+            ],
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": null,
+            "type": null,
+            "id": null,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2025-11-27T00:00:00Z",
+            "isMine": true,
+            "isPaid": null,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "No Play",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": null,
+            "home": null,
+            "away": null,
+            "league": null,
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 13,
+            "type": "NINE",
+            "id": 48118137,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-12-04T20:00:00-06:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": null,
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 76,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 49,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864639,
+              "name": "Palochones",
+              "number": "22206",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 14,
+            "type": "NINE",
+            "id": 48118141,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-12-11T20:00:00-06:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": null,
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 74,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 56,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 110627,
+              "name": "DK's Stix & Stuff",
+              "address": {
+                "id": 67556,
+                "name": "DK's Stix & Stuff",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864635,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": 15,
+            "type": "NINE",
+            "id": 48118145,
+            "isBye": false,
+            "status": "COMPLETED",
+            "scoresheet": null,
+            "startTime": "2025-12-18T20:00:00-06:00",
+            "isMine": false,
+            "isPaid": null,
+            "isScored": true,
+            "isFinalized": true,
+            "isPlayoff": false,
+            "description": null,
+            "tableNumber": null,
+            "results": [
+              {
+                "homeAway": "HOME",
+                "points": {
+                  "total": 63,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              },
+              {
+                "homeAway": "AWAY",
+                "points": {
+                  "total": 67,
+                  "__typename": "MatchResultPoints"
+                },
+                "__typename": "MatchResult"
+              }
+            ],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12864636,
+              "name": "Ballerz 956",
+              "number": "22208",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": null,
+            "type": null,
+            "id": null,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2025-12-25T00:00:00Z",
+            "isMine": true,
+            "isPaid": null,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "No Play",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": null,
+            "home": null,
+            "away": null,
+            "league": null,
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": null,
+            "type": null,
+            "id": null,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2026-01-01T00:00:00Z",
+            "isMine": true,
+            "isPaid": null,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "No Play",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": null,
+            "home": null,
+            "away": null,
+            "league": null,
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "week": null,
+            "type": null,
+            "id": null,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2026-01-08T00:00:00Z",
+            "isMine": true,
+            "isPaid": null,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": true,
+            "description": "",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": null,
+            "home": null,
+            "away": null,
+            "league": null,
+            "orderItems": null,
+            "division": {
+              "id": 417524,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          }
+        ],
+        "__typename": "Team"
+      }
+    }
+  }
+]

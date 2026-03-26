@@ -1,0 +1,1 @@
+# character_crit package.

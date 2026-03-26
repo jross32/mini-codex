@@ -1,0 +1,1 @@
+from .command import cmd_game_v2_quality_gate_checker

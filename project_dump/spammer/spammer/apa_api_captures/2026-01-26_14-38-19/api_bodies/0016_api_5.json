@@ -1,0 +1,57 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "__typename": "Member",
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com"
+      },
+      "league": {
+        "id": 894,
+        "name": "Rio Grande Valley APA",
+        "slug": "RioGrandeValley",
+        "isMine": true,
+        "logo": "https://assets.poolplayers.com/leaguecentral/APA/APA-Logo.png",
+        "homePageUrl": "rgv.apaleagues.com",
+        "facebookUrl": "www.facebook.com/APARGV",
+        "phone": "+19568216925",
+        "contacts": [
+          {
+            "id": 2222,
+            "firstName": "Erin",
+            "lastName": "Lacy",
+            "phone": null,
+            "__typename": "Contact"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "league": {
+        "id": 894,
+        "name": "Rio Grande Valley APA",
+        "officeHours": "",
+        "phone": "+19568216925",
+        "contacts": [
+          {
+            "id": 2222,
+            "displayName": "Erin Lacy",
+            "phone": null,
+            "__typename": "Contact"
+          }
+        ],
+        "byLaws": {
+          "id": 229,
+          "url": "https://apa-by-laws.s3.amazonaws.com/prod/785_bylaws_2025.pdf",
+          "__typename": "ByLaws"
+        },
+        "__typename": "League"
+      }
+    }
+  }
+]

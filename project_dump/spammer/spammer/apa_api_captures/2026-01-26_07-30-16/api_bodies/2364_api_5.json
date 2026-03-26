@@ -1,0 +1,581 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "country": {
+          "id": 1,
+          "__typename": "Country"
+        },
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "initials": "JR",
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "notificationBellCount": 1,
+        "notifications": [
+          {
+            "id": 277889309,
+            "type": "scoreSheetsReady",
+            "title": "Scoresheets and Stats have been updated!",
+            "body": "Scoresheets have been released and Stats for Division 222 have been updated",
+            "isRead": false,
+            "createdDate": "2026-01-22T18:13:42Z",
+            "typeId": null,
+            "metaData": "{\"reportId\":12142815,\"leagueDivisionSessionScheduleMatchId\":49432725,\"format\":\"9-Ball\",\"slug\":\"RioGrandeValley\"}",
+            "__typename": "Notification"
+          },
+          {
+            "id": 277889210,
+            "type": "scoreSheetsReady",
+            "title": "Scoresheets and Stats have been updated!",
+            "body": "Scoresheets have been released and Stats for Division 022 have been updated",
+            "isRead": true,
+            "createdDate": "2026-01-22T18:13:42Z",
+            "typeId": null,
+            "metaData": "{\"reportId\":12142810,\"leagueDivisionSessionScheduleMatchId\":49432645,\"format\":\"8-Ball\",\"slug\":\"RioGrandeValley\"}",
+            "__typename": "Notification"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "name": "Rio Grande Valley APA",
+            "isDefault": true,
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League",
+            "country": {
+              "id": 1,
+              "__typename": "Country"
+            }
+          }
+        ],
+        "membershipExpires": "2026-12-31T23:59:59Z",
+        "setting": "894",
+        "fee": null,
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "feature": true
+    }
+  },
+  {
+    "data": {
+      "liveStream": {
+        "__typename": "LiveStreamPayload",
+        "feeds": []
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3260483,
+        "firstName": "Alexander",
+        "lastName": "Banda",
+        "initials": "AB",
+        "aliases": [
+          {
+            "id": 3047541,
+            "displayName": "Alexander Banda",
+            "memberNumber": "78503791",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3047541,
+        "pastTeams": [
+          {
+            "id": 91724997,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12956648,
+              "name": "Bad Boys",
+              "division": {
+                "id": 425649,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277671,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 12,
+            "matchesWon": 6,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 10,
+            "team": {
+              "id": 12766725,
+              "name": "Bad Boys",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90444302,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 7,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 3,
+            "team": {
+              "id": 12766848,
+              "name": "Bad Boys",
+              "division": {
+                "id": 408941,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90276796,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 6,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 8,
+            "team": {
+              "id": 12766603,
+              "name": "Pump Nation",
+              "division": {
+                "id": 408924,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056657,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12869199,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463157,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 13,
+            "matchesWon": 5,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 18,
+            "team": {
+              "id": 12649759,
+              "name": "Bad Boys",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89462300,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 11,
+            "team": {
+              "id": 12649640,
+              "name": "Pump Nation",
+              "division": {
+                "id": 398427,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89219173,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 5,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 3,
+            "team": {
+              "id": 12537132,
+              "name": "Bad Boys",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632881,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 6,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 2,
+            "team": {
+              "id": 12537014,
+              "name": "Pok Pok",
+              "division": {
+                "id": 388297,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88189300,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 11,
+            "matchesWon": 4,
+            "session": {
+              "id": 133,
+              "name": "Summer 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 19,
+            "team": {
+              "id": 12471242,
+              "name": "Pok Pok",
+              "division": {
+                "id": 382590,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677452,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951830,
+              "name": "Bad Boys",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677890,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951914,
+              "name": "Bad Boys",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90278840,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 11,
+            "matchesWon": 6,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 3,
+            "team": {
+              "id": 12766932,
+              "name": "Ballcoholics",
+              "division": {
+                "id": 408937,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016321,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 12,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 30,
+            "team": {
+              "id": 12864637,
+              "name": "Bad Boys",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016715,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 12,
+            "matchesWon": 7,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 6,
+            "team": {
+              "id": 12864717,
+              "name": "Bad Boys",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91015461,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 5,
+            "matchesWon": 2,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 5,
+            "team": {
+              "id": 12864518,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417516,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

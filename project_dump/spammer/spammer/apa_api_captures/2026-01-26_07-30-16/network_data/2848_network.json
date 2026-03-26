@@ -1,0 +1,262 @@
+{
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/rules",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "timestamp": "2026-01-26T09:19:19.742182"
+    },
+    {
+      "method": "GET",
+      "url": "https://maps.google.com/maps/api/js?key=AIzaSyDZuEbhb4SH-blXR1wiB1Sf1Ijn9uWoyIo&libraries=places",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:20.111117"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:20.112119"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:20.113122"
+    },
+    {
+      "method": "GET",
+      "url": "https://s3.amazonaws.com/static.poolplayers.com/outdated/outdatedbrowser.min.css",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:20.114119"
+    },
+    {
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.210162"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/8b426819be5e2b49d046.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.211682"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/ba4caefcdf5b36b438db92786991c845.woff2",
+      "headers": {
+        "origin": "https://league.poolplayers.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.225353"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/affbf9454fb32f694939.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.385137"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/d0a8a792283f3c80af881a19d72342ec.woff2",
+      "headers": {
+        "origin": "https://league.poolplayers.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.386131"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/0e9cbfe1bbc4e2056288.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:21.386131"
+    },
+    {
+      "method": "POST",
+      "url": "https://gql.poolplayers.com/graphql",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "apollographql-client-version": "3.18.44-3550",
+        "content-type": "application/json",
+        "apollographql-client-name": "MemberServices"
+      },
+      "timestamp": "2026-01-26T09:19:21.535580",
+      "body": "[{\"operationName\":\"viewerLeagues\",\"variables\":{},\"query\":\"query viewerLeagues {\\n  viewer {\\n    id\\n    __typename\\n    ... on Member {\\n      leagues {\\n        id\\n        slug\\n        isElectronicPaymentsEnabled\\n        __typename\\n      }\\n      __typename\\n    }\\n    ... on ExternalStaff {\\n      leagues {\\n        id\\n        slug\\n        __typename\\n      }\\n      __typename\\n    }\\n  }\\n}\\n\"},{\"operationName\":\"sidebar\",\"variables\":{},\"query\":\"query sidebar {\\n  viewer {\\n    id\\n    ... on Member {\\n      leagues {\\n        id\\n        slug\\n        name\\n        isDefault\\n        isElectronicPaymentsEnabled\\n        __typename\\n      }\\n      __typename\\n    }\\n    ... on ExternalStaff {\\n      leagues {\\n        id\\n        slug\\n        name\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"},{\"operationName\":\"DisableCheck\",\"variables\":{},\"query\":\"query DisableCheck {\\n  feature(key: \\\"EmergencyNotice\\\")\\n  league(id: 589) {\\n    news(limit: 1) {\\n      id\\n      title\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"},{\"operationName\":\"TournamentBannerQuery\",\"variables\":{},\"query\":\"query TournamentBannerQuery {\\n  viewer {\\n    id\\n    ... on Member {\\n      registrationWindows(status: [IN_PROGRESS, CLOSED]) {\\n        id\\n        tournamentPlayers(mine: true, registered: false) {\\n          ... on TeamTournamentPlayer {\\n            id\\n            __typename\\n          }\\n          ... on SinglesTournamentPlayer {\\n            id\\n            __typename\\n          }\\n          ... on WeeklyTournamentPlayer {\\n            id\\n            __typename\\n          }\\n          ... on USAMTournamentPlayer {\\n            id\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"},{\"operationName\":\"MembershipBannerQuery\",\"variables\":{},\"query\":\"query MembershipBannerQuery {\\n  viewer {\\n    ... on Member {\\n      id\\n      fee {\\n        message\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"},{\"operationName\":\"ViewerQuery\",\"variables\":{},\"query\":\"query ViewerQuery {\\n  viewer {\\n    __typename\\n    id\\n    firstName\\n    lastName\\n    emailAddress\\n  }\\n}\\n\"},{\"operationName\":\"FeatureCheck\",\"variables\":{},\"query\":\"query FeatureCheck {\\n  features {\\n    id\\n    name\\n    active\\n    __typename\\n  }\\n}\\n\"},{\"operationName\":\"UseGetViewerQuery\",\"variables\":{},\"query\":\"query UseGetViewerQuery {\\n  viewer {\\n    id\\n    ... on Member {\\n      leagues {\\n        id\\n        slug\\n        __typename\\n      }\\n      __typename\\n    }\\n    ... on ExternalStaff {\\n      leagues {\\n        id\\n        slug\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"}]"
+    },
+    {
+      "method": "POST",
+      "url": "https://gql.poolplayers.com/graphql",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "apollographql-client-version": "3.18.44-3550",
+        "content-type": "application/json",
+        "apollographql-client-name": "MemberServices"
+      },
+      "timestamp": "2026-01-26T09:19:21.600605",
+      "body": "[{\"operationName\":\"RaygunUserTracking\",\"variables\":{},\"query\":\"query RaygunUserTracking {\\n  viewer {\\n    id\\n    ... on ExternalStaff {\\n      firstName\\n      lastName\\n      emailAddress\\n      __typename\\n    }\\n    ... on NationalOfficeStaff {\\n      firstName\\n      lastName\\n      emailAddress\\n      __typename\\n    }\\n    ... on Member {\\n      firstName\\n      lastName\\n      emailAddress\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"}]"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/6f4012e9cb63562420e7bbb0d8fac788.woff",
+      "headers": {
+        "origin": "https://league.poolplayers.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:22.228473"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/b7d45b89115c39c81418.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:22.229471"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/8e60b39cb88f09fc152ebe1a095110d8.woff2",
+      "headers": {
+        "origin": "https://league.poolplayers.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:22.229471"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/c637eb344a3e59aceab803c1e9902557.png",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/rules",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:22.229471"
+    },
+    {
+      "method": "POST",
+      "url": "https://gql.poolplayers.com/graphql",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "apollographql-client-version": "3.18.44-3550",
+        "content-type": "application/json",
+        "apollographql-client-name": "MemberServices"
+      },
+      "timestamp": "2026-01-26T09:19:22.245634",
+      "body": "[{\"operationName\":\"LiveStream\",\"variables\":{},\"query\":\"query LiveStream {\\n  liveStream {\\n    __typename\\n    feeds {\\n      __typename\\n      ... on YoutubeLive {\\n        title\\n        description\\n        publishTime\\n        embed\\n        thumbnails {\\n          url\\n          height\\n          width\\n          __typename\\n        }\\n        __typename\\n      }\\n    }\\n  }\\n}\\n\"}]"
+    },
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/26f26260cad9ea268ec7e9cdaa1f0ac1.otf",
+      "headers": {
+        "origin": "https://league.poolplayers.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://league.poolplayers.com/main.527b16c122d550bf2b7c.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-26T09:19:22.584221"
+    }
+  ],
+  "errors": [
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/rules",
+      "status": 400,
+      "status_text": "400",
+      "timestamp": "2026-01-26T09:19:20.082908"
+    }
+  ],
+  "websockets": []
+}

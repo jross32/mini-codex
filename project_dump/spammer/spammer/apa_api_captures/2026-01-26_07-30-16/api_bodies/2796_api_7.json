@@ -1,0 +1,75 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3326940,
+        "member": {
+          "id": 3439227,
+          "consecutiveYearsPlayed": 1,
+          "membershipHistory": [
+            {
+              "id": 7563380,
+              "year": 2025,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            }
+          ],
+          "__typename": "Member"
+        },
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "players": [
+          {
+            "id": 91112157,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "id": 3326940,
+        "displayName": "Stephanie Alvear",
+        "EightBallStats": [
+          {
+            "id": 803326940,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "CLA": 0,
+            "defensiveShotAvg": 0,
+            "matchCountForLastTwoYrs": 1,
+            "lastPlayed": "2025-10-23T00:00:00Z",
+            "__typename": "EightBallLifetimeStatistics"
+          }
+        ],
+        "NineBallStats": [
+          {
+            "id": 903326940,
+            "matchesWon": null,
+            "matchesPlayed": 0,
+            "CLA": 0,
+            "defensiveShotAvg": 0,
+            "matchCountForLastTwoYrs": 0,
+            "lastPlayed": null,
+            "__typename": "NineBallLifetimeStatistics"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

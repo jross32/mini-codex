@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-03-25T02:52:53.780691Z",
+  "baseline": {
+    "mode": "baseline",
+    "success": true,
+    "steps": 4,
+    "tools_used": [
+      "repo_map",
+      "ai_read",
+      "test_select"
+    ],
+    "tool_sequence": [
+      "repo_map",
+      "ai_read",
+      "ai_read",
+      "test_select"
+    ],
+    "files_read": [
+      "backend/api/main.py",
+      "backend/api/__init__.py"
+    ]
+  },
+  "candidate": {
+    "mode": "candidate",
+    "success": true,
+    "steps": 4,
+    "tools_used": [
+      "repo_map",
+      "ai_read",
+      "test_select"
+    ],
+    "tool_sequence": [
+      "repo_map",
+      "ai_read",
+      "ai_read",
+      "test_select"
+    ],
+    "files_read": [
+      "backend/api/main.py",
+      "backend/api/__init__.py"
+    ]
+  },
+  "verdict": "IDENTICAL",
+  "detail": "Tool sequences match; no change detected",
+  "deltas": {
+    "steps": 0,
+    "files_read": 0,
+    "tools_same": true
+  }
+}

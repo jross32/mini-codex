@@ -1,0 +1,49 @@
+# Runtime log hygiene (conservative, workspace-level)
+# Ignore transient artifacts, keep stable JSON summaries/reports globally.
+
+# General transient logs
+*.log
+*.tmp
+
+# Root-level runtime logs at workspace level
+agent_logs/tmp_*.py
+agent_logs/*.bak
+agent_logs/*.tmp
+agent_logs/*.log
+
+# Keep key workspace-level log artifacts
+!agent_logs/tool_observations.jsonl
+!agent_logs/tool_observations_summary.json
+!agent_logs/aish_usage.json
+!agent_logs/promotion_*.json
+
+# Project-specific nested runtime logs (use local .gitignore per project for fine control)
+*/agent_logs/**
+!*/agent_logs/
+!*/agent_logs/**/*.json
+
+# Python cache (global suppression)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

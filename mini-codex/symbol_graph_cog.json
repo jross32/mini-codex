@@ -1,0 +1,607 @@
+{
+  "symbols": {
+    "app.py": {
+      "imports": [
+        "core_ai",
+        "database",
+        "difflib",
+        "flask",
+        "flask_wtf",
+        "glob",
+        "html",
+        "json",
+        "markupsafe",
+        "os",
+        "random",
+        "simulation",
+        "string",
+        "time",
+        "tools"
+      ],
+      "exports": [
+        "add_security_headers",
+        "agent_at",
+        "agent_goals",
+        "agent_memories",
+        "agent_relationships",
+        "atomic_write",
+        "codex",
+        "core_ai",
+        "debug",
+        "environment",
+        "events",
+        "format_memory",
+        "governance",
+        "index",
+        "lab",
+        "logs",
+        "metrics",
+        "resources",
+        "rollback",
+        "sandbox",
+        "sim_overview",
+        "sim_population",
+        "sim_society",
+        "simdata",
+        "simulation_hub",
+        "tech"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "CSRFProtect"
+        },
+        {
+          "from": "module",
+          "to": "Flask"
+        },
+        {
+          "from": "module",
+          "to": "abs"
+        },
+        {
+          "from": "module",
+          "to": "add_agent"
+        },
+        {
+          "from": "module",
+          "to": "add_research_points"
+        }
+      ]
+    },
+    "core_ai.py": {
+      "imports": [
+        "dataclasses",
+        "datetime",
+        "enum",
+        "json",
+        "random",
+        "re",
+        "requests",
+        "time",
+        "typing"
+      ],
+      "exports": [
+        "AccessLevel",
+        "CausalGraph",
+        "CoreAI",
+        "ExperimentalFramework",
+        "OptimizationEngine",
+        "PredictiveModel",
+        "ResearchEvaluation",
+        "SimulationMetrics",
+        "ask_core_ai",
+        "ask_for_code_change",
+        "extract_code_changes",
+        "get_core_ai"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "CausalGraph"
+        },
+        {
+          "from": "module",
+          "to": "CoreAI"
+        },
+        {
+          "from": "module",
+          "to": "ExperimentalFramework"
+        },
+        {
+          "from": "module",
+          "to": "PredictiveModel"
+        },
+        {
+          "from": "module",
+          "to": "ResearchEvaluation"
+        }
+      ]
+    },
+    "database.py": {
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "random",
+        "sqlite3",
+        "string",
+        "typing"
+      ],
+      "exports": [
+        "add_agent",
+        "add_group_member",
+        "add_memory",
+        "add_project_finding",
+        "add_research_points",
+        "add_resource",
+        "can_research_tech",
+        "connect",
+        "create_ai_scientist",
+        "create_group",
+        "create_research_project",
+        "get_agent_at",
+        "get_agent_goals",
+        "get_agent_groups",
+        "get_agent_memories",
+        "get_agent_status",
+        "get_agent_trades",
+        "get_chat",
+        "get_code_changes",
+        "get_current_environment",
+        "get_db",
+        "get_events",
+        "get_group_members",
+        "get_logs",
+        "get_metrics",
+        "get_news_feed",
+        "get_recent_findings",
+        "get_relationships",
+        "get_research_progress",
+        "get_resources_in_range",
+        "get_tech",
+        "get_tech_effects",
+        "init_agent_tables",
+        "init_db",
+        "init_tech_tree",
+        "log_event",
+        "publish_news_article",
+        "push_metric",
+        "record_trade",
+        "save_chat",
+        "save_code_change",
+        "save_log",
+        "seed_agents",
+        "set_agent_goal",
+        "set_environment",
+        "set_relationship",
+        "update_agent_status",
+        "update_energy_all",
+        "update_goal_progress",
+        "update_resource"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "choice"
+        },
+        {
+          "from": "module",
+          "to": "close"
+        },
+        {
+          "from": "module",
+          "to": "commit"
+        },
+        {
+          "from": "module",
+          "to": "connect"
+        },
+        {
+          "from": "module",
+          "to": "cursor"
+        }
+      ]
+    },
+    "data_streamer.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": []
+    },
+    "simulation.py": {
+      "imports": [
+        "database",
+        "datetime",
+        "json",
+        "math",
+        "random",
+        "time",
+        "typing"
+      ],
+      "exports": [
+        "AIScientist",
+        "AgentType",
+        "DayPhase",
+        "GoalType",
+        "GroupType",
+        "MemoryType",
+        "MetaUniversity",
+        "RelationType",
+        "ResearchType",
+        "ResourceType",
+        "Season",
+        "Simulation",
+        "SocialClass",
+        "TradeType",
+        "Weather",
+        "consider_group_formation",
+        "generate_name",
+        "get_class_value",
+        "get_nearest_agent",
+        "get_nearest_resource",
+        "get_path",
+        "get_positions",
+        "get_relationship_type",
+        "init_sim",
+        "initiate_trade",
+        "interact_with_agent",
+        "list_agents",
+        "manhattan_distance",
+        "process_agent_goals",
+        "safe_execute",
+        "step",
+        "update_agent_state",
+        "update_environment",
+        "update_resources"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "AIScientist"
+        },
+        {
+          "from": "module",
+          "to": "Exception"
+        },
+        {
+          "from": "module",
+          "to": "MetaUniversity"
+        },
+        {
+          "from": "module",
+          "to": "_complete_project"
+        },
+        {
+          "from": "module",
+          "to": "_continue_research"
+        }
+      ]
+    },
+    "tests/conftest.py": {
+      "imports": [
+        "app",
+        "contextlib",
+        "database",
+        "os",
+        "pytest",
+        "sqlite3",
+        "sys",
+        "tempfile"
+      ],
+      "exports": [
+        "app_client",
+        "temp_db",
+        "temp_db_connection"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "NamedTemporaryFile"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "close"
+        },
+        {
+          "from": "module",
+          "to": "connect"
+        },
+        {
+          "from": "module",
+          "to": "dirname"
+        }
+      ]
+    },
+    "tests/test_app.py": {
+      "imports": [
+        "database",
+        "flask",
+        "pytest"
+      ],
+      "exports": [
+        "test_agent_at_api",
+        "test_core_ai_chat",
+        "test_home_redirect",
+        "test_simdata_api",
+        "test_simulation_views"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "add_agent"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        },
+        {
+          "from": "module",
+          "to": "get_chat"
+        },
+        {
+          "from": "module",
+          "to": "get_json"
+        },
+        {
+          "from": "module",
+          "to": "init_db"
+        }
+      ]
+    },
+    "tests/test_database.py": {
+      "imports": [
+        "database",
+        "datetime",
+        "pytest"
+      ],
+      "exports": [
+        "test_agent_crud",
+        "test_chat_messages",
+        "test_code_changes",
+        "test_events",
+        "test_init_db",
+        "test_metrics",
+        "test_seed_agents",
+        "test_tech_tree"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "add_agent"
+        },
+        {
+          "from": "module",
+          "to": "connect"
+        },
+        {
+          "from": "module",
+          "to": "cursor"
+        },
+        {
+          "from": "module",
+          "to": "execute"
+        },
+        {
+          "from": "module",
+          "to": "fetchone"
+        }
+      ]
+    },
+    "tests/test_safety.py": {
+      "imports": [
+        "pytest",
+        "tools"
+      ],
+      "exports": [
+        "test_file_safety_check",
+        "test_python_syntax_check",
+        "test_template_syntax_check"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "any"
+        },
+        {
+          "from": "module",
+          "to": "check_file_safety"
+        },
+        {
+          "from": "module",
+          "to": "check_python_syntax"
+        },
+        {
+          "from": "module",
+          "to": "check_template_syntax"
+        },
+        {
+          "from": "module",
+          "to": "len"
+        }
+      ]
+    },
+    "tests/test_simulation.py": {
+      "imports": [
+        "database",
+        "pytest",
+        "simulation"
+      ],
+      "exports": [
+        "test_agent_movement",
+        "test_get_positions",
+        "test_simulation_step"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "add_agent"
+        },
+        {
+          "from": "module",
+          "to": "all"
+        },
+        {
+          "from": "module",
+          "to": "get_metrics"
+        },
+        {
+          "from": "module",
+          "to": "get_positions"
+        },
+        {
+          "from": "module",
+          "to": "init_db"
+        }
+      ]
+    },
+    "tools/safety.py": {
+      "imports": [
+        "ast",
+        "jinja2",
+        "os",
+        "pyflakes",
+        "tempfile"
+      ],
+      "exports": [
+        "QuietReporter",
+        "check_file_safety",
+        "check_python_syntax",
+        "check_template_syntax"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Environment"
+        },
+        {
+          "from": "module",
+          "to": "NamedTemporaryFile"
+        },
+        {
+          "from": "module",
+          "to": "QuietReporter"
+        },
+        {
+          "from": "module",
+          "to": "any"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        }
+      ]
+    },
+    "tools/smoke_test.py": {
+      "imports": [
+        "database",
+        "os",
+        "simulation",
+        "sys"
+      ],
+      "exports": [],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "dict"
+        },
+        {
+          "from": "module",
+          "to": "dirname"
+        },
+        {
+          "from": "module",
+          "to": "get_metrics"
+        },
+        {
+          "from": "module",
+          "to": "init_db"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "app.py",
+      "target": "core_ai.py",
+      "type": "import"
+    },
+    {
+      "source": "app.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "app.py",
+      "target": "simulation.py",
+      "type": "import"
+    },
+    {
+      "source": "app.py",
+      "target": "tools/smoke_test.py",
+      "type": "import"
+    },
+    {
+      "source": "simulation.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/conftest.py",
+      "target": "app.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/conftest.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/test_app.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/test_database.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/test_safety.py",
+      "target": "tools/smoke_test.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/test_simulation.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tests/test_simulation.py",
+      "target": "simulation.py",
+      "type": "import"
+    },
+    {
+      "source": "tools/smoke_test.py",
+      "target": "database.py",
+      "type": "import"
+    },
+    {
+      "source": "tools/smoke_test.py",
+      "target": "simulation.py",
+      "type": "import"
+    }
+  ],
+  "metadata": {
+    "parse_time_ms": 266.08,
+    "python_files_parsed": 12,
+    "total_symbols": 12
+  }
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2073721,
+        "firstName": "Julia",
+        "lastName": "Jordan",
+        "initials": "JJ",
+        "aliases": [
+          {
+            "id": 263588,
+            "displayName": "Julia Jordan",
+            "memberNumber": "78500754",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2073721,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 677019,
+            "teamNumber": "12766845",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Summer Tri Annual 8 Ball (C)",
+              "id": 54923,
+              "startTime": "2025-09-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 662396,
+            "teamNumber": "12649756",
+            "skillLevel": "5",
+            "standing": 257,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 9-Ball World Pool Championship",
+              "id": 47908,
+              "startTime": "2025-08-12T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 644657,
+            "teamNumber": "12537129",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656717,
+            "teamNumber": "12649756",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655927,
+            "teamNumber": "12649888",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 8",
+              "id": 52781,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

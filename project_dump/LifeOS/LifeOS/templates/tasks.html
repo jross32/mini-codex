@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Tasks | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-3">
+  <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <div>
+      <div class="subtle text-uppercase small">Tasks</div>
+      <h3 class="fw-bold mb-0">Kanban</h3>
+    </div>
+    <form class="d-flex gap-2 flex-wrap quick-add" method="post" action="{{ url_for('tasks_add') }}">
+      <input name="title" class="form-control form-control-sm bg-dark text-light" placeholder="Quick add task" required>
+      <input name="due" type="date" class="form-control form-control-sm bg-dark text-light" aria-label="Due">
+      <input name="project" class="form-control form-control-sm bg-dark text-light" placeholder="Project (optional)">
+      <select name="priority" class="form-select form-select-sm bg-dark text-light">
+        <option>High</option>
+        <option selected>Medium</option>
+        <option>Low</option>
+      </select>
+      <select name="status" class="form-select form-select-sm bg-dark text-light">
+        <option value="backlog" selected>Backlog</option>
+        <option value="next">Next</option>
+        <option value="doing">Doing</option>
+        <option value="blocked">Blocked</option>
+        <option value="done">Done</option>
+      </select>
+      <button class="btn btn-info btn-sm">Add</button>
+    </form>
+  </div>
+</div>
+<div class="kanban">
+  {% set columns = {
+    'backlog': 'Backlog',
+    'next': 'Next',
+    'doing': 'Doing',
+    'blocked': 'Blocked',
+    'done': 'Done'
+  } %}
+  {% for key, title in columns.items() %}
+  <div class="kanban-column" data-col="{{ key }}">
+    <div class="fw-semibold mb-2">{{ title }}</div>
+    <div class="kanban-cards">
+      {% for t in data.tasks if t.status == key %}
+      <div class="kanban-card">
+        <div class="fw-semibold">{{ t.title }}</div>
+        <div class="subtle small">{{ t.project }} • Due {{ t.due }}</div>
+        <div class="d-flex justify-content-between align-items-center mt-1">
+          <span class="badge badge-soft">{{ t.priority }}</span>
+          <span class="badge bg-secondary text-uppercase">{{ t.status }}</span>
+        </div>
+        <div class="d-flex gap-2 mt-2 flex-wrap">
+          {% if t.status != 'done' %}
+          <form method="post" action="{{ url_for('tasks_complete', task_id=t.id) }}">
+            <button class="btn btn-sm btn-success">Complete</button>
+          </form>
+          {% endif %}
+          <button class="btn btn-sm btn-outline-info" data-bs-toggle="collapse" data-bs-target="#task-edit-{{ t.id }}" aria-expanded="false">Edit</button>
+          <form method="post" action="{{ url_for('tasks_delete', task_id=t.id) }}">
+            <button class="btn btn-sm btn-outline-danger">Remove</button>
+          </form>
+        </div>
+        <div class="collapse mt-2" id="task-edit-{{ t.id }}">
+          <form class="card card-soft p-2 bg-dark" method="post" action="{{ url_for('tasks_update', task_id=t.id) }}">
+            <div class="row g-2">
+              <div class="col-12">
+                <input name="title" class="form-control form-control-sm bg-dark text-light" value="{{ t.title }}" placeholder="Title">
+              </div>
+              <div class="col-6">
+                <input name="due" type="date" class="form-control form-control-sm bg-dark text-light" value="{{ t.due }}">
+              </div>
+              <div class="col-6">
+                <input name="project" class="form-control form-control-sm bg-dark text-light" value="{{ t.project }}" placeholder="Project">
+              </div>
+              <div class="col-6">
+                <select name="priority" class="form-select form-select-sm bg-dark text-light">
+                  <option {% if t.priority=='High' %}selected{% endif %}>High</option>
+                  <option {% if t.priority=='Medium' %}selected{% endif %}>Medium</option>
+                  <option {% if t.priority=='Low' %}selected{% endif %}>Low</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <select name="status" class="form-select form-select-sm bg-dark text-light">
+                  <option value="backlog" {% if t.status=='backlog' %}selected{% endif %}>Backlog</option>
+                  <option value="next" {% if t.status=='next' %}selected{% endif %}>Next</option>
+                  <option value="doing" {% if t.status=='doing' %}selected{% endif %}>Doing</option>
+                  <option value="blocked" {% if t.status=='blocked' %}selected{% endif %}>Blocked</option>
+                  <option value="done" {% if t.status=='done' %}selected{% endif %}>Done</option>
+                </select>
+              </div>
+            </div>
+            <div class="mt-2 text-end">
+              <button class="btn btn-sm btn-info">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,1 @@
+from .command import cmd_progression_system_generator

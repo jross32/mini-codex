@@ -1,0 +1,18 @@
+{
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://league.poolplayers.com/RioGrandeValley/member/3314754/3132870/eight/134/12537011",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "timestamp": "2026-01-26T08:57:12.803859"
+    }
+  ],
+  "errors": [],
+  "websockets": []
+}

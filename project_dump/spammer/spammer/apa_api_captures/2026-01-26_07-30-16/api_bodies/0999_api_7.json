@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2544750,
+        "firstName": "Juan",
+        "lastName": "Sordia",
+        "initials": "JS",
+        "aliases": [
+          {
+            "id": 2012866,
+            "displayName": "Juan Sordia",
+            "memberNumber": "78501570",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 4
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2544750,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 598660,
+            "teamNumber": "12384168",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 545124,
+            "teamNumber": "12198433",
+            "skillLevel": "5",
+            "standing": 385,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 8-Ball World Championships",
+              "id": 36833,
+              "startTime": "2023-08-03T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 540401,
+            "teamNumber": "12198433",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539600,
+            "teamNumber": "12198433",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2023",
+              "id": 41435,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474531,
+            "teamNumber": "11929014",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2022 WPCQ",
+              "id": 35474,
+              "startTime": "2022-06-03T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

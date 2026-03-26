@@ -1,0 +1,119 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3038547,
+        "firstName": "Alejandro",
+        "lastName": "Hernandez",
+        "initials": "AH",
+        "aliases": [
+          {
+            "id": 2706918,
+            "displayName": "Alex Hernandez",
+            "memberNumber": "78502880",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3038547,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 677019,
+            "teamNumber": "12766845",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Summer Tri Annual 8 Ball (C)",
+              "id": 54923,
+              "startTime": "2025-09-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 431689,
+            "teamNumber": "11568752",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Hollywood Daze",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 9 BALL",
+              "id": 26029,
+              "startTime": "2021-06-05T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 428303,
+            "teamNumber": "11568752",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Hollywood Daze",
+            "disqualified": null,
+            "tournament": {
+              "name": "BOTR 2020 TOURNAMENT 9 BALL",
+              "id": 31210,
+              "startTime": "2021-04-25T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 358191,
+            "teamNumber": "11347757",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "Hollywood Daze",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2019 9 BALL",
+              "id": 21547,
+              "startTime": "2019-06-08T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3400522,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655939,
+            "teamNumber": "12649758",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from .command import cmd_entrypoint_health_check

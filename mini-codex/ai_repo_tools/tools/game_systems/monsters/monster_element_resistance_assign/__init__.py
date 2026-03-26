@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.monster_element.monster_element_resistance_assign.command import cmd_monster_element_resistance_assign

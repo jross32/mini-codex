@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.monster_name.monster_name_generator.command import cmd_monster_name_generator

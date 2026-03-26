@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.combat_status.combat_status_effect_tick.command import cmd_combat_status_effect_tick

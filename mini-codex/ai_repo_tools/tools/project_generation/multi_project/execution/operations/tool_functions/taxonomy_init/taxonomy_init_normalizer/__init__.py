@@ -1,0 +1,1 @@
+from .command import cmd_taxonomy_init_normalizer

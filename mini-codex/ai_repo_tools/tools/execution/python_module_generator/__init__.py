@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.module_generation.python_modules.generic_generators.builders.python_module_generator.command import cmd_python_module_generator

@@ -1,0 +1,1 @@
+from .command import cmd_trailing_whitespace_check

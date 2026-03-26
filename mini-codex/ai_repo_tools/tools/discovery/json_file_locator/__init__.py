@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.json_file.json_file_locator.command import cmd_json_file_locator

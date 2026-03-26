@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_state.character_state_serializer.command import cmd_character_state_serializer

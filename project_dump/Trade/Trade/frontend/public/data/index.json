@@ -1,0 +1,13 @@
+[
+  "advanced_tracking_summary.json",
+  "api_dump_v2.json",
+  "client_intelligence_summary.json",
+  "content_extraction_summary.json",
+  "page_behavior/0000_page_behavior.json",
+  "network_data/0000_network.json",
+  "session/0000_cookies.json",
+  "page_urls_used.txt",
+  "images/0000_screenshot.png",
+  "images/0000_respimg_0.png",
+  "images/0000_dom.html"
+]

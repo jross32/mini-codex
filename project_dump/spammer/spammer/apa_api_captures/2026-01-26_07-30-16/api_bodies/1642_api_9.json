@@ -1,0 +1,358 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2569117,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677426,
+            "team": {
+              "id": 12951827,
+              "name": "Dead On",
+              "number": "22201",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677168,
+            "team": {
+              "id": 12951791,
+              "name": "Lethal",
+              "number": "23301",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7,
+            "ppm": 14,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 14,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91074786,
+            "team": {
+              "id": 12864634,
+              "name": "Dead On",
+              "number": "22201",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5,
+            "ppm": 10,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 60,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91017065,
+            "team": {
+              "id": 12864774,
+              "name": "Lethal",
+              "number": "23312",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5444444444444445,
+            "ppm": 10.88888888888889,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 98,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91725172,
+            "team": {
+              "id": 12956672,
+              "name": "Lethal",
+              "number": "23312",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7,
+            "ppm": 14,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 14,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90385473,
+            "team": {
+              "id": 12766696,
+              "name": "Paragon",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4166666666666667,
+            "ppm": 8.333333333333334,
+            "matchesWon": 1,
+            "matchesPlayed": 3,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 25,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89462909,
+            "team": {
+              "id": 12649724,
+              "name": "Dead Stroke Harlingen",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6928571428571428,
+            "ppm": 13.857142857142858,
+            "matchesWon": 7,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 97,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89157819,
+            "team": {
+              "id": 12609267,
+              "name": "Dead Stroke Harlingen",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5722222222222222,
+            "ppm": 11.444444444444445,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 103,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86315434,
+            "team": {
+              "id": 12207273,
+              "name": "Cereal Killaz",
+              "number": "23308",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5642857142857143,
+            "ppm": 11.285714285714286,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 79,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86282128,
+            "team": {
+              "id": 12198345,
+              "name": "Cereal Killaz",
+              "number": "23308",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.55,
+            "ppm": 11,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 121,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84438524,
+            "team": {
+              "id": 11953438,
+              "name": "Family Tradition",
+              "number": "23403",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.48571428571428565,
+            "ppm": 9.714285714285714,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 68,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84124665,
+            "team": {
+              "id": 11913593,
+              "name": "Family Tradition",
+              "number": "23401",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5909090909090909,
+            "ppm": 11.818181818181818,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 130,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83599393,
+            "team": {
+              "id": 11839378,
+              "name": "Family Tradition",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5807692307692307,
+            "ppm": 11.615384615384615,
+            "matchesWon": 9,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 151,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83058772,
+            "team": {
+              "id": 11758705,
+              "name": "Family Tradition",
+              "number": "23313",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4444444444444445,
+            "ppm": 8.88888888888889,
+            "matchesWon": 4,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 80,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77156796,
+            "team": {
+              "id": 10943538,
+              "name": "Shot Callers 9 Ball",
+              "number": "23318",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0.4,
+            "ppm": 8,
+            "matchesWon": 1,
+            "matchesPlayed": 2,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 16,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 76281472,
+            "team": {
+              "id": 10819073,
+              "name": "Shot Callers 9 Ball",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4909090909090909,
+            "ppm": 9.818181818181818,
+            "matchesWon": 6,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 108,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 76228031,
+            "team": {
+              "id": 10758543,
+              "name": "Shot Callers 9 Ball",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5107142857142857,
+            "ppm": 10.214285714285714,
+            "matchesWon": 8,
+            "matchesPlayed": 14,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 143,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

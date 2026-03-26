@@ -1,0 +1,1 @@
+from .command import cmd_character_is_alive_checker

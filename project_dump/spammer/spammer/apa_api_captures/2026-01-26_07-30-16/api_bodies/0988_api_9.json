@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2012866,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 84250205,
+            "team": {
+              "id": 11929014,
+              "name": "Dead On",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.33999999999999997,
+            "ppm": 6.8,
+            "matchesWon": 1,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 34,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

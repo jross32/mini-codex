@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2571954,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 76836393,
+            "team": {
+              "id": 10819074,
+              "name": "Edgar's Team",
+              "number": "23313",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5045454545454546,
+            "ppm": 10.090909090909092,
+            "matchesWon": 5,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 111,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

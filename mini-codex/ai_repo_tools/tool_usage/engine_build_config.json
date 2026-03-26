@@ -1,0 +1,15 @@
+{
+  "game_type": "cyberpunk",
+  "project_name": "cyberpunk_bar_management_sim",
+  "engine_version": "v1",
+  "systems": [
+    "core",
+    "ui",
+    "entities",
+    "economy",
+    "missions",
+    "reputation",
+    "vendor",
+    "progression"
+  ]
+}

@@ -1,0 +1,1 @@
+from .command import cmd_shop_type_traveling_cart_selector

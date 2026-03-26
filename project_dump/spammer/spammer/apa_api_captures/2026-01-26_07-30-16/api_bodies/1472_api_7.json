@@ -1,0 +1,134 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2792334,
+        "firstName": "Bruno",
+        "lastName": "Contreras",
+        "initials": "BC",
+        "aliases": [
+          {
+            "id": 2538616,
+            "displayName": "Macho Alpha Contreras",
+            "memberNumber": "78502539",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 0,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2792334,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 271291,
+            "teamNumber": "78503",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 APA 8-Ball MidSouth Invitational",
+              "id": 54589,
+              "startTime": "2025-09-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 677021,
+            "teamNumber": "12766850",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Summer Tri Annual 8 Ball (C)",
+              "id": 54923,
+              "startTime": "2025-09-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 280035,
+            "teamNumber": "10943370",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2018 8 BALL",
+              "id": 17729,
+              "startTime": "2018-06-08T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 292224,
+            "teamNumber": "11005420",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL TRICUP 2017 8 BALL",
+              "id": 17722,
+              "startTime": "2018-01-13T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 277208,
+            "teamNumber": "10943370",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV SUMMER TRICUP 8 BALL",
+              "id": 17720,
+              "startTime": "2017-09-09T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

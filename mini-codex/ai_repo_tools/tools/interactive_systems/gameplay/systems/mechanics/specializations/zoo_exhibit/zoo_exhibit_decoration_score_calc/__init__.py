@@ -1,0 +1,1 @@
+from .command import cmd_zoo_exhibit_decoration_score_calc

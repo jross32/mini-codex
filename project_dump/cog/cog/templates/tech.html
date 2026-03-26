@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Tech Tree</h1>
+<p class="meta">Research and unlock technologies to advance your civilization.</p>
+
+<div class="tech-tree">
+  {% for key, info in tech.items() %}
+    <div class="tech-card {% if info.unlocked %}unlocked{% elif not info.can_research %}locked{% else %}available{% endif %}">
+      <div class="tech-header">
+        <h3>{{ info.label }}</h3>
+        <code class="tech-key">{{ key }}</code>
+      </div>
+      
+      <div class="tech-body">
+        {% if info.prerequisites %}
+        <div class="tech-prereqs">
+          <b>Requires:</b>
+          {% for prereq in info.prerequisites %}
+            <span class="prereq {% if tech[prereq].unlocked %}met{% endif %}">{{ prereq }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        
+        {% if not info.unlocked %}
+          <div class="research-progress">
+            <div class="progress-bar">
+              <div class="progress" style="width: {{ (info.progress * 100)|round }}%"></div>
+            </div>
+            <div class="progress-text">
+              Research Progress: {{ (info.progress * 100)|round }}%
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if info.unlocked %}
+          <div class="tech-effects">
+            <b>Effects:</b>
+            <ul>
+              {% for effect, value in info.effects.items() %}
+                <li>{{ effect|replace('_', ' ')|title }}: {{ "%+d"|format((value-1)*100|round|int) }}%</li>
+              {% endfor %}
+            </ul>
+          </div>
+          
+          {% if info.discoverer %}
+            <div class="tech-discovery">
+              <i>Discovered by {{ info.discoverer_name }} on {{ info.discovery_time }}</i>
+            </div>
+          {% endif %}
+        {% elif info.can_research %}
+          <form method="POST" class="research-form">
+            {{ csrf_token() }}
+            <input type="hidden" name="tech" value="{{ key }}">
+            <button type="submit" name="action" value="research">Research</button>
+          </form>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="research-stats">
+  <h2>Research Statistics</h2>
+  <table class="table">
+    <tr>
+      <th>Agent</th>
+      <th>Technologies</th>
+      <th>Total Points</th>
+    </tr>
+    {% for agent in research_stats %}
+      <tr>
+        <td>{{ agent.name }}</td>
+        <td>{{ agent.techs_researched }}</td>
+        <td>{{ agent.total_points }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}

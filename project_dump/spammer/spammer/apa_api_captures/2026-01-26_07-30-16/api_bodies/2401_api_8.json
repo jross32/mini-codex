@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3065536,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86819418,
+            "team": {
+              "id": 12207219,
+              "name": "Bad Boys",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5454545454545455,
+            "ppm": 1.6363636363636365,
+            "eightBallMatchPointsEarned": 18,
+            "matchesWon": 6,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 3,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86446240,
+            "team": {
+              "id": 12227714,
+              "name": "Pocket Pounders",
+              "number": "32112",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

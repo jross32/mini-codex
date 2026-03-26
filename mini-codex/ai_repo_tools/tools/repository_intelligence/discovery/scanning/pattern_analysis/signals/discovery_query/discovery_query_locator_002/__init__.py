@@ -1,0 +1,1 @@
+from .command import cmd_discovery_query_locator_002

@@ -1,0 +1,1 @@
+from .command import cmd_character_skill_point_gain_calc

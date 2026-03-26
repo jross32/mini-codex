@@ -1,0 +1,17 @@
+{
+  "description": "Score ambiguity caused by duplicate file names",
+  "args": [
+    {
+      "name": "query",
+      "type": "str",
+      "optional": true
+    },
+    {
+      "name": "limit",
+      "type": "int",
+      "optional": true,
+      "default": 50
+    }
+  ],
+  "returns": "success, tool, category, handler, matches, count, summary, elapsed_ms"
+}

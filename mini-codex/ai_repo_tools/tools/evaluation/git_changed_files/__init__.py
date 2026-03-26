@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.git_changed.git_changed_files.command import cmd_git_changed_files

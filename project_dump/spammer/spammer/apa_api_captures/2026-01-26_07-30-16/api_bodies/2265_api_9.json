@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2991109,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 84783542,
+            "team": {
+              "id": 11953499,
+              "name": "Chalk and Awe",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5375,
+            "ppm": 10.75,
+            "matchesWon": 4,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 86,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,597 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3181524,
+        "firstName": "Jeffery",
+        "lastName": "Martinez",
+        "initials": "JM",
+        "aliases": [
+          {
+            "id": 2939168,
+            "displayName": "Jeffery Martinez",
+            "memberNumber": "78503384",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "pastTeams": [
+          {
+            "id": 90488112,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 11,
+            "team": {
+              "id": 12791431,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 410975,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91056859,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12869229,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 417920,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90395862,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 3,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 9,
+            "team": {
+              "id": 12766748,
+              "name": "Los Tiburones",
+              "division": {
+                "id": 408934,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277867,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 5,
+            "matchesWon": 3,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 3,
+            "team": {
+              "id": 12766752,
+              "name": "Most Hated",
+              "division": {
+                "id": 408934,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056687,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 2,
+            "matchesWon": 2,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12869207,
+              "name": "Most Hated",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90276812,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 6,
+            "matchesWon": 4,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 3,
+            "team": {
+              "id": 12766605,
+              "name": "Rack and Roll",
+              "division": {
+                "id": 408924,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89799769,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 11,
+            "team": {
+              "id": 12693537,
+              "name": "Rack and Roll",
+              "division": {
+                "id": 398427,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88189833,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 11,
+            "matchesWon": 6,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 9,
+            "team": {
+              "id": 12471351,
+              "name": "Shark Squad",
+              "division": {
+                "id": 382606,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89799737,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 4,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 14,
+            "team": {
+              "id": 12649811,
+              "name": "Shark Squad",
+              "division": {
+                "id": 398439,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89238308,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 5,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 2,
+            "team": {
+              "id": 12537176,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 388309,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677654,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951859,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 425318,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90640881,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 3,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 15,
+            "team": {
+              "id": 12766795,
+              "name": "Most Hated",
+              "division": {
+                "id": 408937,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91703478,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12954422,
+              "name": "Puro Martinez",
+              "division": {
+                "id": 425327,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677443,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951829,
+              "name": "Quete Importa",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91723383,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951913,
+              "name": "Quete Importa",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016885,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 11,
+            "team": {
+              "id": 12864766,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 417535,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91092448,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 6,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 5,
+            "team": {
+              "id": 12864662,
+              "name": "J & Bubbas",
+              "division": {
+                "id": 417526,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016493,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 1,
+            "team": {
+              "id": 12864661,
+              "name": "Most Hated",
+              "division": {
+                "id": 417526,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91094638,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 6,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 9,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91015476,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 5,
+            "matchesWon": 0,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 14,
+            "team": {
+              "id": 12864520,
+              "name": "Rack and Roll",
+              "division": {
+                "id": 417516,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

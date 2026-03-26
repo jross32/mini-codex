@@ -1,0 +1,30 @@
+        const drives = parts.filter((p) => (fullInventory.find((i) => i.inventory_id === p.inventory_id)?.typeNormalized || '') === 'STORAGE');
+        const caseItem = parts.find((p) => (fullInventory.find((i) => i.inventory_id === p.inventory_id)?.typeNormalized || '') === 'CASE');
+
+        const issues = [];
+        if (cpu && mb) {
+            const cpuItem = fullInventory.find((i) => i.inventory_id === cpu.inventory_id);
+            const mbItem = fullInventory.find((i) => i.inventory_id === mb.inventory_id);
+            if (cpuItem && mbItem && cpuItem.socketNormalized && mbItem.socketNormalized && cpuItem.socketNormalized !== mbItem.socketNormalized) {
+                issues.push(`CPU socket ${cpuItem.socketNormalized} ≠ motherboard socket ${mbItem.socketNormalized}`);
+            }
+            // DDR match
+            const mbDdr = mbItem?.ddrType;
+            const ramMismatch = rams.some((p) => {
+                const ramItem = fullInventory.find((i) => i.inventory_id === p.inventory_id);
+                return mbDdr && ramItem?.ddrType && ramItem.ddrType !== mbDdr;
+            });
+            if (mbDdr && ramMismatch) {
+                issues.push(`RAM DDR type mismatch (board ${mbDdr})`);
+            }
+        }
+        if (psu) {
+            const totalTdp = parts.reduce((sum, p) => {
+                const item = fullInventory.find((i) => i.inventory_id === p.inventory_id);
+                return sum + (item?.tdp || 0);
+            }, 0);
+            const driveWatt = drives.reduce((sum, p) => {
+                const item = fullInventory.find((i) => i.inventory_id === p.inventory_id);
+                const subtype = item?.storageSubtype || '';
+                const per = subtype === 'HDD' ? 8 : subtype === 'SSD' || subtype === 'NVMe' ? 4 : 6;
+                return sum + per * (p.qty || 1);

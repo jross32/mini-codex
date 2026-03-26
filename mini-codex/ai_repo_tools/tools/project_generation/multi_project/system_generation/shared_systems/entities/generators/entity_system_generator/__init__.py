@@ -1,0 +1,1 @@
+from .command import cmd_entity_system_generator

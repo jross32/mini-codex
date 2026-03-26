@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3132086,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 638817,
+            "teamNumber": "12537109",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655941,
+            "teamNumber": "12649731",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 240840,
+            "teamNumber": "78504",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238402,
+            "teamNumber": "78505",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 581731,
+            "teamNumber": "12337030",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Paragon",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 492746,
+            "teamNumber": "11953503",
+            "skillLevel": "2",
+            "standing": 129,
+            "teamName": "Dirty 9 Special",
+            "disqualified": null,
+            "tournament": {
+              "name": "2022 9-Ball World Championships",
+              "id": 32214,
+              "startTime": "2022-08-09T21:30:00-07:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474534,
+            "teamNumber": "11929035",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "Dirty 9 Special",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2022 WPCQ",
+              "id": 35474,
+              "startTime": "2022-06-03T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 446928,
+            "teamNumber": "11756050",
+            "skillLevel": "2",
+            "standing": 129,
+            "teamName": "Stroke of Luck",
+            "disqualified": null,
+            "tournament": {
+              "name": "2021 9-Ball World Championships",
+              "id": 29088,
+              "startTime": "2021-10-25T21:30:00-07:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 172339,
+            "skillLevel": "1",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "arely lugo",
+              "id": 32237,
+              "startTime": "2021-07-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 439255,
+            "teamNumber": "11756050",
+            "skillLevel": "1",
+            "standing": null,
+            "teamName": "Stroke of Luck",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 9 BALL 2021 WPCQ",
+              "id": 31846,
+              "startTime": "2021-07-09T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

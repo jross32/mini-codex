@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1726363,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 87557208,
+            "team": {
+              "id": 12384039,
+              "name": "Dead On",
+              "number": "02101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.25,
+            "ppm": 0.75,
+            "eightBallMatchPointsEarned": 6,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86306830,
+            "team": {
+              "id": 12206713,
+              "name": "Skrilla",
+              "number": "42108",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43333333333333335,
+            "ppm": 1.3,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

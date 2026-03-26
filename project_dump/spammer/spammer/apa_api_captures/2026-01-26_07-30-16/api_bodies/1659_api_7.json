@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2934342,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 255873,
+            "teamNumber": "78541",
+            "skillLevel": "6",
+            "standing": 65,
+            "teamName": "High I-Cue",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Jack & Jill Championship",
+              "id": 50499,
+              "startTime": "2025-04-28T19:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241758,
+            "teamNumber": "78509",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Shotcallers",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 231274,
+            "teamNumber": "78571",
+            "skillLevel": "5",
+            "standing": 5,
+            "teamName": "Stroke of luck 785",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Ladies Championship",
+              "id": 45465,
+              "startTime": "2024-08-11T08:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607442,
+            "teamNumber": "12336964",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Paragon",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 ALL VALLEY WORLD QUALIIFIER",
+              "id": 47558,
+              "startTime": "2024-06-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 585176,
+            "teamNumber": "12336964",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Paragon",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597867,
+            "teamNumber": "12443150",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Family Tradition",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 219140,
+            "teamNumber": "78504",
+            "skillLevel": "5",
+            "standing": 129,
+            "teamName": "Paragon",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 8-Ball Doubles Championship",
+              "id": 45021,
+              "startTime": "2024-05-04T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 221387,
+            "teamNumber": "78501",
+            "skillLevel": null,
+            "standing": null,
+            "teamName": "THE VIXENS",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Ladies Tournament",
+              "id": 46789,
+              "startTime": "2024-04-08T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 210673,
+            "teamNumber": "78506",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Paragon",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 42838,
+              "startTime": "2023-11-10T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 540456,
+            "teamNumber": "12198345",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Cereal Killaz",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

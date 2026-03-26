@@ -1,0 +1,5 @@
+{
+  "description": "Audit tool.meta.json coverage and minimal schema across tool folders",
+  "args": [],
+  "returns": "scanned_tools, missing_meta_count, invalid_meta_count, all_ok, summary"
+}

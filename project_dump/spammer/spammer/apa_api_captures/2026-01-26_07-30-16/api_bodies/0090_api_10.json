@@ -1,0 +1,22 @@
+[
+  {
+    "data": {
+      "division": {
+        "id": 417524,
+        "name": "Thursday Brownsville 9 B",
+        "contacts": [
+          {
+            "phone": "+19565728638",
+            "alias": {
+              "id": 1850190,
+              "displayName": "Mr. Vegas Camacho",
+              "__typename": "Alias"
+            },
+            "__typename": "DivisionContact"
+          }
+        ],
+        "__typename": "Division"
+      }
+    }
+  }
+]

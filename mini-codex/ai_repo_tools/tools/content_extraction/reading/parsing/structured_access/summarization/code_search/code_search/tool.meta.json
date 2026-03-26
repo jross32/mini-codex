@@ -1,0 +1,21 @@
+{
+  "description": "Grep-like text and symbol search across the repo with structured JSON output",
+  "args": [
+    {
+      "name": "pattern",
+      "type": "str"
+    },
+    {
+      "name": "path_filter",
+      "type": "str",
+      "optional": true
+    },
+    {
+      "name": "max_results",
+      "type": "int",
+      "optional": true,
+      "default": 50
+    }
+  ],
+  "returns": "matches list with file, line, text"
+}

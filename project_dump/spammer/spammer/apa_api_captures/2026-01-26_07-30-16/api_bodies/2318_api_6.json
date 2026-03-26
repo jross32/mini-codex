@@ -1,0 +1,86 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3234695,
+        "firstName": "Jose",
+        "lastName": "Sierra",
+        "initials": "JS",
+        "aliases": [
+          {
+            "id": 3010101,
+            "displayName": "Jose Sierra",
+            "memberNumber": "78503750",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 0,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3234695,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699198,
+            "teamNumber": "12864718",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "A-Rack-Nophobia",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 8 Ball (C)",
+              "id": 54934,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539602,
+            "teamNumber": "12198434",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Lethal 8's",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2023",
+              "id": 41435,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

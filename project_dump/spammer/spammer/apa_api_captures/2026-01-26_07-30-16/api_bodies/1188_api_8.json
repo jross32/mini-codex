@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2192681,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 87558170,
+            "team": {
+              "id": 12384171,
+              "name": "Bad Boys",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.495,
+            "ppm": 9.9,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 3,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

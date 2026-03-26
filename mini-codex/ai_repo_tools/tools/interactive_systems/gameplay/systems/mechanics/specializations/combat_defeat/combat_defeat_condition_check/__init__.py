@@ -1,0 +1,1 @@
+from .command import cmd_combat_defeat_condition_check

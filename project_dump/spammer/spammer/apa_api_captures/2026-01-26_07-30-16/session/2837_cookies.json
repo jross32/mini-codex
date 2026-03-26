@@ -1,0 +1,122 @@
+[
+  {
+    "name": "cookie_test",
+    "value": "1",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.140696259.1769434249",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1769527147,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "m",
+    "value": "19f69443-478c-4998-b9d4-199bbc918cef63c104",
+    "domain": "m.stripe.com",
+    "path": "/",
+    "expires": 1804000738.275582,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__stripe_mid",
+    "value": "c30f450c-58ec-4844-9b27-fd2ff9860cfd43d644",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1800976747,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "__stripe_sid",
+    "value": "184acc2c-ec58-4266-bbfb-736692a7ffc09c9f4b",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1769442547,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "deleted",
+    "domain": "league.poolplayers.com",
+    "path": "/",
+    "expires": 1803999176.048214,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "deleted",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1804000650.564342,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gat_gtag_UA_5591255_49",
+    "value": "1",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1769440773,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "client_name",
+    "value": "Member Services",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.477816337.1769434249",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1804000747.424108,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "GS2.1.s1769440530$o1$g1$t1769440747$j22$l0$h0",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1804000747.521572,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "redirect_uri",
+    "value": "https://league.poolplayers.com/token?redirect_path=/matches/team/12867593/past",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

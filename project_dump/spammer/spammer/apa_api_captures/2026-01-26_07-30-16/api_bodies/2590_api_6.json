@@ -1,0 +1,362 @@
+[
+  {
+    "data": {
+      "alias": {
+        "players": [
+          {
+            "id": 91677453,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677891,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016322,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016716,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 1,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91724998,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277672,
+            "session": {
+              "id": 136,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90278295,
+            "session": {
+              "id": 136,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89893480,
+            "session": {
+              "id": 135,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 1,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89918276,
+            "session": {
+              "id": 135,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632873,
+            "session": {
+              "id": 134,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88622099,
+            "session": {
+              "id": 133,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "id": 3198462,
+        "displayName": "Eddie Gonzalez",
+        "EightBallStats": [
+          {
+            "id": 803198462,
+            "matchesWon": 14,
+            "matchesPlayed": 48,
+            "CLA": 0,
+            "defensiveShotAvg": 1.57,
+            "matchCountForLastTwoYrs": 48,
+            "lastPlayed": "2025-12-18T00:00:00Z",
+            "__typename": "EightBallLifetimeStatistics"
+          }
+        ],
+        "NineBallStats": [
+          {
+            "id": 903198462,
+            "matchesWon": 16,
+            "matchesPlayed": 33,
+            "CLA": 0,
+            "defensiveShotAvg": 1.31,
+            "matchCountForLastTwoYrs": 33,
+            "lastPlayed": "2025-12-18T00:00:00Z",
+            "__typename": "NineBallLifetimeStatistics"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3198462,
+        "member": {
+          "id": 3360510,
+          "consecutiveYearsPlayed": 2,
+          "membershipHistory": [
+            {
+              "id": 7245741,
+              "year": 2024,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 7289550,
+              "year": 2025,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            }
+          ],
+          "__typename": "Member"
+        },
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3198462,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677891,
+            "team": {
+              "id": 12951914,
+              "name": "Bad Boys",
+              "number": "02204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016716,
+            "team": {
+              "id": 12864717,
+              "name": "Bad Boys",
+              "number": "02204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5555555555555556,
+            "ppm": 1.6666666666666667,
+            "eightBallMatchPointsEarned": 15,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91724998,
+            "team": {
+              "id": 12956648,
+              "name": "Bad Boys",
+              "number": "02204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90278295,
+            "team": {
+              "id": 12766848,
+              "name": "Bad Boys",
+              "number": "02204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3,
+            "ppm": 0.9,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 3,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89893480,
+            "team": {
+              "id": 12649891,
+              "name": "Bad Boys",
+              "number": "02204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5555555555555556,
+            "ppm": 1.6666666666666667,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88632873,
+            "team": {
+              "id": 12537013,
+              "name": "The Money Team",
+              "number": "02101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2222222222222222,
+            "ppm": 0.6666666666666666,
+            "eightBallMatchPointsEarned": 8,
+            "matchesWon": 2,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88622099,
+            "team": {
+              "id": 12533526,
+              "name": "The Money Team",
+              "number": "02107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.1111111111111111,
+            "ppm": 0.3333333333333333,
+            "eightBallMatchPointsEarned": 3,
+            "matchesWon": 1,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

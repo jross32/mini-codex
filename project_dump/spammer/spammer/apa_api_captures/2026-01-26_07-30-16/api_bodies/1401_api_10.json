@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2896420,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677459,
+            "team": {
+              "id": 12951831,
+              "name": "A-Rack-Nophobia",
+              "number": "22209",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2,
+            "ppm": 4,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 4,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

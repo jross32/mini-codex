@@ -1,0 +1,11 @@
+{
+  "description": "Python syntax check and basic quality scan on one file or the whole repo",
+  "args": [
+    {
+      "name": "target",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "files_checked, errors list, warnings list, all_ok bool"
+}

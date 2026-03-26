@@ -1,0 +1,5 @@
+{
+  "description": "Check whether declared dependencies are importable (read-only)",
+  "args": [],
+  "returns": "ok list, missing list, all_ok bool"
+}

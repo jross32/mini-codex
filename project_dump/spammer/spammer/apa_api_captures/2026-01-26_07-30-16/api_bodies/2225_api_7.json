@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3181524,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656806,
+            "teamNumber": "12471351",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 648596,
+            "teamNumber": "12471351",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Destination Tournament",
+              "id": 52586,
+              "startTime": "2025-04-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 596873,
+            "teamNumber": "12206720",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 598648,
+            "teamNumber": "12443321",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 559613,
+            "teamNumber": "12207268",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 577390,
+            "teamNumber": "12206720",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "Aloha Challenge (Cameron)",
+              "id": 44968,
+              "startTime": "2024-01-14T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 210624,
+            "teamNumber": "78502",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Straight Shot",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 42838,
+              "startTime": "2023-11-10T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539580,
+            "teamNumber": "12198501",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "The Unwanted",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 206505,
+            "skillLevel": "4",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 Spring 787-Austin Regional 8-Ball",
+              "id": 39920,
+              "startTime": "2023-03-04T11:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474513,
+            "teamNumber": "11839299",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Shark Squad",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2022 WPCQ",
+              "id": 35473,
+              "startTime": "2022-05-20T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

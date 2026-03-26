@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1606859,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86315490,
+            "team": {
+              "id": 12207282,
+              "name": "Pok Pok",
+              "number": "02109",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.25,
+            "ppm": 0.75,
+            "eightBallMatchPointsEarned": 3,
+            "matchesWon": 1,
+            "matchesPlayed": 4,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86315168,
+            "team": {
+              "id": 12207236,
+              "name": "Pooleros De Pro Glass",
+              "number": "03010",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.19999999999999998,
+            "ppm": 0.6,
+            "eightBallMatchPointsEarned": 6,
+            "matchesWon": 2,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

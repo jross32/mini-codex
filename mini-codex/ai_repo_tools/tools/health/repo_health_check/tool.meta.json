@@ -1,0 +1,5 @@
+{
+  "description": "Check repo structure health and report any issues",
+  "args": [],
+  "returns": "success, summary, elapsed_ms"
+}

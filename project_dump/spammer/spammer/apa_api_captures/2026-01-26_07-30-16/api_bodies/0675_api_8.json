@@ -1,0 +1,169 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2292958,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 637371,
+            "teamNumber": "12471184",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 240846,
+            "teamNumber": "78505",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474530,
+            "teamNumber": "11913624",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2022 WPCQ",
+              "id": 35474,
+              "startTime": "2022-06-03T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 485365,
+            "teamNumber": "11953495",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "N.T.P.T.N.T.",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2022 WPCQ",
+              "id": 35473,
+              "startTime": "2022-05-20T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 439256,
+            "teamNumber": "11755981",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 9 BALL 2021 WPCQ",
+              "id": 31846,
+              "startTime": "2021-07-09T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 341693,
+            "teamNumber": "11291602",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2019 8 BALL",
+              "id": 21546,
+              "startTime": "2019-05-17T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 34846,
+            "standing": null,
+            "disqualified": false,
+            "tournament": {
+              "id": 19082,
+              "name": "2018 USAM Preliminary - McAllen, TX - Womens Division",
+              "startTime": "2018-09-21T00:00:00-05:00",
+              "type": "MASTERS",
+              "__typename": "Tournament"
+            },
+            "__typename": "USAMPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 319228,
+            "teamNumber": "11176004",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Pool Addicts",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Cash Cup 2018",
+              "id": 21399,
+              "startTime": "2018-07-29T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 265608,
+            "teamNumber": "10819066",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Pooligans",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV BEST OF THE REST 9 BALL 2017",
+              "id": 17290,
+              "startTime": "2017-05-27T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 245954,
+            "teamNumber": "10758537",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "Pooligans",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL 9 BALL TRICUP 2016",
+              "id": 16065,
+              "startTime": "2017-02-18T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

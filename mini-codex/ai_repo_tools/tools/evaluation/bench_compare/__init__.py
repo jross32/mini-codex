@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.bench_compare.bench_compare.command import cmd_bench_compare

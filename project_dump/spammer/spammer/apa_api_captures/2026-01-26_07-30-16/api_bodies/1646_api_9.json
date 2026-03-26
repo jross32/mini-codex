@@ -1,0 +1,82 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2569117,
+        "sessions": [
+          {
+            "id": 138,
+            "name": "Spring 2026",
+            "__typename": "Session"
+          },
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 136,
+            "name": "Summer 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 135,
+            "name": "Spring 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 134,
+            "name": "Fall 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 129,
+            "name": "Summer 2023",
+            "__typename": "Session"
+          },
+          {
+            "id": 125,
+            "name": "Spring 2023",
+            "__typename": "Session"
+          },
+          {
+            "id": 119,
+            "name": "Spring 2022",
+            "__typename": "Session"
+          },
+          {
+            "id": 118,
+            "name": "Fall 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 117,
+            "name": "Summer 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 116,
+            "name": "Spring 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 102,
+            "name": "Summer 2017",
+            "__typename": "Session"
+          },
+          {
+            "id": 99,
+            "name": "Spring 2017",
+            "__typename": "Session"
+          },
+          {
+            "id": 98,
+            "name": "Fall 2016",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

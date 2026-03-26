@@ -1,0 +1,69 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2545076,
+        "firstName": "Enrique",
+        "lastName": "Espino",
+        "initials": "EE",
+        "aliases": [
+          {
+            "id": 2013202,
+            "displayName": "Enrique Espino",
+            "memberNumber": "78501571",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 6
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2545076,
+        "aliases": [
+          {
+            "id": 2013202,
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "isDefault": true,
+              "__typename": "League"
+            },
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

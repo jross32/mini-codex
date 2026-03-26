@@ -1,0 +1,23 @@
+{
+  "pixels": [],
+  "cdn_headers": {},
+  "cors_requests": [],
+  "security_headers": {},
+  "api_patterns": [
+    {
+      "rest_methods_detected": [
+        "GET",
+        "POST"
+      ],
+      "api_endpoints_by_method": {
+        "GET": [
+          "/maps/api/js",
+          "/maps/api/mapsjs/gen_204",
+          "/maps/api/js",
+          "/maps/api/mapsjs/gen_204"
+        ]
+      },
+      "likely_rest_api": true
+    }
+  ]
+}

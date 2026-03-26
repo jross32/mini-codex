@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_effective.character_effective_levelup_check.command import cmd_character_effective_levelup_check

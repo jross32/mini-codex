@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2706918,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677864,
+            "team": {
+              "id": 12951911,
+              "name": "Dead On",
+              "number": "02201",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90630288,
+            "team": {
+              "id": 12766796,
+              "name": "Goodfellas",
+              "number": "42107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.358974358974359,
+            "ppm": 1.0769230769230769,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 5,
+            "matchesPlayed": 13,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

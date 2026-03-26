@@ -1,0 +1,99 @@
+{
+  "https://app.stockhero.ai/": {
+    "url": "https://app.stockhero.ai/",
+    "depth": 0,
+    "parents": [
+      "https://app.stockhero.ai/",
+      "https://app.stockhero.ai/forget-pass"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://app.stockhero.ai/",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://app.stockhero.ai/forget-pass",
+        "source": "a[href]",
+        "text": ""
+      }
+    ]
+  },
+  "https://app.stockhero.ai/forget-pass": {
+    "url": "https://app.stockhero.ai/forget-pass",
+    "depth": 1,
+    "parents": [
+      "https://app.stockhero.ai/",
+      "https://app.stockhero.ai/signup",
+      "https://app.stockhero.ai/login"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://app.stockhero.ai/",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://app.stockhero.ai/signup",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://app.stockhero.ai/login",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      }
+    ]
+  },
+  "https://app.stockhero.ai/signup": {
+    "url": "https://app.stockhero.ai/signup",
+    "depth": 1,
+    "parents": [
+      "https://app.stockhero.ai/",
+      "https://app.stockhero.ai/signup",
+      "https://app.stockhero.ai/login"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://app.stockhero.ai/",
+        "source": "a[href]",
+        "text": "Sign Up"
+      },
+      {
+        "from": "https://app.stockhero.ai/signup",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://app.stockhero.ai/signup",
+        "source": "a[href]",
+        "text": "Sign Up"
+      },
+      {
+        "from": "https://app.stockhero.ai/login",
+        "source": "a[href]",
+        "text": "Sign Up"
+      }
+    ]
+  },
+  "https://app.stockhero.ai/login": {
+    "url": "https://app.stockhero.ai/login",
+    "depth": 2,
+    "parents": [
+      "https://app.stockhero.ai/forget-pass",
+      "https://app.stockhero.ai/login"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://app.stockhero.ai/forget-pass",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://app.stockhero.ai/login",
+        "source": "a[href]",
+        "text": ""
+      }
+    ]
+  }
+}

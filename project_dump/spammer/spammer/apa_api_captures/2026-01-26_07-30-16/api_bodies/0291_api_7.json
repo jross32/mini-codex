@@ -1,0 +1,435 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 1689161,
+        "firstName": "William",
+        "lastName": "McGinnis",
+        "initials": "WM",
+        "aliases": [
+          {
+            "id": 599430,
+            "displayName": "William McGinnis",
+            "memberNumber": "78500261",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 6
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 599430,
+        "pastTeams": [
+          {
+            "id": 90277643,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 11,
+            "team": {
+              "id": 12766722,
+              "name": "Dead On",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89804968,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 3,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 16,
+            "team": {
+              "id": 12649756,
+              "name": "Dead On",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632822,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "",
+            "matchesPlayed": 8,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 9,
+            "team": {
+              "id": 12537007,
+              "name": "Dead On",
+              "division": {
+                "id": 394849,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88189001,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "",
+            "matchesPlayed": 6,
+            "matchesWon": 1,
+            "session": {
+              "id": 133,
+              "name": "Summer 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 12,
+            "team": {
+              "id": 12471200,
+              "name": "Dead On",
+              "division": {
+                "id": 382590,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88020954,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "",
+            "matchesPlayed": 6,
+            "matchesWon": 2,
+            "session": {
+              "id": 132,
+              "name": "Spring 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 7,
+            "team": {
+              "id": 12384039,
+              "name": "Dead On",
+              "division": {
+                "id": 374803,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 43700132,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 67,
+              "name": "Fall 2008",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 6228053,
+              "name": "Cue Techs",
+              "division": {
+                "id": 78301,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 40874797,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 66,
+              "name": "Summer 2008",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 5834909,
+              "name": "Cue Techs",
+              "division": {
+                "id": 72826,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 40874868,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 66,
+              "name": "Summer 2008",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 5834919,
+              "name": "Screw Ballz",
+              "division": {
+                "id": 72814,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 38551438,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 65,
+              "name": "Spring 2008",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 5511778,
+              "name": "Cue Techs",
+              "division": {
+                "id": 67826,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 38551503,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 65,
+              "name": "Spring 2008",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 5511788,
+              "name": "Here For Beer",
+              "division": {
+                "id": 67813,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677471,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": null,
+            "team": {
+              "id": 12951833,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677909,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951917,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91052648,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "",
+            "matchesPlayed": 8,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 16,
+            "team": {
+              "id": 12867593,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91052656,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 9,
+            "team": {
+              "id": 12867592,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

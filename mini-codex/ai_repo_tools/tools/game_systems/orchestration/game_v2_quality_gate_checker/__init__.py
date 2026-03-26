@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.game_v2.game_v2_quality_gate_checker.command import cmd_game_v2_quality_gate_checker

@@ -1,0 +1,435 @@
+================================================================================
+                    JWT TOKEN ACQUISITION GUIDE
+                      FOR DIFFERENT USER TYPES
+                     POOLPLAYERS.COM (APA) PLATFORM
+================================================================================
+
+Generated: 2026-01-26
+Reference: Captured from apa_api_captures/2026-01-26_07-30-16/
+
+================================================================================
+                            QUICK SUMMARY
+================================================================================
+
+Account Types:
+  • Member - Regular player accounts (full access)
+  • ExternalStaff - Staff members (limited leagues access)
+  • NationalOfficeStaff - National office personnel (all leagues access)
+
+Token Types:
+  • Access Token - Used for GraphQL queries (15 minute lifetime)
+  • Refresh Token - Used to obtain new access tokens (longer lifetime)
+
+Location: Browser localStorage under "accessToken" and "refreshToken" keys
+
+================================================================================
+                         AUTHENTICATION FLOW
+================================================================================
+
+1. USER LOGS IN:
+   • Visit: https://league.poolplayers.com/login
+   • Enter email/password credentials
+   • Account type is determined by backend (cannot be selected)
+
+2. TOKENS ARE ISSUED:
+   • Backend generates 2 JWT tokens:
+     - Access Token (expires in ~15 minutes)
+     - Refresh Token (long-lived, used to refresh access token)
+   
+3. TOKENS STORED IN BROWSER:
+   • localStorage["accessToken"] = JWT token
+   • localStorage["refreshToken"] = JWT token
+
+4. REQUESTS USE ACCESS TOKEN:
+   • All GraphQL requests include: Authorization: Bearer <accessToken>
+   • Token is validated via RS256 signature verification
+
+================================================================================
+                        TOKEN STRUCTURE ANALYSIS
+================================================================================
+
+ACCESS TOKEN BREAKDOWN:
+  {
+    "alg": "RS256",                           // RSA with SHA-256
+    "typ": "JWT",
+    "kid": "olydu44hwLdtpILAlDemf-Xb6MZ8nyh6l-Tw3zm4YBs"  // Key ID
+  }
+  
+  PAYLOAD:
+  {
+    "sub": "2349950",                         // User ID (Member type)
+    "iss": "APA",                             // Issuer
+    "iat": 1769434248,                        // Issued At
+    "exp": 1769435148,                        // Expiration (900 sec = 15 min)
+    "applicationRefreshTokenId": "6899842",   // Refresh token reference
+    "canViewMagazine": true                   // Feature flag
+  }
+
+REFRESH TOKEN BREAKDOWN:
+  {
+    "alg": "RS256",
+    "typ": "JWT",
+    "kid": "5rN7vL9E9IpYIgN2lCBLtWtNxAetXhy15Bp79xk_09Q"  // Different key
+  }
+  
+  PAYLOAD:
+  {
+    "sub": "2349950",                         // Same user ID
+    "iss": "APA",
+    "iat": 1769434245,                        // Issued earlier than access token
+    "applicationRefreshTokenId": "6899842"    // Same refresh ID
+  }
+  
+Note: Refresh token has NO expiration ("exp" field absent) - valid indefinitely
+      unless revoked server-side
+
+================================================================================
+                    HOW TO GET TOKENS PER ACCOUNT TYPE
+================================================================================
+
+METHOD 1: DIRECT LOGIN (RECOMMENDED FOR TESTING)
+================================================================================
+
+Requirement: Valid credentials for each account type
+
+Steps:
+  1. Create 3 separate user accounts:
+     - 1 Member account
+     - 1 ExternalStaff account (requires staff invitation)
+     - 1 NationalOfficeStaff account (requires admin creation)
+  
+  2. Log in to each account individually:
+     a. Visit https://league.poolplayers.com/login
+     b. Enter credentials
+     c. Extract tokens from browser localStorage
+     d. Save tokens separately
+  
+  3. Extract from Browser:
+     • Open DevTools (F12)
+     • Go to: Application → Storage → Local Storage → league.poolplayers.com
+     • Copy "accessToken" value
+     • Copy "refreshToken" value
+  
+  4. Verify Account Type:
+     • Query GraphQL with access token:
+       query {
+         viewer {
+           id
+           __typename  // Returns: "Member", "ExternalStaff", or "NationalOfficeStaff"
+         }
+       }
+
+Browser Storage Location in Captured Data:
+  File: apa_api_captures/2026-01-26_07-30-16/session/0000_localstorage.json
+  
+  Contains:
+  {
+    "accessToken": "eyJh... (RS256 signed JWT with 15 min lifetime)",
+    "refreshToken": "eyJh... (RS256 signed JWT, no expiration)"
+  }
+
+================================================================================
+
+METHOD 2: TOKEN REFRESH (MAINTAIN LONG-LIVED SESSIONS)
+================================================================================
+
+Once you have a Refresh Token, you can get new Access Tokens indefinitely:
+
+Refresh Endpoint:
+  POST https://league.poolplayers.com/refresh  (assumed endpoint)
+  
+Request Format:
+  Headers: {
+    "Content-Type": "application/json"
+  }
+  
+  Body: {
+    "refreshToken": "eyJh..."  // The refresh token
+  }
+
+Response:
+  {
+    "accessToken": "eyJh...",     // New access token
+    "refreshToken": "eyJh...",    // May return new refresh token
+    "expiresIn": 900              // Seconds (15 minutes)
+  }
+
+Key Point: Refresh tokens don't expire, so you can refresh access tokens
+            indefinitely without re-logging in.
+
+================================================================================
+
+METHOD 3: TOKEN INTERCEPTION (BROWSER AUTOMATION)
+================================================================================
+
+Using Your Sniffer Tool:
+
+The sniffer already captures tokens from network traffic!
+
+From captured data:
+  • File: apa_api_captures/2026-01-26_07-30-16/network_data/*.json
+  • Tokens appear in request headers: "authorization": "Bearer eyJh..."
+  • Also stored in: session/0000_localstorage.json
+
+Extract Tokens:
+  1. Run sniffer on login page
+  2. Sniffer captures network requests with Authorization headers
+  3. Parse network_data/*.json files for JWT tokens
+  4. Sniffer already extracts to: advanced_tracking_data["captured_tokens"]
+
+Code Pattern in Your Sniffer (lines 3995-4040):
+  ```python
+  if "authorization" in headers:
+      token = headers["authorization"].replace("Bearer ", "")
+      advanced_tracking_data["captured_tokens"].append({
+          "token": token,
+          "type": "AccessToken",
+          "timestamp": timestamp
+      })
+  ```
+
+================================================================================
+
+METHOD 4: JWT CLAIMS MANIPULATION (FOR TESTING ONLY)
+================================================================================
+
+⚠️ WARNING: Only works if server doesn't validate signature (unlikely)
+
+JWT Structure: header.payload.signature
+
+Current Token Example:
+  Header: {
+    "alg": "RS256",
+    "kid": "olydu44hwLdtpILAlDemf-Xb6MZ8nyh6l-Tw3zm4YBs"
+  }
+  
+  Payload: {
+    "sub": "2349950",
+    "iss": "APA",
+    "canViewMagazine": true,
+    "applicationRefreshTokenId": "6899842",
+    "iat": 1769434248,
+    "exp": 1769435148
+  }
+
+To Test Different User Types (theoretical):
+  1. Decode JWT (base64url decode payload)
+  2. Modify "__typename" claim or "role" field (if it exists)
+  3. Re-encode
+  4. Test with modified token
+
+⚠️ THIS WILL FAIL because:
+  • RS256 signature would be invalid
+  • Server validates signature with public key
+  • Payload modification is detectable
+
+================================================================================
+                        PRACTICAL IMPLEMENTATION
+================================================================================
+
+STEP 1: SET UP TEST ACCOUNTS
+  1. Create 3 test accounts on PoolPlayers.com:
+     Account Type 1:
+       Email: member.test@example.com
+       Type: Member (auto)
+       Password: [generate strong password]
+     
+     Account Type 2:
+       Email: staff.test@example.com
+       Type: ExternalStaff (needs admin invite)
+       Password: [generate strong password]
+     
+     Account Type 3:
+       Email: admin.test@example.com
+       Type: NationalOfficeStaff (needs admin creation)
+       Password: [generate strong password]
+
+STEP 2: AUTOMATED TOKEN COLLECTION WITH YOUR SNIFFER
+
+Add Mode 26: Token Collection Mode
+
+```python
+async def capture_tokens_all_types(browser_context, pages):
+    """
+    Capture authentication tokens for all 3 user types.
+    Logs in as each type and extracts tokens.
+    """
+    tokens_by_type = {
+        "Member": None,
+        "ExternalStaff": None,
+        "NationalOfficeStaff": None
+    }
+    
+    test_accounts = [
+        {"email": "member@test.com", "password": "...", "type": "Member"},
+        {"email": "staff@test.com", "password": "...", "type": "ExternalStaff"},
+        {"email": "admin@test.com", "password": "...", "type": "NationalOfficeStaff"},
+    ]
+    
+    for account in test_accounts:
+        page = await browser_context.new_page()
+        
+        # Navigate to login
+        await page.goto("https://league.poolplayers.com/login")
+        
+        # Enter credentials
+        await page.fill("input[type='email']", account["email"])
+        await page.fill("input[type='password']", account["password"])
+        await page.click("button[type='submit']")
+        
+        # Wait for redirect to dashboard
+        await page.wait_for_url("**/dashboard")
+        
+        # Extract tokens from localStorage
+        tokens = await page.evaluate("""
+            () => ({
+                accessToken: localStorage.getItem('accessToken'),
+                refreshToken: localStorage.getItem('refreshToken')
+            })
+        """)
+        
+        tokens_by_type[account["type"]] = tokens
+        await page.close()
+    
+    return tokens_by_type
+```
+
+STEP 3: VERIFY USER TYPE WITH EXTRACTED TOKENS
+
+```python
+async def verify_user_type(access_token):
+    """Verify what user type a token belongs to"""
+    response = await fetch_graphql(
+        endpoint="https://gql.poolplayers.com/graphql",
+        token=access_token,
+        query="""
+            query {
+              viewer {
+                id
+                __typename
+                firstName
+                lastName
+              }
+            }
+        """
+    )
+    
+    user_type = response["data"]["viewer"]["__typename"]
+    print(f"User Type: {user_type}")
+    return user_type
+```
+
+================================================================================
+                    STORED TOKEN REFERENCE (CAPTURED)
+================================================================================
+
+From Session Data:
+
+MEMBER ACCOUNT (User ID: 2349950):
+
+Access Token:
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im9seWR1dTRod0xkdHBJTEFsRGVtZi1YYjZNWjhueWg2bC1UdzN6bTRZQnMifQ.eyJjYW5WaWV3TWFnYXppbmUiOnRydWUsImFwcGxpY2F0aW9uUmVmcmVzaFRva2VuSWQiOiI2ODk5ODQyIiwiaWF0IjoxNzY5NDM0MjQ4LCJleHAiOjE3Njk0MzUxNDgsImlzcyI6IkFQQSIsInN1YiI6IjIzNDk5NTAifQ.rd0Ky3Yx3AbRv81rE-bWryKirE6IG18MYSOmzivLkfXKqaQ6qXofvuBfCzw1P4y8oM_vimWN-ABiSeZfDb3ht4sHJTjlBXDANRXQYfLzAD_J18N2veASjrjg4icSVYK42pc2FWhF5xK4M3rLDEf_R3oBOt1PfF8W7-9qEXIHsVV9cGs2wuuXXNCq3jRqMm2L-NVCVXZamqjGGE6SDgVE35SuCE11cJnKvkBTla_Zo2MX2aJEsjPsGz9JaLZ49cFeLFwMxSVEnKM_uMgeTPIC0XbCpODSVlCeo9nfd5T_WAL8HpWR5f8tmyZMy2saFLOShrWnuxiUaeWszA5N5efj0A
+
+Refresh Token:
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVyTjd2TDlFOUlwWUlnTjJsQ0JMdFd0TnhBZXRYaHkxNUJwNzl4a18wOVEifQ.eyJhcHBsaWNhdGlvblJlZnJlc2hUb2tlbklkIjoiNjg5OTg0MiIsImlhdCI6MTc2OTQzNDI0NSwiaXNzIjoiQVBBIiwic3ViIjoiMjM0OTk1MCJ9.CFHOO7e3beLYb6zh9dMKbu8hDpJ0g8UtckdFqLZ9x0sDKn-nYKYOtd9mTcH0gX5VDnPbYd0mnQNg-cUkGFUT-lYMdSahLeIZpqm1CCgLyDVo_0NMg_fBo_BQSu4lDEUWJosU_QI0JzoqHkkf_aH6sNmrGbja5DdUDM5QtXeRiuhRObl9Xzv9C1YFdjqMDuoKFCjr_qUnWvWXmNjKm-EMmTal9ZDA5yzxG-s6-BIA8wTAWebGLQa4dkR6wRn1kf_GL71JOu5rrkKBhOsPP7MDORyMnM-l5BFp0lU96Ia1_XcieOpQPkuRj7WXZGiiWpIcmaAiIRJ9_d5YxBhh-i4B4g
+
+Claims Decoded:
+  Access Token Claims:
+    {
+      "canViewMagazine": true,
+      "applicationRefreshTokenId": "6899842",
+      "iat": 1769434248,
+      "exp": 1769435148,        // Expires in 900 seconds (~15 minutes)
+      "iss": "APA",
+      "sub": "2349950"           // Member ID 2349950
+    }
+  
+  Refresh Token Claims:
+    {
+      "applicationRefreshTokenId": "6899842",
+      "iat": 1769434245,
+      "iss": "APA",
+      "sub": "2349950"           // Same member ID
+      // NOTE: No "exp" field = indefinite validity
+    }
+
+================================================================================
+                      KEY DIFFERENCES BY USER TYPE
+================================================================================
+
+When accessing GraphQL endpoints, user type determines available fields:
+
+MEMBER TYPE:
+  Available: leagues, teams, matches, players, tournaments, stats
+  Access: Personal data + league-specific data
+  Leagues: Only leagues they're registered in
+  
+EXTERNAL STAFF TYPE:
+  Available: leagues (limited), events (assigned)
+  Access: League-wide but not personal player data
+  Leagues: Assigned league(s) only
+  
+NATIONAL OFFICE STAFF TYPE:
+  Available: All leagues, all members, all tournaments
+  Access: Platform-wide administrative access
+  Leagues: All leagues on platform
+
+GraphQL inline fragment check:
+  ```graphql
+  query {
+    viewer {
+      __typename  # Shows actual type
+      ... on Member {
+        teams { ... }           # Only for Member
+      }
+      ... on ExternalStaff {
+        leagues { ... }         # Only for Staff
+      }
+      ... on NationalOfficeStaff {
+        leagues { ... }         # Admin access
+      }
+    }
+  }
+  ```
+
+================================================================================
+                             BEST PRACTICES
+================================================================================
+
+DO:
+  ✓ Store tokens securely (encrypted storage, not plain text)
+  ✓ Refresh access tokens before they expire (token.exp < now)
+  ✓ Use separate tokens for each user type during testing
+  ✓ Rotate refresh tokens periodically
+  ✓ Log token usage for audit trails
+  ✓ Verify __typename matches expected user type
+
+DON'T:
+  ✗ Share tokens between test accounts
+  ✗ Hardcode tokens in source code
+  ✗ Attempt to forge RS256 signatures (they're RSA-signed, not HMAC)
+  ✗ Use production tokens in non-production environments
+  ✗ Trust token claims without server-side validation
+  ✗ Store tokens in browser localStorage permanently (security risk)
+
+================================================================================
+                          NEXT STEPS
+================================================================================
+
+1. Create 3 test accounts (Member, ExternalStaff, NationalOfficeStaff)
+2. Add "Mode 26: Token Collection" to sniffer
+3. Run sniffer against login flows for each account type
+4. Extract and verify tokens using GraphQL queries
+5. Document field differences per user type
+6. Test authorization boundaries for each type
+7. Attempt permission bypass scenarios
+
+================================================================================
+Reference Files in Capture:
+  • session/0000_localstorage.json - Extracted tokens
+  • network_data/*.json - JWT in Authorization headers
+  • page_urls_used.txt - Login/profile URLs
+  • advanced_tracking/*.json - Token extraction patterns
+
+Generated: 2026-01-26 | Source: API Network Analysis
+================================================================================

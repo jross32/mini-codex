@@ -1,0 +1,1 @@
+from .command import cmd_monster_weakness_severity_roll

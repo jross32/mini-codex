@@ -1,0 +1,1 @@
+from .command import cmd_zoo_animal_behavior_state_calc

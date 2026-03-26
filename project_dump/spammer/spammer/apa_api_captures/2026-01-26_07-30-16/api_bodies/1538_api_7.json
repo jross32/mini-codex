@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2815958,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656691,
+            "teamNumber": "12649894",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Quete Importa",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656716,
+            "teamNumber": "12649762",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Quete Importa",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655926,
+            "teamNumber": "12649640",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Pump Nation",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 8",
+              "id": 52781,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241735,
+            "teamNumber": "78501",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 231275,
+            "teamNumber": "78531",
+            "skillLevel": "7",
+            "standing": 129,
+            "teamName": "Papirrines",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Masters Championship",
+              "id": 45466,
+              "startTime": "2024-08-11T15:00:00-05:00",
+              "type": "MASTERS",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597862,
+            "teamNumber": "12384047",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Pok Pok",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597875,
+            "teamNumber": "12384172",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL BEST OF THE REST 2024",
+              "id": 45947,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 550472,
+            "teamNumber": "12198488",
+            "skillLevel": "0",
+            "standing": 17,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 9-Ball World Championships",
+              "id": 36832,
+              "startTime": "2023-08-08T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527755,
+            "teamNumber": "12134244",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 216499,
+            "skillLevel": "7",
+            "standing": 129,
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 APA 9-Ball Shootout",
+              "id": 36677,
+              "startTime": "2023-04-28T09:00:00-07:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

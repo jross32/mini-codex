@@ -1,0 +1,527 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "country": {
+          "id": 1,
+          "__typename": "Country"
+        },
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "initials": "JR",
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "notificationBellCount": 1,
+        "notifications": [
+          {
+            "id": 277889309,
+            "type": "scoreSheetsReady",
+            "title": "Scoresheets and Stats have been updated!",
+            "body": "Scoresheets have been released and Stats for Division 222 have been updated",
+            "isRead": false,
+            "createdDate": "2026-01-22T18:13:42Z",
+            "typeId": null,
+            "metaData": "{\"reportId\":12142815,\"leagueDivisionSessionScheduleMatchId\":49432725,\"format\":\"9-Ball\",\"slug\":\"RioGrandeValley\"}",
+            "__typename": "Notification"
+          },
+          {
+            "id": 277889210,
+            "type": "scoreSheetsReady",
+            "title": "Scoresheets and Stats have been updated!",
+            "body": "Scoresheets have been released and Stats for Division 022 have been updated",
+            "isRead": true,
+            "createdDate": "2026-01-22T18:13:42Z",
+            "typeId": null,
+            "metaData": "{\"reportId\":12142810,\"leagueDivisionSessionScheduleMatchId\":49432645,\"format\":\"8-Ball\",\"slug\":\"RioGrandeValley\"}",
+            "__typename": "Notification"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "name": "Rio Grande Valley APA",
+            "isDefault": true,
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League",
+            "country": {
+              "id": 1,
+              "__typename": "Country"
+            }
+          }
+        ],
+        "membershipExpires": "2026-12-31T23:59:59Z",
+        "setting": "894",
+        "fee": null,
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "feature": true
+    }
+  },
+  {
+    "data": {
+      "liveStream": {
+        "__typename": "LiveStreamPayload",
+        "feeds": []
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3416798,
+        "firstName": "Enedelia",
+        "lastName": "Castillo",
+        "initials": "EC",
+        "aliases": [
+          {
+            "id": 3294035,
+            "displayName": "Enedelia Castillo",
+            "memberNumber": "78504112",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3294035,
+        "pastTeams": [
+          {
+            "id": 91725136,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 3,
+            "matchesWon": 2,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12956665,
+              "name": "Ballerz 956",
+              "division": {
+                "id": 425651,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90455800,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 5,
+            "matchesWon": 2,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 8,
+            "team": {
+              "id": 12786322,
+              "name": "Cue'n Bees",
+              "division": {
+                "id": 410552,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90444177,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 6,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 13,
+            "team": {
+              "id": 12766606,
+              "name": "Freeballers",
+              "division": {
+                "id": 408924,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 90956573,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 10,
+            "team": {
+              "id": 12766932,
+              "name": "Ballcoholics",
+              "division": {
+                "id": 408937,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91677486,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951834,
+              "name": "Ballerz 956",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677924,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951918,
+              "name": "Ballerz 956",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91677099,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951782,
+              "name": "Borrachos",
+              "division": {
+                "id": 425313,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677261,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951804,
+              "name": "Borrachos",
+              "division": {
+                "id": 425314,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91723974,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951718,
+              "name": "X Cues Me",
+              "division": {
+                "id": 425309,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91052540,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 14,
+            "team": {
+              "id": 12864716,
+              "name": "Ballerz 956",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91052544,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 6,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 15,
+            "team": {
+              "id": 12864636,
+              "name": "Ballerz 956",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91043649,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 8,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 12,
+            "team": {
+              "id": 12864533,
+              "name": "Borrachos",
+              "division": {
+                "id": 417522,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91090664,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 1,
+            "rank": 13,
+            "team": {
+              "id": 12864612,
+              "name": "Borrachos",
+              "division": {
+                "id": 417521,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016836,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 8,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 4,
+            "team": {
+              "id": 12864757,
+              "name": "Cue'n Bees",
+              "division": {
+                "id": 417533,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

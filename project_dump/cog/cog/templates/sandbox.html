@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Sandbox Controls (God Mode)</h1>
+<form method="POST" class="row">
+  <button name="action" value="spawn">Spawn Agent</button>
+  <button name="action" value="boost">Boost Energy +10</button>
+  <button name="action" value="rain">Trigger Rain</button>
+</form>
+<p class="meta">Actions log to the <a href="{{ url_for('events') }}">Event Feed</a>.</p>
+{% endblock %}

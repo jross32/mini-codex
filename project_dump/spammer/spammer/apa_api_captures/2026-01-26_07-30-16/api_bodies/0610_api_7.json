@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2211324,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 644661,
+            "teamNumber": "12537055",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Rack' EM",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 HIDALGO WPCQ 9 BALL",
+              "id": 48066,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238383,
+            "teamNumber": "78502",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Ball Breakers",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238414,
+            "teamNumber": "78504",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 605082,
+            "teamNumber": "12384173",
+            "skillLevel": "5",
+            "standing": 129,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 9-Ball World Championship",
+              "id": 42064,
+              "startTime": "2024-08-13T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 598659,
+            "teamNumber": "12384173",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 600221,
+            "teamNumber": "12384101",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Ball Breakers",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 HIDALGO WPCQ 9 BALL",
+              "id": 43404,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 206762,
+            "teamNumber": "78591",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 42839,
+              "startTime": "2023-09-29T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527753,
+            "teamNumber": "12013341",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 540462,
+            "teamNumber": "12198419",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Pooleros De Pro Glass",
+            "disqualified": null,
+            "tournament": {
+              "name": "HIDALGO 8 BALL 2023 WPCQ",
+              "id": 40312,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474530,
+            "teamNumber": "11913624",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2022 WPCQ",
+              "id": 35474,
+              "startTime": "2022-06-03T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

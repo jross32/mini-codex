@@ -1,0 +1,1 @@
+from tools.operational_health.validation.checks.environment_review.signals.missing_init.missing_init_check.command import cmd_missing_init_check

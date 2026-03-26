@@ -1,0 +1,108 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3275794,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607429,
+            "teamNumber": "12206710",
+            "skillLevel": "4",
+            "standing": 257,
+            "teamName": "Team Maribel Rebollar",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 8-Ball World Championship",
+              "id": 42063,
+              "startTime": "2024-08-08T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 596875,
+            "teamNumber": "12206710",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Team Maribel Rebollar",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 581726,
+            "teamNumber": "12337070",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597863,
+            "teamNumber": "12384042",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 577389,
+            "teamNumber": "12206710",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Team Maribel Rebollar",
+            "disqualified": null,
+            "tournament": {
+              "name": "Aloha Challenge (Cameron)",
+              "id": 44968,
+              "startTime": "2024-01-14T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539599,
+            "teamNumber": "12198436",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "D Korner Pockets",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2023",
+              "id": 41435,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

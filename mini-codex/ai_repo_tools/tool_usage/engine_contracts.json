@@ -1,0 +1,14 @@
+{
+  "engine": [
+    "run",
+    "load_mode"
+  ],
+  "entity": [
+    "get_stat"
+  ],
+  "mode": [
+    "cyberpunk",
+    "project_name",
+    "systems"
+  ]
+}

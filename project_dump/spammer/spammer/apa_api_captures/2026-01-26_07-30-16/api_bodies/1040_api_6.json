@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2545076,
+        "firstName": "Enrique",
+        "lastName": "Espino",
+        "initials": "EE",
+        "aliases": [
+          {
+            "id": 2013202,
+            "displayName": "Enrique Espino",
+            "memberNumber": "78501571",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 6
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2545076,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699198,
+            "teamNumber": "12864718",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "A-Rack-Nophobia",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 8 Ball (C)",
+              "id": 54934,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699228,
+            "teamNumber": "12864638",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "A-Rack-Nophobia",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 9 Ball (C)",
+              "id": 54935,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655938,
+            "teamNumber": "12649760",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238416,
+            "teamNumber": "78505",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 231279,
+            "teamNumber": "78531",
+            "skillLevel": "6",
+            "standing": 129,
+            "teamName": "Papirrines",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Masters Championship",
+              "id": 45466,
+              "startTime": "2024-08-11T15:00:00-05:00",
+              "type": "MASTERS",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

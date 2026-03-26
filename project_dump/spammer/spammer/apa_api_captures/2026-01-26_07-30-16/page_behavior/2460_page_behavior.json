@@ -1,0 +1,25 @@
+{
+  "interactions": {
+    "clicks": 0,
+    "formFills": 0,
+    "navigationEvents": 0
+  },
+  "performance": {
+    "total_resources": 0,
+    "total_size_kb": "0.00",
+    "script_size_kb": "0.00",
+    "style_size_kb": "0.00",
+    "image_size_kb": "0.00"
+  },
+  "a11y_issues": [
+    {
+      "type": "no_headings",
+      "description": "Page has no heading structure"
+    },
+    {
+      "type": "no_focusable_elements",
+      "description": "Page has no keyboard focusable elements"
+    }
+  ],
+  "third_party_scripts": []
+}

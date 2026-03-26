@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.combat_reward.combat_reward_xp_calc.command import cmd_combat_reward_xp_calc

@@ -1,0 +1,5 @@
+{
+  "description": "List all files in the repository, filtering noise dirs",
+  "args": [],
+  "returns": "list of relative file paths"
+}

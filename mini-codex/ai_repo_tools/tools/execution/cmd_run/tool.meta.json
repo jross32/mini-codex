@@ -1,0 +1,11 @@
+{
+  "description": "Run pytest or a Python script; return structured JSON results",
+  "args": [
+    {
+      "name": "target",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "mode, exit_code, passed/failed counts, stdout/stderr excerpts"
+}

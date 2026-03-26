@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3292337,
+        "firstName": "Agapito",
+        "lastName": "Gonzalez",
+        "initials": "AG",
+        "aliases": [
+          {
+            "id": 3088613,
+            "displayName": "Agapito Gonzalez",
+            "memberNumber": "78503919",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 7,
+                "CLA": 7
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 8,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3292337,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699198,
+            "teamNumber": "12864718",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "A-Rack-Nophobia",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 8 Ball (C)",
+              "id": 54934,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699228,
+            "teamNumber": "12864638",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "A-Rack-Nophobia",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 9 Ball (C)",
+              "id": 54935,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 665951,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 ALL VALLEY WORLD QUALIIFIER",
+              "id": 53221,
+              "startTime": "2025-06-14T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 658288,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655937,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 8",
+              "id": 52781,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

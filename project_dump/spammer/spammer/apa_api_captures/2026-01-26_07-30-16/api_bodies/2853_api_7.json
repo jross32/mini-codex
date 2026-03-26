@@ -1,0 +1,2407 @@
+[
+  {
+    "data": {
+      "tournament": {
+        "id": 55817,
+        "registrationConfig": null,
+        "players": [
+          {
+            "id": "290602",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290603",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290604",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290605",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290612",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290613",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290614",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290615",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290621",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290622",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290623",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290624",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290625",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290630",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290631",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290633",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290634",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290635",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290641",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290642",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290643",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290644",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290645",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290651",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290652",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290653",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290658",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290659",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290660",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290662",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290663",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290664",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290665",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290674",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290675",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290676",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290677",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290679",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290685",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290686",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290687",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290688",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290692",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290693",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290694",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290695",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290696",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290702",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290705",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290710",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290711",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290712",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290713",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290718",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290719",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290720",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290721",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290722",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290724",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290725",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290726",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290727",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290732",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290733",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290734",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290735",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290740",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290741",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290742",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290747",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290748",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290751",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290752",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290753",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290754",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290755",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290756",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290757",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290758",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290759",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290766",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290767",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290768",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290769",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290774",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290775",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290776",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290780",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290781",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290782",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290783",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290788",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290789",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290791",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290792",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290797",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290798",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290799",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290800",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290809",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290810",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290811",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290989",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290990",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290991",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290992",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290996",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290997",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "290999",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291000",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291001",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291007",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291008",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291009",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291010",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291016",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291017",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291018",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291023",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291025",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291029",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291030",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291031",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291032",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291047",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291049",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291050",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291051",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291064",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291065",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291066",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291067",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291069",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291073",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291074",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291075",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291079",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291080",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291081",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291082",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291083",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291089",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291090",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291091",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291092",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291093",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291094",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291099",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291100",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291101",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291102",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291103",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291108",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291109",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291110",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291111",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291116",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291117",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291118",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291122",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291123",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291124",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291125",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291128",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291129",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291130",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291131",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291135",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291136",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291137",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291138",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291139",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291140",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291141",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291145",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291146",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291147",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291148",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291149",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291294",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291295",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291296",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291297",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291302",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291303",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291304",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291305",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291306",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291313",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291314",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291315",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291316",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291322",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291323",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291324",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291325",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291329",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291330",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291331",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291334",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291335",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291336",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291337",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291338",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291346",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291347",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291349",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291350",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291361",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291362",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291363",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291366",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291367",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291372",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291373",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291374",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291378",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291379",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291380",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291381",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291382",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291388",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291389",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291390",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291391",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291397",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291398",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291399",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291402",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291403",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291404",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291406",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291407",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291408",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291414",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291415",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291416",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291417",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291424",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291425",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291426",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291427",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291428",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291436",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291440",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291443",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291444",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291464",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291465",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291466",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291467",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291472",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291473",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291474",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291477",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291478",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291479",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291481",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291482",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291491",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291492",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291493",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291494",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291495",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291499",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291500",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291501",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291502",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291507",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291508",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291509",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291513",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291514",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291515",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291516",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291519",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291520",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291521",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291524",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291525",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291526",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291527",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291528",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291533",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291534",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291535",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291536",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291537",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291590",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291591",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291593",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291597",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291598",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291599",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291600",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291603",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291608",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291609",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291610",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291611",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291612",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291613",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291620",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291621",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291622",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291623",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291624",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291658",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291659",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291893",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291895",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291898",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291996",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291997",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "291998",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292002",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292003",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292007",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292008",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292009",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292010",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292011",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292012",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292021",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292022",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292024",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292025",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292032",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292034",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292035",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292036",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292037",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292061",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292063",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292069",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292070",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292071",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292072",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292078",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292079",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "292084",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          },
+          {
+            "id": "293348",
+            "registered": false,
+            "eligible": true,
+            "notAttending": null,
+            "__typename": "SinglesTournamentPlayer"
+          }
+        ],
+        "__typename": "Tournament"
+      }
+    }
+  }
+]

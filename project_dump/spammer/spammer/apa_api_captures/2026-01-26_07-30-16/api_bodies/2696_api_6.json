@@ -1,0 +1,61 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3415339,
+        "firstName": "Noe",
+        "lastName": "Garza",
+        "initials": "NG",
+        "aliases": [
+          {
+            "id": 3292210,
+            "displayName": "Noe Garza",
+            "memberNumber": "78503662",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 0,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3292210,
+        "formats": [
+          "EIGHT"
+        ],
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "isDefault": true,
+          "__typename": "League"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

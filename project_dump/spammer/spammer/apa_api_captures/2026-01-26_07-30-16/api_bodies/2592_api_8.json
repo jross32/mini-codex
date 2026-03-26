@@ -1,0 +1,206 @@
+[
+  {
+    "data": {
+      "alias": {
+        "players": [
+          {
+            "id": 91677453,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677891,
+            "session": {
+              "id": 138,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016322,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016716,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 1,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91724998,
+            "session": {
+              "id": 137,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277672,
+            "session": {
+              "id": 136,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90278295,
+            "session": {
+              "id": 136,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89893480,
+            "session": {
+              "id": 135,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 1,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89918276,
+            "session": {
+              "id": 135,
+              "__typename": "Session"
+            },
+            "nineOnSnaps": 0,
+            "nineBallBreakAndRuns": 0,
+            "miniSlams": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632873,
+            "session": {
+              "id": 134,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88622099,
+            "session": {
+              "id": 133,
+              "__typename": "Session"
+            },
+            "eightOnBreaks": 0,
+            "eightBallBreakAndRuns": 0,
+            "rackless": 0,
+            "miniSlams": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "id": 3198462,
+        "displayName": "Eddie Gonzalez",
+        "EightBallStats": [
+          {
+            "id": 803198462,
+            "matchesWon": 14,
+            "matchesPlayed": 48,
+            "CLA": 0,
+            "defensiveShotAvg": 1.57,
+            "matchCountForLastTwoYrs": 48,
+            "lastPlayed": "2025-12-18T00:00:00Z",
+            "__typename": "EightBallLifetimeStatistics"
+          }
+        ],
+        "NineBallStats": [
+          {
+            "id": 903198462,
+            "matchesWon": 16,
+            "matchesPlayed": 33,
+            "CLA": 0,
+            "defensiveShotAvg": 1.31,
+            "matchCountForLastTwoYrs": 33,
+            "lastPlayed": "2025-12-18T00:00:00Z",
+            "__typename": "NineBallLifetimeStatistics"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3198462,
+        "member": {
+          "id": 3360510,
+          "consecutiveYearsPlayed": 2,
+          "membershipHistory": [
+            {
+              "id": 7245741,
+              "year": 2024,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            },
+            {
+              "id": 7289550,
+              "year": 2025,
+              "leaguePaidIn": {
+                "id": 894,
+                "name": "Rio Grande Valley APA",
+                "salutation": "Erin Lacy",
+                "__typename": "League"
+              },
+              "__typename": "MembershipHistory"
+            }
+          ],
+          "__typename": "Member"
+        },
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,2314 @@
+{
+  "https://league.poolplayers.com/RioGrandeValley": {
+    "url": "https://league.poolplayers.com/RioGrandeValley",
+    "depth": 0,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/": {
+    "url": "https://league.poolplayers.com/",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/tournament/55817",
+      "https://league.poolplayers.com/tournament/56742",
+      "https://league.poolplayers.com/tournament/55818",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/tournament/56743",
+      "https://league.poolplayers.com/forgot",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55817",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56742",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55818",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56743",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Member Services"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Member Services"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/membercard": {
+    "url": "https://league.poolplayers.com/membercard",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "My Membership Card/ID"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/profile": {
+    "url": "https://league.poolplayers.com/profile",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Edit Profile"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/settings": {
+    "url": "https://league.poolplayers.com/settings",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Settings"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Settings"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/login/destroy": {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Logout"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Logout"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/cart": {
+    "url": "https://league.poolplayers.com/cart",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Your cart is empty!"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": ""
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": ""
+      }
+    ]
+  },
+  "https://league.poolplayers.com/dashboard": {
+    "url": "https://league.poolplayers.com/dashboard",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Dashboard"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Dashboard"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/matches": {
+    "url": "https://league.poolplayers.com/matches",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Matches"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/news": {
+    "url": "https://league.poolplayers.com/news",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "See More News"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "News"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/league/all": {
+    "url": "https://league.poolplayers.com/events/league/all",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "See All Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "All Leagues"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Events"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/member/3400522": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "My Stats"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "My Stats"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/store": {
+    "url": "https://league.poolplayers.com/store",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Pay for Matches"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/rules": {
+    "url": "https://league.poolplayers.com/rules",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/tournament/55817",
+      "https://league.poolplayers.com/tournament/56742",
+      "https://league.poolplayers.com/tournament/55818",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/tournament/56743",
+      "https://league.poolplayers.com/forgot",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55817",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56742",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55818",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56743",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Rules"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Rules"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/help": {
+    "url": "https://league.poolplayers.com/help",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/profile",
+      "https://league.poolplayers.com/matches",
+      "https://league.poolplayers.com/help",
+      "https://league.poolplayers.com/cart",
+      "https://league.poolplayers.com/membercard",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard",
+      "https://league.poolplayers.com/store",
+      "https://league.poolplayers.com/events/league/all",
+      "https://league.poolplayers.com/settings",
+      "https://league.poolplayers.com/rules",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/tournament/55817",
+      "https://league.poolplayers.com/tournament/56742",
+      "https://league.poolplayers.com/tournament/55818",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/tournament/56743",
+      "https://league.poolplayers.com/forgot",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/profile",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/help",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/cart",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/membercard",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/store",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/settings",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/rules",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55817",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56742",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55818",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56743",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Need Help?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Need Help?"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/news": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/news",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "News"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "News"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/events": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/events",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Events"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Events"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley",
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Divisions"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Divisions"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Divisions"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/tournament/55817": {
+    "url": "https://league.poolplayers.com/tournament/55817",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "2026 APA 8-Ball Classic Apr 26, 2026 9:00 am | Westgate Las Vegas Resort & Casino APA National"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "2026 APA 8-Ball Classic Apr 26, 2026 9:00 am | Westgate Las Vegas Resort & Casino APA National"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/tournament/55818": {
+    "url": "https://league.poolplayers.com/tournament/55818",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "2026 APA 9-Ball Shootout Apr 30, 2026 9:00 am | Westgate Las Vegas Resort & Casino APA National"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "2026 APA 9-Ball Shootout Apr 30, 2026 9:00 am | Westgate Las Vegas Resort & Casino APA National"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/tournament/56742": {
+    "url": "https://league.poolplayers.com/tournament/56742",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "2026 Fall 8-Ball Regionals Oct 3, 2026 12:00 am APA National"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "2026 Fall 8-Ball Regionals Oct 3, 2026 12:00 am APA National"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/team/12951833": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12951833",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Cue-ligans"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/425316": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "2nd"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/team/12951917": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12951917",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Cue-ligans"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/425322": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "5th"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/team/12867592": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12867592",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Cue-ligans"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/417530": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "8th"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/team/12867593": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12867593",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Cue-ligans"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/417524": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "5th"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/eight": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/eight",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Skill Level 1 Win % Percentage 0 % Matches Won 0 out of 1"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Skill Level 1 Win % Percentage 0.4 % Matches Won 0 out of 9"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/nine": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/nine",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Skill Level 1 Win % Percentage 0 % Matches Won 0 out of 0"
+      },
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Skill Level 1 Win % Percentage 0.9 % Matches Won 0 out of 8"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/match/49432651": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432651",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Jan 29 Bad Boys (02204) Cue-ligans (02207) The Lucky Barrel  @\u00a08:00 PM"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Jan 29 Bad Boys (02204) Cue-ligans (02207) The Lucky Barrel  @\u00a08:00 PM"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/match/49432731": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432731",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Jan 29 Bad Boys (22204) Cue-ligans (22207) The Lucky Barrel  @\u00a08:00 PM"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Jan 29 Bad Boys (22204) Cue-ligans (22207) The Lucky Barrel  @\u00a08:00 PM"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/match/49432658": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432658",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "Feb 05 Cue-ligans (02207) Ballerz 956 (02205) Shotz  @\u00a08:00 PM CST"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "Feb 05 Cue-ligans (02207) Ballerz 956 (02205) Shotz  @\u00a08:00 PM CST"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/matches/upcoming": {
+    "url": "https://league.poolplayers.com/matches/upcoming",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/",
+      "https://league.poolplayers.com/dashboard"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/",
+        "source": "a[href]",
+        "text": "See All My Matches"
+      },
+      {
+        "from": "https://league.poolplayers.com/dashboard",
+        "source": "a[href]",
+        "text": "See All My Matches"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/league/national": {
+    "url": "https://league.poolplayers.com/events/league/national",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "APA National"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/league/RioGrandeValley": {
+    "url": "https://league.poolplayers.com/events/league/RioGrandeValley",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Rio Grande Valley APA"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events": {
+    "url": "https://league.poolplayers.com/events",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "All"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/filter/tournament": {
+    "url": "https://league.poolplayers.com/events/filter/tournament",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Tournaments"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/events/filter/other": {
+    "url": "https://league.poolplayers.com/events/filter/other",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "Other"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/tournament/56743": {
+    "url": "https://league.poolplayers.com/tournament/56743",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/events/league/all"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/events/league/all",
+        "source": "a[href]",
+        "text": "2026 Fall 9-Ball Regionals Oct 3, 2026 12:00 am APA National"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/forgot": {
+    "url": "https://league.poolplayers.com/forgot",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/login/destroy",
+      "https://league.poolplayers.com/RioGrandeValley/team/12951833",
+      "https://league.poolplayers.com/RioGrandeValley/team/12951917",
+      "https://league.poolplayers.com/RioGrandeValley/team/12867592",
+      "https://league.poolplayers.com/RioGrandeValley/team/12867593",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/eight",
+      "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/nine",
+      "https://league.poolplayers.com/RioGrandeValley/match/49432651",
+      "https://league.poolplayers.com/RioGrandeValley/match/49432731",
+      "https://league.poolplayers.com/RioGrandeValley/match/49432658",
+      "https://league.poolplayers.com/matches/upcoming",
+      "https://league.poolplayers.com/events/league/national",
+      "https://league.poolplayers.com/events/league/RioGrandeValley",
+      "https://league.poolplayers.com/events",
+      "https://league.poolplayers.com/events/filter/tournament",
+      "https://league.poolplayers.com/events/filter/other",
+      "https://league.poolplayers.com/login"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/login/destroy",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/team/12951833",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/team/12951917",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/team/12867592",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/team/12867593",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/eight",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/nine",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/match/49432651",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/match/49432731",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/match/49432658",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/matches/upcoming",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/national",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/league/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/filter/tournament",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/events/filter/other",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      },
+      {
+        "from": "https://league.poolplayers.com/login",
+        "source": "a[href]",
+        "text": "Forgot Password?"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/login": {
+    "url": "https://league.poolplayers.com/login",
+    "depth": 2,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/news",
+      "https://league.poolplayers.com/RioGrandeValley/events",
+      "https://league.poolplayers.com/tournament/55817",
+      "https://league.poolplayers.com/tournament/56742",
+      "https://league.poolplayers.com/tournament/55818",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/tournament/56743",
+      "https://league.poolplayers.com/forgot",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/news",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/events",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55817",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56742",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/55818",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/tournament/56743",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/forgot",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Login"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Login"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/session/138": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/session/138",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Spring 2026"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Spring 2026"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Spring 2026"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/425316/schedule",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425316"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425316",
+        "source": "a[href]",
+        "text": "Schedule"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322",
+        "source": "a[href]",
+        "text": "Schedule"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/425322/schedule",
+        "source": "a[href]",
+        "text": "Schedule"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/session/137": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/session/137",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Fall 2025"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Fall 2025"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Fall 2025"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Fall 2025"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530",
+        "source": "a[href]",
+        "text": "Schedule"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417530/schedule",
+        "source": "a[href]",
+        "text": "Schedule"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+    "depth": 3,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+      "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524",
+        "source": "a[href]",
+        "text": "Schedule"
+      },
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley/divisions/417524/schedule",
+        "source": "a[href]",
+        "text": "Schedule"
+      }
+    ]
+  }
+}

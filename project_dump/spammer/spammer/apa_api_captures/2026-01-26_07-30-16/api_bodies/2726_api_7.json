@@ -1,0 +1,54 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3432311,
+        "firstName": "Rik",
+        "lastName": "Cavazos",
+        "initials": "RC",
+        "aliases": [
+          {
+            "id": 3313665,
+            "displayName": "Rik Cavazos",
+            "memberNumber": "78504318",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3432311,
+        "playerTournaments": [],
+        "__typename": "Member"
+      }
+    }
+  }
+]

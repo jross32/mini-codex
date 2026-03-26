@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 851051,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86316049,
+            "team": {
+              "id": 12207422,
+              "name": "Khaos",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.75,
+            "ppm": 15,
+            "matchesWon": 2,
+            "matchesPlayed": 2,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 30,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

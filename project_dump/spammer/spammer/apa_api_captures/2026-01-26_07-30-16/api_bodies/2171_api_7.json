@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2912334,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91016341,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5115384615384615,
+            "ppm": 10.23076923076923,
+            "matchesWon": 7,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 133,
+            "nineOnSnaps": 3,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_gold.character_gold_gain_modifier_calc.command import cmd_character_gold_gain_modifier_calc

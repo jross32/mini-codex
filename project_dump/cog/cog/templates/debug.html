@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Debug — Core AI Log</h1>
+<p class="meta">(Tail of core_ai.log)</p>
+<div class="card"><pre>{% for line in log_lines %}{{ line }}{% endfor %}</pre></div>
+{% endblock %}

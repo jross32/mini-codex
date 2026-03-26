@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2569117,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86282128,
+            "team": {
+              "id": 12198345,
+              "name": "Cereal Killaz",
+              "number": "23308",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.55,
+            "ppm": 11,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 121,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

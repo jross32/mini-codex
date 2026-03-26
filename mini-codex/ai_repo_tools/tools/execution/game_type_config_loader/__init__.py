@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.configuration.loading.game_type_configs.normalization.game_type_config_loader.command import cmd_game_type_config_loader

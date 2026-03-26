@@ -1,0 +1,1 @@
+from .command import cmd_game_type_config_loader

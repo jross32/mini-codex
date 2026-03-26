@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.fast_evaluate.fast_evaluate.command import cmd_fast_evaluate

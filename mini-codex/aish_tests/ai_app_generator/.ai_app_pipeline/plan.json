@@ -1,0 +1,51 @@
+{
+  "project_name": "ai_app_generator",
+  "stack": {
+    "backend": "flask",
+    "frontend": "vanilla_js",
+    "database": "sqlite",
+    "infra": [
+      "dockerfile",
+      "docker_compose"
+    ]
+  },
+  "routes": [
+    "GET /api/health",
+    "POST /api/generate",
+    "GET /api/jobs"
+  ],
+  "data_models": [
+    "GenerationJob",
+    "AppTemplate",
+    "PluginSpec"
+  ],
+  "ui_sections": [
+    "PromptInput",
+    "PipelinePreview",
+    "GenerationResults"
+  ],
+  "source_intent": {
+    "raw_prompt": "restaurant website with online ordering",
+    "normalized_prompt": "restaurant website with online ordering",
+    "app_type": "business_website",
+    "industry": "restaurant",
+    "core_features": [
+      "menu_browsing",
+      "online_ordering",
+      "order_status",
+      "admin_management"
+    ],
+    "pages": [
+      "home",
+      "menu",
+      "cart",
+      "checkout",
+      "admin"
+    ],
+    "non_functional_goals": [
+      "runnable_out_of_box",
+      "clear_project_structure",
+      "api_frontend_contract_alignment"
+    ]
+  }
+}

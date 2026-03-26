@@ -1,0 +1,68 @@
+{
+  "interactions": {
+    "clicks": 0,
+    "formFills": 0,
+    "navigationEvents": 0
+  },
+  "performance": {
+    "first-paint": "1261.70ms",
+    "first-contentful-paint": "1378.30ms",
+    "total_resources": 36,
+    "total_size_kb": "0.00",
+    "script_size_kb": "0.00",
+    "style_size_kb": "0.00",
+    "image_size_kb": "0.00"
+  },
+  "a11y_issues": [],
+  "third_party_scripts": [
+    {
+      "src": "https://www.google-analytics.com/analytics.js",
+      "external": true,
+      "async": true,
+      "defer": false,
+      "type": "text/javascript"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-PXYQFEKD0M&cx=c&gtm=4e61m0",
+      "external": true,
+      "async": true,
+      "defer": false,
+      "type": "text/javascript"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&features=IntersectionObserver",
+      "external": true,
+      "async": false,
+      "defer": false,
+      "type": "text/javascript"
+    },
+    {
+      "src": "https://maps.google.com/maps/api/js?key=AIzaSyDZuEbhb4SH-blXR1wiB1Sf1Ijn9uWoyIo&libraries=places",
+      "external": true,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/main.0893ec1e259d42aae1fd.js",
+      "external": false,
+      "async": false,
+      "defer": false,
+      "type": "text/javascript"
+    },
+    {
+      "src": "https://js.stripe.com/v3/",
+      "external": true,
+      "async": true,
+      "defer": false,
+      "type": "text/javascript"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=UA-5591255-49",
+      "external": true,
+      "async": true,
+      "defer": false,
+      "type": "text/javascript"
+    }
+  ]
+}

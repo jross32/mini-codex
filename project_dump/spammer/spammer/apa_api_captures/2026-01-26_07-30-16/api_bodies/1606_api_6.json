@@ -1,0 +1,462 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2910208,
+        "firstName": "Nubia",
+        "lastName": "Villafuerte",
+        "initials": "NV",
+        "aliases": [
+          {
+            "id": 2538542,
+            "displayName": "Ceci Villafuerte",
+            "memberNumber": "78502393",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 3,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 2
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2538542,
+        "pastTeams": [
+          {
+            "id": 91725148,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 2,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12956667,
+              "name": "Palochones",
+              "division": {
+                "id": 425651,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277684,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 6,
+            "matchesWon": 5,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 2,
+            "team": {
+              "id": 12766727,
+              "name": "Palochones",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90276792,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 9,
+            "matchesWon": 6,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 4,
+            "team": {
+              "id": 12766603,
+              "name": "Pump Nation",
+              "division": {
+                "id": 408924,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056640,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": null,
+            "team": {
+              "id": 12869199,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88585675,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "Ceci",
+            "matchesPlayed": 14,
+            "matchesWon": 3,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 11,
+            "team": {
+              "id": 12471344,
+              "name": "Palochones",
+              "division": {
+                "id": 382606,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463170,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 5,
+            "matchesWon": 2,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 14,
+            "team": {
+              "id": 12649761,
+              "name": "Palochones",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89462296,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 11,
+            "matchesWon": 3,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 9,
+            "team": {
+              "id": 12649640,
+              "name": "Pump Nation",
+              "division": {
+                "id": 398427,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88633733,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 7,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 12,
+            "team": {
+              "id": 12537134,
+              "name": "Palochones",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632877,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 6,
+            "matchesWon": 2,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 19,
+            "team": {
+              "id": 12537014,
+              "name": "Pok Pok",
+              "division": {
+                "id": 388297,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88188891,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 8,
+            "matchesWon": 5,
+            "session": {
+              "id": 133,
+              "name": "Summer 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 3,
+            "team": {
+              "id": 12471186,
+              "name": "Palochones",
+              "division": {
+                "id": 382598,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91676516,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": null,
+            "team": {
+              "id": 12951702,
+              "name": "Nasty Beast",
+              "division": {
+                "id": 425308,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277974,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "Ceci",
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 11,
+            "team": {
+              "id": 12766793,
+              "name": "Palochones",
+              "division": {
+                "id": 408937,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91677466,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": null,
+            "team": {
+              "id": 12951832,
+              "name": "Palochones",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016334,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Ceci",
+            "matchesPlayed": 10,
+            "matchesWon": 3,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 13,
+            "team": {
+              "id": 12864639,
+              "name": "Palochones",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91015457,
+            "isActive": true,
+            "role": "CAPTAIN",
+            "rosterPosition": 1,
+            "nickName": "Ceci",
+            "matchesPlayed": 9,
+            "matchesWon": 2,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 10,
+            "team": {
+              "id": 12864518,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417516,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3234729,
+        "firstName": "Humberto",
+        "lastName": "Sanchez $$$$",
+        "initials": "HS",
+        "aliases": [
+          {
+            "id": 3010142,
+            "displayName": "Humberto Sanchez $$$$",
+            "memberNumber": "78503816",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3234729,
+        "aliases": [
+          {
+            "id": 3010142,
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "isDefault": true,
+              "__typename": "League"
+            },
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

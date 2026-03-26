@@ -1,0 +1,435 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2572364,
+        "firstName": "Marcos",
+        "lastName": "Saldivar",
+        "initials": "MS",
+        "aliases": [
+          {
+            "id": 2082379,
+            "displayName": "Marcos Saldivar",
+            "memberNumber": "78501630",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 4
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2082379,
+        "pastTeams": [
+          {
+            "id": 91725138,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12956666,
+              "name": "A-Rack-Nophobia",
+              "division": {
+                "id": 425651,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90276790,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 7,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 2,
+            "team": {
+              "id": 12766603,
+              "name": "Pump Nation",
+              "division": {
+                "id": 408924,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056635,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12869199,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90277674,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 4,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 12,
+            "team": {
+              "id": 12766726,
+              "name": "Sour Patch Kids",
+              "division": {
+                "id": 408932,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89462294,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 7,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 2,
+            "team": {
+              "id": 12649640,
+              "name": "Pump Nation",
+              "division": {
+                "id": 398427,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89463161,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 135,
+              "name": "Spring 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 8,
+            "team": {
+              "id": 12649760,
+              "name": "Sour Patch Kids",
+              "division": {
+                "id": 398435,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88632875,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 6,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 2,
+            "team": {
+              "id": 12537014,
+              "name": "Pok Pok",
+              "division": {
+                "id": 388297,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89168147,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 8,
+            "matchesWon": 3,
+            "session": {
+              "id": 134,
+              "name": "Fall 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 19,
+            "team": {
+              "id": 12537133,
+              "name": "Sour Patch Kids",
+              "division": {
+                "id": 388305,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88189295,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 5,
+            "session": {
+              "id": 133,
+              "name": "Summer 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 6,
+            "team": {
+              "id": 12471242,
+              "name": "Pok Pok",
+              "division": {
+                "id": 382590,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 87558187,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 132,
+              "name": "Spring 2024",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 32,
+            "team": {
+              "id": 12384173,
+              "name": "Palochones",
+              "division": {
+                "id": 374811,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677456,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951831,
+              "name": "A-Rack-Nophobia",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91676514,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951702,
+              "name": "Nasty Beast",
+              "division": {
+                "id": 425308,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016324,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": null,
+            "matchesPlayed": 13,
+            "matchesWon": 10,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 3,
+            "team": {
+              "id": 12864638,
+              "name": "A-Rack-Nophobia",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91015455,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 9,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 3,
+            "team": {
+              "id": 12864518,
+              "name": "Pump Nation",
+              "division": {
+                "id": 417516,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

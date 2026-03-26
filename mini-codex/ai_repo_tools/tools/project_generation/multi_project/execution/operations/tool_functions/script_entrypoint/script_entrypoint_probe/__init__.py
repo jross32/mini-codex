@@ -1,0 +1,1 @@
+from .command import cmd_script_entrypoint_probe

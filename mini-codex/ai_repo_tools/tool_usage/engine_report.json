@@ -1,0 +1,77 @@
+{
+  "generated_at_utc": "2026-03-26T16:03:26.266267+00:00",
+  "engine_config": {
+    "game_type": "cyberpunk",
+    "project_name": "cyberpunk_bar_management_sim",
+    "engine_version": "v1",
+    "systems": [
+      "core",
+      "ui",
+      "entities",
+      "economy",
+      "missions",
+      "reputation",
+      "vendor",
+      "progression"
+    ]
+  },
+  "usage_totals": 16,
+  "top_tools": [
+    {
+      "tool": "tool_usage_counter_refresh",
+      "count": 1
+    },
+    {
+      "tool": "engine_profile_selector",
+      "count": 1
+    },
+    {
+      "tool": "engine_build_matrix_runner",
+      "count": 1
+    },
+    {
+      "tool": "engine_template_catalog_loader",
+      "count": 1
+    },
+    {
+      "tool": "engine_contract_generator",
+      "count": 1
+    },
+    {
+      "tool": "engine_dependency_map_builder",
+      "count": 1
+    },
+    {
+      "tool": "engine_project_manifest_writer",
+      "count": 1
+    },
+    {
+      "tool": "engine_case_packager",
+      "count": 1
+    },
+    {
+      "tool": "engine_reusability_score",
+      "count": 1
+    },
+    {
+      "tool": "tool_usage_counter_show",
+      "count": 1
+    },
+    {
+      "tool": "multi_game_engine_builder",
+      "count": 3
+    },
+    {
+      "tool": "cyberpunk_sim_builder",
+      "count": 1
+    },
+    {
+      "tool": "roguelike_sim_builder",
+      "count": 1
+    },
+    {
+      "tool": "engine_quality_gate",
+      "count": 1
+    }
+  ]
+}

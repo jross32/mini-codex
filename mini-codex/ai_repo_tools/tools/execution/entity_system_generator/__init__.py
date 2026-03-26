@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.system_generation.shared_systems.entities.generators.entity_system_generator.command import cmd_entity_system_generator

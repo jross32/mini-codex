@@ -1,0 +1,132 @@
+[
+  {
+    "name": "cookie_test",
+    "value": "1",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "deviceRefreshToken",
+    "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVyTjd2TDlFOUlwWUlnTjJsQ0JMdFd0TnhBZXRYaHkxNUJwNzl4a18wOVEifQ.eyJkZXZpY2VSZWZyZXNoVG9rZW5JZCI6IjYzMTQ4OTEiLCJ1c2VybmFtZSI6Imp1c3Rpbndyb3NzMzJAZ21haWwuY29tIiwiZGlzcGxheU5hbWUiOiJKdXN0aW4gUm9zcyIsImluaXRpYWxzIjoiSlIiLCJpYXQiOjE3Njk0MzQyNDAsImlzcyI6IkFQQSIsInN1YiI6IjIzNDk5NTAifQ.c2p3r8KN2wO1AE8XgFiZcyuAp2n3U9mCIq9QnmDaXHr7hgoSNyme7erwjBI1A7Kg1onwlxdmUHBQQ7b-iF4M-NzqhQ5OA65IRLQLPoZQgK6MTa6yaUXuVQYPCkK2cfwrEUntGinceq0SDTzNznOWjBo6VctgUtmVXc5dmFKCxLTJxsNiKcuf2QVKQpfjMn5Rut7gYLV5Dqj729nMThLBInAwUktgKVNVkH9lE0FqX1Kw_xwh88e7DUdvsyzaA1D1amsylXmEM9X9FceQDF--K-0hER1I4UH6Nak0RC6a0F7td-ylE48kKTLxtqYuslIx7PMeuMTPRNyxUqSH1FH6dw",
+    "domain": "accounts.poolplayers.com",
+    "path": "/",
+    "expires": 1803994240.821806,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "refreshToken",
+    "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVyTjd2TDlFOUlwWUlnTjJsQ0JMdFd0TnhBZXRYaHkxNUJwNzl4a18wOVEifQ.eyJhcHBsaWNhdGlvblJlZnJlc2hUb2tlbklkIjoiNjg5OTg0MiIsImlhdCI6MTc2OTQzNDI0NSwiaXNzIjoiQVBBIiwic3ViIjoiMjM0OTk1MCJ9.CFHOO7e3beLYb6zh9dMKbu8hDpJ0g8UtckdFqLZ9x0sDKn-nYKYOtd9mTcH0gX5VDnPbYd0mnQNg-cUkGFUT-lYMdSahLeIZpqm1CCgLyDVo_0NMg_fBo_BQSu4lDEUWJosU_QI0JzoqHkkf_aH6sNmrGbja5DdUDM5QtXeRiuhRObl9Xzv9C1YFdjqMDuoKFCjr_qUnWvWXmNjKm-EMmTal9ZDA5yzxG-s6-BIA8wTAWebGLQa4dkR6wRn1kf_GL71JOu5rrkKBhOsPP7MDORyMnM-l5BFp0lU96Ia1_XcieOpQPkuRj7WXZGiiWpIcmaAiIRJ9_d5YxBhh-i4B4g",
+    "domain": "league.poolplayers.com",
+    "path": "/",
+    "expires": 1803994248.433159,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.140696259.1769434249",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1769527043,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "m",
+    "value": "19f69443-478c-4998-b9d4-199bbc918cef63c104",
+    "domain": "m.stripe.com",
+    "path": "/",
+    "expires": 1804000642.273655,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__stripe_mid",
+    "value": "c30f450c-58ec-4844-9b27-fd2ff9860cfd43d644",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1800976643,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "__stripe_sid",
+    "value": "184acc2c-ec58-4266-bbfb-736692a7ffc09c9f4b",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1769442443,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "deleted",
+    "domain": "league.poolplayers.com",
+    "path": "/",
+    "expires": 1803999176.048214,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "deleted",
+    "domain": ".league.poolplayers.com",
+    "path": "/",
+    "expires": 1804000561.884095,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "accessToken",
+    "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im9seWR1dTRod0xkdHBJTEFsRGVtZi1YYjZNWjhueWg2bC1UdzN6bTRZQnMifQ.eyJjYW5WaWV3TWFnYXppbmUiOnRydWUsImFwcGxpY2F0aW9uUmVmcmVzaFRva2VuSWQiOiI2ODk5ODQyIiwiaWF0IjoxNzY5NDQwNTc4LCJleHAiOjE3Njk0NDE0NzgsImlzcyI6IkFQQSIsInN1YiI6IjIzNDk5NTAifQ.lfAVLBgVVzJfLl4KMCiKPesw8AGFmg5p9KTr0IefnPxy1wfpsoT638DcBEX9IQGEtGgCx8_EECIRlkEPWJ5ZpkNzeOg_cY2sVSYT7vOoAC74FdHhS_kPeIHaX5_fREkFcUpJPoNVJYR1hXTLPY9EEJmjfmCemVkU4Lzp-4DPzF1xaB4EpBt63XJhul2ueHFdP6_YWutTsqSPmFPvc7LMr26PP_ltSlP2pNFQSPh2NROFhvL7LMvBMQeYNvpjbwkeo14Cq63nB95E_vEZwpphk9m19MxhcGYcCdQho4UsfL0H1MwZnEMkwM59OIeGU6PIt06yD6GMLFDwqI_tQCOVtQ",
+    "domain": "league.poolplayers.com",
+    "path": "/",
+    "expires": 1804000578.507563,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gat_gtag_UA_5591255_49",
+    "value": "1",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1769440653,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.477816337.1769434249",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1804000643.507232,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_PXYQFEKD0M",
+    "value": "GS2.1.s1769440530$o1$g1$t1769440643$j6$l0$h0",
+    "domain": ".poolplayers.com",
+    "path": "/",
+    "expires": 1804000643.524399,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "generation": 6,
+  "max_generation": 6,
+  "source_tool": "zoo_toolmaker_gen6",
+  "next_generation_tool_prefix": null,
+  "next_generation_tool_count": 0,
+  "next_generation_tools": [],
+  "terminal_generation": true
+}

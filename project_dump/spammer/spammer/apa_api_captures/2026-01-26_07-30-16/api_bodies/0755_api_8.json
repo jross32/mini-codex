@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1726363,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 76281428,
+            "team": {
+              "id": 10819067,
+              "name": "Bank Bros",
+              "number": "23305",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6785714285714286,
+            "ppm": 13.571428571428571,
+            "matchesWon": 6,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 95,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

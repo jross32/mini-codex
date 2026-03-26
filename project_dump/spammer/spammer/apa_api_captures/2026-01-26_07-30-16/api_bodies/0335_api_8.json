@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2047605,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539602,
+            "teamNumber": "12198434",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Lethal 8's",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2023",
+              "id": 41435,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 245953,
+            "teamNumber": "10758544",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Eddie's Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL 9 BALL TRICUP 2016",
+              "id": 16065,
+              "startTime": "2017-02-18T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 245925,
+            "teamNumber": "10758390",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Eddie's Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL 8 BALL TRICUP 2016",
+              "id": 16064,
+              "startTime": "2017-01-21T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 234976,
+            "teamNumber": "10736532",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Eddie's Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV SUMMER 9 BALL TRICUP 2016",
+              "id": 14976,
+              "startTime": "2016-10-16T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 211122,
+            "teamNumber": "10619725",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Eddie's Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "LTC CAMERON 8 BALL",
+              "id": 13082,
+              "startTime": "2016-05-20T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 210391,
+            "teamNumber": "10543992",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Rack n Roll",
+            "disqualified": null,
+            "tournament": {
+              "name": "LTC CAMERON 9 BALL",
+              "id": 13083,
+              "startTime": "2016-05-14T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 185584,
+            "teamNumber": "10479252",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Eddie's Team",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 Ball Summer Tricup 2015",
+              "id": 12296,
+              "startTime": "2015-09-20T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 177545,
+            "teamNumber": "10440616",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Pool Addicts",
+            "disqualified": null,
+            "tournament": {
+              "name": "SPRING 8 BALL TRICUP 2015",
+              "id": 11527,
+              "startTime": "2015-07-11T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 167820,
+            "teamNumber": "10313077",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Pool Addicts ( T )",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 BALL LTC 2014-2015",
+              "id": 10581,
+              "startTime": "2015-06-05T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 167834,
+            "teamNumber": "10313098",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Hustlers",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 BALL LTC 2014-2015",
+              "id": 10582,
+              "startTime": "2015-05-30T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

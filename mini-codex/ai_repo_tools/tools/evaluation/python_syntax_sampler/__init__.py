@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.python_syntax.python_syntax_sampler.command import cmd_python_syntax_sampler

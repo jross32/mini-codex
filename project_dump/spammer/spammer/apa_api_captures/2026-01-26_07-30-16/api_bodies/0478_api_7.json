@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1606859,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 83598946,
+            "team": {
+              "id": 11839317,
+              "name": "McAllen Valley Roofing",
+              "number": "03010",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2777777777777778,
+            "ppm": 0.8333333333333334,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 5,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 83600522,
+            "team": {
+              "id": 11839488,
+              "name": "Pok Pok",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4666666666666666,
+            "ppm": 1.4,
+            "eightBallMatchPointsEarned": 7,
+            "matchesWon": 3,
+            "matchesPlayed": 5,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

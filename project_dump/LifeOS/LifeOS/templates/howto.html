@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}How to Use | Life OS{% endblock %}
+{% block content %}
+<div class="container py-4" style="max-width: 860px;">
+  <div class="card card-soft p-4">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+      <div>
+        <div class="subtle text-uppercase small">Guide</div>
+        <h4 class="fw-bold mb-0">Using Life OS effectively</h4>
+      </div>
+      <span class="pill">Tailored • Editable • Real-time</span>
+    </div>
+    <ol class="subtle small mb-3">
+      <li>Complete onboarding: pick modules you want and set your tracking preferences.</li>
+      <li>Dashboard: skim your top cards, then click into any module for detail views.</li>
+      <li>Tasks/Projects: quick-add, edit, complete, or remove tasks directly on the Kanban columns.</li>
+      <li>Events: add/mark done/edit/remove right from the Events page.</li>
+      <li>Reminders: capture, complete, or edit due dates inline.</li>
+      <li>Notes: add, edit, tag, or delete in place; keep ideas organized.</li>
+      <li>Tailor Profile: adjust dashboard visibility and module settings anytime.</li>
+    </ol>
+    <div class="card card-soft p-3">
+      <div class="fw-semibold mb-1">Tips</div>
+      <ul class="subtle small mb-0">
+        <li>Use “Remember this browser” at login for longer sessions.</li>
+        <li>Modules you disable stay hidden from nav and dashboard.</li>
+        <li>API writes: set LIFEOS_TOKEN and send X-Auth-Token to use /api endpoints.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

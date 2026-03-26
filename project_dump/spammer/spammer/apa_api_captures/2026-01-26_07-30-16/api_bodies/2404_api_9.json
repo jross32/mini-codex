@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3065536,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 87557236,
+            "team": {
+              "id": 12384042,
+              "name": "Bad Boys",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.16666666666666666,
+            "ppm": 0.5,
+            "eightBallMatchPointsEarned": 4,
+            "matchesWon": 1,
+            "matchesPlayed": 8,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 87065575,
+            "team": {
+              "id": 12206710,
+              "name": "Team Maribel Rebollar",
+              "number": "42101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3888888888888889,
+            "ppm": 1.1666666666666667,
+            "eightBallMatchPointsEarned": 7,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

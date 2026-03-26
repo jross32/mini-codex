@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2192681,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 84437989,
+            "team": {
+              "id": 11953364,
+              "name": "Pool Addicts",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3666666666666667,
+            "ppm": 1.1,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

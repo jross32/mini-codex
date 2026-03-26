@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.friction_summarizer.friction_summarizer.command import cmd_friction_summarizer

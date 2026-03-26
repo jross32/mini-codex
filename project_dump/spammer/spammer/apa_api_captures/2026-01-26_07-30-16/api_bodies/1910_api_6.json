@@ -1,0 +1,408 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3038547,
+        "firstName": "Alejandro",
+        "lastName": "Hernandez",
+        "initials": "AH",
+        "aliases": [
+          {
+            "id": 2706918,
+            "displayName": "Alex Hernandez",
+            "memberNumber": "78502880",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2706918,
+        "pastTeams": [
+          {
+            "id": 90396201,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Alex",
+            "matchesPlayed": 9,
+            "matchesWon": 8,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 2,
+            "team": {
+              "id": 12766845,
+              "name": "Dead On",
+              "division": {
+                "id": 408941,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056700,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Alex",
+            "matchesPlayed": 2,
+            "matchesWon": 1,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12869208,
+              "name": "Dead On",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 82770539,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "Alex",
+            "matchesPlayed": 2,
+            "matchesWon": 1,
+            "session": {
+              "id": 113,
+              "name": "Spring 2020",
+              "__typename": "Session"
+            },
+            "skillLevel": 3,
+            "rank": 8,
+            "team": {
+              "id": 11568752,
+              "name": "Hollywood Daze",
+              "division": {
+                "id": 298686,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 80649251,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "Alex",
+            "matchesPlayed": 10,
+            "matchesWon": 5,
+            "session": {
+              "id": 111,
+              "name": "Summer 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 11,
+            "team": {
+              "id": 11425976,
+              "name": "Hollywood Daze",
+              "division": {
+                "id": 285077,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 80417047,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Alex",
+            "matchesPlayed": 9,
+            "matchesWon": 7,
+            "session": {
+              "id": 109,
+              "name": "Spring 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 3,
+            "team": {
+              "id": 11347757,
+              "name": "Hollywood Daze",
+              "division": {
+                "id": 277583,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79838680,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": "Alex",
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 108,
+              "name": "Fall 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 9,
+            "team": {
+              "id": 11291788,
+              "name": "Hollywood Daze",
+              "division": {
+                "id": 272398,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79837952,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 6,
+            "matchesWon": 2,
+            "session": {
+              "id": 108,
+              "name": "Fall 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 2,
+            "rank": 12,
+            "team": {
+              "id": 11291605,
+              "name": "Pool Addicts",
+              "division": {
+                "id": 272381,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 79424319,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 6,
+            "matchesWon": 2,
+            "session": {
+              "id": 107,
+              "name": "Summer 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 1,
+            "rank": 26,
+            "team": {
+              "id": 11176182,
+              "name": "Pooligans",
+              "division": {
+                "id": 262394,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677428,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951827,
+              "name": "Dead On",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677864,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951911,
+              "name": "Dead On",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90630288,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 13,
+            "matchesWon": 5,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 11,
+            "team": {
+              "id": 12766796,
+              "name": "Goodfellas",
+              "division": {
+                "id": 408937,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016690,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": "Alex",
+            "matchesPlayed": 11,
+            "matchesWon": 7,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 2,
+            "team": {
+              "id": 12864714,
+              "name": "Dead On",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91051208,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": "Alex",
+            "matchesPlayed": 14,
+            "matchesWon": 9,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 8,
+            "team": {
+              "id": 12864634,
+              "name": "Dead On",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

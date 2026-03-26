@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "liveStream": {
+        "__typename": "LiveStreamPayload",
+        "feeds": []
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1999070,
+        "sessions": [
+          {
+            "id": 138,
+            "name": "Spring 2026",
+            "__typename": "Session"
+          },
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 118,
+            "name": "Fall 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 109,
+            "name": "Spring 2019",
+            "__typename": "Session"
+          },
+          {
+            "id": 108,
+            "name": "Fall 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 107,
+            "name": "Summer 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 104,
+            "name": "Spring 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 103,
+            "name": "Fall 2017",
+            "__typename": "Session"
+          },
+          {
+            "id": 81,
+            "name": "Summer 2012",
+            "__typename": "Session"
+          },
+          {
+            "id": 80,
+            "name": "Spring 2012",
+            "__typename": "Session"
+          },
+          {
+            "id": 79,
+            "name": "Fall 2011",
+            "__typename": "Session"
+          },
+          {
+            "id": 78,
+            "name": "Summer 2011",
+            "__typename": "Session"
+          },
+          {
+            "id": 77,
+            "name": "Spring 2011",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

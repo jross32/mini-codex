@@ -1,0 +1,71 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3433016,
+        "firstName": "Javier",
+        "lastName": "Galvan",
+        "initials": "JG",
+        "aliases": [
+          {
+            "id": 3314517,
+            "displayName": "Javier Galvan",
+            "memberNumber": "78504332",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3433016,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699199,
+            "teamNumber": "12864720",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Quete Importa",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 8 Ball (C)",
+              "id": 54934,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

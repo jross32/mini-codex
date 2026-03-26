@@ -1,0 +1,198 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3136870,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677482,
+            "team": {
+              "id": 12951834,
+              "name": "Ballerz 956",
+              "number": "22205",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.65,
+            "ppm": 13,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 13,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016311,
+            "team": {
+              "id": 12864636,
+              "name": "Ballerz 956",
+              "number": "22208",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 10.666666666666666,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 128,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91725132,
+            "team": {
+              "id": 12956665,
+              "name": "Ballerz 956",
+              "number": "22208",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5833333333333333,
+            "ppm": 11.666666666666666,
+            "matchesWon": 2,
+            "matchesPlayed": 3,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 35,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277662,
+            "team": {
+              "id": 12766724,
+              "name": "Ballerz 956",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4375,
+            "ppm": 8.75,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 2,
+            "nineBallMatchPointsEarned": 70,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463148,
+            "team": {
+              "id": 12649758,
+              "name": "Ballerz 956",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5454545454545454,
+            "ppm": 10.909090909090908,
+            "matchesWon": 5,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 120,
+            "nineOnSnaps": 1,
+            "skunks": 1,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88633712,
+            "team": {
+              "id": 12537131,
+              "name": "Ballerz 956",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.49444444444444446,
+            "ppm": 9.88888888888889,
+            "matchesWon": 4,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 89,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88190099,
+            "team": {
+              "id": 12471404,
+              "name": "Ballerz 956",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.45,
+            "ppm": 9,
+            "matchesWon": 5,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 108,
+            "nineOnSnaps": 4,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87558211,
+            "team": {
+              "id": 12384176,
+              "name": "Ballerz 956",
+              "number": "22108",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.7071428571428571,
+            "ppm": 14.142857142857142,
+            "matchesWon": 7,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87476893,
+            "team": {
+              "id": 12370212,
+              "name": "Ballerz 956",
+              "number": "22108",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5888888888888889,
+            "ppm": 11.777777777777779,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 106,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

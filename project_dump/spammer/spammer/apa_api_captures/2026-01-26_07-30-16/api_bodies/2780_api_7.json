@@ -1,0 +1,103 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3435110,
+        "firstName": "Andres",
+        "lastName": "Garcia",
+        "initials": "AG",
+        "aliases": [
+          {
+            "id": 3319521,
+            "displayName": "Andres Garcia",
+            "memberNumber": "78504483",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3435110,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 86608,
+            "teamNumber": "10030802",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Pool Hall Junkies",
+            "disqualified": null,
+            "tournament": {
+              "name": "Makeup 9-Ball",
+              "id": 5704,
+              "startTime": "2013-07-13T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 82264,
+            "teamNumber": "10030802",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Pool Hall Junkies",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 Ball LTC",
+              "id": 4621,
+              "startTime": "2013-06-15T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 194081,
+            "teamNumber": "78591",
+            "skillLevel": "5",
+            "standing": 65,
+            "teamName": "Dead On",
+            "disqualified": false,
+            "tournament": {
+              "name": "2009 9-Ball Team Championship",
+              "id": 203,
+              "startTime": "2009-08-19T00:00:00Z",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

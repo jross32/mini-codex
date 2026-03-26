@@ -1,0 +1,419 @@
+{
+  "structured_data": [],
+  "rendered_text": "Member ServicesJR My Membership Card/ID Edit Profile Settings Payments Logout1DashboardMatchesNewsEventsMy StatsPay for MatchesRulesMy LeaguesRio Grande Valley APAAPA NationalStoreTournament InfoDiscountsContactNeed Help?Chalk and Awe (02)Rio Grande Valley APAWebsiteFacebook+1 956 821 6925Chalk and Awe (02)Home Location: DK's Stix & StuffDay/Time: Thursday 8:00 pmFormat:9-Ball OpenSession:Fall 2025Division: Thursday Brownsville 9 B- (222)Standing in Division: 4thView All DivisionsDiv Rep: Mr. Vegas CamachoCall Division Rep Mr. Vegas Camacho @ +1 956 572 8638Team RosterPlayer NameSkill LevelMatches Won/PlayedWin %PPMPAJose Vasquez#7850133874/666.67%10.6753.33%Ashley Dartt#7850077741/714.29%7.5737.86%Rogerio Molina#7850248347/1450%10.0750.36%David Hernandez Garces#7850386545/1241.67%9.8349.17%Steve Castillo#7850065856/966.67%12.0060.00%Gilbert Duran#7850011472/633.33%9.6748.33%Yahir Silvan#7850224933/933.33%10.4452.22%Tristan Landgraf#7850425144/850%10.2551.25%Team Schedule & ResultsWeek 17852Chalk and Awe(22202)Cue-ligans(22207) DK's Stix & Stuff  |\u00a0Sep 4, 2025Week 26664Chalk and Awe(22202)Palochones(22206)DK's Stix & Stuff  |\u00a0Sep 11, 2025Week 34382Bad Boys(22204)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Sep 18, 2025Week 46268Quete Importa(22203)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Sep 25, 2025Week 56664Chalk and Awe(22202)Ballerz 956(22208)DK's Stix & Stuff  |\u00a0Oct 2, 2025Week 67258A-Rack-Nophobia(22205)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Oct 9, 2025Week 77357Chalk and Awe(22202)Dead On(22201)DK's Stix & Stuff  |\u00a0Oct 16, 2025Week 86466Cue-ligans(22207)Chalk and Awe(22202) DK's Stix & Stuff  |\u00a0Oct 23, 2025Week 95575Palochones(22206)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Oct 30, 2025Week 106169Chalk and Awe(22202)Bad Boys(22204)DK's Stix & Stuff  |\u00a0Nov 6, 2025Week 1165 -65TiedChalk and Awe(22202)Quete Importa(22203)DK's Stix & Stuff  |\u00a0Nov 13, 2025Week 127555Ballerz 956(22208)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Nov 20, 2025Nov27No PlayWeek 135476Chalk and Awe(22202)A-Rack-Nophobia(22205)DK's Stix & Stuff  |\u00a0Dec 4, 2025Week 147456Dead On(22201)Chalk and Awe(22202)DK's Stix & Stuff  |\u00a0Dec 11, 2025Week 156763Chalk and Awe(22202)Cue-ligans(22207) DK's Stix & Stuff  |\u00a0Dec 18, 2025Dec25No PlayJan01No PlaySession Stat Totals990 Subtotal0 Additional Bonus Points990 TotalPlayoffsWeek 168446Ballerz 956(22208)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Jan 8, 2026\u00a92026 American Poolplayers AssociationPrivacy Policy Terms of Usev3.18.44\nStay informed with Member Services notifications!3For ExampleYou have pool league tonight! Don't ask me againNo ThanksNotify Me!",
+  "forms": [],
+  "links": {
+    "internal": [
+      {
+        "text": "Member Services",
+        "href": "/",
+        "title": "",
+        "target": "_self",
+        "class": "logo"
+      },
+      {
+        "text": " My Membership Card/ID",
+        "href": "/membercard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Edit Profile",
+        "href": "/profile",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Settings",
+        "href": "/settings",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Payments",
+        "href": "/payments",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Logout",
+        "href": "/login/destroy",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "",
+        "href": "/cart",
+        "title": "",
+        "target": "_self",
+        "class": "dropdown-toggle waves-effect waves-light"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/dashboard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Matches",
+        "href": "/matches",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "News",
+        "href": "/news",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Events",
+        "href": "/events/league/all",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "My Stats",
+        "href": "/RioGrandeValley/member/3400522",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Pay for Matches",
+        "href": "/store",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rules",
+        "href": "/rules",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rio Grande Valley APA",
+        "href": "/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Need Help?",
+        "href": "/help",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Thursday Brownsville 9 B- (222)",
+        "href": "/RioGrandeValley/divisions/417524",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "4th",
+        "href": "/RioGrandeValley/divisions/417524/standings",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "View All Divisions",
+        "href": "/RioGrandeValley/divisions",
+        "title": "",
+        "target": "_self",
+        "class": "text-info h3"
+      },
+      {
+        "text": "Jose Vasquez",
+        "href": "/RioGrandeValley/member/2324730",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Ashley Dartt",
+        "href": "/RioGrandeValley/member/2099036",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Rogerio Molina",
+        "href": "/RioGrandeValley/member/2706283",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "David Hernandez Garces",
+        "href": "/RioGrandeValley/member/3275748",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Steve Castillo",
+        "href": "/RioGrandeValley/member/2047605",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Gilbert Duran",
+        "href": "/RioGrandeValley/member/1651980",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Yahir Silvan",
+        "href": "/RioGrandeValley/member/3401143",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Tristan Landgraf",
+        "href": "/RioGrandeValley/member/3439196",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Week 17852Chalk and Awe(22202)Cue-ligans(22207) DK's Stix & Stuff  |\u00a0Sep 4, 2025",
+        "href": "/RioGrandeValley/match/48118080",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 26664Chalk and Awe(22202)Palochones(22206)DK's Stix & Stuff  |\u00a0Sep 11, 2025",
+        "href": "/RioGrandeValley/match/48118084",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 34382Bad Boys(22204)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Sep 18, 2025",
+        "href": "/RioGrandeValley/match/48118088",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 46268Quete Importa(22203)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Sep 25, 2025",
+        "href": "/RioGrandeValley/match/48118091",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 56664Chalk and Awe(22202)Ballerz 956(22208)DK's Stix & Stuff  |\u00a0Oct 2, 2025",
+        "href": "/RioGrandeValley/match/48118094",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 67258A-Rack-Nophobia(22205)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Oct 9, 2025",
+        "href": "/RioGrandeValley/match/48118098",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 77357Chalk and Awe(22202)Dead On(22201)DK's Stix & Stuff  |\u00a0Oct 16, 2025",
+        "href": "/RioGrandeValley/match/48118101",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 86466Cue-ligans(22207)Chalk and Awe(22202) DK's Stix & Stuff  |\u00a0Oct 23, 2025",
+        "href": "/RioGrandeValley/match/48118108",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 95575Palochones(22206)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Oct 30, 2025",
+        "href": "/RioGrandeValley/match/48118112",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 106169Chalk and Awe(22202)Bad Boys(22204)DK's Stix & Stuff  |\u00a0Nov 6, 2025",
+        "href": "/RioGrandeValley/match/48118116",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 1165 -65TiedChalk and Awe(22202)Quete Importa(22203)DK's Stix & Stuff  |\u00a0Nov 13, 2025",
+        "href": "/RioGrandeValley/match/48118119",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 127555Ballerz 956(22208)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Nov 20, 2025",
+        "href": "/RioGrandeValley/match/48118122",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 135476Chalk and Awe(22202)A-Rack-Nophobia(22205)DK's Stix & Stuff  |\u00a0Dec 4, 2025",
+        "href": "/RioGrandeValley/match/48118138",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 147456Dead On(22201)Chalk and Awe(22202)DK's Stix & Stuff  |\u00a0Dec 11, 2025",
+        "href": "/RioGrandeValley/match/48118141",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 156763Chalk and Awe(22202)Cue-ligans(22207) DK's Stix & Stuff  |\u00a0Dec 18, 2025",
+        "href": "/RioGrandeValley/match/48118148",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      },
+      {
+        "text": "Week 168446Ballerz 956(22208)Chalk and Awe(22202)The Lucky Barrel  |\u00a0Jan 8, 2026",
+        "href": "/RioGrandeValley/match/49180623",
+        "title": "",
+        "target": "_self",
+        "class": "css-1cud7lo ewwbg0w0"
+      }
+    ],
+    "external": [
+      {
+        "text": "Store",
+        "href": "https://shop.poolplayers.com",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://bd.poolplayers.com/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "",
+        "href": "https://www.distro.tv/live/billiard-tv/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "Tournament Info",
+        "href": "https://poolplayers.com/tournament-information",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Discounts",
+        "href": "https://poolplayers.com/discounts",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Contact",
+        "href": "https://poolplayers.com/contact/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-facebook tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-twitter tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/user/apaleagues",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-youtube tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/poolplayers/",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-instagram tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "Website",
+        "href": "http://rgv.apaleagues.com",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/APARGV",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Div Rep: Mr. Vegas CamachoCall Division Rep Mr. Vegas Camacho @ +1 956 572 8638",
+        "href": "tel:+19565728638",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://poolplayers.com/legal/privacy-policy/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://poolplayers.com/legal/apa-terms-of-use-agreement/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      }
+    ],
+    "ctas": [],
+    "navigation": []
+  }
+}

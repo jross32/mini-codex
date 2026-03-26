@@ -1,0 +1,1 @@
+from .command import cmd_shop_purchase_validation_gate

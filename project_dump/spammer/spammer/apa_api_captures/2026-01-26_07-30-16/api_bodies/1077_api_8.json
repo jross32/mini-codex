@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2082379,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 87434738,
+            "team": {
+              "id": 12337072,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.465,
+            "ppm": 9.3,
+            "matchesWon": 3,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 93,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87186456,
+            "team": {
+              "id": 12337073,
+              "name": "Sour Patch Kids",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.9,
+            "ppm": 18,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 18,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 85630118,
+            "team": {
+              "id": 12119440,
+              "name": "The Unwanted",
+              "number": "02002",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6333333333333333,
+            "ppm": 1.9,
+            "eightBallMatchPointsEarned": 19,
+            "matchesWon": 8,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

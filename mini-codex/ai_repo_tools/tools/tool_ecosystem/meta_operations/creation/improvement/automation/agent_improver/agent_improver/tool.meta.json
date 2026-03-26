@@ -1,0 +1,11 @@
+{
+  "description": "Apply bounded policy tuning updates to the agent core state",
+  "args": [
+    {
+      "name": "recommendations_json",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "applied changes, before/after core state, summary"
+}

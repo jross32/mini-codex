@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.shell_script.shell_script_locator.command import cmd_shell_script_locator

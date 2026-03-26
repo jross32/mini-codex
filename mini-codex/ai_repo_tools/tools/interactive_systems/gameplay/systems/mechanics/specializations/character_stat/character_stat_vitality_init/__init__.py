@@ -1,0 +1,1 @@
+from .command import cmd_character_stat_vitality_init

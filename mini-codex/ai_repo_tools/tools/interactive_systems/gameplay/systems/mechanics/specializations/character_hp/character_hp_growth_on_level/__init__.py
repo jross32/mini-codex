@@ -1,0 +1,1 @@
+from .command import cmd_character_hp_growth_on_level

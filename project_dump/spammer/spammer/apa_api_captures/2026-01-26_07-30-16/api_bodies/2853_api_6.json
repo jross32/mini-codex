@@ -1,0 +1,70 @@
+[
+  {
+    "data": {
+      "liveStream": {
+        "__typename": "LiveStreamPayload",
+        "feeds": []
+      }
+    }
+  },
+  {
+    "data": {
+      "tournament": {
+        "id": 55817,
+        "name": "2026 APA 8-Ball Classic",
+        "description": "",
+        "tournamentType": "Singles",
+        "startTime": "2026-04-26T09:00:00-05:00",
+        "endTime": "2026-04-28T23:59:00-05:00",
+        "fees": null,
+        "teamCount": 900,
+        "tournamentTypeName": "Poolplayer Championships",
+        "type": "EIGHT",
+        "webEventLink": null,
+        "event": {
+          "id": 39950,
+          "visible": false,
+          "name": "2026 Poolplayer Championships",
+          "hostName": "APA National Office Membership",
+          "additionalInfo": null,
+          "hostPhone": "+16366258611",
+          "link": "",
+          "registrationWindow": null,
+          "league": {
+            "id": 589,
+            "name": "APA National",
+            "slug": "national",
+            "__typename": "League"
+          },
+          "__typename": "Event"
+        },
+        "hostLocation": {
+          "id": 115116,
+          "phone": "+17027325111",
+          "address": {
+            "id": 64621,
+            "name": "Westgate Las Vegas Resort & Casino",
+            "city": "Las Vegas",
+            "zip": "89109",
+            "address1": "3000 Paradise Rd.",
+            "address2": "",
+            "latitude": 36.1355819,
+            "longitude": -115.1521936,
+            "stateProvince": {
+              "id": 28,
+              "name": "Nevada",
+              "__typename": "StateProvince"
+            },
+            "country": {
+              "id": 1,
+              "__typename": "Country"
+            },
+            "__typename": "Address"
+          },
+          "__typename": "HostLocation"
+        },
+        "__typename": "Tournament"
+      }
+    }
+  }
+]

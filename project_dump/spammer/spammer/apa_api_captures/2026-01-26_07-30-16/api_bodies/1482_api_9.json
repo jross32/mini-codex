@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538537,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 79655184,
+            "team": {
+              "id": 11291609,
+              "name": "Rackless Behavior",
+              "number": "02102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4444444444444444,
+            "ppm": 1.3333333333333333,
+            "eightBallMatchPointsEarned": 16,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 2,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80001638,
+            "team": {
+              "id": 11291628,
+              "name": "The Tipsy 8",
+              "number": "03307",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.611111111111111,
+            "ppm": 1.8333333333333333,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 4,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 3,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

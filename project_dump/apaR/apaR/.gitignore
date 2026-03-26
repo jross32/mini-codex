@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.coverage
+htmlcov
+*.egg-info/
+backend/alembic/versions/*.pyc
+backend/.env
+.env

@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_attack.character_attack_speed_calc.command import cmd_character_attack_speed_calc

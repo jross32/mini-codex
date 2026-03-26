@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Population</h1>
+<table class="table">
+  <tr><th>ID</th><th>Name</th><th>Age</th><th>Energy</th><th>Role</th><th>Status</th></tr>
+  {% for a in agents %}
+  <tr>
+    <td>{{ a.id }}</td>
+    <td>{{ a.name }}</td>
+    <td>{{ a.age }}</td>
+    <td>{{ a.energy }}</td>
+    <td>{{ a.role }}</td>
+    <td>{{ a.status }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

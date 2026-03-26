@@ -1,0 +1,67 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3234695,
+        "firstName": "Jose",
+        "lastName": "Sierra",
+        "initials": "JS",
+        "aliases": [
+          {
+            "id": 3010101,
+            "displayName": "Jose Sierra",
+            "memberNumber": "78503750",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 0,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3234695,
+        "aliases": [
+          {
+            "id": 3010101,
+            "formats": [
+              "EIGHT"
+            ],
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "isDefault": true,
+              "__typename": "League"
+            },
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

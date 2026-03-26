@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.fixme_finder.fixme_finder.command import cmd_fixme_finder

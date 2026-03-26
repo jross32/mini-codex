@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1707832,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91016725,
+            "team": {
+              "id": 12864719,
+              "name": "Palochones",
+              "number": "02206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4761904761904762,
+            "ppm": 1.4285714285714286,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016827,
+            "team": {
+              "id": 12864756,
+              "name": "Stoke of Luck",
+              "number": "53301",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5666666666666667,
+            "ppm": 1.7,
+            "eightBallMatchPointsEarned": 17,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 3,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

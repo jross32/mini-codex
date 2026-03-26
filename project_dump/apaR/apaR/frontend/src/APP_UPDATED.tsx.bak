@@ -1,0 +1,83 @@
+// This is a reference for the nav updates needed in App.tsx
+// Update Sidebar function signature and render:
+
+function Sidebar({ open, onClose, items }: { open: boolean; onClose: () => void; items: NavItem[] }) {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    onClose();
+  }, [pathname, onClose]);
+
+  return (
+    <>
+      {open && <div className="sidebar-overlay" onClick={onClose} aria-hidden="true" />}
+      
+      <aside className={`sidebar ${open ? "open" : ""}`} role="navigation">
+        <div className="sidebar-header">
+          <span className="brand">apaR</span>
+          <button 
+            className="icon-button close-button" 
+            onClick={onClose} 
+            aria-label="Close navigation"
+          >
+            ✕
+          </button>
+        </div>
+        <nav className="sidebar-nav">
+          <ul>
+            {items.map((item) => (
+              <li key={item.path}>
+                <NavLink 
+                  to={item.path} 
+                  className={({ isActive }) => isActive ? "active" : ""}
+                >
+                  {item.label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className="sidebar-footer">
+          <p className="muted small">apaR · League management</p>
+        </div>
+      </aside>
+    </>
+  );
+}
+
+// Update header in App return:
+{!isAuthPage && (
+  <header className="topbar">
+    <div className="topbar-left">
+      <button 
+        className="icon-button menu-button" 
+        onClick={() => setSidebarOpen(true)} 
+        aria-label="Open navigation"
+      >
+        ☰
+      </button>
+      <Link to="/" className="brand">
+        apaR
+      </Link>
+    </div>
+    
+    <div className="topbar-center">
+      <div className="pill soft toggle">
+        <span>Captain Mode</span>
+        <label className="switch">
+          <input type="checkbox" checked={captainMode} onChange={() => setCaptainMode((prev) => !prev)} />
+          <span className="slider" />
+        </label>
+      </div>
+      <DataStatusPill
+        isLoading={metaQuery.isLoading}
+        isError={metaQuery.isError}
+        data={metaQuery.data}
+      />
+    </div>
+    
+    <div className="topbar-right">
+      <GlobalSearch />
+    </div>
+  </header>
+)}

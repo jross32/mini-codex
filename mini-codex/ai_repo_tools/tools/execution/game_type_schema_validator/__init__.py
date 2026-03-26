@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.configuration.validation.schema_rules.game_modes.game_type_schema_validator.command import cmd_game_type_schema_validator

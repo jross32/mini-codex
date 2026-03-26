@@ -1,0 +1,133 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3156532,
+        "firstName": "Felipe",
+        "lastName": "Trevino",
+        "initials": "FT",
+        "aliases": [
+          {
+            "id": 2900440,
+            "displayName": "Felipe Trevino",
+            "memberNumber": "78503357",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 7,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 8,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3156532,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699200,
+            "teamNumber": "12864717",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 8 Ball (C)",
+              "id": 54934,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 284497,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall 782-San Antonio Regional 8-Ball",
+              "id": 53876,
+              "startTime": "2025-10-04T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 581726,
+            "teamNumber": "12337070",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597863,
+            "teamNumber": "12384042",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 425205,
+            "teamNumber": "11568670",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Pool Addicts",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 8 BALL",
+              "id": 26028,
+              "startTime": "2021-05-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.monster_resistance.monster_resistance_strength_roll.command import cmd_monster_resistance_strength_roll

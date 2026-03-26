@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.markdown_file.markdown_file_locator.command import cmd_markdown_file_locator

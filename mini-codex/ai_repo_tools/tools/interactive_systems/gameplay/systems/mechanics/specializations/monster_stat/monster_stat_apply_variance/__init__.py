@@ -1,0 +1,1 @@
+from .command import cmd_monster_stat_apply_variance

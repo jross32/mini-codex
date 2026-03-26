@@ -1,0 +1,104 @@
+[
+  {
+    "data": {
+      "division": {
+        "id": 417524,
+        "number": "222",
+        "name": "Thursday Brownsville 9 B",
+        "format": "9-Ball Open",
+        "nightOfPlay": "Thursday",
+        "timeOfPlay": "1900-01-01T20:00:00Z",
+        "isMine": true,
+        "state": "CURRENT",
+        "schedule": [
+          {
+            "id": 11369023,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369024,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369025,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369026,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369027,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369028,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369029,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369030,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369031,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369032,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369033,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369034,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369039,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369035,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369036,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369037,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369040,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369041,
+            "__typename": "Schedule"
+          },
+          {
+            "id": 11369038,
+            "__typename": "Schedule"
+          }
+        ],
+        "league": {
+          "id": 894,
+          "__typename": "League"
+        },
+        "session": {
+          "id": 137,
+          "name": "Fall 2025",
+          "__typename": "Session"
+        },
+        "__typename": "Division"
+      }
+    }
+  }
+]

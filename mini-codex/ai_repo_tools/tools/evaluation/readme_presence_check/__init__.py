@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.readme_presence.readme_presence_check.command import cmd_readme_presence_check

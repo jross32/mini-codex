@@ -1,0 +1,24 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "calendarSubscription": {
+          "id": 116604,
+          "subscriptionToken": "B8BD2A69-A7EE-4CC6-A02C-58DEE18E6264",
+          "calendarPreferences": [
+            {
+              "id": 118777,
+              "preference": true,
+              "userCalendarOptionsId": 1,
+              "option": "Upcoming Matches",
+              "__typename": "CalendarPreference"
+            }
+          ],
+          "__typename": "CalendarSubscription"
+        },
+        "__typename": "Member"
+      }
+    }
+  }
+]

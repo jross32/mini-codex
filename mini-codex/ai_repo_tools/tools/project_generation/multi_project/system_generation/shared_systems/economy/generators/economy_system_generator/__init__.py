@@ -1,0 +1,1 @@
+from .command import cmd_economy_system_generator

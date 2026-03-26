@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.configuration.templates.module_templates.catalogs.engine_template_catalog_loader.command import cmd_engine_template_catalog_loader

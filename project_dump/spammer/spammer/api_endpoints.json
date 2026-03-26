@@ -1,0 +1,538 @@
+{
+  "api_version": "v1",
+  "base_url": "",
+  "endpoints": {
+    "Account": {
+      "description": "Account management endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/account/verification/{verificationId}",
+          "description": "Get account verification status",
+          "parameters": {
+            "verificationId": "The verification ID"
+          }
+        }
+      ]
+    },
+    "Address": {
+      "description": "Address management endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/address/GetAddress/{addressId}",
+          "description": "Get address by ID",
+          "parameters": {
+            "addressId": "The address ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/address/GetAddressByName/{partialmatch}/{leagueId}",
+          "description": "Get address by partial name match",
+          "parameters": {
+            "partialmatch": "Partial address name",
+            "leagueId": "League ID for filtering"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/address/GetAddressName/{addressName}",
+          "description": "Get address by name",
+          "parameters": {
+            "addressName": "Full address name"
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/address/AddAddress",
+          "description": "Create a new address",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/address/UpdateAddress",
+          "description": "Update an existing address",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/address/DeleteAddress/{addressId}",
+          "description": "Delete an address",
+          "parameters": {
+            "addressId": "The address ID to delete"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/address/GetCityCountyByZip/{zipLookup}/{countryId}",
+          "description": "Get city and county by ZIP code",
+          "parameters": {
+            "zipLookup": "ZIP code to lookup",
+            "countryId": "Country ID"
+          }
+        }
+      ]
+    },
+    "Member": {
+      "description": "Member management endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/members",
+          "description": "List all members",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}",
+          "description": "Get member by ID",
+          "parameters": {
+            "memberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}/teams",
+          "description": "Get member's teams",
+          "parameters": {
+            "memberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}/matches",
+          "description": "Get member's matches",
+          "parameters": {
+            "memberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}/stats/{period}",
+          "description": "Get member statistics for a period",
+          "parameters": {
+            "memberId": "The member ID",
+            "period": "Time period (current, lifetime, etc.)"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/notifications/{pageIndex}/{pageSize}",
+          "description": "Get member notifications with pagination",
+          "parameters": {
+            "pageIndex": "Page number",
+            "pageSize": "Items per page"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/leagueposts/{pageIndex}/{pageSize}",
+          "description": "Get league posts with pagination",
+          "parameters": {
+            "pageIndex": "Page number",
+            "pageSize": "Items per page"
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/members/savenotifications",
+          "description": "Save notification preferences",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/members/saveprofile",
+          "description": "Save member profile",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/members/email",
+          "description": "Send email to member",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/sendemailverification",
+          "description": "Send email verification",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/cancelemailchange",
+          "description": "Cancel email change request",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/file-download-token",
+          "description": "Get file download token",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}/membership-card",
+          "description": "Get member's membership card",
+          "parameters": {
+            "memberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/services-membership-card",
+          "description": "Get services membership card",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/{memberId}/mvp",
+          "description": "Get member MVP status",
+          "parameters": {
+            "memberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/payment-source",
+          "description": "Get payment source",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/members/payment-source",
+          "description": "Add payment source",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/payment-methods",
+          "description": "Get payment methods",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/members/payment-methods",
+          "description": "Add payment method",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/getOrders",
+          "description": "Get member orders",
+          "parameters": {}
+        },
+        {
+          "method": "DELETE",
+          "path": "/members/payment-methods/{id}",
+          "description": "Delete payment method",
+          "parameters": {
+            "id": "Payment method ID"
+          }
+        },
+        {
+          "method": "PUT",
+          "path": "/members/payment-methods/{id}",
+          "description": "Update payment method",
+          "parameters": {
+            "id": "Payment method ID"
+          }
+        },
+        {
+          "method": "DELETE",
+          "path": "/members/payment-source/{id}",
+          "description": "Delete payment source",
+          "parameters": {
+            "id": "Payment source ID"
+          }
+        },
+        {
+          "method": "PUT",
+          "path": "/members/payment-source/{id}",
+          "description": "Update payment source",
+          "parameters": {
+            "id": "Payment source ID"
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/members/payment-methods/{id}/default",
+          "description": "Set payment method as default",
+          "parameters": {
+            "id": "Payment method ID"
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/members/payment-source/{id}/default",
+          "description": "Set payment source as default",
+          "parameters": {
+            "id": "Payment source ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/getPaymentHistory",
+          "description": "Get member payment history",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/{MemberId}/fees",
+          "description": "Get member fees",
+          "parameters": {
+            "MemberId": "The member ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/getcustomers",
+          "description": "Get customers list",
+          "parameters": {}
+        }
+      ]
+    },
+    "MemberSettings": {
+      "description": "Member settings management endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/members/settings",
+          "description": "Get all member settings",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/settings/{key}",
+          "description": "Get specific member setting",
+          "parameters": {
+            "key": "Setting key"
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/members/settings/save",
+          "description": "Save member settings",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/settings/setdefaultleague",
+          "description": "Set default league",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/settings/timezones",
+          "description": "Get available timezones",
+          "parameters": {}
+        },
+        {
+          "method": "GET",
+          "path": "/members/settings/leagues",
+          "description": "Get member's leagues",
+          "parameters": {}
+        }
+      ]
+    },
+    "MemberStats": {
+      "description": "Member statistics endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/members/stats/sessions/current/{memberAliasId}",
+          "description": "Get current session stats",
+          "parameters": {
+            "memberAliasId": "Member alias ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/stats/sessions/lifetime/{memberAliasId}",
+          "description": "Get lifetime session stats",
+          "parameters": {
+            "memberAliasId": "Member alias ID"
+          }
+        },
+        {
+          "method": "GET",
+          "path": "/members/stats/sessions/combined/{memberAliasId}",
+          "description": "Get combined session stats",
+          "parameters": {
+            "memberAliasId": "Member alias ID"
+          }
+        }
+      ]
+    },
+    "Order": {
+      "description": "Order management endpoints",
+      "endpoints": [
+        {
+          "method": "POST",
+          "path": "/order/Process",
+          "description": "Process an order",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/order/Submit",
+          "description": "Submit an order",
+          "parameters": {}
+        }
+      ]
+    },
+    "Payment": {
+      "description": "Payment processing endpoints",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/payment/SecurityProtocol",
+          "description": "Get payment security protocol info",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/payment/Validate",
+          "description": "Validate payment information",
+          "parameters": {}
+        },
+        {
+          "method": "POST",
+          "path": "/payment/Process",
+          "description": "Process a payment",
+          "parameters": {}
+        }
+      ]
+    },
+    "AppSettings": {
+      "description": "Application settings endpoints",
+      "endpoints": []
+    },
+    "Division": {
+      "description": "Division management endpoints",
+      "endpoints": []
+    },
+    "Email": {
+      "description": "Email management endpoints",
+      "endpoints": []
+    },
+    "Events": {
+      "description": "Events management endpoints",
+      "endpoints": []
+    },
+    "Feature": {
+      "description": "Feature management endpoints",
+      "endpoints": []
+    },
+    "File": {
+      "description": "File management endpoints",
+      "endpoints": []
+    },
+    "Franchises": {
+      "description": "Franchises management endpoints",
+      "endpoints": []
+    },
+    "HostLocation": {
+      "description": "Host location management endpoints",
+      "endpoints": []
+    },
+    "HostLocationSession": {
+      "description": "Host location session management endpoints",
+      "endpoints": []
+    },
+    "League": {
+      "description": "League management endpoints",
+      "endpoints": []
+    },
+    "LeagueContact": {
+      "description": "League contact management endpoints",
+      "endpoints": []
+    },
+    "LeaguePaymentConfig": {
+      "description": "League payment configuration endpoints",
+      "endpoints": []
+    },
+    "Mailhouse": {
+      "description": "Mailhouse management endpoints",
+      "endpoints": []
+    },
+    "MapReporting": {
+      "description": "Map reporting endpoints",
+      "endpoints": []
+    },
+    "Matches": {
+      "description": "Matches management endpoints",
+      "endpoints": []
+    },
+    "MemberRoster": {
+      "description": "Member roster endpoints",
+      "endpoints": []
+    },
+    "MemberSchedules": {
+      "description": "Member schedules endpoints",
+      "endpoints": []
+    },
+    "Post": {
+      "description": "Post management endpoints",
+      "endpoints": []
+    },
+    "Scoresheet": {
+      "description": "Scoresheet management endpoints",
+      "endpoints": []
+    },
+    "Team": {
+      "description": "Team management endpoints",
+      "endpoints": []
+    },
+    "Tournament": {
+      "description": "Tournament management endpoints",
+      "endpoints": []
+    },
+    "Users": {
+      "description": "Users management endpoints",
+      "endpoints": []
+    },
+    "Utility": {
+      "description": "Utility endpoints",
+      "endpoints": []
+    }
+  },
+  "summary": {
+    "total_categories": 26,
+    "total_endpoints": 66,
+    "categories_with_endpoints": [
+      "Account",
+      "Address",
+      "Member",
+      "MemberSettings",
+      "MemberStats",
+      "Order",
+      "Payment"
+    ],
+    "categories_pending_endpoints": [
+      "AppSettings",
+      "Division",
+      "Email",
+      "Events",
+      "Feature",
+      "File",
+      "Franchises",
+      "HostLocation",
+      "HostLocationSession",
+      "League",
+      "LeagueContact",
+      "LeaguePaymentConfig",
+      "Mailhouse",
+      "MapReporting",
+      "Matches",
+      "MemberRoster",
+      "MemberSchedules",
+      "Post",
+      "Scoresheet",
+      "Team",
+      "Tournament",
+      "Users",
+      "Utility"
+    ]
+  }
+}

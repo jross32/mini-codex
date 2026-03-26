@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.python_file.python_file_locator.command import cmd_python_file_locator

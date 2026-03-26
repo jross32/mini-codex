@@ -1,0 +1,88 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3292337,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655938,
+            "teamNumber": "12649760",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 231276,
+            "teamNumber": "78531",
+            "skillLevel": "7",
+            "standing": 129,
+            "teamName": "Papirrines",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Masters Championship",
+              "id": 45466,
+              "startTime": "2024-08-11T15:00:00-05:00",
+              "type": "MASTERS",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597876,
+            "teamNumber": "12384174",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "J & Bubbas",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL BEST OF THE REST 2024",
+              "id": 45947,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 248509,
+            "skillLevel": "7",
+            "standing": 9,
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8-Ball Classic",
+              "id": 44151,
+              "startTime": "2024-05-01T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "id": 233984,
+            "skillLevel": "6",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Spring 785-South Texas Regional 8-Ball",
+              "id": 45656,
+              "startTime": "2024-03-02T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

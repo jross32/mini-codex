@@ -1,0 +1,106 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3275748,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607433,
+            "teamNumber": "12207209",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 ALL VALLEY WORLD QUALIIFIER",
+              "id": 47558,
+              "startTime": "2024-06-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 559608,
+            "teamNumber": "12207209",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597878,
+            "teamNumber": "12384169",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL BEST OF THE REST 2024",
+              "id": 45947,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 233967,
+            "skillLevel": "4",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Spring 785-South Texas Regional 9-Ball",
+              "id": 45752,
+              "startTime": "2024-03-03T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527754,
+            "teamNumber": "12013339",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539602,
+            "teamNumber": "12198434",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Lethal 8's",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2023",
+              "id": 41435,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

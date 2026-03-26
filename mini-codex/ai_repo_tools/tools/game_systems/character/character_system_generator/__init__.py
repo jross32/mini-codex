@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_system.character_system_generator.command import cmd_character_system_generator

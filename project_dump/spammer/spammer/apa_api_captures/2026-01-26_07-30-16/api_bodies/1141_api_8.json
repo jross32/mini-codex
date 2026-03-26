@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2572365,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 658285,
+            "teamNumber": "12649758",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655939,
+            "teamNumber": "12649758",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238370,
+            "teamNumber": "78501",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 607409,
+            "teamNumber": "12443320",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 ALL VALLEY WORLD QUALIIFIER",
+              "id": 47558,
+              "startTime": "2024-06-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 598649,
+            "teamNumber": "12443320",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 8 BALL",
+              "id": 43405,
+              "startTime": "2024-06-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 596648,
+            "teamNumber": "12384176",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Ballerz 956",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 545124,
+            "teamNumber": "12198433",
+            "skillLevel": "7",
+            "standing": 385,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 8-Ball World Championships",
+              "id": 36833,
+              "startTime": "2023-08-03T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 540421,
+            "teamNumber": "12198444",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 540401,
+            "teamNumber": "12198433",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 539598,
+            "teamNumber": "12198444",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL BEST OF THE REST 2023",
+              "id": 41436,
+              "startTime": "2023-05-13T10:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

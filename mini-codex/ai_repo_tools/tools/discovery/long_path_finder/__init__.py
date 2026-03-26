@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.long_path.long_path_finder.command import cmd_long_path_finder

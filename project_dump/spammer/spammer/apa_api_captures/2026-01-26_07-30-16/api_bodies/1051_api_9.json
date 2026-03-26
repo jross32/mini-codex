@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2082379,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 85773009,
+            "team": {
+              "id": 12119295,
+              "name": "Pok Pok",
+              "number": "02110",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.42424242424242425,
+            "ppm": 1.2727272727272727,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 6,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

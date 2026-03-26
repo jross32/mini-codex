@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "division": {
+        "id": 417524,
+        "teams": [
+          {
+            "id": 12864634,
+            "name": "Dead On",
+            "number": "22201",
+            "standing": 6,
+            "pointsLastWeek": 67,
+            "lastWeek": 15,
+            "sessionTotalPoints": 955,
+            "totalTeamMatchesPlayed": 73,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864635,
+            "name": "Chalk and Awe",
+            "number": "22202",
+            "standing": 4,
+            "pointsLastWeek": 67,
+            "lastWeek": 15,
+            "sessionTotalPoints": 990,
+            "totalTeamMatchesPlayed": 80,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [
+              {
+                "id": 55637,
+                "tournamentTypeName": "World Qualifier",
+                "__typename": "Tournament"
+              }
+            ],
+            "__typename": "Team"
+          },
+          {
+            "id": 12867593,
+            "name": "Cue-ligans",
+            "number": "22207",
+            "standing": 5,
+            "pointsLastWeek": 63,
+            "lastWeek": 15,
+            "sessionTotalPoints": 968,
+            "totalTeamMatchesPlayed": 75,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864636,
+            "name": "Ballerz 956",
+            "number": "22208",
+            "standing": 3,
+            "pointsLastWeek": 63,
+            "lastWeek": 15,
+            "sessionTotalPoints": 1000,
+            "totalTeamMatchesPlayed": 80,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864637,
+            "name": "Bad Boys",
+            "number": "22204",
+            "standing": 8,
+            "pointsLastWeek": 58,
+            "lastWeek": 15,
+            "sessionTotalPoints": 885,
+            "totalTeamMatchesPlayed": 74,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864638,
+            "name": "A-Rack-Nophobia",
+            "number": "22205",
+            "standing": 1,
+            "pointsLastWeek": 72,
+            "lastWeek": 15,
+            "sessionTotalPoints": 1033,
+            "totalTeamMatchesPlayed": 75,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864639,
+            "name": "Palochones",
+            "number": "22206",
+            "standing": 7,
+            "pointsLastWeek": 67,
+            "lastWeek": 15,
+            "sessionTotalPoints": 914,
+            "totalTeamMatchesPlayed": 79,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          },
+          {
+            "id": 12864640,
+            "name": "Quete Importa",
+            "number": "22203",
+            "standing": 2,
+            "pointsLastWeek": 63,
+            "lastWeek": 15,
+            "sessionTotalPoints": 1025,
+            "totalTeamMatchesPlayed": 80,
+            "isTied": false,
+            "isBye": false,
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "__typename": "League"
+            },
+            "tournaments": [],
+            "__typename": "Team"
+          }
+        ],
+        "__typename": "Division"
+      }
+    }
+  }
+]

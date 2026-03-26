@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_hp.character_hp_growth_on_level.command import cmd_character_hp_growth_on_level

@@ -1,0 +1,29 @@
+{
+  "description": "Scaffold a complete new tool from a spec and wire it into the toolkit atomically",
+  "args": [
+    {
+      "name": "name",
+      "type": "str"
+    },
+    {
+      "name": "category",
+      "type": "str"
+    },
+    {
+      "name": "description",
+      "type": "str",
+      "optional": true
+    },
+    {
+      "name": "args_spec_json",
+      "type": "str",
+      "optional": true
+    },
+    {
+      "name": "returns_desc",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "files_created, files_modified, errors, next_step, summary"
+}

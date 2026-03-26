@@ -1,0 +1,10 @@
+{
+  "description": "Parse Python and structured config files; return summary JSON",
+  "args": [
+    {
+      "name": "path",
+      "type": "str"
+    }
+  ],
+  "returns": "imports, classes, functions, preview, file_type"
+}

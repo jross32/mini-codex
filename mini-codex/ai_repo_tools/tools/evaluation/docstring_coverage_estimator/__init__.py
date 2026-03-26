@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.docstring_coverage.docstring_coverage_estimator.command import cmd_docstring_coverage_estimator

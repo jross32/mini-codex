@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Login | Life OS{% endblock %}
+{% block content %}
+<div class="container py-5" style="max-width:520px;">
+  <div class="card card-soft p-4">
+    <h4 class="fw-bold mb-2">Welcome back</h4>
+    <div class="subtle small mb-3">Sign in to your Life OS.</div>
+    <form method="post">
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input name="username" class="form-control bg-dark text-light" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input name="password" type="password" class="form-control bg-dark text-light" required>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="yes" id="remember" name="remember">
+        <label class="form-check-label subtle small" for="remember">Remember this browser (stay signed in)</label>
+      </div>
+      <button class="btn btn-info w-100">Login</button>
+    </form>
+    <div class="text-center mt-3 subtle small">
+      New here? <a href="{{ url_for('signup') }}">Create account</a>
+    </div>
+  </div>
+  <div class="text-center mt-3">
+    <a href="{{ url_for('about') }}" class="subtle small">About</a> ·
+    <a href="{{ url_for('howto') }}" class="subtle small">How to use</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538593,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 85675918,
+            "team": {
+              "id": 12119486,
+              "name": "Rack N Roll",
+              "number": "32111",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.30303030303030304,
+            "ppm": 0.9090909090909091,
+            "eightBallMatchPointsEarned": 10,
+            "matchesWon": 4,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 85629178,
+            "team": {
+              "id": 12119294,
+              "name": "The 10th",
+              "number": "02111",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2888888888888889,
+            "ppm": 0.8666666666666667,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 4,
+            "matchesPlayed": 15,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538603,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 77613234,
+            "team": {
+              "id": 11005589,
+              "name": "Let the \" RUNS\" begin",
+              "number": "23312",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4833333333333333,
+            "ppm": 9.666666666666666,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 58,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 851051,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 75817391,
+            "team": {
+              "id": 10758408,
+              "name": "Assassin's",
+              "number": "03308",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5714285714285714,
+            "ppm": 1.7142857142857142,
+            "eightBallMatchPointsEarned": 12,
+            "matchesWon": 5,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

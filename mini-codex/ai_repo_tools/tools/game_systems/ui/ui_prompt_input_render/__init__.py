@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.ui_prompt.ui_prompt_input_render.command import cmd_ui_prompt_input_render

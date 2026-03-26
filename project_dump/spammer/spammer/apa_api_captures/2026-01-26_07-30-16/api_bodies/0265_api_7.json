@@ -1,0 +1,164 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 1651980,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656737,
+            "teamNumber": "12649724",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Dead Stroke Harlingen",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241666,
+            "teamNumber": "78508",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Flavapool",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 244087,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Spring 785-South Texas Regional 9-Ball",
+              "id": 45752,
+              "startTime": "2024-03-03T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "id": 243573,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 Spring 785-South Texas Regional 8-Ball",
+              "id": 45656,
+              "startTime": "2024-03-02T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527745,
+            "teamNumber": "12119308",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Dirty Pool",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 191184,
+            "teamNumber": "78501",
+            "skillLevel": "7",
+            "standing": 65,
+            "teamName": "JOKERS",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 8-Ball Doubles Championship",
+              "id": 39722,
+              "startTime": "2023-04-28T09:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 169125,
+            "teamNumber": "78532",
+            "skillLevel": null,
+            "standing": 193,
+            "teamName": "Los Papirringis",
+            "disqualified": null,
+            "tournament": {
+              "name": "2022 Masters Championship",
+              "id": 36197,
+              "startTime": "2022-08-08T09:00:00-07:00",
+              "type": "MASTERS",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 175806,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2022 Spring 782-San Antonio Regional 8-Ball",
+              "id": 34980,
+              "startTime": "2022-03-05T08:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 425186,
+            "teamNumber": "11496374",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "The Reckoning",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 9 BALL",
+              "id": 26029,
+              "startTime": "2021-06-05T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 132850,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2019 Fall 782-San Antonio Regional 8-Ball",
+              "id": 25404,
+              "startTime": "2019-10-05T08:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

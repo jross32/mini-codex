@@ -1,0 +1,16 @@
+{
+  "description": "Resolve a hostname to A/AAAA addresses and aliases",
+  "args": [
+    {
+      "name": "host",
+      "type": "str"
+    },
+    {
+      "name": "port",
+      "type": "int",
+      "optional": true,
+      "default": 443
+    }
+  ],
+  "returns": "resolved addresses, aliases, canonical_name, summary"
+}

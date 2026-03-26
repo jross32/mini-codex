@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2572364,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597862,
+            "teamNumber": "12384047",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Pok Pok",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 550472,
+            "teamNumber": "12198488",
+            "skillLevel": "5",
+            "standing": 17,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 9-Ball World Championships",
+              "id": 36832,
+              "startTime": "2023-08-08T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527755,
+            "teamNumber": "12134244",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Sour Patch Kids",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 9 BALL 2023 WPCQ",
+              "id": 40314,
+              "startTime": "2023-06-10T08:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 157420,
+            "teamNumber": "78503",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2021 MID SOUTH APA 8 BALL INVITATIONAL",
+              "id": 32904,
+              "startTime": "2021-11-13T08:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 319229,
+            "teamNumber": "11176001",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Cash Cup 2018",
+              "id": 21399,
+              "startTime": "2018-07-29T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 280035,
+            "teamNumber": "10943370",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2018 8 BALL",
+              "id": 17729,
+              "startTime": "2018-06-08T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 280046,
+            "teamNumber": "10943539",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Justice League",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2018 9 BALL",
+              "id": 17728,
+              "startTime": "2018-06-02T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 305232,
+            "teamNumber": "11105426",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Justice League",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV SPRING TRICUP 2018 9 BALL",
+              "id": 17725,
+              "startTime": "2018-05-19T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 292258,
+            "teamNumber": "11005596",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Justice League",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL TRICUP 2017 9 BALL",
+              "id": 17723,
+              "startTime": "2018-01-27T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 292224,
+            "teamNumber": "11005420",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL TRICUP 2017 8 BALL",
+              "id": 17722,
+              "startTime": "2018-01-13T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

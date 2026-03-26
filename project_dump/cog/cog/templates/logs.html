@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Conversation Logs</h1>
+<div class="list">
+  {% for t, user, ai in logs %}
+  <div class="item">
+    <div class="meta">{{ t }}</div>
+    <div class="bubble user"><b>User:</b> {{ user }}</div>
+    <div class="bubble ai"><b>AI:</b> {{ ai }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

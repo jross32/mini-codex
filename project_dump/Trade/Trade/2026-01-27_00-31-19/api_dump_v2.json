@@ -1,0 +1,66 @@
+{
+  "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap": {
+    "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap",
+    "timestamp": "2026-01-27T00:32:10.253133",
+    "page_load_time_seconds": 3.54,
+    "apis": [],
+    "api_bodies": [],
+    "downloaded_images": [
+      "images\\0000_respimg_0.png",
+      "images\\0000_respimg_1.svg"
+    ],
+    "network_summary": {
+      "total_requests": 1,
+      "failed_requests": 1,
+      "websockets_detected": 0
+    },
+    "client_intelligence_summary": {
+      "console_messages": 1,
+      "js_errors": 0,
+      "has_performance_data": true,
+      "state_snapshots": 0
+    },
+    "session_auth_summary": {
+      "tokens_found": 0,
+      "api_keys_found": 0,
+      "auth_headers_found": 0,
+      "has_session_storage": false,
+      "has_indexed_db": false
+    },
+    "page_behavior_summary": {
+      "interactions": {
+        "clicks": 0,
+        "formFills": 0,
+        "navigationEvents": 0
+      },
+      "a11y_issues_found": 0,
+      "third_party_scripts": 2,
+      "has_performance_data": true
+    },
+    "content_extraction_summary": {
+      "structured_data_found": 0,
+      "has_rendered_text": true,
+      "forms_found": 0,
+      "links_found": 18,
+      "ctas_found": 0
+    },
+    "advanced_tracking_summary": {
+      "pixels_found": 0,
+      "cors_requests": 3,
+      "has_security_headers": false,
+      "has_api_patterns": true
+    },
+    "network_file": "network_data\\0000_network.json",
+    "client_intelligence_file": "client_intelligence\\0000_client_data.json",
+    "page_behavior_file": "page_behavior\\0000_page_behavior.json",
+    "content_extraction_file": "content_extraction\\0000_content_extraction.json",
+    "advanced_tracking_file": "advanced_tracking\\0000_advanced_tracking.json",
+    "screenshot": "images\\0000_screenshot.png",
+    "images": [
+      "/assets/hero-bg-CbgqI7TM.png"
+    ],
+    "dom_file": "images\\0000_dom.html",
+    "cookies_file": "session\\0000_cookies.json",
+    "localstorage_file": "session\\0000_localstorage.json"
+  }
+}

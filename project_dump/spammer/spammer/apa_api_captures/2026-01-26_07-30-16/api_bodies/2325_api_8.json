@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3010142,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 88732824,
+            "team": {
+              "id": 12536900,
+              "name": "Freeballers",
+              "number": "02112",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5185185185185185,
+            "ppm": 1.5555555555555556,
+            "eightBallMatchPointsEarned": 14,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

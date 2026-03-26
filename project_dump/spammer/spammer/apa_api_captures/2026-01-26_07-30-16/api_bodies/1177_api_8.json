@@ -1,0 +1,358 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2192681,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677447,
+            "team": {
+              "id": 12951830,
+              "name": "Bad Boys",
+              "number": "22204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.9,
+            "ppm": 18,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 18,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016316,
+            "team": {
+              "id": 12864637,
+              "name": "Bad Boys",
+              "number": "22204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43461538461538457,
+            "ppm": 8.692307692307692,
+            "matchesWon": 5,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 113,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277665,
+            "team": {
+              "id": 12766725,
+              "name": "Bad Boys",
+              "number": "22204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5115384615384615,
+            "ppm": 10.23076923076923,
+            "matchesWon": 7,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 133,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463151,
+            "team": {
+              "id": 12649759,
+              "name": "Bad Boys",
+              "number": "22204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.38333333333333336,
+            "ppm": 7.666666666666667,
+            "matchesWon": 1,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 69,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88633715,
+            "team": {
+              "id": 12537132,
+              "name": "Bad Boys",
+              "number": "22204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.55,
+            "ppm": 11,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88189249,
+            "team": {
+              "id": 12471235,
+              "name": "Bad Boys",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4166666666666667,
+            "ppm": 8.333333333333334,
+            "matchesWon": 5,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 100,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87558170,
+            "team": {
+              "id": 12384171,
+              "name": "Bad Boys",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.495,
+            "ppm": 9.9,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 3,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87186432,
+            "team": {
+              "id": 12337070,
+              "name": "Bad Boys",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4833333333333333,
+            "ppm": 9.666666666666666,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 87,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86315409,
+            "team": {
+              "id": 12207270,
+              "name": "Pool Addicts",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.34090909090909094,
+            "ppm": 6.818181818181818,
+            "matchesWon": 2,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 75,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86222318,
+            "team": {
+              "id": 12198497,
+              "name": "Pool Addicts",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5954545454545455,
+            "ppm": 11.909090909090908,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 131,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 85629913,
+            "team": {
+              "id": 12119397,
+              "name": "Pool Addicts",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4083333333333333,
+            "ppm": 8.166666666666666,
+            "matchesWon": 1,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 49,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84883698,
+            "team": {
+              "id": 12013344,
+              "name": "Pool Addicts",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4333333333333333,
+            "ppm": 8.666666666666666,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 52,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84438698,
+            "team": {
+              "id": 11953464,
+              "name": "Pool Addicts",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3,
+            "ppm": 6,
+            "matchesWon": 1,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 54,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84124921,
+            "team": {
+              "id": 11913630,
+              "name": "Pool Addicts",
+              "number": "22101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.45,
+            "ppm": 9,
+            "matchesWon": 4,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 72,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83599613,
+            "team": {
+              "id": 11839410,
+              "name": "Pool Addicts",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4208333333333333,
+            "ppm": 8.416666666666666,
+            "matchesWon": 4,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 101,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83085960,
+            "team": {
+              "id": 11758672,
+              "name": "Pool Addicts",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.47307692307692306,
+            "ppm": 9.461538461538462,
+            "matchesWon": 5,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 123,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79424310,
+            "team": {
+              "id": 11176182,
+              "name": "Pooligans",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4333333333333333,
+            "ppm": 8.666666666666666,
+            "matchesWon": 1,
+            "matchesPlayed": 3,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 26,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

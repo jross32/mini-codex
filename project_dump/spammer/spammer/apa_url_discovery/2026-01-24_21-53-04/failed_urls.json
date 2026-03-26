@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "reason": "login_page_encountered",
+    "worker": 7
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12951833",
+    "reason": "login_page_encountered",
+    "worker": 13
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12951917",
+    "reason": "login_page_encountered",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12867592",
+    "reason": "login_page_encountered",
+    "worker": 14
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/team/12867593",
+    "reason": "login_page_encountered",
+    "worker": 6
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/eight",
+    "reason": "login_page_encountered",
+    "worker": 7
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/member/3400522/3264733/nine",
+    "reason": "login_page_encountered",
+    "worker": 1
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432651",
+    "reason": "login_page_encountered",
+    "worker": 5
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432731",
+    "reason": "login_page_encountered",
+    "worker": 10
+  },
+  {
+    "url": "https://league.poolplayers.com/RioGrandeValley/match/49432658",
+    "reason": "login_page_encountered",
+    "worker": 3
+  },
+  {
+    "url": "https://league.poolplayers.com/matches/upcoming",
+    "reason": "login_page_encountered",
+    "worker": 4
+  },
+  {
+    "url": "https://league.poolplayers.com/events/league/national",
+    "reason": "login_page_encountered",
+    "worker": 8
+  },
+  {
+    "url": "https://league.poolplayers.com/events/league/RioGrandeValley",
+    "reason": "login_page_encountered",
+    "worker": 13
+  },
+  {
+    "url": "https://league.poolplayers.com/events",
+    "reason": "login_page_encountered",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/events/filter/tournament",
+    "reason": "login_page_encountered",
+    "worker": 11
+  },
+  {
+    "url": "https://league.poolplayers.com/events/filter/other",
+    "reason": "login_page_encountered",
+    "worker": 9
+  },
+  {
+    "url": "https://league.poolplayers.com/login",
+    "reason": "login_page_encountered",
+    "worker": 6
+  }
+]

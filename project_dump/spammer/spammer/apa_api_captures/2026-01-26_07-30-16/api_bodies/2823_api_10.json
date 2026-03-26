@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "league": {
+        "id": 589,
+        "name": "APA National",
+        "slug": "national",
+        "schedule": [],
+        "__typename": "League"
+      },
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "name": "Rio Grande Valley APA",
+            "slug": "RioGrandeValley",
+            "schedule": [],
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

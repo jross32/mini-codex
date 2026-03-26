@@ -1,0 +1,1 @@
+from .command import cmd_shop_item_price_discount_apply

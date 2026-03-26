@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2422506,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 665943,
+            "teamNumber": "12537109",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 ALL VALLEY WORLD QUALIIFIER",
+              "id": 53221,
+              "startTime": "2025-06-14T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 665951,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 ALL VALLEY WORLD QUALIIFIER",
+              "id": 53221,
+              "startTime": "2025-06-14T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 637371,
+            "teamNumber": "12471184",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 638817,
+            "teamNumber": "12537109",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656808,
+            "teamNumber": "12531791",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Kill Shots",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 HIDALGO WPCQ 8 BALL",
+              "id": 48064,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 658288,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655937,
+            "teamNumber": "12471344",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 8",
+              "id": 52781,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655941,
+            "teamNumber": "12649731",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 648598,
+            "teamNumber": "12531791",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Kill Shots",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Destination Tournament",
+              "id": 52586,
+              "startTime": "2025-04-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241694,
+            "teamNumber": "78505",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

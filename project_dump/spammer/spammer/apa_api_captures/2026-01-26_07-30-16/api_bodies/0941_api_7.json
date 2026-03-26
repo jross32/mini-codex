@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2422506,
+        "firstName": "Edgar",
+        "lastName": "Camacho",
+        "initials": "EC",
+        "aliases": [
+          {
+            "id": 1850190,
+            "displayName": "Mr. Vegas Camacho",
+            "memberNumber": "78501257",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 7,
+                "CLA": 6
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 8,
+                "CLA": 8
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2422506,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699229,
+            "teamNumber": "12864639",
+            "skillLevel": "8",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 9 Ball (C)",
+              "id": 54935,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 271298,
+            "teamNumber": "78503",
+            "skillLevel": null,
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 APA 9-Ball MidSouth Inviational",
+              "id": 54590,
+              "startTime": "2025-09-12T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 271288,
+            "teamNumber": "78503",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 APA 8-Ball MidSouth Invitational",
+              "id": 54589,
+              "startTime": "2025-09-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 677021,
+            "teamNumber": "12766850",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Summer Tri Annual 8 Ball (C)",
+              "id": 54923,
+              "startTime": "2025-09-07T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 665935,
+            "teamNumber": "12471184",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 ALL VALLEY WORLD QUALIIFIER",
+              "id": 53221,
+              "startTime": "2025-06-14T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

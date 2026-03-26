@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_move.character_move_speed_calc.command import cmd_character_move_speed_calc

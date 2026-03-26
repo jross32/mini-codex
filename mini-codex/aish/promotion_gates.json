@@ -1,0 +1,18 @@
+{
+  "default": {
+    "correctness_floor": 1.0,
+    "max_slowdown_pct": 5.0,
+    "min_runs": 3,
+    "required_keys": ["success", "tool", "overall", "workers", "summary"],
+    "enable_canary": false,
+    "canary_sample_count": 10
+  },
+  "trust_trend": {
+    "correctness_floor": 1.0,
+    "max_slowdown_pct": 5.0,
+    "min_runs": 3,
+    "required_keys": ["success", "tool", "overall", "workers", "summary"],
+    "enable_canary": false,
+    "canary_sample_count": 10
+  }
+}

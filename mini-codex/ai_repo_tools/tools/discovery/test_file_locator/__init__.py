@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.test_file.test_file_locator.command import cmd_test_file_locator

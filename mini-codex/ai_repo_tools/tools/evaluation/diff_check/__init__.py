@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.diff_check.diff_check.command import cmd_diff_check

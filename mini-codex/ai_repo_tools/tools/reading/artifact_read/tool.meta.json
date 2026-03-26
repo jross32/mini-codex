@@ -1,0 +1,10 @@
+{
+  "description": "Summarize agent logs, comparison artifacts, and usage logs",
+  "args": [
+    {
+      "name": "path",
+      "type": "str"
+    }
+  ],
+  "returns": "artifact_type, summary, structured fields"
+}

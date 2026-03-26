@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 88890083,
+            "team": {
+              "id": 12471282,
+              "name": "Knuckle Headz",
+              "number": "02005",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6666666666666666,
+            "ppm": 2,
+            "eightBallMatchPointsEarned": 4,
+            "matchesWon": 1,
+            "matchesPlayed": 2,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88622652,
+            "team": {
+              "id": 12536208,
+              "name": "Unwanted",
+              "number": "02004",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.1111111111111111,
+            "ppm": 0.3333333333333333,
+            "eightBallMatchPointsEarned": 1,
+            "matchesWon": 0,
+            "matchesPlayed": 3,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

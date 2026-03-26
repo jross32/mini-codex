@@ -1,0 +1,15 @@
+[Unit]
+Description=WhatAPC Flask API (Gunicorn)
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/whatapc/backend
+EnvironmentFile=/etc/whatapc/whatapc.env
+ExecStart=/var/www/whatapc/backend/.venv/bin/gunicorn --workers 3 --bind 127.0.0.1:5000 app:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

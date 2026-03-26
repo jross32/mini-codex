@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538593,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 86301885,
+            "team": {
+              "id": 12198470,
+              "name": "Bad Boys",
+              "number": "02104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.47222222222222227,
+            "ppm": 1.4166666666666667,
+            "eightBallMatchPointsEarned": 17,
+            "matchesWon": 6,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 86222079,
+            "team": {
+              "id": 12198442,
+              "name": "Rack N Roll",
+              "number": "32109",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4285714285714286,
+            "ppm": 1.2857142857142858,
+            "eightBallMatchPointsEarned": 9,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

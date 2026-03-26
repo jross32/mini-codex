@@ -1,0 +1,10 @@
+{
+  "case_name": "cyberpunk_bar_management_sim_case_bundle",
+  "project_name": "cyberpunk_bar_management_sim",
+  "game_type": "cyberpunk",
+  "artifacts": [
+    "aish_tests/multi_game_projects/cyberpunk_bar_management_sim",
+    "ai_repo_tools/tool_usage/engine_build_last_result.json",
+    "ai_repo_tools/tool_usage/engine_report.json"
+  ]
+}

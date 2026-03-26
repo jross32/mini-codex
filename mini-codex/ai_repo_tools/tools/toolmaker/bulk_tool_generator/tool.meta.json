@@ -1,0 +1,24 @@
+{
+  "description": "Materialize any requested count of known named tools from the built-in expandable catalog (requires explicit approval token --user-approved-generator) and remove anonymous auto tools",
+  "args": [
+    {
+      "name": "count",
+      "type": "int",
+      "optional": true,
+      "default": 100
+    },
+    {
+      "name": "start_index",
+      "type": "int",
+      "optional": true,
+      "default": 1
+    },
+    {
+      "name": "replace_auto_tools",
+      "type": "bool",
+      "optional": true,
+      "default": true
+    }
+  ],
+  "returns": "generated_count, removed_auto_tool_count, generated_tools, seed_catalog_size, materialized_catalog_size, summary"
+}

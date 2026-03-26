@@ -1,0 +1,154 @@
+{
+  "structured_data": [],
+  "rendered_text": "Member ServicesLoginRulesAPA NationalStoreTournament InfoDiscountsContactNeed Help? APA National 2026 APA 9-Ball ShootoutTime: Thu (4/30) @ 9:00 am - Sat (5/2) @ 11:59 pmDescription: No description is available for this eventAdditional Information: No additional information available for this eventFormat: 9-BallParticipants: 900LocationWestgate Las Vegas Resort & Casino3000 Paradise Rd.Las Vegas, Nevada 89109+1 702 732 5111Event OrganizerAPA National Office Membership +1 636 625 8611Email APA Championship RulesTell Others!\u00a92026 American Poolplayers AssociationPrivacy Policy Terms of Usev3.18.44\nStay informed with Member Services notifications!3For ExampleYou have pool league tonight! Don't ask me againNo ThanksNotify Me!",
+  "forms": [],
+  "links": {
+    "internal": [
+      {
+        "text": "Member Services",
+        "href": "/",
+        "title": "",
+        "target": "_self",
+        "class": "logo"
+      },
+      {
+        "text": "Login",
+        "href": "/login",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default w-md waves-effect"
+      },
+      {
+        "text": "Rules",
+        "href": "/rules",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Need Help?",
+        "href": "/help",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      }
+    ],
+    "external": [
+      {
+        "text": "Store",
+        "href": "https://shop.poolplayers.com",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://bd.poolplayers.com/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "",
+        "href": "https://www.distro.tv/live/billiard-tv/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "Tournament Info",
+        "href": "https://poolplayers.com/tournament-information",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Discounts",
+        "href": "https://poolplayers.com/discounts",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Contact",
+        "href": "https://poolplayers.com/contact/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-facebook tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-twitter tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/user/apaleagues",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-youtube tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/poolplayers/",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-instagram tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "+1 702 732 5111",
+        "href": "tel:+17027325111",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "+1 636 625 8611",
+        "href": "tel:+1 636 625 8611",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "APA Championship Rules",
+        "href": "https://poolplayers.com/apa-combined-rules/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://poolplayers.com/legal/privacy-policy/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://poolplayers.com/legal/apa-terms-of-use-agreement/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Login",
+        "href": "/login",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default w-md waves-effect"
+      }
+    ],
+    "navigation": []
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1606859,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 88190067,
+            "team": {
+              "id": 12471399,
+              "name": "Pool Addicts",
+              "number": "02109",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3055555555555555,
+            "ppm": 0.9166666666666666,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 4,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 88189047,
+            "team": {
+              "id": 12471206,
+              "name": "Pooleros De Pro Glass",
+              "number": "03012",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.2857142857142857,
+            "ppm": 0.8571428571428571,
+            "eightBallMatchPointsEarned": 12,
+            "matchesWon": 4,
+            "matchesPlayed": 14,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 1,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

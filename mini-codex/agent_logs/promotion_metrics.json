@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "trust_trend": {
+      "total_candidates": 3,
+      "promotions": {
+        "succeeded": 1,
+        "rejected": 2
+      },
+      "rejection_reasons": {
+        "non_determinism": 2
+      },
+      "last_decision": "promote",
+      "last_decision_at": "2026-03-26T03:04:56Z"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2756591,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 401505,
+            "teamNumber": "11436282",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 Ball City",
+              "id": 28830,
+              "startTime": "2021-02-27T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 413621,
+            "teamNumber": "11557806",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Tricups",
+              "id": 29400,
+              "startTime": "2020-12-05T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 413649,
+            "teamNumber": "11557831",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "The Sofa Kings!!!",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Tricups",
+              "id": 29400,
+              "startTime": "2020-12-05T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 389865,
+            "teamNumber": "11514306",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "Fall 2019 9 Ball Tri-Cups",
+              "id": 27664,
+              "startTime": "2020-02-15T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 389867,
+            "teamNumber": "11514284",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "Fall 2019 8 Ball Tri-Cups",
+              "id": 27665,
+              "startTime": "2020-02-01T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 389882,
+            "teamNumber": "11514323",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "The Sofa Kings!!!",
+            "disqualified": null,
+            "tournament": {
+              "name": "Fall 2019 8 Ball Tri-Cups",
+              "id": 27665,
+              "startTime": "2020-02-01T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 375500,
+            "teamNumber": "11436282",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "9 Ball TriCups Summer 2019",
+              "id": 25668,
+              "startTime": "2019-10-26T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 375502,
+            "teamNumber": "11436266",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball TriCups Summer 2019",
+              "id": 25667,
+              "startTime": "2019-10-19T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 352266,
+            "teamNumber": "11377447",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "The Sofa Kings!!!",
+            "disqualified": null,
+            "tournament": {
+              "name": "Spring 2019 8 Ball Tri Cups",
+              "id": 24589,
+              "startTime": "2019-05-25T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 328098,
+            "teamNumber": "11205778",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Krok's Theory",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Tri-Cups",
+              "id": 21957,
+              "startTime": "2018-09-29T08:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

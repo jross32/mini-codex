@@ -1,0 +1,133 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2532146,
+        "firstName": "Ethan",
+        "lastName": "Boone",
+        "initials": "EB",
+        "aliases": [
+          {
+            "id": 1999070,
+            "displayName": "Ethan Boone",
+            "memberNumber": "78501548",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 7,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2532146,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 439193,
+            "teamNumber": "11756006",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 8 BALL 2021 WPCQ",
+              "id": 31845,
+              "startTime": "2021-06-25T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 425176,
+            "teamNumber": "11496316",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 8 BALL",
+              "id": 26028,
+              "startTime": "2021-05-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 371917,
+            "teamNumber": "11425900",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "Mid-South Invitational Qualifier 2019",
+              "id": 25824,
+              "startTime": "2019-08-24T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "id": 121714,
+            "skillLevel": "7",
+            "standing": null,
+            "disqualified": null,
+            "tournament": {
+              "name": "2019 Spring 787-Austin Regional 9-Ball",
+              "id": 23776,
+              "startTime": "2019-03-02T08:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            },
+            "__typename": "SinglesPlayerTournament"
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 319227,
+            "teamNumber": "11176008",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "8 Ball Cash Cup 2018",
+              "id": 21399,
+              "startTime": "2018-07-29T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

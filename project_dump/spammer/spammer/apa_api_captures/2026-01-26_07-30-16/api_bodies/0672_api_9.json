@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1707832,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 75818069,
+            "team": {
+              "id": 10758537,
+              "name": "Pooligans",
+              "number": "23310",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5264705882352941,
+            "ppm": 10.529411764705882,
+            "matchesWon": 9,
+            "matchesPlayed": 17,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 179,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

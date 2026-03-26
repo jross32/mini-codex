@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2082380,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 88190249,
+            "team": {
+              "id": 12471433,
+              "name": "Ballerz 956",
+              "number": "02103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5277777777777778,
+            "ppm": 1.5833333333333333,
+            "eightBallMatchPointsEarned": 19,
+            "matchesWon": 8,
+            "matchesPlayed": 12,
+            "eightBallBreakAndRuns": 1,
+            "eightOnBreaks": 2,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

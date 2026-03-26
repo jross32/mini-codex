@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    {
+      "key": "failure_penalty",
+      "value": 4,
+      "reason": "Observed 17 failed tool runs in observation summary."
+    }
+  ],
+  "health_score": 49,
+  "timestamp_epoch": 1774482715
+}

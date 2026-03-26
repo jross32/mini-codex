@@ -1,0 +1,23 @@
+# Render Blueprint
+services:
+  - type: web
+    name: mylife-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.main:app --bind 0.0.0.0:10000
+    envVars:
+      - key: SECRET_KEY
+        sync: false
+      - key: JWT_SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        value: sqlite:///mylife.db
+      - key: CORS_ORIGINS
+        value: https://mylife-web.onrender.com
+      - key: VAPID_PUBLIC_KEY
+        sync: false
+      - key: VAPID_PRIVATE_KEY
+        sync: false
+      - key: VAPID_SUB
+        value: mailto:you@example.com

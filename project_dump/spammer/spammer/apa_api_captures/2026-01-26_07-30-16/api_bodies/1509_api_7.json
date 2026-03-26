@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538537,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 76280682,
+            "team": {
+              "id": 10818938,
+              "name": "Bank Bros Alpha",
+              "number": "03306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3888888888888889,
+            "ppm": 1.1666666666666667,
+            "eightBallMatchPointsEarned": 7,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

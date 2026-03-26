@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_talent.character_talent_unlock_check.command import cmd_character_talent_unlock_check

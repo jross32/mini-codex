@@ -1,0 +1,10 @@
+{
+  "description": "Resolve an IP address to PTR/hostname info",
+  "args": [
+    {
+      "name": "ip",
+      "type": "str"
+    }
+  ],
+  "returns": "hostname, aliases, addresses, summary"
+}

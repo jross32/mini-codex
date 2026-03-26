@@ -1,0 +1,98 @@
+{
+  "schema_version": "promotion.v2",
+  "tool": "trust_trend",
+  "candidate_id": "v20260326_023946_candidate",
+  "gate_config_used": {
+    "correctness_floor": 1.0,
+    "max_slowdown_pct": 5.0,
+    "min_runs": 3,
+    "required_keys": [
+      "success",
+      "tool",
+      "overall",
+      "workers",
+      "summary"
+    ],
+    "enable_canary": false,
+    "canary_sample_count": 10
+  },
+  "baseline": {
+    "runs": 3,
+    "success_rate": 1.0,
+    "mean_ms": 464.945,
+    "performance": {
+      "mean": 464.945,
+      "p50": 408.422,
+      "p95": 408.422,
+      "p99": 408.422,
+      "max": 580.359,
+      "min": 406.055,
+      "stdev": 99.958
+    },
+    "payload_stability": {
+      "all_identical": true,
+      "differing_fields": []
+    }
+  },
+  "candidate": {
+    "runs": 3,
+    "success_rate": 1.0,
+    "mean_ms": 400.965,
+    "performance": {
+      "mean": 400.965,
+      "p50": 401.281,
+      "p95": 401.281,
+      "p99": 401.281,
+      "max": 432.767,
+      "min": 368.847,
+      "stdev": 31.961
+    },
+    "payload_stability": {
+      "all_identical": true,
+      "differing_fields": []
+    }
+  },
+  "checks": {
+    "correctness": {
+      "pass": true,
+      "floor": 1.0,
+      "actual": 1.0
+    },
+    "performance": {
+      "pass": true,
+      "max_slowdown_pct": 5.0,
+      "slowdown_pct": -13.761,
+      "variance_change_pct": -68.026
+    },
+    "regression": {
+      "pass": true,
+      "required_keys": [
+        "overall",
+        "success",
+        "summary",
+        "tool",
+        "workers"
+      ],
+      "behavioral_changes": [
+        {
+          "field": "elapsed_ms",
+          "baseline": 375,
+          "candidate": 344
+        }
+      ]
+    },
+    "safety": {
+      "pass": true,
+      "blocked_patterns_found": []
+    },
+    "non_determinism": {
+      "pass": true,
+      "differing_fields": []
+    }
+  },
+  "gate_failures": [],
+  "decision": "promote",
+  "promoted": true,
+  "report_path": "c:\\Users\\justi\\Desktop\\Coding Projects\\mini-codex\\agent_logs\\promotion_trust_trend_20260326_030456.json",
+  "summary": "Promotion applied for trust_trend candidate v20260326_023946_candidate."
+}

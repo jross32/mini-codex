@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "reason": "login_required",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/cart",
+    "reason": "login_required",
+    "worker": 4
+  },
+  {
+    "url": "https://league.poolplayers.com/matches",
+    "reason": "login_required",
+    "worker": 1
+  },
+  {
+    "url": "https://league.poolplayers.com/news",
+    "reason": "login_required",
+    "worker": 2
+  }
+]

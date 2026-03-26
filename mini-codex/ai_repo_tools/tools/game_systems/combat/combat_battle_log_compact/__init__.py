@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.combat_battle.combat_battle_log_compact.command import cmd_combat_battle_log_compact

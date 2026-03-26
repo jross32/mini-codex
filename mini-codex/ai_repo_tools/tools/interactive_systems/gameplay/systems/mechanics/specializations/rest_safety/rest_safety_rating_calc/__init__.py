@@ -1,0 +1,1 @@
+from .command import cmd_rest_safety_rating_calc

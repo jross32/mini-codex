@@ -1,0 +1,838 @@
+{
+  "symbols": {
+    "START_HERE.py": {
+      "imports": [],
+      "exports": [
+        "show_welcome"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "print"
+        },
+        {
+          "from": "module",
+          "to": "show_welcome"
+        }
+      ]
+    },
+    "backend/auth.py": {
+      "imports": [
+        "datetime",
+        "jose",
+        "os",
+        "passlib"
+      ],
+      "exports": [
+        "create_access_token",
+        "hash_password",
+        "verify_password",
+        "verify_token"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "CryptContext"
+        },
+        {
+          "from": "module",
+          "to": "copy"
+        },
+        {
+          "from": "module",
+          "to": "decode"
+        },
+        {
+          "from": "module",
+          "to": "encode"
+        },
+        {
+          "from": "module",
+          "to": "get"
+        }
+      ]
+    },
+    "backend/config.py": {
+      "imports": [
+        "dotenv",
+        "os"
+      ],
+      "exports": [
+        "Config"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "float"
+        },
+        {
+          "from": "module",
+          "to": "getenv"
+        },
+        {
+          "from": "module",
+          "to": "int"
+        },
+        {
+          "from": "module",
+          "to": "load_dotenv"
+        },
+        {
+          "from": "module",
+          "to": "lower"
+        }
+      ]
+    },
+    "backend/database.py": {
+      "imports": [
+        "os",
+        "sqlalchemy"
+      ],
+      "exports": [
+        "get_db"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "SessionLocal"
+        },
+        {
+          "from": "module",
+          "to": "close"
+        },
+        {
+          "from": "module",
+          "to": "create_engine"
+        },
+        {
+          "from": "module",
+          "to": "declarative_base"
+        },
+        {
+          "from": "module",
+          "to": "sessionmaker"
+        }
+      ]
+    },
+    "backend/logger.py": {
+      "imports": [
+        "backend",
+        "datetime",
+        "logging",
+        "os"
+      ],
+      "exports": [
+        "setup_logger"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "FileHandler"
+        },
+        {
+          "from": "module",
+          "to": "Formatter"
+        },
+        {
+          "from": "module",
+          "to": "StreamHandler"
+        },
+        {
+          "from": "module",
+          "to": "addHandler"
+        },
+        {
+          "from": "module",
+          "to": "getLogger"
+        }
+      ]
+    },
+    "backend/main.py": {
+      "imports": [
+        "argparse",
+        "backend",
+        "sys",
+        "time"
+      ],
+      "exports": [
+        "main",
+        "run_backtest",
+        "run_paper_trading"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "ArgumentParser"
+        },
+        {
+          "from": "module",
+          "to": "Backtester"
+        },
+        {
+          "from": "module",
+          "to": "DataFetcher"
+        },
+        {
+          "from": "module",
+          "to": "TradingBot"
+        },
+        {
+          "from": "module",
+          "to": "add_argument"
+        }
+      ]
+    },
+    "backend/test_bot.py": {
+      "imports": [
+        "backend",
+        "traceback"
+      ],
+      "exports": [
+        "test_components"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DataFetcher"
+        },
+        {
+          "from": "module",
+          "to": "MovingAverageCrossoverStrategy"
+        },
+        {
+          "from": "module",
+          "to": "TradingBot"
+        },
+        {
+          "from": "module",
+          "to": "exit"
+        },
+        {
+          "from": "module",
+          "to": "fetch_ohlcv"
+        }
+      ]
+    },
+    "backend/test_bot_offline.py": {
+      "imports": [
+        "backend",
+        "numpy",
+        "pandas",
+        "traceback"
+      ],
+      "exports": [
+        "create_mock_data",
+        "test_components"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Backtester"
+        },
+        {
+          "from": "module",
+          "to": "DataFrame"
+        },
+        {
+          "from": "module",
+          "to": "MovingAverageCrossoverStrategy"
+        },
+        {
+          "from": "module",
+          "to": "PaperTradingEngine"
+        },
+        {
+          "from": "module",
+          "to": "abs"
+        }
+      ]
+    },
+    "backend/__init__.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/api/main.py": {
+      "imports": [
+        "asyncio",
+        "backend",
+        "datetime",
+        "fastapi",
+        "logging",
+        "pydantic",
+        "sqlalchemy",
+        "threading",
+        "typing",
+        "uvicorn"
+      ],
+      "exports": [
+        "BacktestRequest",
+        "BotConfig",
+        "BotStatsResponse",
+        "TradeResponse",
+        "get_available_strategies",
+        "get_bot_stats",
+        "get_current_user",
+        "get_market_data",
+        "get_market_price",
+        "health_check",
+        "login",
+        "run_backtest",
+        "run_bot_iteration",
+        "signup",
+        "start_bot",
+        "stop_bot"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Backtester"
+        },
+        {
+          "from": "module",
+          "to": "DataFetcher"
+        },
+        {
+          "from": "module",
+          "to": "Depends"
+        },
+        {
+          "from": "module",
+          "to": "FastAPI"
+        },
+        {
+          "from": "module",
+          "to": "HTTPException"
+        }
+      ]
+    },
+    "backend/api/__init__.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/backtest/backtester.py": {
+      "imports": [
+        "backend",
+        "datetime",
+        "numpy",
+        "pandas"
+      ],
+      "exports": [
+        "Backtester"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "_buy"
+        },
+        {
+          "from": "module",
+          "to": "_calculate_equity"
+        },
+        {
+          "from": "module",
+          "to": "_calculate_max_drawdown"
+        },
+        {
+          "from": "module",
+          "to": "_calculate_metrics"
+        },
+        {
+          "from": "module",
+          "to": "_calculate_sharpe_ratio"
+        }
+      ]
+    },
+    "backend/backtest/__init__.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/data/fetcher.py": {
+      "imports": [
+        "backend",
+        "ccxt",
+        "datetime",
+        "json",
+        "numpy",
+        "os",
+        "pandas"
+      ],
+      "exports": [
+        "DataFetcher"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DataFrame"
+        },
+        {
+          "from": "module",
+          "to": "_get_exchange"
+        },
+        {
+          "from": "module",
+          "to": "binance"
+        },
+        {
+          "from": "module",
+          "to": "coinbase"
+        },
+        {
+          "from": "module",
+          "to": "error"
+        }
+      ]
+    },
+    "backend/data/preprocessor.py": {
+      "imports": [
+        "backend",
+        "numpy",
+        "pandas"
+      ],
+      "exports": [
+        "DataPreprocessor"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "abs"
+        },
+        {
+          "from": "module",
+          "to": "add_technical_indicators"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "array"
+        },
+        {
+          "from": "module",
+          "to": "copy"
+        }
+      ]
+    },
+    "backend/data/__init__.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/examples/api_server.py": {
+      "imports": [
+        "backend",
+        "uvicorn"
+      ],
+      "exports": [
+        "main"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "info"
+        },
+        {
+          "from": "module",
+          "to": "main"
+        },
+        {
+          "from": "module",
+          "to": "run"
+        }
+      ]
+    },
+    "backend/examples/backtest_comparison.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [
+        "main"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Backtester"
+        },
+        {
+          "from": "module",
+          "to": "DataFetcher"
+        },
+        {
+          "from": "module",
+          "to": "MovingAverageCrossoverStrategy"
+        },
+        {
+          "from": "module",
+          "to": "RSIStrategy"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        }
+      ]
+    },
+    "backend/examples/quick_start.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [
+        "main"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "DataFetcher"
+        },
+        {
+          "from": "module",
+          "to": "MovingAverageCrossoverStrategy"
+        },
+        {
+          "from": "module",
+          "to": "TradingBot"
+        },
+        {
+          "from": "module",
+          "to": "add_technical_indicators"
+        },
+        {
+          "from": "module",
+          "to": "fetch_ohlcv"
+        }
+      ]
+    },
+    "backend/examples/__init__.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/models/model.py": {
+      "imports": [
+        "backend",
+        "joblib",
+        "numpy",
+        "os",
+        "pandas",
+        "sklearn",
+        "tensorflow"
+      ],
+      "exports": [
+        "RandomForestModel",
+        "SimpleMAModel",
+        "get_model"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Dense"
+        },
+        {
+          "from": "module",
+          "to": "Dropout"
+        },
+        {
+          "from": "module",
+          "to": "EarlyStopping"
+        },
+        {
+          "from": "module",
+          "to": "ImportError"
+        },
+        {
+          "from": "module",
+          "to": "LSTM"
+        }
+      ]
+    },
+    "backend/models/user.py": {
+      "imports": [
+        "backend",
+        "hashlib",
+        "sqlalchemy"
+      ],
+      "exports": [
+        "User"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Column"
+        },
+        {
+          "from": "module",
+          "to": "encode"
+        },
+        {
+          "from": "module",
+          "to": "hash_password"
+        },
+        {
+          "from": "module",
+          "to": "hexdigest"
+        },
+        {
+          "from": "module",
+          "to": "sha256"
+        }
+      ]
+    },
+    "backend/models/__init__.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/schemas/auth.py": {
+      "imports": [
+        "pydantic"
+      ],
+      "exports": [
+        "AuthToken",
+        "UserLogin",
+        "UserResponse",
+        "UserSignUp"
+      ],
+      "internal_calls": []
+    },
+    "backend/strategy/strategy.py": {
+      "imports": [
+        "backend",
+        "datetime",
+        "enum",
+        "numpy",
+        "pandas"
+      ],
+      "exports": [
+        "HybridStrategy",
+        "MLBasedStrategy",
+        "MovingAverageCrossoverStrategy",
+        "RSIStrategy",
+        "StrategyEngine",
+        "TradeSignal",
+        "get_strategy"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "MLBasedStrategy"
+        },
+        {
+          "from": "module",
+          "to": "MovingAverageCrossoverStrategy"
+        },
+        {
+          "from": "module",
+          "to": "NotImplementedError"
+        },
+        {
+          "from": "module",
+          "to": "RSIStrategy"
+        },
+        {
+          "from": "module",
+          "to": "__init__"
+        }
+      ]
+    },
+    "backend/strategy/__init__.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [],
+      "internal_calls": []
+    },
+    "backend/trading/bot.py": {
+      "imports": [
+        "backend",
+        "ccxt"
+      ],
+      "exports": [
+        "BrokerConnector",
+        "TradingBot"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "BrokerConnector"
+        },
+        {
+          "from": "module",
+          "to": "PaperTradingEngine"
+        },
+        {
+          "from": "module",
+          "to": "ValueError"
+        },
+        {
+          "from": "module",
+          "to": "_init_exchange"
+        },
+        {
+          "from": "module",
+          "to": "binanceus"
+        }
+      ]
+    },
+    "backend/trading/paper_trading.py": {
+      "imports": [
+        "backend",
+        "datetime",
+        "pandas"
+      ],
+      "exports": [
+        "PaperTradingEngine",
+        "Position"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Position"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "close"
+        },
+        {
+          "from": "module",
+          "to": "get_portfolio_value"
+        },
+        {
+          "from": "module",
+          "to": "get_realized_pnl"
+        }
+      ]
+    },
+    "backend/trading/__init__.py": {
+      "imports": [
+        "backend"
+      ],
+      "exports": [],
+      "internal_calls": []
+    }
+  },
+  "edges": [
+    {
+      "source": "backend/logger.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/main.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/test_bot.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/test_bot_offline.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/api/main.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/backtest/backtester.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/backtest/__init__.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/data/fetcher.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/data/preprocessor.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/data/__init__.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/examples/api_server.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/examples/backtest_comparison.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/examples/quick_start.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/models/model.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/models/user.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/models/__init__.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/strategy/strategy.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/strategy/__init__.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/trading/bot.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/trading/paper_trading.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    },
+    {
+      "source": "backend/trading/__init__.py",
+      "target": "backend/__init__.py",
+      "type": "import"
+    }
+  ],
+  "metadata": {
+    "parse_time_ms": 206.45,
+    "python_files_parsed": 29,
+    "total_symbols": 29
+  }
+}

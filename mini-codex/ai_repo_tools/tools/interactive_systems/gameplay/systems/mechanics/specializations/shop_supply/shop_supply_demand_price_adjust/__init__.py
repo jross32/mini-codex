@@ -1,0 +1,1 @@
+from .command import cmd_shop_supply_demand_price_adjust

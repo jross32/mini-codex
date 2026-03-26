@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "liveStream": {
+        "__typename": "LiveStreamPayload",
+        "feeds": []
+      }
+    }
+  },
+  {
+    "errors": [
+      {
+        "name": "NotFound",
+        "message": "Tournament not found",
+        "path": [
+          "tournament"
+        ],
+        "extensions": {
+          "code": "NOT_FOUND",
+          "exception": {
+            "message": "Tournament not found",
+            "locations": [
+              {
+                "line": 1,
+                "column": 40
+              }
+            ],
+            "path": [
+              "tournament"
+            ]
+          },
+          "serviceName": "main"
+        }
+      }
+    ],
+    "data": null
+  }
+]

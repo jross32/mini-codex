@@ -1,0 +1,23 @@
+{
+  "description": "Compare legacy vs current fast_process path and report performance gains",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    },
+    {
+      "name": "runs",
+      "type": "int",
+      "optional": true,
+      "default": 12
+    },
+    {
+      "name": "warmups",
+      "type": "int",
+      "optional": true,
+      "default": 1
+    }
+  ],
+  "returns": "gain.mean/p95/median with multiplier and pct"
+}

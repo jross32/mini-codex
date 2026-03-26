@@ -1,0 +1,16 @@
+{
+  "description": "Issue HTTP HEAD request and return status/headers timing",
+  "args": [
+    {
+      "name": "url",
+      "type": "str"
+    },
+    {
+      "name": "timeout_seconds",
+      "type": "int",
+      "optional": true,
+      "default": 8
+    }
+  ],
+  "returns": "status_code, headers, elapsed_ms, summary"
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3438913,
+        "firstName": "Arturo",
+        "lastName": "Rivera",
+        "initials": "AR",
+        "aliases": [
+          {
+            "id": 3326542,
+            "displayName": "Arturo Rivera",
+            "memberNumber": "78504232",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 2,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 3438913,
+        "aliases": [
+          {
+            "id": 3326542,
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "isDefault": true,
+              "__typename": "League"
+            },
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

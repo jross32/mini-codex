@@ -1,0 +1,85 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "__typename": "Member",
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com"
+      }
+    }
+  },
+  {
+    "data": {
+      "features": [
+        {
+          "id": 1,
+          "name": "qualifiers",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 2,
+          "name": "search",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 3,
+          "name": "calendarSubscription",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 4,
+          "name": "ShowHomeVisitingTeam",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 5,
+          "name": "NonRatedSkillLevel",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 6,
+          "name": "electronicScoringEnabled",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 7,
+          "name": "EmergencyNotice",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 8,
+          "name": "8bSeniorSkillLevelCheck",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 9,
+          "name": "eRegistration",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 10,
+          "name": "eightAdvancedSkillLevel",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 11,
+          "name": "eRegistrationEventPolicy",
+          "active": true,
+          "__typename": "Feature"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "tool_counts": {
+    "cmd_run": 4
+  },
+  "failure_counts": {
+    "unknown": 3,
+    "missing_dependency": 1
+  },
+  "weak_result_counts": {
+    "cmd_run": 4
+  },
+  "gap_signal_counts": {
+    "test_failures": 4
+  },
+  "last_updated": "2026-03-25T07:20:27.101110+00:00"
+}

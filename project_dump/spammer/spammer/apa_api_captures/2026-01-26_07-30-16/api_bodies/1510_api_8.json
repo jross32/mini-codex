@@ -1,0 +1,538 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538537,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677439,
+            "team": {
+              "id": 12951829,
+              "name": "Quete Importa",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016339,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43,
+            "ppm": 8.6,
+            "matchesWon": 2,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 43,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277689,
+            "team": {
+              "id": 12766728,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.64,
+            "ppm": 12.8,
+            "matchesWon": 4,
+            "matchesPlayed": 5,
+            "miniSlams": 1,
+            "nineBallBreakAndRuns": 2,
+            "nineBallMatchPointsEarned": 64,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91056805,
+            "team": {
+              "id": 12869228,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463175,
+            "team": {
+              "id": 12649762,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.62,
+            "ppm": 12.4,
+            "matchesWon": 4,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 62,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89190233,
+            "team": {
+              "id": 12613335,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.47000000000000003,
+            "ppm": 9.4,
+            "matchesWon": 2,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 47,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88189713,
+            "team": {
+              "id": 12471333,
+              "name": "Sour Patch Kids",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5357142857142857,
+            "ppm": 10.714285714285714,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 75,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87558178,
+            "team": {
+              "id": 12384172,
+              "name": "Sour Patch Kids",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 10.666666666666666,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 64,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87186458,
+            "team": {
+              "id": 12337073,
+              "name": "Sour Patch Kids",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.41875,
+            "ppm": 8.375,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 67,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86316025,
+            "team": {
+              "id": 12207417,
+              "name": "Sour Patch Kids",
+              "number": "22107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.65,
+            "ppm": 13,
+            "matchesWon": 3,
+            "matchesPlayed": 3,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 39,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86222255,
+            "team": {
+              "id": 12198488,
+              "name": "Sour Patch Kids",
+              "number": "22107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5142857142857143,
+            "ppm": 10.285714285714286,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 72,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 85749591,
+            "team": {
+              "id": 12134244,
+              "name": "Sour Patch Kids",
+              "number": "22108",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.49000000000000005,
+            "ppm": 9.8,
+            "matchesWon": 3,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 49,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84883708,
+            "team": {
+              "id": 12013345,
+              "name": "Puro Shaft",
+              "number": "22107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5208333333333333,
+            "ppm": 10.416666666666666,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 125,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84835483,
+            "team": {
+              "id": 12005271,
+              "name": "Puro Shaft",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.27,
+            "ppm": 5.4,
+            "matchesWon": 0,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 27,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83038346,
+            "team": {
+              "id": 11756070,
+              "name": "Garbage Pool Kids",
+              "number": "23307",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3625,
+            "ppm": 7.25,
+            "matchesWon": 1,
+            "matchesPlayed": 4,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 29,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81881069,
+            "team": {
+              "id": 11591434,
+              "name": "Garbage Pool Kids",
+              "number": "23307",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.505,
+            "ppm": 10.1,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 101,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81334810,
+            "team": {
+              "id": 11496388,
+              "name": "Team Sparta",
+              "number": "23306",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.54375,
+            "ppm": 10.875,
+            "matchesWon": 4,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 87,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 80084114,
+            "team": {
+              "id": 11347752,
+              "name": "Pineapple Express",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4875,
+            "ppm": 9.75,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 78,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79656308,
+            "team": {
+              "id": 11291783,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.67,
+            "ppm": 13.4,
+            "matchesWon": 10,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 3,
+            "nineBallMatchPointsEarned": 134,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 78853212,
+            "team": {
+              "id": 11176186,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 10.666666666666666,
+            "matchesWon": 4,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 64,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 78338468,
+            "team": {
+              "id": 11105429,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.49230769230769234,
+            "ppm": 9.846153846153847,
+            "matchesWon": 6,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 3,
+            "nineBallMatchPointsEarned": 128,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77613311,
+            "team": {
+              "id": 11005599,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5653846153846154,
+            "ppm": 11.307692307692308,
+            "matchesWon": 8,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 147,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77156838,
+            "team": {
+              "id": 10943542,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.35625,
+            "ppm": 7.125,
+            "matchesWon": 2,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 57,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 76899485,
+            "team": {
+              "id": 10904396,
+              "name": "Rackless Behavior",
+              "number": "23315",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.45,
+            "ppm": 9,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 54,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 75818085,
+            "team": {
+              "id": 10758546,
+              "name": "Tipsy Slammers",
+              "number": "23307",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.711111111111111,
+            "ppm": 14.222222222222221,
+            "matchesWon": 8,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 128,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 75643910,
+            "team": {
+              "id": 10736535,
+              "name": "Tipsy Slammers",
+              "number": "23307",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5611111111111111,
+            "ppm": 11.222222222222221,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 101,
+            "nineOnSnaps": 0,
+            "skunks": 1,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Tailor Profile | Life OS{% endblock %}
+{% block content %}
+<div class="container py-4" style="max-width:720px;">
+  <div class="card card-soft p-4">
+    <h4 class="fw-bold mb-1">Tailor your profile</h4>
+    <div class="subtle small mb-3">Pick which cards to show and what goes on top. We’ll handle the details.</div>
+    <form method="post">
+      <div class="mb-3">
+        <label class="form-label subtle small">Top priority card</label>
+        <select name="dash_top" class="form-select bg-dark text-light">
+          {% for mod in modules %}
+          <option value="{{ mod }}" {% if profile.dashboard.top_priority==mod %}selected{% endif %}>{{ mod.replace('_',' ') }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label subtle small">Show these cards</label>
+        <div class="d-flex flex-wrap gap-2">
+          {% for mod in modules %}
+          {% set checked = mod in profile.dashboard.show %}
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="dash_show_list" value="{{ mod }}" id="dash-{{ mod }}" {% if checked %}checked{% endif %}>
+            <label class="form-check-label" for="dash-{{ mod }}">{{ mod.replace('_',' ') }}</label>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <button class="btn btn-info w-100">Save</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

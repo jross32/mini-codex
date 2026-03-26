@@ -1,0 +1,138 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2912334,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91016341,
+            "team": {
+              "id": 12864640,
+              "name": "Quete Importa",
+              "number": "22203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5115384615384615,
+            "ppm": 10.23076923076923,
+            "matchesWon": 7,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 133,
+            "nineOnSnaps": 3,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277692,
+            "team": {
+              "id": 12766728,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6607142857142857,
+            "ppm": 13.214285714285714,
+            "matchesWon": 11,
+            "matchesPlayed": 14,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 185,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91056840,
+            "team": {
+              "id": 12869228,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89828689,
+            "team": {
+              "id": 12649762,
+              "name": "Quete Importa",
+              "number": "22207",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.56875,
+            "ppm": 11.375,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 91,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83599619,
+            "team": {
+              "id": 11839410,
+              "name": "Pool Addicts",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.36875,
+            "ppm": 7.375,
+            "matchesWon": 2,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 59,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83084731,
+            "team": {
+              "id": 11758672,
+              "name": "Pool Addicts",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.33461538461538465,
+            "ppm": 6.6923076923076925,
+            "matchesWon": 2,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 87,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

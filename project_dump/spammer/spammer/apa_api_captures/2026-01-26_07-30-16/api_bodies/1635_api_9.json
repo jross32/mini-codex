@@ -1,0 +1,78 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2569117,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 90436193,
+            "team": {
+              "id": 12786323,
+              "name": "Killer Queens",
+              "number": "53303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6190476190476191,
+            "ppm": 1.8571428571428572,
+            "eightBallMatchPointsEarned": 26,
+            "matchesWon": 10,
+            "matchesPlayed": 14,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 3,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90442570,
+            "team": {
+              "id": 12784879,
+              "name": "Phantom Troupe",
+              "number": "03316",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.38095238095238093,
+            "ppm": 1.1428571428571428,
+            "eightBallMatchPointsEarned": 8,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 90496017,
+            "team": {
+              "id": 12766877,
+              "name": "Rack Raiders",
+              "number": "33308",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3666666666666667,
+            "ppm": 1.1,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "eightBallBreakAndRuns": 1,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 2,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

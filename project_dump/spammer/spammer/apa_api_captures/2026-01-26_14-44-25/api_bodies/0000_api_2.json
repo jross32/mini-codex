@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "__typename": "Member",
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League"
+          }
+        ]
+      }
+    }
+  }
+]

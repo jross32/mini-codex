@@ -1,0 +1,202 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "tosAccepted": true,
+        "matches": [
+          {
+            "type": "EIGHT",
+            "id": 49432651,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2026-01-29T20:00:00-06:00",
+            "isMine": true,
+            "isPaid": false,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12951914,
+              "name": "Bad Boys",
+              "number": "02204",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12951917,
+              "name": "Cue-ligans",
+              "number": "02207",
+              "isMine": true,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": [],
+            "division": {
+              "id": 425322,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "type": "NINE",
+            "id": 49432731,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2026-01-29T20:00:00-06:00",
+            "isMine": true,
+            "isPaid": false,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "94",
+              "name": "America/Chicago",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 111405,
+              "name": "The Lucky Barrel",
+              "address": {
+                "id": 70019,
+                "name": "The Lucky Barrel",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12951830,
+              "name": "Bad Boys",
+              "number": "22204",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12951833,
+              "name": "Cue-ligans",
+              "number": "22207",
+              "isMine": true,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": [],
+            "division": {
+              "id": 425316,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          },
+          {
+            "type": "EIGHT",
+            "id": 49432658,
+            "isBye": false,
+            "status": "UNPLAYED",
+            "scoresheet": null,
+            "startTime": "2026-02-05T20:00:00-06:00",
+            "isMine": true,
+            "isPaid": false,
+            "isScored": false,
+            "isFinalized": false,
+            "isPlayoff": false,
+            "description": "",
+            "tableNumber": null,
+            "results": [],
+            "timeZone": {
+              "id": "164",
+              "name": "America/Monterrey",
+              "__typename": "TimeZone"
+            },
+            "location": {
+              "id": 118193,
+              "name": "Shotz",
+              "address": {
+                "id": 85818,
+                "name": "Shotz",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "home": {
+              "id": 12951917,
+              "name": "Cue-ligans",
+              "number": "02207",
+              "isMine": true,
+              "__typename": "Team"
+            },
+            "away": {
+              "id": 12951918,
+              "name": "Ballerz 956",
+              "number": "02205",
+              "isMine": false,
+              "__typename": "Team"
+            },
+            "league": {
+              "id": 894,
+              "isMine": true,
+              "slug": "RioGrandeValley",
+              "isElectronicPaymentsEnabled": true,
+              "__typename": "League"
+            },
+            "orderItems": [],
+            "division": {
+              "id": 425322,
+              "scheduleInEdit": false,
+              "isTournament": false,
+              "__typename": "Division"
+            },
+            "__typename": "Match"
+          }
+        ],
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

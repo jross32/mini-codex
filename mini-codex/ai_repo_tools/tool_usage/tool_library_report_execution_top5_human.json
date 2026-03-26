@@ -1,0 +1,107 @@
+{
+  "title": "Tool Library Report",
+  "subtitle": "Inventory, usage, and weighted complexity scoring for the toolkit",
+  "total_tools": 47,
+  "category_filter": "execution",
+  "top_n": 5,
+  "broken_tool_count": 18,
+  "top_used": [
+    {
+      "tool": "cmd_run",
+      "usage_count": 115,
+      "category": "execution"
+    },
+    {
+      "tool": "directory_structure_generator",
+      "usage_count": 9,
+      "category": "execution"
+    },
+    {
+      "tool": "command_catalog_probe",
+      "usage_count": 7,
+      "category": "execution"
+    },
+    {
+      "tool": "game_blueprint_validator",
+      "usage_count": 5,
+      "category": "execution"
+    },
+    {
+      "tool": "engine_build_matrix_runner",
+      "usage_count": 4,
+      "category": "execution"
+    }
+  ],
+  "top_complexity": [
+    {
+      "tool": "python_module_generator",
+      "complexity_score": 60.87,
+      "complexity_tier": "orchestrator",
+      "category": "execution"
+    },
+    {
+      "tool": "aish_tests_reorganizer",
+      "complexity_score": 52.95,
+      "complexity_tier": "high",
+      "category": "execution"
+    },
+    {
+      "tool": "cmd_run",
+      "complexity_score": 51.15,
+      "complexity_tier": "high",
+      "category": "execution"
+    },
+    {
+      "tool": "directory_structure_generator",
+      "complexity_score": 49.73,
+      "complexity_tier": "high",
+      "category": "execution"
+    },
+    {
+      "tool": "game_blueprint_validator",
+      "complexity_score": 46.77,
+      "complexity_tier": "high",
+      "category": "execution"
+    }
+  ],
+  "broken_tools_preview": [
+    {
+      "tool": "economy_system_generator",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/system_generation/shared_systems/economy/generators/economy_system_generator/command.py"
+    },
+    {
+      "tool": "engine_directory_materializer",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/materialization/filesystem_execution/directory_layouts/writers/engine_directory_materializer/command.py"
+    },
+    {
+      "tool": "engine_directory_plan_compiler",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/planning/filesystem_plans/directory_layouts/compilers/engine_directory_plan_compiler/command.py"
+    },
+    {
+      "tool": "engine_mode_router",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/engine_building/routing/mode_selection/game_profiles/engine_mode_router/command.py"
+    },
+    {
+      "tool": "engine_module_materializer",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/materialization/module_execution/python_layouts/writers/engine_module_materializer/command.py"
+    }
+  ],
+  "category_summary": {
+    "execution": {
+      "count": 47,
+      "usage_total": 175,
+      "max_complexity": 60.87,
+      "avg_complexity": 20.58,
+      "description": "Generic Heroes: file/module generation, batch parsing, test execution - works for ANY project type (RPG, web, pipeline, etc)"
+    }
+  },
+  "notes": [
+    "Merged usage counts from agent_logs/tool_observations_summary.json.",
+    "Merged usage metadata from ai_repo_tools/tool_usage/usage_counter_ai.json."
+  ]
+}

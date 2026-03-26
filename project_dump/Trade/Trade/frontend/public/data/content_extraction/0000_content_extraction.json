@@ -1,0 +1,160 @@
+{
+  "structured_data": [],
+  "rendered_text": "QuantAIFeaturesPricingTestimonialsLog InGet StartedNow in Public BetaPaper Trade Smarter with AI-Powered IntelligenceTest strategies, analyze performance, and automate decision-making with a real institutional-grade AI trading engine. No risk, pure alpha.Get Started Free View DemoBuilt with modern financial infrastructure FastAPI Python ML SQLAlchemy ReactInstitutional-Grade ToolsStop guessing. Start engineering your edge with tools designed for quantitative analysis.AI Strategy EngineOur ML pipelines analyze market structure, volatility, and volume anomalies to generate high-confidence signals.Paper Trading SimulatorTest your execution with realistic slippage and fee modeling before risking a single satoshi.Real-Time MetricsMonitor equity curves, drawdown, Sharpe ratio, and exposure in real-time with sub-second latency.Backtesting EngineRun historical simulations across terabytes of market data to validate your thesis instantly.Telegram AlertsGet instant notifications for every buy/sell decision, risk event, and daily performance summary.Risk ManagementHard-coded risk caps, position sizing rules, and automated stop-losses to protect your capital.How It Works01Connect DataSelect your exchange pairs and timeframe. We handle the websocket ingestion and normalization.02Run AI StrategiesActivate pre-trained models or configure your own parameters. The bot runs 24/7 autonomously.03Analyze ResultsDeep dive into every decision. See exactly why the AI took a trade and track performance.DECISION LOGLIVEBUY BTC-USD0.92 CONFIDENCEReason: RSI Divergence + Volatility BreakoutModel: v2.4.1 (Transformer)SELL ETH-USD0.88 CONFIDENCEReason: Resistance RejectionTrusted by Traders\"This feels like a real trading terminal. I finally understand what my strategies are doing.\"Alex R.Quant Researcher\"The paper trading mode saved me from losing real money while learning. Essential tool.\"Jordan K.Crypto Enthusiast\"Best analytics dashboard I\u2019ve used for crypto testing. The Telegram alerts alone are worth it.\"Sam T.Day TraderDISCLAIMER: This platform is for educational and research purposes only. No financial advice. No guarantees of profit. Past performance does not guarantee future results.Ready to evolve your trading?Start Paper Trading FreeQuantAIDemocratizing institutional-grade crypto trading strategies with AI-powered insights and paper trading.ProductFeaturesPricingRoadmapResourcesDocumentationBlogCommunityLegalTermsPrivacyDisclaimer\u00a9 2026 QuantAI Inc. All rights reserved.This platform is for educational and research purposes only. No financial advice.",
+  "forms": [],
+  "links": {
+    "internal": [
+      {
+        "text": "QuantAI",
+        "href": "/",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Features",
+        "href": "/features",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Testimonials",
+        "href": "/testimonials",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Log In",
+        "href": "/login",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Get Started",
+        "href": "/signup",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Get Started Free ",
+        "href": "/signup",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "View Demo",
+        "href": "/features",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Start Paper Trading Free",
+        "href": "/signup",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Features",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Pricing",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Roadmap",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Documentation",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Blog",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Community",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Terms",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Privacy",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      },
+      {
+        "text": "Disclaimer",
+        "href": "#",
+        "title": "",
+        "target": "_self",
+        "class": "hover:text-primary"
+      }
+    ],
+    "external": [],
+    "ctas": [],
+    "navigation": [
+      {
+        "text": "Features",
+        "href": "/features",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Testimonials",
+        "href": "/testimonials",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      }
+    ]
+  }
+}

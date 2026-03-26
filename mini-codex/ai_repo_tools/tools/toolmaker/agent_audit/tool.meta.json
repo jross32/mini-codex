@@ -1,0 +1,11 @@
+{
+  "description": "Audit agent-core policy state against observed friction and propose bounded tuning recommendations",
+  "args": [
+    {
+      "name": "mode",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "health_score, recommendations, summary"
+}

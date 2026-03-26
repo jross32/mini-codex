@@ -1,0 +1,1 @@
+from .command import cmd_monster_loot_gold_finalize

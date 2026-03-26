@@ -1,0 +1,98 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2861455,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91052647,
+            "team": {
+              "id": 12864720,
+              "name": "Quete Importa",
+              "number": "02203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.3636363636363636,
+            "ppm": 1.0909090909090908,
+            "eightBallMatchPointsEarned": 12,
+            "matchesWon": 3,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91725034,
+            "team": {
+              "id": 12956650,
+              "name": "Quete Importa",
+              "number": "02203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "eightBallMatchPointsEarned": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016831,
+            "team": {
+              "id": 12864756,
+              "name": "Stoke of Luck",
+              "number": "53301",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5,
+            "ppm": 1.5,
+            "eightBallMatchPointsEarned": 6,
+            "matchesWon": 2,
+            "matchesPlayed": 4,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91070573,
+            "team": {
+              "id": 12867596,
+              "name": "X Cues Me",
+              "number": "03309",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.48148148148148145,
+            "ppm": 1.4444444444444444,
+            "eightBallMatchPointsEarned": 13,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

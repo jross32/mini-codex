@@ -1,0 +1,11 @@
+{
+  "description": "Generate a deterministic preflight preparation plan",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    }
+  ],
+  "returns": "preparation_steps, estimated counts"
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Fast summary of changed files in active git repo (staged/unstaged/untracked/conflicts)",
+  "args": [],
+  "returns": "counts and file lists by state plus raw porcelain entries"
+}

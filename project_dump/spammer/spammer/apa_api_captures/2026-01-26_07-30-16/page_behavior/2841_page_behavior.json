@@ -1,0 +1,110 @@
+{
+  "interactions": {
+    "clicks": 0,
+    "formFills": 0,
+    "navigationEvents": 0
+  },
+  "performance": {
+    "first-paint": "2491.60ms",
+    "first-contentful-paint": "2491.60ms",
+    "total_resources": 21,
+    "total_size_kb": "0.88",
+    "script_size_kb": "0.00",
+    "style_size_kb": "0.00",
+    "image_size_kb": "0.00"
+  },
+  "a11y_issues": [],
+  "third_party_scripts": [
+    {
+      "src": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/webpack-06c5c96a03e9f041.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/framework-8a7ac262f6e10eb2.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/main-3c1367af6fba893e.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/pages/_app-da1a9e415c4d785f.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/230-3f7d85bf11a045fd.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/970-bd2577eecdf60399.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/587-6f64ed03654e1e4c.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/233-68c71cd8d12134cc.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/pages/login-3d53cf700fcd7e4c.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/0.4.8-626/_buildManifest.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/0.4.8-626/_ssgManifest.js",
+      "external": false,
+      "async": false,
+      "defer": true,
+      "type": "text/javascript"
+    },
+    {
+      "src": "/_next/static/chunks/pages/forgot-727247171ff858c6.js",
+      "external": false,
+      "async": false,
+      "defer": false,
+      "type": "text/javascript"
+    }
+  ]
+}

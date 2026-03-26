@@ -1,0 +1,31 @@
+{
+  "pixels": [],
+  "cdn_headers": {},
+  "cors_requests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap",
+      "crossorigin": true,
+      "type": "link"
+    },
+    {
+      "url": "https://replit-cdn.com/replit-pill/replit-pill.global.js",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://grainy-gradients.vercel.app/noise.svg",
+      "crossorigin": true,
+      "type": "css"
+    }
+  ],
+  "security_headers": {},
+  "api_patterns": [
+    {
+      "rest_methods_detected": [
+        "GET"
+      ],
+      "api_endpoints_by_method": {},
+      "likely_rest_api": false
+    }
+  ]
+}

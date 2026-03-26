@@ -1,0 +1,11 @@
+{
+  "description": "Check dependency readiness before executing tests or scripts.",
+  "args": [
+    {
+      "name": "target",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "all_ok, missing_dependencies, summary"
+}

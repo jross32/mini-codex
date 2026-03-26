@@ -1,0 +1,17 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 3326940,
+        "sessions": [
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

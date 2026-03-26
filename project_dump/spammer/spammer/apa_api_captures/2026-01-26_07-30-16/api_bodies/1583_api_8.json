@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538542,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 79656286,
+            "team": {
+              "id": 11291785,
+              "name": "Justice League",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4333333333333333,
+            "ppm": 8.666666666666666,
+            "matchesWon": 2,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 104,
+            "nineOnSnaps": 0,
+            "skunks": 1,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

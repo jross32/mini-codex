@@ -1,0 +1,344 @@
+{
+  "structured_data": [],
+  "rendered_text": "Member ServicesJR My Membership Card/ID Edit Profile Settings Payments Logout1DashboardMatchesNewsEventsMy StatsPay for MatchesRulesMy LeaguesRio Grande Valley APAAPA NationalStoreTournament InfoDiscountsContactNeed Help?EventsRio Grande Valley APA All LeaguesAPA NationalRio Grande Valley APAAllTournamentsOther2026 APA 8-Ball ClassicApr 26, 2026 9:00 am | Westgate Las Vegas Resort & Casino2026 APA 9-Ball ShootoutApr 30, 2026 9:00 am | Westgate Las Vegas Resort & Casino2026 Fall 8-Ball RegionalsOct 3, 2026 12:00 am2026 Fall 9-Ball RegionalsOct 3, 2026 12:00 amYou've reached the end!\u00a92026 American Poolplayers AssociationPrivacy Policy Terms of Usev3.18.44\nStay informed with Member Services notifications!3For ExampleYou have pool league tonight! Don't ask me againNo ThanksNotify Me!",
+  "forms": [],
+  "links": {
+    "internal": [
+      {
+        "text": "Member Services",
+        "href": "/",
+        "title": "",
+        "target": "_self",
+        "class": "logo"
+      },
+      {
+        "text": " My Membership Card/ID",
+        "href": "/membercard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Edit Profile",
+        "href": "/profile",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Settings",
+        "href": "/settings",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Payments",
+        "href": "/payments",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": " Logout",
+        "href": "/login/destroy",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "",
+        "href": "/cart",
+        "title": "",
+        "target": "_self",
+        "class": "dropdown-toggle waves-effect waves-light"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/dashboard",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Matches",
+        "href": "/matches",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "News",
+        "href": "/news",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Events",
+        "href": "/events/league/all",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "My Stats",
+        "href": "/RioGrandeValley/member/3400522",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Pay for Matches",
+        "href": "/store",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rules",
+        "href": "/rules",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Rio Grande Valley APA",
+        "href": "/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "Need Help?",
+        "href": "/help",
+        "title": "",
+        "target": "_self",
+        "class": "waves-effect waves-primary"
+      },
+      {
+        "text": "All Leagues",
+        "href": "/events/league/all/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "APA National",
+        "href": "/events/league/national/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Rio Grande Valley APA",
+        "href": "/events/league/RioGrandeValley/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "All",
+        "href": "/events/league/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Tournaments",
+        "href": "/events/league/RioGrandeValley/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Other",
+        "href": "/events/league/RioGrandeValley/filter/other",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "2026 APA 8-Ball ClassicApr 26, 2026 9:00 am | Westgate Las Vegas Resort & Casino",
+        "href": "/tournament/55817",
+        "title": "",
+        "target": "_self",
+        "class": "list-group-item event"
+      },
+      {
+        "text": "2026 APA 9-Ball ShootoutApr 30, 2026 9:00 am | Westgate Las Vegas Resort & Casino",
+        "href": "/tournament/55818",
+        "title": "",
+        "target": "_self",
+        "class": "list-group-item event"
+      },
+      {
+        "text": "2026 Fall 8-Ball RegionalsOct 3, 2026 12:00 am",
+        "href": "/tournament/56742",
+        "title": "",
+        "target": "_self",
+        "class": "list-group-item event"
+      },
+      {
+        "text": "2026 Fall 9-Ball RegionalsOct 3, 2026 12:00 am",
+        "href": "/tournament/56743",
+        "title": "",
+        "target": "_self",
+        "class": "list-group-item event"
+      }
+    ],
+    "external": [
+      {
+        "text": "Store",
+        "href": "https://shop.poolplayers.com",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://bd.poolplayers.com/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "",
+        "href": "https://www.distro.tv/live/billiard-tv/",
+        "title": "",
+        "target": "_blank",
+        "class": "tw-group"
+      },
+      {
+        "text": "Tournament Info",
+        "href": "https://poolplayers.com/tournament-information",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Discounts",
+        "href": "https://poolplayers.com/discounts",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Contact",
+        "href": "https://poolplayers.com/contact/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-facebook tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/poolplayers",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-twitter tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/user/apaleagues",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-youtube tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/poolplayers/",
+        "title": "",
+        "target": "_blank",
+        "class": "text-white social social-instagram tw-flex-1 tw-flex tw-justify-center tw-items-center tw-opacity-50 hover:tw-opacity-100 hover:tw-text-white"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://poolplayers.com/legal/privacy-policy/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://poolplayers.com/legal/apa-terms-of-use-agreement/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      }
+    ],
+    "ctas": [
+      {
+        "text": "All",
+        "href": "/events/league/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Tournaments",
+        "href": "/events/league/RioGrandeValley/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Other",
+        "href": "/events/league/RioGrandeValley/filter/other",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "All Leagues",
+        "href": "/events/league/all/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "APA National",
+        "href": "/events/league/national/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "Rio Grande Valley APA",
+        "href": "/events/league/RioGrandeValley/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": ""
+      },
+      {
+        "text": "All",
+        "href": "/events/league/RioGrandeValley",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Tournaments",
+        "href": "/events/league/RioGrandeValley/filter/tournament",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      },
+      {
+        "text": "Other",
+        "href": "/events/league/RioGrandeValley/filter/other",
+        "title": "",
+        "target": "_self",
+        "class": "btn btn-default waves-effect waves-light"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_stat.character_stat_intelligence_init.command import cmd_character_stat_intelligence_init

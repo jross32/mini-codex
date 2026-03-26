@@ -1,0 +1,1078 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1606859,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677463,
+            "team": {
+              "id": 12951832,
+              "name": "Palochones",
+              "number": "22210",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6,
+            "ppm": 12,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 12,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91676852,
+            "team": {
+              "id": 12951749,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016331,
+            "team": {
+              "id": 12864639,
+              "name": "Palochones",
+              "number": "22206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.45625,
+            "ppm": 9.125,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 73,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91725145,
+            "team": {
+              "id": 12956667,
+              "name": "Palochones",
+              "number": "22206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.25,
+            "ppm": 5,
+            "matchesWon": 0,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 5,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91015838,
+            "team": {
+              "id": 12864571,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.425,
+            "ppm": 8.5,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 68,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277681,
+            "team": {
+              "id": 12766727,
+              "name": "Palochones",
+              "number": "22206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4375,
+            "ppm": 8.75,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 70,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277173,
+            "team": {
+              "id": 12766656,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5727272727272728,
+            "ppm": 11.454545454545455,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 126,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463167,
+            "team": {
+              "id": 12649761,
+              "name": "Palochones",
+              "number": "22206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.36428571428571427,
+            "ppm": 7.285714285714286,
+            "matchesWon": 2,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 51,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89462666,
+            "team": {
+              "id": 12649691,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5428571428571429,
+            "ppm": 10.857142857142858,
+            "matchesWon": 9,
+            "matchesPlayed": 14,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 152,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89162400,
+            "team": {
+              "id": 12537072,
+              "name": "Ball Breakers",
+              "number": "23012",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6125,
+            "ppm": 12.25,
+            "matchesWon": 3,
+            "matchesPlayed": 4,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 49,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88633731,
+            "team": {
+              "id": 12537134,
+              "name": "Palochones",
+              "number": "22206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.36,
+            "ppm": 7.2,
+            "matchesWon": 1,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 36,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88633160,
+            "team": {
+              "id": 12537055,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5,
+            "ppm": 10,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 80,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88188889,
+            "team": {
+              "id": 12471186,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5642857142857143,
+            "ppm": 11.285714285714286,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 79,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88578804,
+            "team": {
+              "id": 12471221,
+              "name": "Rack' EM",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.575,
+            "ppm": 11.5,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 92,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87557660,
+            "team": {
+              "id": 12384101,
+              "name": "Ball Breakers",
+              "number": "23012",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4125,
+            "ppm": 8.25,
+            "matchesWon": 2,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 66,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87558185,
+            "team": {
+              "id": 12384173,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5857142857142856,
+            "ppm": 11.714285714285714,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 82,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87185945,
+            "team": {
+              "id": 12337004,
+              "name": "Ball Breakers",
+              "number": "23011",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4666666666666667,
+            "ppm": 9.333333333333334,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 56,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87186447,
+            "team": {
+              "id": 12337072,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4416666666666667,
+            "ppm": 8.833333333333334,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 53,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86812505,
+            "team": {
+              "id": 12207395,
+              "name": "Martha's 9 Ball",
+              "number": "23010",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4928571428571429,
+            "ppm": 9.857142857142858,
+            "matchesWon": 4,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 69,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86314994,
+            "team": {
+              "id": 12207213,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6125,
+            "ppm": 12.25,
+            "matchesWon": 6,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 98,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86222333,
+            "team": {
+              "id": 12198499,
+              "name": "Palochones",
+              "number": "22106",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.58125,
+            "ppm": 11.625,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 93,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 85629897,
+            "team": {
+              "id": 12119395,
+              "name": "Palochones",
+              "number": "22107",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5700000000000001,
+            "ppm": 11.4,
+            "matchesWon": 3,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 57,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84883675,
+            "team": {
+              "id": 12013341,
+              "name": "Palochones",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.52,
+            "ppm": 10.4,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 104,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84438116,
+            "team": {
+              "id": 11953381,
+              "name": "Palochones",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4416666666666667,
+            "ppm": 8.833333333333334,
+            "matchesWon": 2,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 53,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84124289,
+            "team": {
+              "id": 11913541,
+              "name": "Diamond Cutters",
+              "number": "23001",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.47000000000000003,
+            "ppm": 9.4,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 94,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84124881,
+            "team": {
+              "id": 11913624,
+              "name": "Palochones",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5125,
+            "ppm": 10.25,
+            "matchesWon": 4,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 82,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83599077,
+            "team": {
+              "id": 11839335,
+              "name": "Diamond Cutters",
+              "number": "23009",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4,
+            "ppm": 8,
+            "matchesWon": 1,
+            "matchesPlayed": 5,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 40,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83599576,
+            "team": {
+              "id": 11839404,
+              "name": "Palochones",
+              "number": "22101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.56875,
+            "ppm": 11.375,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 91,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83038123,
+            "team": {
+              "id": 11756038,
+              "name": "Diamond Cutters",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.575,
+            "ppm": 11.5,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 92,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83037689,
+            "team": {
+              "id": 11755981,
+              "name": "Palochones",
+              "number": "22101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5357142857142857,
+            "ppm": 10.714285714285714,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 75,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81704335,
+            "team": {
+              "id": 11568717,
+              "name": "Diamond Cutters",
+              "number": "23003",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43,
+            "ppm": 8.6,
+            "matchesWon": 3,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 86,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81704826,
+            "team": {
+              "id": 11568784,
+              "name": "Palochones",
+              "number": "22101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5363636363636364,
+            "ppm": 10.727272727272727,
+            "matchesWon": 6,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 118,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81159758,
+            "team": {
+              "id": 11496390,
+              "name": "Justice League",
+              "number": "22101",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.525,
+            "ppm": 10.5,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 105,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81505730,
+            "team": {
+              "id": 11496360,
+              "name": "Sticks & Racks",
+              "number": "23006",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.525,
+            "ppm": 10.5,
+            "matchesWon": 3,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 63,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 80649223,
+            "team": {
+              "id": 11425973,
+              "name": "Justice League",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5650000000000001,
+            "ppm": 11.3,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 113,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 80084128,
+            "team": {
+              "id": 11347754,
+              "name": "Justice League",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5125,
+            "ppm": 10.25,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 123,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79656291,
+            "team": {
+              "id": 11291785,
+              "name": "Justice League",
+              "number": "23311",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6142857142857143,
+            "ppm": 12.285714285714286,
+            "matchesWon": 5,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 86,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 78853195,
+            "team": {
+              "id": 11176183,
+              "name": "Justice League",
+              "number": "23313",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4136363636363637,
+            "ppm": 8.272727272727273,
+            "matchesWon": 3,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 91,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 78338451,
+            "team": {
+              "id": 11105426,
+              "name": "Justice League",
+              "number": "23304",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.49000000000000005,
+            "ppm": 9.8,
+            "matchesWon": 4,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 98,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77613294,
+            "team": {
+              "id": 11005596,
+              "name": "Justice League",
+              "number": "23304",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5777777777777777,
+            "ppm": 11.555555555555555,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 104,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77156805,
+            "team": {
+              "id": 10943539,
+              "name": "Justice League",
+              "number": "23305",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.36363636363636365,
+            "ppm": 7.2727272727272725,
+            "matchesWon": 2,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 80,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 76868138,
+            "team": {
+              "id": 10819074,
+              "name": "Edgar's Team",
+              "number": "23313",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.505,
+            "ppm": 10.1,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 101,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 69257917,
+            "team": {
+              "id": 9898447,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.495,
+            "ppm": 9.9,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 99,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68684522,
+            "team": {
+              "id": 9828381,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.55,
+            "ppm": 11,
+            "matchesWon": 7,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 132,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 67315087,
+            "team": {
+              "id": 9644559,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5107142857142857,
+            "ppm": 10.214285714285714,
+            "matchesWon": 7,
+            "matchesPlayed": 14,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 143,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68071902,
+            "team": {
+              "id": 9747306,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 62028871,
+            "team": {
+              "id": 8857452,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 56621779,
+            "team": {
+              "id": 8093925,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 54607806,
+            "team": {
+              "id": 7813535,
+              "name": "Adictos Al Billar",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 51295122,
+            "team": {
+              "id": 7318309,
+              "name": "Scratch This",
+              "number": "24201",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 48793996,
+            "team": {
+              "id": 6969939,
+              "name": "Scratch This",
+              "number": "24204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46237569,
+            "team": {
+              "id": 6614943,
+              "name": "Scratch This",
+              "number": "24204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46360602,
+            "team": {
+              "id": 6632715,
+              "name": "Scratch This",
+              "number": "24204",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Event Feed</h1>
+<ul>
+  {% for t, d in events %}
+  <li><span class="meta">{{ t }}</span> — {{ d }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

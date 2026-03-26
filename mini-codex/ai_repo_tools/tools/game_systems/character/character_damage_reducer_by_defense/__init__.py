@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_damage.character_damage_reducer_by_defense.command import cmd_character_damage_reducer_by_defense

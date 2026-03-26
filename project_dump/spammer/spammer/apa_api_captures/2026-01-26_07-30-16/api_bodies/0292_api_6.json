@@ -1,0 +1,119 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 1689161,
+        "firstName": "William",
+        "lastName": "McGinnis",
+        "initials": "WM",
+        "aliases": [
+          {
+            "id": 599430,
+            "displayName": "William McGinnis",
+            "memberNumber": "78500261",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 6
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 1689161,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 662396,
+            "teamNumber": "12649756",
+            "skillLevel": "6",
+            "standing": 257,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 9-Ball World Pool Championship",
+              "id": 47908,
+              "startTime": "2025-08-12T09:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 644657,
+            "teamNumber": "12537129",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656717,
+            "teamNumber": "12649756",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597858,
+            "teamNumber": "12384039",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Dead On",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

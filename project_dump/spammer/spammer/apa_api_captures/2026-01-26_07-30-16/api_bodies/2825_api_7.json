@@ -1,0 +1,71 @@
+[
+  {
+    "data": {
+      "league": {
+        "id": 589,
+        "name": "APA National",
+        "slug": "national",
+        "schedule": [
+          {
+            "id": 55817,
+            "name": "2026 APA 8-Ball Classic",
+            "startTime": "2026-04-26T09:00:00-05:00",
+            "hostLocation": {
+              "id": 115116,
+              "address": {
+                "id": 64621,
+                "name": "Westgate Las Vegas Resort & Casino",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "__typename": "Tournament"
+          },
+          {
+            "id": 55818,
+            "name": "2026 APA 9-Ball Shootout",
+            "startTime": "2026-04-30T09:00:00-05:00",
+            "hostLocation": {
+              "id": 115116,
+              "address": {
+                "id": 64621,
+                "name": "Westgate Las Vegas Resort & Casino",
+                "__typename": "Address"
+              },
+              "__typename": "HostLocation"
+            },
+            "__typename": "Tournament"
+          },
+          {
+            "id": 56742,
+            "name": "2026 Fall 8-Ball Regionals",
+            "startTime": "2026-10-03T00:00:00-05:00",
+            "hostLocation": null,
+            "__typename": "Tournament"
+          },
+          {
+            "id": 56743,
+            "name": "2026 Fall 9-Ball Regionals",
+            "startTime": "2026-10-03T00:00:00-05:00",
+            "hostLocation": null,
+            "__typename": "Tournament"
+          }
+        ],
+        "__typename": "League"
+      },
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "name": "Rio Grande Valley APA",
+            "slug": "RioGrandeValley",
+            "schedule": [],
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

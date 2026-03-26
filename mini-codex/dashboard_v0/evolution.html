@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini-codex Evolution Lab</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-page="evolution">
+  <div class="wrap">
+    <div class="shell">
+      <header class="topbar">
+        <div class="eyebrow">mini-codex live lab</div>
+        <nav class="nav-links" aria-label="Dashboard pages">
+          <a class="nav-link" href="/mission">Mission Control</a>
+          <a class="nav-link active" href="/evolution">Evolution Lab</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-main">
+          <div class="eyebrow">character growth</div>
+          <h1 class="hero-title">Let the system talk back while it becomes stronger.</h1>
+          <p class="hero-copy">
+            The character scales from real trust, success, and tool diversity. Mission narration reacts to command launches and recent worker outcomes.
+          </p>
+          <div class="hero-meta">
+            <div id="statusChip" class="status-chip status-offline"><span class="status-dot"></span><span id="statusText">Connecting...</span></div>
+            <div class="mini-chip"><span>Last update</span><strong id="lastUpdate">waiting</strong></div>
+            <div class="mini-chip"><span>Route</span><strong>evolution lab</strong></div>
+          </div>
+          <div class="hero-stat-grid">
+            <div class="hero-stat">
+              <div class="hero-stat-label">Repo Power</div>
+              <div id="heroPower" class="hero-stat-value">0</div>
+              <div class="hero-stat-sub">Composite from completion, trust, and tool coverage.</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-label">Evolution Stage</div>
+              <div id="heroStage" class="hero-stat-value">Seed</div>
+              <div id="heroStageSub" class="hero-stat-sub">Waiting for the first strong run.</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="section-title">
+            <h2>Mission Voice</h2>
+            <p>Dialogue updates from the live swarm state.</p>
+          </div>
+          <div id="currentQuest" class="quest-card">
+            <div class="quest-label">Current Quest</div>
+            <div id="questText" class="quest-text">Wake the chamber with a fresh orchestration run.</div>
+          </div>
+          <a class="primary nav-cta" href="/mission">Return to Mission Control</a>
+        </div>
+      </section>
+
+      <section class="evolution-layout">
+        <div class="character-stage">
+          <section class="section">
+            <div class="section-title">
+              <h2>Evolution Chamber</h2>
+              <p>Your character mutates with repo quality, trusted runs, and tools unlocked.</p>
+            </div>
+            <div class="arena">
+              <div class="floating-orb a"></div>
+              <div class="floating-orb b"></div>
+              <div class="floating-orb c"></div>
+              <div class="floating-orb d"></div>
+              <div class="arena-floor"></div>
+              <div class="character">
+                <div class="character-body">
+                  <div class="character-crown" id="characterCrown"></div>
+                  <div class="character-eye left"></div>
+                  <div class="character-eye right"></div>
+                  <div class="character-core"></div>
+                  <div class="character-arm left"></div>
+                  <div class="character-arm right"></div>
+                  <div class="character-tool" id="characterTool"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Character Stats</h2>
+              <p>Strength scales from real mini-codex outcomes.</p>
+            </div>
+            <div class="evolution-metrics">
+              <div class="evolution-stat">
+                <div class="label">Level</div>
+                <div id="evoLevel" class="value">1</div>
+                <div id="evoStage" class="tiny">Seed</div>
+              </div>
+              <div class="evolution-stat">
+                <div class="label">Power</div>
+                <div id="evoPower" class="value">0</div>
+                <div class="tiny">Weighted from completion, trust, and tools.</div>
+              </div>
+              <div class="evolution-stat">
+                <div class="label">Integrity</div>
+                <div id="evoIntegrity" class="value">0%</div>
+                <div class="tiny">Derived from benchmark success rate.</div>
+              </div>
+              <div class="evolution-stat">
+                <div class="label">Tool Affinity</div>
+                <div id="evoAffinity" class="value">0</div>
+                <div class="tiny">Distinct tools your character can wield.</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Mission Narration</h2>
+              <p>The system reacts to what the swarm is doing right now.</p>
+            </div>
+            <div id="dialogueFeed" class="dialogue-feed"></div>
+          </section>
+        </div>
+
+        <div class="column">
+          <section class="section">
+            <div class="section-title">
+              <h2>Skill Tree</h2>
+              <p>Nodes unlock as the system gets more capable.</p>
+            </div>
+            <div id="skillTree" class="skill-tree"></div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Arsenal</h2>
+              <p>New tools appear when the repo demonstrates them.</p>
+            </div>
+            <div id="arsenalList" class="arsenal-list"></div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Evolution Milestones</h2>
+              <p>Milestones mirror real thresholds in the orchestration system.</p>
+            </div>
+            <div id="milestoneList" class="milestone-list"></div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

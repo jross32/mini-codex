@@ -1,0 +1,157 @@
+{
+  "console": [
+    {
+      "type": "warning",
+      "text": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+      ],
+      "timestamp": "2026-01-26T09:19:20.325908"
+    },
+    {
+      "type": "warning",
+      "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      ],
+      "timestamp": "2026-01-26T09:19:20.432175"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:19:20.541789"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:19:20.545794"
+    },
+    {
+      "type": "warning",
+      "text": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+      ],
+      "timestamp": "2026-01-26T09:19:22.691796"
+    },
+    {
+      "type": "warning",
+      "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      ],
+      "timestamp": "2026-01-26T09:19:22.727954"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:19:22.761930"
+    },
+    {
+      "type": "log",
+      "text": "attachEvents {current: div#wrapper.forced}",
+      "location": {
+        "url": "https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js",
+        "lineNumber": 486,
+        "columnNumber": 994597
+      },
+      "args": [
+        "attachEvents",
+        "{current: div#wrapper.forced}"
+      ],
+      "timestamp": "2026-01-26T09:19:22.761930"
+    },
+    {
+      "type": "verbose",
+      "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o",
+      "location": {
+        "url": "https://accounts.poolplayers.com/login?redirect_uri=https%3A%2F%2Fleague.poolplayers.com%2Ftoken%3Fredirect_path%3D%2Fnews%2Fleague%2Fall&client_name=Member+Services",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:19:24.047753"
+    },
+    {
+      "type": "info",
+      "text": "Autofocus processing was blocked because a document already has a focused element.",
+      "location": {
+        "url": "https://accounts.poolplayers.com/login?redirect_uri=https%3A%2F%2Fleague.poolplayers.com%2Ftoken%3Fredirect_path%3D%2Fnews%2Fleague%2Fall&client_name=Member+Services",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T09:19:24.553326"
+    }
+  ],
+  "js_errors": [
+    {
+      "message": "Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).",
+      "stack": "FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at Z (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1780329)\n    at q (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1783418)\n    at https://league.poolplayers.com/8b426819be5e2b49d046.js:2:894",
+      "timestamp": "2026-01-26T09:19:20.711176"
+    },
+    {
+      "message": "Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).",
+      "stack": "FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at Z (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1780329)\n    at q (https://league.poolplayers.com/main.0893ec1e259d42aae1fd.js:487:1783418)\n    at https://league.poolplayers.com/8b426819be5e2b49d046.js:2:894",
+      "timestamp": "2026-01-26T09:19:22.870373"
+    }
+  ],
+  "performance": {
+    "dns_time": 0,
+    "tcp_time": 0,
+    "ttfb": 304,
+    "dom_interactive": 385,
+    "dom_complete": 1420,
+    "load_time": 1420,
+    "heap_used": 35472553,
+    "heap_limit": 2160066560
+  },
+  "state_snapshots": []
+}

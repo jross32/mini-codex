@@ -1,0 +1,10 @@
+{
+  "description": "Apply deterministic in-place improvements to an existing tool and all associated files",
+  "args": [
+    {
+      "name": "tool_name",
+      "type": "str"
+    }
+  ],
+  "returns": "patches_applied, files_modified, warnings, elapsed_ms, summary"
+}

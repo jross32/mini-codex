@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2047605,
+        "firstName": "Steve",
+        "lastName": "Castillo",
+        "initials": "SC",
+        "aliases": [
+          {
+            "id": 530234,
+            "displayName": "Steve Castillo",
+            "memberNumber": "78500658",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2047605,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 677053,
+            "teamNumber": "12766723",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Summer Tri Annual 9 Ball (C)",
+              "id": 54924,
+              "startTime": "2025-09-07T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656693,
+            "teamNumber": "12471183",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656694,
+            "teamNumber": "12537008",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 637390,
+            "teamNumber": "12471274",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 644658,
+            "teamNumber": "12537130",
+            "skillLevel": "4",
+            "standing": null,
+            "teamName": "Chalk and Awe",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1740591,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 91677434,
+            "team": {
+              "id": 12951828,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6,
+            "ppm": 12,
+            "matchesWon": 1,
+            "matchesPlayed": 1,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 12,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91016302,
+            "team": {
+              "id": 12864635,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5333333333333333,
+            "ppm": 10.666666666666666,
+            "matchesWon": 4,
+            "matchesPlayed": 6,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 64,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 90277653,
+            "team": {
+              "id": 12766723,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.65,
+            "ppm": 13,
+            "matchesWon": 6,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 91,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91056802,
+            "team": {
+              "id": 12869227,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4,
+            "ppm": 8,
+            "matchesWon": 1,
+            "matchesPlayed": 3,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 24,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 89463139,
+            "team": {
+              "id": 12649757,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.39090909090909093,
+            "ppm": 7.818181818181818,
+            "matchesWon": 3,
+            "matchesPlayed": 11,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 86,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88633700,
+            "team": {
+              "id": 12537130,
+              "name": "Chalk and Awe",
+              "number": "22202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4642857142857143,
+            "ppm": 9.285714285714286,
+            "matchesWon": 2,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 1,
+            "nineBallMatchPointsEarned": 65,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 88189470,
+            "team": {
+              "id": 12471274,
+              "name": "Chalk and Awe",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6653846153846155,
+            "ppm": 13.307692307692308,
+            "matchesWon": 12,
+            "matchesPlayed": 13,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 173,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87558155,
+            "team": {
+              "id": 12384169,
+              "name": "Chalk and Awe",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.46875,
+            "ppm": 9.375,
+            "matchesWon": 3,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 75,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 87186419,
+            "team": {
+              "id": 12337068,
+              "name": "Chalk and Awe",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6444444444444445,
+            "ppm": 12.88888888888889,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 116,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86315703,
+            "team": {
+              "id": 12207324,
+              "name": "Chalk and Awe",
+              "number": "22102",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.43571428571428567,
+            "ppm": 8.714285714285714,
+            "matchesWon": 3,
+            "matchesPlayed": 7,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 61,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 86222311,
+            "team": {
+              "id": 12198496,
+              "name": "Chalk and Awe",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4722222222222222,
+            "ppm": 9.444444444444445,
+            "matchesWon": 3,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 85,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 85629923,
+            "team": {
+              "id": 12119398,
+              "name": "Chalk and Awe",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.58125,
+            "ppm": 11.625,
+            "matchesWon": 5,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 93,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84883661,
+            "team": {
+              "id": 12013339,
+              "name": "Chalk and Awe",
+              "number": "22105",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5599999999999999,
+            "ppm": 11.2,
+            "matchesWon": 5,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 112,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84438869,
+            "team": {
+              "id": 11953499,
+              "name": "Chalk and Awe",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.615,
+            "ppm": 12.3,
+            "matchesWon": 7,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 123,
+            "nineOnSnaps": 1,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 84250216,
+            "team": {
+              "id": 11929015,
+              "name": "Chalk and Awe",
+              "number": "22104",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6,
+            "ppm": 12,
+            "matchesWon": 6,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 108,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81704845,
+            "team": {
+              "id": 11568786,
+              "name": "Chalk and Awe",
+              "number": "22105",
+              "active": false,
+              "__typename": "Team"
+            },
+            "pa": 0.5066666666666666,
+            "ppm": 10.133333333333333,
+            "matchesWon": 9,
+            "matchesPlayed": 15,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 152,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 81336064,
+            "team": {
+              "id": 11521769,
+              "name": "Chalk and Awe",
+              "number": "22103",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6107142857142857,
+            "ppm": 12.214285714285714,
+            "matchesWon": 10,
+            "matchesPlayed": 14,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 171,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 77156827,
+            "team": {
+              "id": 10943532,
+              "name": "Let the \" RUNS\" begin",
+              "number": "23312",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.58125,
+            "ppm": 11.625,
+            "matchesWon": 6,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 93,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 76783321,
+            "team": {
+              "id": 10893490,
+              "name": "Let the \" RUNS\" begin",
+              "number": "23312",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.63125,
+            "ppm": 12.625,
+            "matchesWon": 7,
+            "matchesPlayed": 8,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 101,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 69257935,
+            "team": {
+              "id": 9898446,
+              "name": "Hustlers",
+              "number": "24203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.4611111111111111,
+            "ppm": 9.222222222222221,
+            "matchesWon": 4,
+            "matchesPlayed": 9,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 83,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68684541,
+            "team": {
+              "id": 9828383,
+              "name": "Hustlers",
+              "number": "24203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.6166666666666667,
+            "ppm": 12.333333333333334,
+            "matchesWon": 8,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 148,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68133054,
+            "team": {
+              "id": 9644562,
+              "name": "Castaneda's Hustlers",
+              "number": "24203",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5549999999999999,
+            "ppm": 11.1,
+            "matchesWon": 6,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 111,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68071706,
+            "team": {
+              "id": 9747265,
+              "name": "Cuetech",
+              "number": "24206",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 51295134,
+            "team": {
+              "id": 7318310,
+              "name": "Shaft Masters",
+              "number": "24202",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 48793978,
+            "team": {
+              "id": 6969936,
+              "name": "Dead On",
+              "number": "24201",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0,
+            "ppm": 0,
+            "matchesWon": 0,
+            "matchesPlayed": 0,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 0,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

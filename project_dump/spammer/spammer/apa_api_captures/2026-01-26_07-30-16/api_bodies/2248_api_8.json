@@ -1,0 +1,28 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3183390,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 474526,
+            "teamNumber": "11913499",
+            "skillLevel": "3",
+            "standing": null,
+            "teamName": "Pok Pok",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2022 WPCQ",
+              "id": 35473,
+              "startTime": "2022-05-20T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

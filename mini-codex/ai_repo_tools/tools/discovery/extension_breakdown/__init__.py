@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.extension_breakdown.extension_breakdown.command import cmd_extension_breakdown

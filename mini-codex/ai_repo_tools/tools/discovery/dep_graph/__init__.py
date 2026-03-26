@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.dep_graph.dep_graph.command import cmd_dep_graph

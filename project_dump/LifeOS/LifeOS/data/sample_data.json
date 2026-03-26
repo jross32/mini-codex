@@ -1,0 +1,553 @@
+{
+  "user": {
+    "name": "You",
+    "focus": "Ship Life OS v1",
+    "mood": "In the zone",
+    "today": "2025-12-04"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Life OS",
+      "status": "In Progress",
+      "progress": 65,
+      "tags": [
+        "systems",
+        "personal"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Health Reset",
+      "status": "Planning",
+      "progress": 25,
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Money Cleanup",
+      "status": "Blocked",
+      "progress": 40,
+      "tags": [
+        "finance"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 11,
+      "title": "Write daily log",
+      "due": "2025-12-04",
+      "status": "doing",
+      "project": "Life OS",
+      "priority": "High"
+    },
+    {
+      "id": 13,
+      "title": "Finalize dashboard cards",
+      "due": "2025-12-05",
+      "status": "doing",
+      "project": "Life OS",
+      "priority": "High"
+    },
+    {
+      "id": 14,
+      "title": "Outline Q1 goals",
+      "due": "2025-12-08",
+      "status": "backlog",
+      "project": "Life OS",
+      "priority": "Medium"
+    },
+    {
+      "id": 15,
+      "title": "Pay utilities",
+      "due": "2025-12-07",
+      "status": "blocked",
+      "project": "Money Cleanup",
+      "priority": "High"
+    },
+    {
+      "id": 16,
+      "title": "Ship Life OS v1",
+      "due": "2025-12-15",
+      "status": "next",
+      "project": "Life OS",
+      "priority": "High"
+    }
+  ],
+  "habits": [
+    {
+      "name": "Hydrate",
+      "streak": 7,
+      "target": "8 cups",
+      "history": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Steps",
+      "streak": 3,
+      "target": "8k steps",
+      "history": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Read",
+      "streak": 5,
+      "target": "20 pages",
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "Sprint planning",
+      "time": "09:30",
+      "date": "2025-12-04",
+      "type": "work",
+      "id": 1764891431844
+    },
+    {
+      "title": "Gym - Push day",
+      "time": "18:00",
+      "date": "2025-12-04",
+      "type": "health",
+      "id": 1764891431844
+    },
+    {
+      "title": "Dinner w/ Sam",
+      "time": "20:00",
+      "date": "2025-12-05",
+      "type": "personal",
+      "id": 1764891431844
+    }
+  ],
+  "goals": [
+    {
+      "title": "Lose 5 lbs",
+      "metric": "Weight",
+      "target": "185",
+      "current": "189",
+      "progress": 55
+    },
+    {
+      "title": "Save $5k",
+      "metric": "Savings",
+      "target": "5000",
+      "current": "2400",
+      "progress": 48
+    },
+    {
+      "title": "Publish 3 posts",
+      "metric": "Writing",
+      "target": "3",
+      "current": "1",
+      "progress": 33
+    }
+  ],
+  "finances": {
+    "budgets": [
+      {
+        "category": "Food",
+        "limit": 400,
+        "spent": 210
+      },
+      {
+        "category": "Health",
+        "limit": 150,
+        "spent": 80
+      },
+      {
+        "category": "Transport",
+        "limit": 120,
+        "spent": 40
+      }
+    ],
+    "accounts": [
+      {
+        "name": "Checking",
+        "balance": 1820.55
+      },
+      {
+        "name": "Savings",
+        "balance": 7450.1
+      },
+      {
+        "name": "Invest",
+        "balance": 12340.0
+      }
+    ],
+    "transactions": [
+      {
+        "title": "Groceries",
+        "amount": -64.21,
+        "category": "Food",
+        "date": "2025-12-03"
+      },
+      {
+        "title": "Gym membership",
+        "amount": -35.0,
+        "category": "Health",
+        "date": "2025-12-02"
+      },
+      {
+        "title": "Paycheck",
+        "amount": 2450.0,
+        "category": "Income",
+        "date": "2025-12-01"
+      }
+    ],
+    "by_category": {
+      "Food": -64.21,
+      "Health": -35.0,
+      "Income": 2450.0
+    }
+  },
+  "workouts": [
+    {
+      "date": "2025-12-03",
+      "title": "Run",
+      "details": "5k tempo",
+      "intensity": "Medium"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "Lift",
+      "details": "Push day",
+      "intensity": "High"
+    }
+  ],
+  "wishlist": [
+    {
+      "item": "Noise-canceling headphones",
+      "cost": 299,
+      "priority": "High",
+      "id": 1764891431844
+    },
+    {
+      "item": "Standing desk mat",
+      "cost": 59,
+      "priority": "Medium",
+      "id": 1764891431844
+    }
+  ],
+  "reminders": [
+    {
+      "title": "Renew ID",
+      "due": "2026-01-10",
+      "id": 1764891431844
+    },
+    {
+      "title": "Car inspection",
+      "due": "2026-02-01",
+      "id": 1764891431844
+    }
+  ],
+  "notes": [
+    {
+      "id": 1764975464571,
+      "title": "Quick note",
+      "excerpt": "Be kind",
+      "tags": []
+    },
+    {
+      "title": "Ideas",
+      "tags": [
+        "brain dump"
+      ],
+      "excerpt": "Capture app automations, GPT prompts, micro-habits...",
+      "id": 1764891431844
+    },
+    {
+      "title": "Meeting w/ Sam",
+      "tags": [
+        "work"
+      ],
+      "excerpt": "Discuss Q1 priorities, align on roadmap.",
+      "id": 1764891431844
+    },
+    {
+      "title": "Weekly Review",
+      "tags": [
+        "review"
+      ],
+      "excerpt": "Wins: shipped dashboard. Next: goals outline.",
+      "id": 1764891431844
+    }
+  ],
+  "logs": [
+    {
+      "date": "2025-12-03",
+      "summary": "Solid flow state. Finished Life OS layout tweaks. Gym push day."
+    },
+    {
+      "date": "2025-12-02",
+      "summary": "Low energy; focused on cleanup and inbox zero."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "password": "demo",
+      "name": "Demo User",
+      "focus": "Ship Life OS",
+      "mood": "In the zone",
+      "prefs": {
+        "projects_tasks": {
+          "enabled": true,
+          "mode": "advanced",
+          "time_tracking": true,
+          "auto_overdue": true,
+          "scope": "both"
+        },
+        "events": {
+          "enabled": true,
+          "sync_pref": "ask",
+          "detail_level": "detailed",
+          "busyness": "moderate"
+        },
+        "goals_habits": {
+          "enabled": true,
+          "areas": [
+            "health",
+            "career",
+            "pool"
+          ],
+          "detail": "detailed",
+          "habit_load": "4-7"
+        },
+        "daily_log": {
+          "enabled": true,
+          "depth": "guided",
+          "prompt_style": "detailed",
+          "time_pref": "evening"
+        },
+        "fitness": {
+          "enabled": true,
+          "main_focus": "general",
+          "target_per_week": 3,
+          "fields": [
+            "distance",
+            "time",
+            "reps"
+          ],
+          "weekly_summary": true
+        },
+        "finance": {
+          "enabled": true,
+          "scope": "personal_only",
+          "detail": "moderate",
+          "spend_alerts": true
+        },
+        "wishlist": {
+          "enabled": true,
+          "item_types": [
+            "tech",
+            "pool gear",
+            "home"
+          ],
+          "price_alerts": false
+        },
+        "notes": {
+          "enabled": true,
+          "use_cases": [
+            "ideas",
+            "planning",
+            "pool"
+          ]
+        },
+        "reminders": {
+          "enabled": true,
+          "auto_suggest": [
+            "tasks",
+            "habits",
+            "appointments"
+          ],
+          "frequency": "normal"
+        },
+        "dashboard": {
+          "show": [
+            "fitness",
+            "finance",
+            "tasks",
+            "events",
+            "goals"
+          ],
+          "top_priority": "fitness"
+        }
+      }
+    },
+    {
+      "id": 1764889881712,
+      "username": "jross32",
+      "password": "Infinity32!",
+      "name": "Justin Ross",
+      "focus": "Set your focus",
+      "mood": "Ready",
+      "prefs": {
+        "modules": {
+          "projects_tasks": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true,
+              "mode": "detailed",
+              "time_tracking": false
+            }
+          },
+          "events": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true
+            }
+          },
+          "goals_habits": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true,
+              "detail": "light"
+            }
+          },
+          "daily_log": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true,
+              "prompt_style": "short"
+            }
+          },
+          "fitness": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true,
+              "main_focus": "general",
+              "target_per_week": 3
+            }
+          },
+          "finance": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true,
+              "scope": "personal_only",
+              "detail": "light"
+            }
+          },
+          "wishlist": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true
+            }
+          },
+          "notes": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true
+            }
+          },
+          "reminders": {
+            "enabled": true,
+            "prefs": {
+              "enabled": true
+            }
+          }
+        },
+        "dashboard": {
+          "show": [
+            "projects_tasks",
+            "events",
+            "goals_habits",
+            "daily_log",
+            "fitness",
+            "finance",
+            "wishlist",
+            "notes",
+            "reminders"
+          ],
+          "top_priority": "notes"
+        }
+      }
+    },
+    {
+      "id": 1764894274133,
+      "username": "tester",
+      "password": "tester1",
+      "name": "test account",
+      "focus": "Set your focus",
+      "mood": "Ready",
+      "prefs": {
+        "track": []
+      }
+    },
+    {
+      "id": 1764975217045,
+      "username": "dmjr23@yahoo.com",
+      "password": "Harrybitds7264!",
+      "name": "Deborah Ross",
+      "focus": "Set your focus",
+      "mood": "Ready",
+      "prefs": {
+        "projects_tasks": {
+          "enabled": true,
+          "mode": "simple",
+          "time_tracking": true
+        },
+        "events": {
+          "enabled": true
+        },
+        "goals_habits": {
+          "enabled": false,
+          "detail": "simple"
+        },
+        "daily_log": {
+          "enabled": false,
+          "prompt_style": "short"
+        },
+        "fitness": {
+          "enabled": true,
+          "main_focus": "lose_weight",
+          "target_per_week": 3
+        },
+        "finance": {
+          "enabled": false,
+          "scope": "personal_only",
+          "detail": "light"
+        },
+        "wishlist": {
+          "enabled": true
+        },
+        "notes": {
+          "enabled": false
+        },
+        "reminders": {
+          "enabled": false
+        }
+      }
+    }
+  ],
+  "meta": {
+    "open_tasks": 0,
+    "overdue_tasks": 0,
+    "today_events": 1
+  }
+}

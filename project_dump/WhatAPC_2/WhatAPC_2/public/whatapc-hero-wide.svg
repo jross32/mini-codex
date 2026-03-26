@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #1f2a44; }
+      .panel { fill: #d75a2a; }
+      .bar { fill: #b2c0ce; }
+      .pc { stroke: #c9d7e6; stroke-width: 18; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .text-main { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 700; fill: #1f2a44; letter-spacing: 6px; }
+      .tagline { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 700; fill: #1f2a44; letter-spacing: 4px; font-size: 32px; }
+      .brand { font-family: 'Playfair Display', 'Times New Roman', serif; font-weight: 700; fill: #c9d7e6; font-size: 34px; }
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <rect class="panel" x="520" y="210" width="560" height="220" rx="6"/>
+  <rect class="panel" x="930" y="430" width="380" height="220" rx="6"/>
+  <rect class="bar" x="600" y="640" width="620" height="70" rx="4"/>
+
+  <g transform="translate(420 230)">
+    <rect x="0" y="80" width="140" height="260" rx="12" class="pc"/>
+    <line x1="70" y1="140" x2="70" y2="170" class="pc"/>
+    <rect x="40" y="20" width="60" height="30" class="pc"/>
+    <rect x="180" y="150" width="380" height="150" rx="14" class="pc"/>
+    <line x1="180" y1="205" x2="560" y2="205" class="pc"/>
+    <circle cx="220" cy="245" r="12" class="pc"/>
+    <line x1="300" y1="245" x2="330" y2="245" class="pc"/>
+    <line x1="350" y1="245" x2="380" y2="245" class="pc"/>
+    <line x1="200" y1="300" x2="260" y2="340" class="pc"/>
+    <line x1="260" y1="340" x2="320" y2="340" class="pc"/>
+  </g>
+
+  <text class="text-main" x="560" y="330" font-size="140">WHAT</text>
+  <text class="text-main" x="980" y="550" font-size="140">APC</text>
+  <text class="tagline" x="640" y="688">UNBELIEVABLE PCS AT UNBELIEVABLE PRICES</text>
+  <text class="brand" x="1250" y="820">WhataPC.com</text>
+</svg>

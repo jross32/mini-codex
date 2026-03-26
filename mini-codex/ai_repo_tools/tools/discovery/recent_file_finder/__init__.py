@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.recent_file.recent_file_finder.command import cmd_recent_file_finder

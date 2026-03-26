@@ -1,0 +1,55 @@
+[
+  {
+    "data": {
+      "tournament": {
+        "id": 55817,
+        "endTime": "2026-04-28T23:59:00-05:00",
+        "event": {
+          "id": 39950,
+          "registrationWindow": null,
+          "__typename": "Event"
+        },
+        "registrationConfig": null,
+        "players": [],
+        "__typename": "Tournament"
+      }
+    }
+  },
+  {
+    "data": {
+      "tournament": {
+        "id": 55818,
+        "endTime": "2026-05-02T23:59:00-05:00",
+        "event": {
+          "id": 39950,
+          "registrationWindow": null,
+          "__typename": "Event"
+        },
+        "registrationConfig": null,
+        "players": [],
+        "__typename": "Tournament"
+      }
+    }
+  },
+  {
+    "data": {
+      "tournament": {
+        "id": 56742,
+        "endTime": "2026-10-04T00:00:00-05:00",
+        "event": {
+          "id": 40617,
+          "registrationWindow": null,
+          "__typename": "Event"
+        },
+        "registrationConfig": null,
+        "players": [],
+        "__typename": "Tournament"
+      }
+    }
+  },
+  {
+    "data": {
+      "feature": true
+    }
+  }
+]

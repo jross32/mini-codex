@@ -1,0 +1,28 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3356943,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241695,
+            "teamNumber": "78505",
+            "skillLevel": "2",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,381 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 3435110,
+        "firstName": "Andres",
+        "lastName": "Garcia",
+        "initials": "AG",
+        "aliases": [
+          {
+            "id": 3319521,
+            "displayName": "Andres Garcia",
+            "memberNumber": "78504483",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 5,
+                "CLA": 5
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 3319521,
+        "pastTeams": [
+          {
+            "id": 68684537,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 6,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 79,
+              "name": "Fall 2011",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": null,
+            "team": {
+              "id": 9828382,
+              "name": "Dead On",
+              "division": {
+                "id": 135818,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 68359784,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": null,
+            "matchesPlayed": 8,
+            "matchesWon": 1,
+            "session": {
+              "id": 78,
+              "name": "Summer 2011",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": null,
+            "team": {
+              "id": 9644561,
+              "name": "Dead On",
+              "division": {
+                "id": 129209,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 62028881,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 76,
+              "name": "Fall 2010",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 8857453,
+              "name": "Dead On",
+              "division": {
+                "id": 117803,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 56621797,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 75,
+              "name": "Summer 2010",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 8093927,
+              "name": "Dead On",
+              "division": {
+                "id": 113399,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 54607824,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 74,
+              "name": "Spring 2010",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 7813537,
+              "name": "* Dead On",
+              "division": {
+                "id": 111349,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 51295146,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 4,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 70,
+              "name": "Fall 2009",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 7318312,
+              "name": "Dead On",
+              "division": {
+                "id": 103231,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 48793975,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 69,
+              "name": "Summer 2009",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 6969936,
+              "name": "Dead On",
+              "division": {
+                "id": 98601,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46237228,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 68,
+              "name": "Spring 2009",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 6614893,
+              "name": "Dead On",
+              "division": {
+                "id": 82603,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 46237546,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 68,
+              "name": "Spring 2009",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 6614940,
+              "name": "Dead On",
+              "division": {
+                "id": 82611,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 46360231,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": null,
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 68,
+              "name": "Spring 2009",
+              "__typename": "Session"
+            },
+            "skillLevel": null,
+            "rank": null,
+            "team": {
+              "id": 6632665,
+              "name": "Dead On",
+              "division": {
+                "id": 97281,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677868,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": null,
+            "team": {
+              "id": 12951911,
+              "name": "Dead On",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91046400,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 7,
+            "nickName": null,
+            "matchesPlayed": 10,
+            "matchesWon": 4,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 5,
+            "rank": 8,
+            "team": {
+              "id": 12864714,
+              "name": "Dead On",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

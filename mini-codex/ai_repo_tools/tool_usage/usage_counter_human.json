@@ -1,0 +1,22 @@
+{
+  "title": "Tool Usage Counter",
+  "subtitle": "Human-readable summary of tool invocation counts",
+  "generated_at_utc": "2026-03-26T17:06:55.857762+00:00",
+  "total_calls": 2,
+  "top_tools": [
+    {
+      "tool": "tool_usage_counter_refresh",
+      "count": 1,
+      "last_called_utc": "2026-03-26T16:57:13.819650+00:00"
+    },
+    {
+      "tool": "tool_usage_counter_show",
+      "count": 1,
+      "last_called_utc": "2026-03-26T17:06:55.857762+00:00"
+    }
+  ],
+  "notes": [
+    "Counts are incremented whenever instrumented execution tools run.",
+    "Use tool_usage_counter_refresh to rebuild counts from observation logs."
+  ]
+}

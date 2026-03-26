@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.binary_file.binary_file_locator.command import cmd_binary_file_locator

@@ -1,0 +1,26 @@
+{
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://crypto-trader-console--justinwross32.replit.app/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "timestamp": "2026-01-27T00:32:04.685466"
+    }
+  ],
+  "errors": [
+    {
+      "method": "GET",
+      "url": "https://crypto-trader-console--justinwross32.replit.app/favicon.svg",
+      "status": 404,
+      "status_text": "404",
+      "timestamp": "2026-01-27T00:32:07.348979"
+    }
+  ],
+  "websockets": []
+}

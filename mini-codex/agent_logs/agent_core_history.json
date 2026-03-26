@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "timestamp_epoch": 1774482714,
+      "applied": [],
+      "before": {
+        "version": 1,
+        "success_usefulness": 4,
+        "failure_usefulness": 1,
+        "success_uncertainty_reduction": 3,
+        "failure_uncertainty_reduction": 1,
+        "success_next_step_quality": 3,
+        "failure_next_step_quality": 1,
+        "warning_penalty": 1,
+        "failure_penalty": 4,
+        "toolmaker_max_failures_per_candidate": 1
+      },
+      "after": {
+        "version": 1,
+        "success_usefulness": 4,
+        "failure_usefulness": 1,
+        "success_uncertainty_reduction": 3,
+        "failure_uncertainty_reduction": 1,
+        "success_next_step_quality": 3,
+        "failure_next_step_quality": 1,
+        "warning_penalty": 1,
+        "failure_penalty": 4,
+        "toolmaker_max_failures_per_candidate": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+  "meta": {
+    "generated_at": "2026-01-25T15:00:00Z",
+    "season": "Spring 2026",
+    "session": "Spring",
+    "source": "mock",
+    "notes": "Development mock data for testing onboarding, dashboard, lineup builder, and admin views. All data is simulated and does not represent real league information."
+  },
+  "league": {
+    "id": "league-rgv-001",
+    "name": "APA Rio Grande Valley",
+    "region": "Rio Grande Valley, TX",
+    "operator_name": "RGV Pool Association"
+  },
+  "locations": [
+    {
+      "id": "loc-001",
+      "name": "Sharks Pool Hall",
+      "city": "Brownsville",
+      "address": "2415 International Blvd, Brownsville, TX 78520"
+    },
+    {
+      "id": "loc-002",
+      "name": "The Cue Room",
+      "city": "McAllen",
+      "address": "1823 10th Street, McAllen, TX 78501"
+    },
+    {
+      "id": "loc-003",
+      "name": "Break & Chalk",
+      "city": "Harlingen",
+      "address": "1105 East Harrison Ave, Harlingen, TX 78550"
+    },
+    {
+      "id": "loc-004",
+      "name": "Corner Pockets",
+      "city": "Brownsville",
+      "address": "780 E 14th St, Brownsville, TX 78520"
+    },
+    {
+      "id": "loc-005",
+      "name": "The 8 Ball Bar & Grill",
+      "city": "McAllen",
+      "address": "915 North Main, McAllen, TX 78501"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "div-001",
+      "name": "Thursday Brownsville 8-Ball",
+      "format": "8-ball",
+      "night": "Thursday",
+      "location_ids": ["loc-001", "loc-004"],
+      "team_ids": ["team-001", "team-002", "team-003", "team-004"]
+    },
+    {
+      "id": "div-002",
+      "name": "Monday McAllen 9-Ball",
+      "format": "9-ball",
+      "night": "Monday",
+      "location_ids": ["loc-002", "loc-005"],
+      "team_ids": ["team-005", "team-006", "team-007", "team-008"]
+    },
+    {
+      "id": "div-003",
+      "name": "Wednesday Mixed 8-Ball",
+      "format": "8-ball",
+      "night": "Wednesday",
+      "location_ids": ["loc-003", "loc-001"],
+      "team_ids": ["team-009", "team-010"]
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-001",
+      "name": "MY TEAM - Breaking Cues",
+      "division_id": "div-001",
+      "home_location_id": "loc-001",
+      "roster_ids": ["player-001", "player-002", "player-003", "player-004", "player-005"],
+      "captain_player_id": "player-001"
+    },
+    {
+      "id": "team-002",
+      "name": "Sharks Players Club",
+      "division_id": "div-001",
+      "home_location_id": "loc-001",
+      "roster_ids": ["player-006", "player-007", "player-008", "player-009", "player-010"],
+      "captain_player_id": "player-006"
+    },
+    {
+      "id": "team-003",
+      "name": "Corner Shot Assassins",
+      "division_id": "div-001",
+      "home_location_id": "loc-004",
+      "roster_ids": ["player-011", "player-012", "player-013", "player-014", "player-015"],
+      "captain_player_id": "player-011"
+    },
+    {
+      "id": "team-004",
+      "name": "Brownsville Bunch",
+      "division_id": "div-001",
+      "home_location_id": "loc-004",
+      "roster_ids": ["player-016", "player-017", "player-018", "player-019", "player-020"],
+      "captain_player_id": "player-016"
+    },
+    {
+      "id": "team-005",
+      "name": "The Cue Masters",
+      "division_id": "div-002",
+      "home_location_id": "loc-002",
+      "roster_ids": ["player-021", "player-022", "player-023", "player-024", "player-025"],
+      "captain_player_id": "player-021"
+    },
+    {
+      "id": "team-006",
+      "name": "McAllen Misfits",
+      "division_id": "div-002",
+      "home_location_id": "loc-005",
+      "roster_ids": ["player-026", "player-027", "player-028", "player-029", "player-030"],
+      "captain_player_id": "player-026"
+    },
+    {
+      "id": "team-007",
+      "name": "Valley Venom",
+      "division_id": "div-002",
+      "home_location_id": "loc-002",
+      "roster_ids": ["player-031", "player-032", "player-033", "player-034", "player-035"],
+      "captain_player_id": "player-031"
+    },
+    {
+      "id": "team-008",
+      "name": "9-Ball Legends",
+      "division_id": "div-002",
+      "home_location_id": "loc-005",
+      "roster_ids": ["player-036", "player-037", "player-038", "player-039", "player-040"],
+      "captain_player_id": "player-036"
+    },
+    {
+      "id": "team-009",
+      "name": "Harlingen Hustlers",
+      "division_id": "div-003",
+      "home_location_id": "loc-003",
+      "roster_ids": ["player-041", "player-042", "player-043", "player-044", "player-045", "player-046"],
+      "captain_player_id": "player-041"
+    },
+    {
+      "id": "team-010",
+      "name": "The Racketeers",
+      "division_id": "div-003",
+      "home_location_id": "loc-001",
+      "roster_ids": ["player-047", "player-048", "player-049", "player-050", "player-051"],
+      "captain_player_id": "player-047"
+    }
+  ],
+  "players": [
+    {
+      "id": "player-001",
+      "name": "Alex Johnson",
+      "team_id": "team-001",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 12, "matches_won": 9, "win_pct": 0.75, "innings": 4.2, "defensive_shots": 2.1}
+    },
+    {
+      "id": "player-002",
+      "name": "Maria Garcia",
+      "team_id": "team-001",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 11, "matches_won": 7, "win_pct": 0.636, "innings": 4.5, "defensive_shots": 1.8}
+    },
+    {
+      "id": "player-003",
+      "name": "James Wilson",
+      "team_id": "team-001",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 10, "matches_won": 5, "win_pct": 0.5, "innings": 4.8, "defensive_shots": 2.5}
+    },
+    {
+      "id": "player-004",
+      "name": "Lisa Chen",
+      "team_id": "team-001",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 9, "matches_won": 8, "win_pct": 0.889, "innings": 3.9, "defensive_shots": 1.5}
+    },
+    {
+      "id": "player-005",
+      "name": "Robert Martinez",
+      "team_id": "team-001",
+      "skill_levels": {"8-ball": 3, "9-ball": 2},
+      "stats": {"matches_played": 8, "matches_won": 3, "win_pct": 0.375, "innings": 5.2, "defensive_shots": 3.1}
+    },
+    {
+      "id": "player-006",
+      "name": "Carlos Rodriguez",
+      "team_id": "team-002",
+      "skill_levels": {"8-ball": 7, "9-ball": 6},
+      "stats": {"matches_played": 13, "matches_won": 11, "win_pct": 0.846, "innings": 3.8, "defensive_shots": 1.2}
+    },
+    {
+      "id": "player-007",
+      "name": "Angela Thompson",
+      "team_id": "team-002",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 12, "matches_won": 8, "win_pct": 0.667, "innings": 4.3, "defensive_shots": 2.0}
+    },
+    {
+      "id": "player-008",
+      "name": "David Lopez",
+      "team_id": "team-002",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 11, "matches_won": 5, "win_pct": 0.455, "innings": 4.7, "defensive_shots": 2.4}
+    },
+    {
+      "id": "player-009",
+      "name": "Jessica Brown",
+      "team_id": "team-002",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "innings": 4.4, "defensive_shots": 2.3}
+    },
+    {
+      "id": "player-010",
+      "name": "Michael Davis",
+      "team_id": "team-002",
+      "skill_levels": {"8-ball": 2, "9-ball": 2},
+      "stats": {"matches_played": 9, "matches_won": 2, "win_pct": 0.222, "innings": 5.5, "defensive_shots": 3.8}
+    },
+    {
+      "id": "player-011",
+      "name": "Thomas Anderson",
+      "team_id": "team-003",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 12, "matches_won": 9, "win_pct": 0.75, "innings": 4.1, "defensive_shots": 2.2}
+    },
+    {
+      "id": "player-012",
+      "name": "Patricia Martinez",
+      "team_id": "team-003",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 11, "matches_won": 5, "win_pct": 0.455, "innings": 4.9, "defensive_shots": 2.7}
+    },
+    {
+      "id": "player-013",
+      "name": "Steven Smith",
+      "team_id": "team-003",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "innings": 4.5, "defensive_shots": 2.1}
+    },
+    {
+      "id": "player-014",
+      "name": "Jennifer White",
+      "team_id": "team-003",
+      "skill_levels": {"8-ball": 3, "9-ball": 2},
+      "stats": {"matches_played": 9, "matches_won": 3, "win_pct": 0.333, "innings": 5.3, "defensive_shots": 3.2}
+    },
+    {
+      "id": "player-015",
+      "name": "Kevin Harris",
+      "team_id": "team-003",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 8, "matches_won": 4, "win_pct": 0.5, "innings": 4.6, "defensive_shots": 2.5}
+    },
+    {
+      "id": "player-016",
+      "name": "Sandra Garcia",
+      "team_id": "team-004",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "innings": 4.4, "defensive_shots": 2.3}
+    },
+    {
+      "id": "player-017",
+      "name": "Eric Johnson",
+      "team_id": "team-004",
+      "skill_levels": {"8-ball": 3, "9-ball": 2},
+      "stats": {"matches_played": 9, "matches_won": 2, "win_pct": 0.222, "innings": 5.6, "defensive_shots": 3.9}
+    },
+    {
+      "id": "player-018",
+      "name": "Michelle Lee",
+      "team_id": "team-004",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 8, "matches_won": 3, "win_pct": 0.375, "innings": 5.1, "defensive_shots": 3.0}
+    },
+    {
+      "id": "player-019",
+      "name": "Daniel Taylor",
+      "team_id": "team-004",
+      "skill_levels": {"8-ball": 2, "9-ball": 1},
+      "stats": {"matches_played": 7, "matches_won": 1, "win_pct": 0.143, "innings": 5.8, "defensive_shots": 4.2}
+    },
+    {
+      "id": "player-020",
+      "name": "Amanda Wilson",
+      "team_id": "team-004",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 11, "matches_won": 7, "win_pct": 0.636, "innings": 4.3, "defensive_shots": 2.2}
+    },
+    {
+      "id": "player-021",
+      "name": "Matthew King",
+      "team_id": "team-005",
+      "skill_levels": {"8-ball": 5, "9-ball": 7},
+      "stats": {"matches_played": 12, "matches_won": 10, "win_pct": 0.833, "ppm": 0.85}
+    },
+    {
+      "id": "player-022",
+      "name": "Lauren Davis",
+      "team_id": "team-005",
+      "skill_levels": {"8-ball": 4, "9-ball": 5},
+      "stats": {"matches_played": 11, "matches_won": 7, "win_pct": 0.636, "ppm": 0.72}
+    },
+    {
+      "id": "player-023",
+      "name": "Ryan Murphy",
+      "team_id": "team-005",
+      "skill_levels": {"8-ball": 3, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 5, "win_pct": 0.5, "ppm": 0.63}
+    },
+    {
+      "id": "player-024",
+      "name": "Nicole Clark",
+      "team_id": "team-005",
+      "skill_levels": {"8-ball": 6, "9-ball": 6},
+      "stats": {"matches_played": 9, "matches_won": 8, "win_pct": 0.889, "ppm": 0.88}
+    },
+    {
+      "id": "player-025",
+      "name": "Christopher Lee",
+      "team_id": "team-005",
+      "skill_levels": {"8-ball": 2, "9-ball": 3},
+      "stats": {"matches_played": 8, "matches_won": 3, "win_pct": 0.375, "ppm": 0.52}
+    },
+    {
+      "id": "player-026",
+      "name": "Brittany Scott",
+      "team_id": "team-006",
+      "skill_levels": {"8-ball": 4, "9-ball": 5},
+      "stats": {"matches_played": 11, "matches_won": 6, "win_pct": 0.545, "ppm": 0.68}
+    },
+    {
+      "id": "player-027",
+      "name": "Justin Green",
+      "team_id": "team-006",
+      "skill_levels": {"8-ball": 3, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 4, "win_pct": 0.4, "ppm": 0.55}
+    },
+    {
+      "id": "player-028",
+      "name": "Samantha Hall",
+      "team_id": "team-006",
+      "skill_levels": {"8-ball": 5, "9-ball": 6},
+      "stats": {"matches_played": 12, "matches_won": 8, "win_pct": 0.667, "ppm": 0.76}
+    },
+    {
+      "id": "player-029",
+      "name": "Brandon Adams",
+      "team_id": "team-006",
+      "skill_levels": {"8-ball": 2, "9-ball": 3},
+      "stats": {"matches_played": 9, "matches_won": 2, "win_pct": 0.222, "ppm": 0.45}
+    },
+    {
+      "id": "player-030",
+      "name": "Natalie King",
+      "team_id": "team-006",
+      "skill_levels": {"8-ball": 3, "9-ball": 4},
+      "stats": {"matches_played": 8, "matches_won": 3, "win_pct": 0.375, "ppm": 0.58}
+    },
+    {
+      "id": "player-031",
+      "name": "Timothy Wright",
+      "team_id": "team-007",
+      "skill_levels": {"8-ball": 6, "9-ball": 8},
+      "stats": {"matches_played": 13, "matches_won": 12, "win_pct": 0.923, "ppm": 0.92}
+    },
+    {
+      "id": "player-032",
+      "name": "Rachel Lopez",
+      "team_id": "team-007",
+      "skill_levels": {"8-ball": 5, "9-ball": 6},
+      "stats": {"matches_played": 12, "matches_won": 9, "win_pct": 0.75, "ppm": 0.81}
+    },
+    {
+      "id": "player-033",
+      "name": "Joshua Bell",
+      "team_id": "team-007",
+      "skill_levels": {"8-ball": 4, "9-ball": 5},
+      "stats": {"matches_played": 11, "matches_won": 7, "win_pct": 0.636, "ppm": 0.70}
+    },
+    {
+      "id": "player-034",
+      "name": "Victoria Torres",
+      "team_id": "team-007",
+      "skill_levels": {"8-ball": 3, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 4, "win_pct": 0.4, "ppm": 0.56}
+    },
+    {
+      "id": "player-035",
+      "name": "Andrew Young",
+      "team_id": "team-007",
+      "skill_levels": {"8-ball": 5, "9-ball": 6},
+      "stats": {"matches_played": 9, "matches_won": 7, "win_pct": 0.778, "ppm": 0.80}
+    },
+    {
+      "id": "player-036",
+      "name": "Kayla Hernandez",
+      "team_id": "team-008",
+      "skill_levels": {"8-ball": 4, "9-ball": 5},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "ppm": 0.69}
+    },
+    {
+      "id": "player-037",
+      "name": "Anthony Ramirez",
+      "team_id": "team-008",
+      "skill_levels": {"8-ball": 3, "9-ball": 4},
+      "stats": {"matches_played": 9, "matches_won": 3, "win_pct": 0.333, "ppm": 0.54}
+    },
+    {
+      "id": "player-038",
+      "name": "Emma Sanchez",
+      "team_id": "team-008",
+      "skill_levels": {"8-ball": 5, "9-ball": 6},
+      "stats": {"matches_played": 11, "matches_won": 8, "win_pct": 0.727, "ppm": 0.79}
+    },
+    {
+      "id": "player-039",
+      "name": "Jackson Flores",
+      "team_id": "team-008",
+      "skill_levels": {"8-ball": 2, "9-ball": 3},
+      "stats": {"matches_played": 8, "matches_won": 2, "win_pct": 0.25, "ppm": 0.48}
+    },
+    {
+      "id": "player-040",
+      "name": "Sophia Martinez",
+      "team_id": "team-008",
+      "skill_levels": {"8-ball": 4, "9-ball": 5},
+      "stats": {"matches_played": 10, "matches_won": 5, "win_pct": 0.5, "ppm": 0.65}
+    },
+    {
+      "id": "player-041",
+      "name": "Gregory Rivera",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 11, "matches_won": 8, "win_pct": 0.727, "innings": 4.0, "defensive_shots": 1.9}
+    },
+    {
+      "id": "player-042",
+      "name": "Diana Jenkins",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "innings": 4.3, "defensive_shots": 2.2}
+    },
+    {
+      "id": "player-043",
+      "name": "Nathan Perry",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 9, "matches_won": 4, "win_pct": 0.444, "innings": 4.8, "defensive_shots": 2.8}
+    },
+    {
+      "id": "player-044",
+      "name": "Megan Powell",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 10, "matches_won": 8, "win_pct": 0.8, "innings": 3.9, "defensive_shots": 1.6}
+    },
+    {
+      "id": "player-045",
+      "name": "Jonathan Hughes",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 3, "9-ball": 2},
+      "stats": {"matches_played": 8, "matches_won": 2, "win_pct": 0.25, "innings": 5.4, "defensive_shots": 3.5}
+    },
+    {
+      "id": "player-046",
+      "name": "Lauren Robinson",
+      "team_id": "team-009",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 9, "matches_won": 5, "win_pct": 0.556, "innings": 4.4, "defensive_shots": 2.3}
+    },
+    {
+      "id": "player-047",
+      "name": "Kevin Nelson",
+      "team_id": "team-010",
+      "skill_levels": {"8-ball": 6, "9-ball": 5},
+      "stats": {"matches_played": 10, "matches_won": 7, "win_pct": 0.7, "innings": 4.1, "defensive_shots": 2.1}
+    },
+    {
+      "id": "player-048",
+      "name": "Ashley Carter",
+      "team_id": "team-010",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 9, "matches_won": 5, "win_pct": 0.556, "innings": 4.5, "defensive_shots": 2.4}
+    },
+    {
+      "id": "player-049",
+      "name": "Luke Mitchell",
+      "team_id": "team-010",
+      "skill_levels": {"8-ball": 4, "9-ball": 3},
+      "stats": {"matches_played": 8, "matches_won": 3, "win_pct": 0.375, "innings": 5.0, "defensive_shots": 2.9}
+    },
+    {
+      "id": "player-050",
+      "name": "Heather Roberts",
+      "team_id": "team-010",
+      "skill_levels": {"8-ball": 5, "9-ball": 4},
+      "stats": {"matches_played": 10, "matches_won": 6, "win_pct": 0.6, "innings": 4.4, "defensive_shots": 2.3}
+    },
+    {
+      "id": "player-051",
+      "name": "Alexander Parker",
+      "team_id": "team-010",
+      "skill_levels": {"8-ball": 3, "9-ball": 2},
+      "stats": {"matches_played": 7, "matches_won": 2, "win_pct": 0.286, "innings": 5.5, "defensive_shots": 3.6}
+    }
+  ],
+  "matches": [
+    {
+      "id": "match-001",
+      "division_id": "div-001",
+      "date": "2026-01-09T19:00:00Z",
+      "home_team_id": "team-001",
+      "away_team_id": "team-002",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-001", "away_player_id": "player-006", "home_player_sl": 6, "away_player_sl": 7, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-002", "away_player_id": "player-007", "home_player_sl": 5, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-003", "away_player_id": "player-008", "home_player_sl": 4, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-004", "away_player_id": "player-009", "home_player_sl": 6, "away_player_sl": 5, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 1, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-005", "away_player_id": "player-010", "home_player_sl": 3, "away_player_sl": 2, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 3, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-002",
+      "division_id": "div-001",
+      "date": "2026-01-09T19:00:00Z",
+      "home_team_id": "team-003",
+      "away_team_id": "team-004",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-011", "away_player_id": "player-016", "home_player_sl": 6, "away_player_sl": 5, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-012", "away_player_id": "player-017", "home_player_sl": 4, "away_player_sl": 3, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-013", "away_player_id": "player-018", "home_player_sl": 5, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-014", "away_player_id": "player-019", "home_player_sl": 3, "away_player_sl": 2, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-015", "away_player_id": "player-020", "home_player_sl": 4, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-003",
+      "division_id": "div-001",
+      "date": "2026-01-16T19:00:00Z",
+      "home_team_id": "team-002",
+      "away_team_id": "team-003",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-006", "away_player_id": "player-011", "home_player_sl": 7, "away_player_sl": 6, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-007", "away_player_id": "player-012", "home_player_sl": 5, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-008", "away_player_id": "player-013", "home_player_sl": 4, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-009", "away_player_id": "player-014", "home_player_sl": 5, "away_player_sl": 3, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-010", "away_player_id": "player-015", "home_player_sl": 2, "away_player_sl": 4, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 2, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-004",
+      "division_id": "div-001",
+      "date": "2026-01-16T19:00:00Z",
+      "home_team_id": "team-004",
+      "away_team_id": "team-001",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-016", "away_player_id": "player-001", "home_player_sl": 5, "away_player_sl": 6, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 2, "winner": "away"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-017", "away_player_id": "player-002", "home_player_sl": 3, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-018", "away_player_id": "player-003", "home_player_sl": 4, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-019", "away_player_id": "player-004", "home_player_sl": 2, "away_player_sl": 6, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-020", "away_player_id": "player-005", "home_player_sl": 5, "away_player_sl": 3, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"}
+      ]
+    },
+    {
+      "id": "match-005",
+      "division_id": "div-001",
+      "date": "2026-01-23T19:00:00Z",
+      "home_team_id": "team-001",
+      "away_team_id": "team-003",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-001", "away_player_id": "player-011", "home_player_sl": 6, "away_player_sl": 6, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-002", "away_player_id": "player-012", "home_player_sl": 5, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-003", "away_player_id": "player-013", "home_player_sl": 4, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 1, "winner": "away"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-004", "away_player_id": "player-014", "home_player_sl": 6, "away_player_sl": 3, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-005", "away_player_id": "player-015", "home_player_sl": 3, "away_player_sl": 4, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 2, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-006",
+      "division_id": "div-002",
+      "date": "2026-01-06T20:00:00Z",
+      "home_team_id": "team-005",
+      "away_team_id": "team-006",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "9-ball", "home_player_id": "player-021", "away_player_id": "player-026", "home_player_sl": 7, "away_player_sl": 5, "home_points": 1, "away_points": 0, "ppm": 0.85},
+        {"set_number": 2, "format": "9-ball", "home_player_id": "player-022", "away_player_id": "player-027", "home_player_sl": 5, "away_player_sl": 4, "home_points": 1, "away_points": 0, "ppm": 0.73},
+        {"set_number": 3, "format": "9-ball", "home_player_id": "player-023", "away_player_id": "player-028", "home_player_sl": 4, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.65},
+        {"set_number": 4, "format": "9-ball", "home_player_id": "player-024", "away_player_id": "player-029", "home_player_sl": 6, "away_player_sl": 3, "home_points": 1, "away_points": 0, "ppm": 0.88},
+        {"set_number": 5, "format": "9-ball", "home_player_id": "player-025", "away_player_id": "player-030", "home_player_sl": 3, "away_player_sl": 4, "home_points": 1, "away_points": 0, "ppm": 0.60}
+      ]
+    },
+    {
+      "id": "match-007",
+      "division_id": "div-002",
+      "date": "2026-01-06T20:00:00Z",
+      "home_team_id": "team-007",
+      "away_team_id": "team-008",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "9-ball", "home_player_id": "player-031", "away_player_id": "player-036", "home_player_sl": 8, "away_player_sl": 5, "home_points": 1, "away_points": 0, "ppm": 0.92},
+        {"set_number": 2, "format": "9-ball", "home_player_id": "player-032", "away_player_id": "player-037", "home_player_sl": 6, "away_player_sl": 4, "home_points": 1, "away_points": 0, "ppm": 0.81},
+        {"set_number": 3, "format": "9-ball", "home_player_id": "player-033", "away_player_id": "player-038", "home_player_sl": 5, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.72},
+        {"set_number": 4, "format": "9-ball", "home_player_id": "player-034", "away_player_id": "player-039", "home_player_sl": 4, "away_player_sl": 3, "home_points": 1, "away_points": 0, "ppm": 0.58},
+        {"set_number": 5, "format": "9-ball", "home_player_id": "player-035", "away_player_id": "player-040", "home_player_sl": 6, "away_player_sl": 5, "home_points": 0, "away_points": 1, "ppm": 0.68}
+      ]
+    },
+    {
+      "id": "match-008",
+      "division_id": "div-002",
+      "date": "2026-01-13T20:00:00Z",
+      "home_team_id": "team-006",
+      "away_team_id": "team-007",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "9-ball", "home_player_id": "player-026", "away_player_id": "player-031", "home_player_sl": 5, "away_player_sl": 8, "home_points": 0, "away_points": 1, "ppm": 0.68},
+        {"set_number": 2, "format": "9-ball", "home_player_id": "player-027", "away_player_id": "player-032", "home_player_sl": 4, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.56},
+        {"set_number": 3, "format": "9-ball", "home_player_id": "player-028", "away_player_id": "player-033", "home_player_sl": 6, "away_player_sl": 5, "home_points": 1, "away_points": 0, "ppm": 0.78},
+        {"set_number": 4, "format": "9-ball", "home_player_id": "player-029", "away_player_id": "player-034", "home_player_sl": 3, "away_player_sl": 4, "home_points": 0, "away_points": 1, "ppm": 0.48},
+        {"set_number": 5, "format": "9-ball", "home_player_id": "player-030", "away_player_id": "player-035", "home_player_sl": 4, "away_player_sl": 6, "home_points": 1, "away_points": 0, "ppm": 0.62}
+      ]
+    },
+    {
+      "id": "match-009",
+      "division_id": "div-002",
+      "date": "2026-01-13T20:00:00Z",
+      "home_team_id": "team-008",
+      "away_team_id": "team-005",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "9-ball", "home_player_id": "player-036", "away_player_id": "player-021", "home_player_sl": 5, "away_player_sl": 7, "home_points": 0, "away_points": 1, "ppm": 0.69},
+        {"set_number": 2, "format": "9-ball", "home_player_id": "player-037", "away_player_id": "player-022", "home_player_sl": 4, "away_player_sl": 5, "home_points": 0, "away_points": 1, "ppm": 0.57},
+        {"set_number": 3, "format": "9-ball", "home_player_id": "player-038", "away_player_id": "player-023", "home_player_sl": 6, "away_player_sl": 4, "home_points": 1, "away_points": 0, "ppm": 0.79},
+        {"set_number": 4, "format": "9-ball", "home_player_id": "player-039", "away_player_id": "player-024", "home_player_sl": 3, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.52},
+        {"set_number": 5, "format": "9-ball", "home_player_id": "player-040", "away_player_id": "player-025", "home_player_sl": 5, "away_player_sl": 3, "home_points": 1, "away_points": 0, "ppm": 0.68}
+      ]
+    },
+    {
+      "id": "match-010",
+      "division_id": "div-002",
+      "date": "2026-01-20T20:00:00Z",
+      "home_team_id": "team-005",
+      "away_team_id": "team-007",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "9-ball", "home_player_id": "player-021", "away_player_id": "player-031", "home_player_sl": 7, "away_player_sl": 8, "home_points": 0, "away_points": 1, "ppm": 0.85},
+        {"set_number": 2, "format": "9-ball", "home_player_id": "player-022", "away_player_id": "player-032", "home_player_sl": 5, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.72},
+        {"set_number": 3, "format": "9-ball", "home_player_id": "player-023", "away_player_id": "player-033", "home_player_sl": 4, "away_player_sl": 5, "home_points": 1, "away_points": 0, "ppm": 0.65},
+        {"set_number": 4, "format": "9-ball", "home_player_id": "player-024", "away_player_id": "player-034", "home_player_sl": 6, "away_player_sl": 4, "home_points": 1, "away_points": 0, "ppm": 0.88},
+        {"set_number": 5, "format": "9-ball", "home_player_id": "player-025", "away_player_id": "player-035", "home_player_sl": 3, "away_player_sl": 6, "home_points": 0, "away_points": 1, "ppm": 0.55}
+      ]
+    },
+    {
+      "id": "match-011",
+      "division_id": "div-003",
+      "date": "2026-01-08T19:00:00Z",
+      "home_team_id": "team-009",
+      "away_team_id": "team-010",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-041", "away_player_id": "player-047", "home_player_sl": 6, "away_player_sl": 6, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-042", "away_player_id": "player-048", "home_player_sl": 5, "away_player_sl": 5, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-043", "away_player_id": "player-049", "home_player_sl": 4, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-044", "away_player_id": "player-050", "home_player_sl": 6, "away_player_sl": 5, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 1, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-045", "away_player_id": "player-051", "home_player_sl": 3, "away_player_sl": 3, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 3, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-012",
+      "division_id": "div-003",
+      "date": "2026-01-15T19:00:00Z",
+      "home_team_id": "team-010",
+      "away_team_id": "team-009",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-047", "away_player_id": "player-041", "home_player_sl": 6, "away_player_sl": 6, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 2, "winner": "away"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-048", "away_player_id": "player-042", "home_player_sl": 5, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 2, "winner": "away"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-049", "away_player_id": "player-043", "home_player_sl": 4, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-050", "away_player_id": "player-044", "home_player_sl": 5, "away_player_sl": 6, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-051", "away_player_id": "player-045", "home_player_sl": 3, "away_player_sl": 3, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 2, "winner": "away"}
+      ]
+    },
+    {
+      "id": "match-013",
+      "division_id": "div-003",
+      "date": "2026-01-22T19:00:00Z",
+      "home_team_id": "team-009",
+      "away_team_id": "team-010",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
+      "sets": [
+        {"set_number": 1, "format": "8-ball", "home_player_id": "player-041", "away_player_id": "player-047", "home_player_sl": 6, "away_player_sl": 6, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 2, "format": "8-ball", "home_player_id": "player-042", "away_player_id": "player-048", "home_player_sl": 5, "away_player_sl": 5, "home_points": 0, "away_points": 1, "innings": 4, "defensive_shots": 2, "winner": "away"},
+        {"set_number": 3, "format": "8-ball", "home_player_id": "player-043", "away_player_id": "player-049", "home_player_sl": 4, "away_player_sl": 4, "home_points": 1, "away_points": 0, "innings": 5, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 4, "format": "8-ball", "home_player_id": "player-044", "away_player_id": "player-050", "home_player_sl": 6, "away_player_sl": 5, "home_points": 1, "away_points": 0, "innings": 4, "defensive_shots": 2, "winner": "home"},
+        {"set_number": 5, "format": "8-ball", "home_player_id": "player-045", "away_player_id": "player-051", "home_player_sl": 3, "away_player_sl": 3, "home_points": 0, "away_points": 1, "innings": 5, "defensive_shots": 2, "winner": "away"}
+      ]
+    }
+  ]
+}

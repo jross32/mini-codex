@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.empty_dir.empty_dir_finder.command import cmd_empty_dir_finder

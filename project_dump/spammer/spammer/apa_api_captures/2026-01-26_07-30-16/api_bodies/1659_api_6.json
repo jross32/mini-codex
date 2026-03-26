@@ -1,0 +1,135 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2934342,
+        "firstName": "Katelynn",
+        "lastName": "Lee",
+        "initials": "KL",
+        "aliases": [
+          {
+            "id": 2569117,
+            "displayName": "Katelynn Lee",
+            "memberNumber": "78502630",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 6
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "member": {
+        "id": 2934342,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 699240,
+            "teamNumber": "12864774",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Lethal",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 Fall Tri Annual 9 Ball (C)",
+              "id": 54935,
+              "startTime": "2026-01-18T00:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 271343,
+            "teamNumber": "78506",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Family Tradition",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 APA 8-Ball MidSouth Invitational",
+              "id": 54589,
+              "startTime": "2025-09-11T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 665957,
+            "teamNumber": "12649667",
+            "skillLevel": "6",
+            "standing": 65,
+            "teamName": "Family Tradition - 8 TX",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 8-Ball World Pool Championship",
+              "id": 47907,
+              "startTime": "2025-08-05T19:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656705,
+            "teamNumber": "12649667",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Family Tradition - 8 TX",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 8 BALL",
+              "id": 48065,
+              "startTime": "2025-06-06T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 656737,
+            "teamNumber": "12649724",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Dead Stroke Harlingen",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 CAMERON WPCQ 9 BALL",
+              "id": 48067,
+              "startTime": "2025-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

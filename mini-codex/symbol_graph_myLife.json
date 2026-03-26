@@ -1,0 +1,318 @@
+{
+  "symbols": {
+    "api/app/config.py": {
+      "imports": [
+        "os"
+      ],
+      "exports": [
+        "Config",
+        "get_config"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "getenv"
+        },
+        {
+          "from": "module",
+          "to": "split"
+        }
+      ]
+    },
+    "api/app/db.py": {
+      "imports": [
+        "config",
+        "sqlalchemy"
+      ],
+      "exports": [
+        "_ensure_sqlite_columns",
+        "init_db"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "_ensure_sqlite_columns"
+        },
+        {
+          "from": "module",
+          "to": "begin"
+        },
+        {
+          "from": "module",
+          "to": "create_all"
+        },
+        {
+          "from": "module",
+          "to": "create_engine"
+        },
+        {
+          "from": "module",
+          "to": "declarative_base"
+        }
+      ]
+    },
+    "api/app/game.py": {
+      "imports": [
+        "math"
+      ],
+      "exports": [
+        "level_for_xp",
+        "streak_multiplier"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "max"
+        },
+        {
+          "from": "module",
+          "to": "min"
+        }
+      ]
+    },
+    "api/app/main.py": {
+      "imports": [],
+      "exports": [],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "create_app"
+        },
+        {
+          "from": "module",
+          "to": "run"
+        }
+      ]
+    },
+    "api/app/models.py": {
+      "imports": [
+        "datetime",
+        "db",
+        "sqlalchemy"
+      ],
+      "exports": [
+        "Boss",
+        "Buff",
+        "Contract",
+        "Party",
+        "PartyMember",
+        "PushSubscription",
+        "Quest",
+        "QuestEvent",
+        "QuestTemplate",
+        "ReminderPreference",
+        "RewardDrop",
+        "Skill",
+        "StatBlock",
+        "Title",
+        "User",
+        "UserSkill",
+        "UserTitle"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Column"
+        },
+        {
+          "from": "module",
+          "to": "ForeignKey"
+        },
+        {
+          "from": "module",
+          "to": "String"
+        },
+        {
+          "from": "module",
+          "to": "relationship"
+        }
+      ]
+    },
+    "api/app/schemas.py": {
+      "imports": [
+        "pydantic",
+        "typing"
+      ],
+      "exports": [
+        "LoginSchema",
+        "QuestCreateSchema",
+        "RegisterSchema"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Field"
+        }
+      ]
+    },
+    "api/app/__init__.py": {
+      "imports": [
+        "config",
+        "db",
+        "flask",
+        "flask_cors",
+        "flask_jwt_extended",
+        "routes"
+      ],
+      "exports": [
+        "create_app"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "CORS"
+        },
+        {
+          "from": "module",
+          "to": "Flask"
+        },
+        {
+          "from": "module",
+          "to": "JWTManager"
+        },
+        {
+          "from": "module",
+          "to": "from_object"
+        },
+        {
+          "from": "module",
+          "to": "get_config"
+        }
+      ]
+    },
+    "api/migrations/env.py": {
+      "imports": [
+        "alembic",
+        "app",
+        "logging",
+        "os",
+        "sqlalchemy",
+        "sys"
+      ],
+      "exports": [
+        "run_migrations_offline",
+        "run_migrations_online"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "abspath"
+        },
+        {
+          "from": "module",
+          "to": "append"
+        },
+        {
+          "from": "module",
+          "to": "begin_transaction"
+        },
+        {
+          "from": "module",
+          "to": "configure"
+        },
+        {
+          "from": "module",
+          "to": "connect"
+        }
+      ]
+    },
+    "api/migrations/versions/03cdcf4e5749_add_gameplay_features.py": {
+      "imports": [
+        "alembic",
+        "sqlalchemy",
+        "typing"
+      ],
+      "exports": [
+        "downgrade",
+        "upgrade"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Column"
+        },
+        {
+          "from": "module",
+          "to": "DateTime"
+        },
+        {
+          "from": "module",
+          "to": "Float"
+        },
+        {
+          "from": "module",
+          "to": "INTEGER"
+        },
+        {
+          "from": "module",
+          "to": "Integer"
+        }
+      ]
+    },
+    "api/migrations/versions/21aad8756577_init.py": {
+      "imports": [
+        "alembic",
+        "sqlalchemy",
+        "typing"
+      ],
+      "exports": [
+        "downgrade",
+        "upgrade"
+      ],
+      "internal_calls": [
+        {
+          "from": "module",
+          "to": "Boolean"
+        },
+        {
+          "from": "module",
+          "to": "Column"
+        },
+        {
+          "from": "module",
+          "to": "DateTime"
+        },
+        {
+          "from": "module",
+          "to": "ForeignKeyConstraint"
+        },
+        {
+          "from": "module",
+          "to": "Integer"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "api/app/db.py",
+      "target": "api/app/config.py",
+      "type": "import"
+    },
+    {
+      "source": "api/app/models.py",
+      "target": "api/app/db.py",
+      "type": "import"
+    },
+    {
+      "source": "api/app/__init__.py",
+      "target": "api/app/config.py",
+      "type": "import"
+    },
+    {
+      "source": "api/app/__init__.py",
+      "target": "api/app/db.py",
+      "type": "import"
+    },
+    {
+      "source": "api/app/__init__.py",
+      "target": "api/app/routes.py",
+      "type": "import"
+    }
+  ],
+  "metadata": {
+    "parse_time_ms": 66.61,
+    "python_files_parsed": 11,
+    "total_symbols": 10
+  }
+}

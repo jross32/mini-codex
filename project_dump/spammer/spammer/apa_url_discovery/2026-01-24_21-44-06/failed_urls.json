@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://league.poolplayers.com/login/destroy",
+    "reason": "login_required",
+    "worker": 8
+  },
+  {
+    "url": "https://league.poolplayers.com/profile",
+    "reason": "login_required",
+    "worker": 6
+  }
+]

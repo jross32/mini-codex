@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+lifeos.db
+instance/
+
+frontend/node_modules/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+.DS_Store

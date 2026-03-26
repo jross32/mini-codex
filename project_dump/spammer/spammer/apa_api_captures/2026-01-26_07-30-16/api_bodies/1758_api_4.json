@@ -1,0 +1,13 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com",
+        "__typename": "Member"
+      }
+    }
+  }
+]

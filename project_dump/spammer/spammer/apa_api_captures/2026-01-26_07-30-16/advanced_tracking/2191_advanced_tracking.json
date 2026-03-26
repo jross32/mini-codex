@@ -1,0 +1,129 @@
+{
+  "pixels": [
+    {
+      "type": "tracking_script",
+      "src": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "type": "tracking_script",
+      "src": "https://www.googletagmanager.com/gtag/js?id=g-pxyqfekd0m&cx=c&gtm=4e61m0"
+    },
+    {
+      "type": "tracking_script",
+      "src": "https://maps.google.com/maps/api/js?key=aizasydzuebhb4sh-blxr1wib1sf1ijn9uwoyio&libraries=places"
+    },
+    {
+      "type": "tracking_script",
+      "src": "https://www.googletagmanager.com/gtag/js?id=ua-5591255-49"
+    }
+  ],
+  "cdn_headers": {},
+  "cors_requests": [
+    {
+      "url": "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&features=IntersectionObserver",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://maps.google.com/maps/api/js?key=AIzaSyDZuEbhb4SH-blXR1wiB1Sf1Ijn9uWoyIo&libraries=places",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css",
+      "crossorigin": true,
+      "type": "link"
+    },
+    {
+      "url": "https://s3.amazonaws.com/static.poolplayers.com/outdated/outdatedbrowser.min.css",
+      "crossorigin": true,
+      "type": "link"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "crossorigin": true,
+      "type": "xmlhttprequest"
+    },
+    {
+      "url": "https://js.stripe.com/v3/",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-5591255-49",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://js.stripe.com/v3/controller-with-preconnect-e6648a849cd64d2b3d8472d0a901bfd8.html#__shared_params__[version]=v3&__shared_params__[light_experiment_assignments]=%7B%22token%22%3A%22afb8a0f4-ea8",
+      "crossorigin": true,
+      "type": "iframe"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-PXYQFEKD0M&cx=c&gtm=4e61m0",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "crossorigin": true,
+      "type": "script"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    },
+    {
+      "url": "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Fleague.poolplayers.com%2FRioGrandeValley%2Fmember%2F3181524%2F2939168%2Feight%2F132%2F12206720&title=&referrer=",
+      "crossorigin": true,
+      "type": "iframe"
+    },
+    {
+      "url": "https://gql.poolplayers.com/graphql",
+      "crossorigin": true,
+      "type": "fetch"
+    }
+  ],
+  "security_headers": {},
+  "api_patterns": [
+    {
+      "rest_methods_detected": [
+        "GET",
+        "POST"
+      ],
+      "api_endpoints_by_method": {
+        "GET": [
+          "/maps/api/js",
+          "/maps/api/mapsjs/gen_204"
+        ]
+      },
+      "likely_rest_api": true
+    }
+  ]
+}

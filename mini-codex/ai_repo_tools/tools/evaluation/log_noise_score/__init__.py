@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.log_noise.log_noise_score.command import cmd_log_noise_score

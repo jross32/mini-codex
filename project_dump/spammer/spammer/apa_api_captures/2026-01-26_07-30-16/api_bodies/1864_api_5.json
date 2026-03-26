@@ -1,0 +1,183 @@
+[
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "__typename": "Member",
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "name": "Rio Grande Valley APA",
+            "isDefault": true,
+            "isElectronicPaymentsEnabled": true,
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "feature": false,
+      "league": {
+        "news": [
+          {
+            "id": 51790,
+            "title": "St. Patrick's Day T-Shirt Presale Offer",
+            "__typename": "News"
+          },
+          {
+            "id": 4624,
+            "title": "Follow Us on Social Media",
+            "__typename": "News"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "registrationWindows": [],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "fee": null,
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "__typename": "Member",
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com"
+      }
+    }
+  },
+  {
+    "data": {
+      "features": [
+        {
+          "id": 1,
+          "name": "qualifiers",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 2,
+          "name": "search",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 3,
+          "name": "calendarSubscription",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 4,
+          "name": "ShowHomeVisitingTeam",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 5,
+          "name": "NonRatedSkillLevel",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 6,
+          "name": "electronicScoringEnabled",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 7,
+          "name": "EmergencyNotice",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 8,
+          "name": "8bSeniorSkillLevelCheck",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 9,
+          "name": "eRegistration",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 10,
+          "name": "eightAdvancedSkillLevel",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 11,
+          "name": "eRegistrationEventPolicy",
+          "active": true,
+          "__typename": "Feature"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "leagues": [
+          {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "__typename": "League"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": {
+        "id": 3400522,
+        "firstName": "Justin",
+        "lastName": "Ross",
+        "emailAddress": "justinwross32@gmail.com",
+        "__typename": "Member"
+      }
+    }
+  }
+]

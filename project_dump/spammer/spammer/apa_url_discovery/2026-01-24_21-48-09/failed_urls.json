@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://league.poolplayers.com/cart",
+    "reason": "login_required",
+    "worker": 7
+  },
+  {
+    "url": "https://league.poolplayers.com/",
+    "reason": "login_required",
+    "worker": 2
+  },
+  {
+    "url": "https://league.poolplayers.com/news/league/all",
+    "reason": "login_required",
+    "worker": 3
+  },
+  {
+    "url": "https://league.poolplayers.com/news/league/national",
+    "reason": "login_required",
+    "worker": 13
+  },
+  {
+    "url": "https://league.poolplayers.com/news/league/RioGrandeValley",
+    "reason": "login_required",
+    "worker": 8
+  },
+  {
+    "url": "https://league.poolplayers.com/events/league/national",
+    "reason": "login_required",
+    "worker": 9
+  },
+  {
+    "url": "https://league.poolplayers.com/events/filter/tournament",
+    "reason": "login_required",
+    "worker": 15
+  },
+  {
+    "url": "https://league.poolplayers.com/events",
+    "reason": "login_required",
+    "worker": 14
+  },
+  {
+    "url": "https://league.poolplayers.com/events/league/RioGrandeValley",
+    "reason": "login_required",
+    "worker": 10
+  },
+  {
+    "url": "https://league.poolplayers.com/events/filter/other",
+    "reason": "login_required",
+    "worker": 11
+  },
+  {
+    "url": "https://league.poolplayers.com/login",
+    "reason": "login_required",
+    "worker": 7
+  }
+]

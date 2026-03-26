@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2569117,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 89462489,
+            "team": {
+              "id": 12649667,
+              "name": "Family Tradition - 8 TX",
+              "number": "03309",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.40740740740740744,
+            "ppm": 1.2222222222222223,
+            "eightBallMatchPointsEarned": 11,
+            "matchesWon": 5,
+            "matchesPlayed": 9,
+            "eightBallBreakAndRuns": 0,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 1,
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 89485848,
+            "team": {
+              "id": 12652952,
+              "name": "Shotgun",
+              "number": "33409",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.45454545454545453,
+            "ppm": 1.3636363636363635,
+            "eightBallMatchPointsEarned": 15,
+            "matchesWon": 7,
+            "matchesPlayed": 11,
+            "eightBallBreakAndRuns": 1,
+            "eightOnBreaks": 0,
+            "miniSlams": 0,
+            "rackless": 0,
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 1707832,
+        "sessions": [
+          {
+            "id": 138,
+            "name": "Spring 2026",
+            "__typename": "Session"
+          },
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 136,
+            "name": "Summer 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 135,
+            "name": "Spring 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 134,
+            "name": "Fall 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 133,
+            "name": "Summer 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 123,
+            "name": "Summer 2022",
+            "__typename": "Session"
+          },
+          {
+            "id": 119,
+            "name": "Spring 2022",
+            "__typename": "Session"
+          },
+          {
+            "id": 118,
+            "name": "Fall 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 117,
+            "name": "Summer 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 116,
+            "name": "Spring 2021",
+            "__typename": "Session"
+          },
+          {
+            "id": 109,
+            "name": "Spring 2019",
+            "__typename": "Session"
+          },
+          {
+            "id": 108,
+            "name": "Fall 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 107,
+            "name": "Summer 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 104,
+            "name": "Spring 2018",
+            "__typename": "Session"
+          },
+          {
+            "id": 103,
+            "name": "Fall 2017",
+            "__typename": "Session"
+          },
+          {
+            "id": 102,
+            "name": "Summer 2017",
+            "__typename": "Session"
+          },
+          {
+            "id": 81,
+            "name": "Summer 2012",
+            "__typename": "Session"
+          },
+          {
+            "id": 77,
+            "name": "Spring 2011",
+            "__typename": "Session"
+          },
+          {
+            "id": 76,
+            "name": "Fall 2010",
+            "__typename": "Session"
+          },
+          {
+            "id": 75,
+            "name": "Summer 2010",
+            "__typename": "Session"
+          },
+          {
+            "id": 74,
+            "name": "Spring 2010",
+            "__typename": "Session"
+          },
+          {
+            "id": 70,
+            "name": "Fall 2009",
+            "__typename": "Session"
+          },
+          {
+            "id": 69,
+            "name": "Summer 2009",
+            "__typename": "Session"
+          },
+          {
+            "id": 68,
+            "name": "Spring 2009",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

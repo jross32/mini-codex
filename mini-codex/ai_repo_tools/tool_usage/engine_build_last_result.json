@@ -1,0 +1,131 @@
+{
+  "game_type": "cyberpunk",
+  "project_name": "cyberpunk_bar_management_sim",
+  "project_root": "aish_tests/multi_game_projects/cyberpunk_bar_management_sim",
+  "manifest": {
+    "project_name": "cyberpunk_bar_management_sim",
+    "game_type": "cyberpunk",
+    "engine_version": "v1",
+    "theme": "neon-noir",
+    "systems": [
+      "core",
+      "ui",
+      "entities",
+      "economy",
+      "missions",
+      "reputation",
+      "vendor",
+      "progression"
+    ],
+    "templates": [
+      "systems.hacking.hacking",
+      "systems.factions.reputation",
+      "systems.vendors.vendor"
+    ]
+  },
+  "contracts": {
+    "engine": [
+      "run",
+      "load_mode"
+    ],
+    "entity": [
+      "get_stat"
+    ],
+    "mode": [
+      "cyberpunk",
+      "project_name",
+      "systems"
+    ]
+  },
+  "dependency_map": {
+    "core.engine": [
+      "entities.entity"
+    ],
+    "entities.entity": [],
+    "systems.hacking.hacking": [
+      "core.engine",
+      "entities.entity"
+    ]
+  },
+  "case_bundle": {
+    "case_name": "cyberpunk_bar_management_sim_case_bundle",
+    "project_name": "cyberpunk_bar_management_sim",
+    "game_type": "cyberpunk",
+    "artifacts": [
+      "aish_tests/multi_game_projects/cyberpunk_bar_management_sim",
+      "ai_repo_tools/tool_usage/engine_build_last_result.json",
+      "ai_repo_tools/tool_usage/engine_report.json"
+    ]
+  },
+  "reusability_score": {
+    "project_name": "cyberpunk_bar_management_sim",
+    "game_type": "cyberpunk",
+    "shared_templates": 2,
+    "mode_templates": 3,
+    "reusability_score": 40.0
+  },
+  "directory_result": {
+    "success": true,
+    "dirs_created": [
+      "core",
+      "ui",
+      "entities",
+      "systems",
+      "data",
+      "config",
+      "docs",
+      "tests",
+      "systems/hacking",
+      "systems/factions",
+      "systems/vendors"
+    ],
+    "files_created": [
+      "README.md",
+      "core/__init__.py",
+      "ui/__init__.py",
+      "entities/__init__.py",
+      "systems/__init__.py",
+      "main.py"
+    ],
+    "errors": [],
+    "summary": "Created 11 directories and 6 files in aish_tests/multi_game_projects/cyberpunk_bar_management_sim",
+    "elapsed_ms": 15
+  },
+  "module_result": {
+    "success": true,
+    "files_written": [
+      "core/engine.py",
+      "entities/entity.py",
+      "systems/hacking/hacking.py"
+    ],
+    "module_paths": [
+      "aish_tests\\multi_game_projects\\cyberpunk_bar_management_sim\\core\\engine.py",
+      "aish_tests\\multi_game_projects\\cyberpunk_bar_management_sim\\entities\\entity.py",
+      "aish_tests\\multi_game_projects\\cyberpunk_bar_management_sim\\systems\\hacking\\hacking.py"
+    ],
+    "errors": [],
+    "summary": "Generated 3 Python modules.",
+    "elapsed_ms": 0
+  },
+  "quality_gate": {
+    "success": true,
+    "project_root": "C:\\Users\\justi\\Desktop\\Coding Projects\\mini-codex\\aish_tests\\multi_game_projects\\cyberpunk_bar_management_sim",
+    "blueprint_valid": true,
+    "folders_found": [
+      "core",
+      "entities",
+      "systems",
+      "ui"
+    ],
+    "folders_valid": [
+      "core",
+      "entities",
+      "systems",
+      "ui"
+    ],
+    "folders_missing": [],
+    "issues": [],
+    "summary": "Blueprint validation: 4/4 system folders have code",
+    "elapsed_ms": 16
+  }
+}

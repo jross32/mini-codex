@@ -1,0 +1,124 @@
+[
+  {
+    "data": {
+      "viewer": null
+    }
+  },
+  {
+    "data": {
+      "viewer": null
+    }
+  },
+  {
+    "data": {
+      "feature": false,
+      "league": {
+        "news": [
+          {
+            "id": 51790,
+            "title": "St. Patrick's Day T-Shirt Presale Offer",
+            "__typename": "News"
+          },
+          {
+            "id": 4624,
+            "title": "Follow Us on Social Media",
+            "__typename": "News"
+          }
+        ],
+        "__typename": "League"
+      }
+    }
+  },
+  {
+    "data": {
+      "viewer": null
+    }
+  },
+  {
+    "data": {
+      "viewer": null
+    }
+  },
+  {
+    "data": {
+      "viewer": null
+    }
+  },
+  {
+    "data": {
+      "features": [
+        {
+          "id": 1,
+          "name": "qualifiers",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 2,
+          "name": "search",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 3,
+          "name": "calendarSubscription",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 4,
+          "name": "ShowHomeVisitingTeam",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 5,
+          "name": "NonRatedSkillLevel",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 6,
+          "name": "electronicScoringEnabled",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 7,
+          "name": "EmergencyNotice",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 8,
+          "name": "8bSeniorSkillLevelCheck",
+          "active": true,
+          "__typename": "Feature"
+        },
+        {
+          "id": 9,
+          "name": "eRegistration",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 10,
+          "name": "eightAdvancedSkillLevel",
+          "active": false,
+          "__typename": "Feature"
+        },
+        {
+          "id": 11,
+          "name": "eRegistrationEventPolicy",
+          "active": true,
+          "__typename": "Feature"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "viewer": null
+    }
+  }
+]

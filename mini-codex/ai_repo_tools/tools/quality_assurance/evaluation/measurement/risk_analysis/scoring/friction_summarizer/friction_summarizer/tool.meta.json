@@ -1,0 +1,12 @@
+{
+  "description": "Summarize repeated friction patterns from observation logs across repos",
+  "args": [
+    {
+      "name": "top",
+      "type": "int",
+      "optional": true,
+      "default": 20
+    }
+  ],
+  "returns": "meta summary and ranked friction patterns"
+}

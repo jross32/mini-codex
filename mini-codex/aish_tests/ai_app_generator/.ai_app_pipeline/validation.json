@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "missing_paths": [],
+  "metrics": {
+    "existing_tools_used": 7,
+    "tools_created_for_project": 7,
+    "tools_upgraded_during_build": 2,
+    "branches_executed": 6,
+    "required_files_total": 7,
+    "required_files_missing": 0,
+    "validation_passed": true
+  }
+}

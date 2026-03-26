@@ -1,0 +1,1 @@
+from .command import cmd_duplicate_name_risk_score

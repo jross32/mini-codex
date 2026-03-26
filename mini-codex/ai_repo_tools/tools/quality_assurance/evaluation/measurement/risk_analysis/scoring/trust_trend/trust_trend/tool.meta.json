@@ -1,0 +1,18 @@
+{
+  "description": "Estimate trust-score trend across historical orchestrator worker runs",
+  "args": [
+    {
+      "name": "lookback",
+      "type": "int",
+      "optional": true,
+      "default": 20
+    },
+    {
+      "name": "peers",
+      "type": "int",
+      "optional": true,
+      "default": 2
+    }
+  ],
+  "returns": "overall and per-worker trend signal (improving/stalling/declining)"
+}

@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.monster_affix.monster_affix_power_roll.command import cmd_monster_affix_power_roll

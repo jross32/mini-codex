@@ -1,0 +1,658 @@
+{
+  "levels": {
+    "repo_map": 5,
+    "fast_analyze": 1,
+    "cmd_run": 36,
+    "dep_graph": 1,
+    "env_check": 27,
+    "tool_meta_audit": 1
+  },
+  "history": [
+    {
+      "tool": "repo_map",
+      "category": "discovery",
+      "upgrade_level": 1,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774473668
+    },
+    {
+      "tool": "repo_map",
+      "category": "discovery",
+      "upgrade_level": 2,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774473687
+    },
+    {
+      "tool": "fast_analyze",
+      "category": "discovery",
+      "upgrade_level": 1,
+      "patch_count": 1,
+      "patches": [
+        "added_elapsed_ms_timing"
+      ],
+      "warnings": [],
+      "ts_epoch": 1774474171
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 1,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774474799
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 2,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774474864
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 3,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774474894
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 4,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774474906
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 5,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774475829
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 6,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774476948
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 7,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774477060
+    },
+    {
+      "tool": "dep_graph",
+      "category": "discovery",
+      "upgrade_level": 1,
+      "patch_count": 2,
+      "patches": [
+        "added_validation_case",
+        "added_elapsed_ms_timing"
+      ],
+      "warnings": [],
+      "ts_epoch": 1774477062
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 8,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774477216
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 1,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774477218
+    },
+    {
+      "tool": "repo_map",
+      "category": "discovery",
+      "upgrade_level": 3,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774477220
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 9,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774477835
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 10,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774478065
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 11,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480407
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 2,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480409
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 12,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480423
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 3,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480425
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 13,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480440
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 4,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480442
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 14,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480456
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 5,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480458
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 15,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480473
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 6,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480475
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 16,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480489
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 7,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480491
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 17,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480505
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 8,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480507
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 18,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480522
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 9,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480525
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 19,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480551
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 10,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480553
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 20,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480567
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 11,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480569
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 21,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480583
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 12,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480585
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 22,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480600
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 13,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480601
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 23,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480616
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 14,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480617
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 24,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480632
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 15,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480634
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 25,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480648
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 16,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480650
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 26,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480664
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 17,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480665
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 27,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480701
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 18,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480703
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 28,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480718
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 19,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480720
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 29,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480735
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 20,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480737
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 30,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480752
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 21,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480754
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 31,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480769
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 22,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480771
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 32,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480786
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 23,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480788
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 33,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480802
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 24,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480805
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 34,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480819
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 25,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774480821
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 35,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482057
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 26,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482059
+    },
+    {
+      "tool": "repo_map",
+      "category": "discovery",
+      "upgrade_level": 4,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482060
+    },
+    {
+      "tool": "cmd_run",
+      "category": "execution",
+      "upgrade_level": 36,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482408
+    },
+    {
+      "tool": "env_check",
+      "category": "health",
+      "upgrade_level": 27,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482411
+    },
+    {
+      "tool": "repo_map",
+      "category": "discovery",
+      "upgrade_level": 5,
+      "patch_count": 0,
+      "patches": [],
+      "warnings": [],
+      "ts_epoch": 1774482413
+    },
+    {
+      "tool": "tool_meta_audit",
+      "category": "health",
+      "upgrade_level": 1,
+      "patch_count": 1,
+      "patches": [
+        "added_to_dispatcher"
+      ],
+      "warnings": [],
+      "ts_epoch": 1774501776
+    }
+  ]
+}

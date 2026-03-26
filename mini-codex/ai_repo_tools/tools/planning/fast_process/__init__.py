@@ -1,0 +1,1 @@
+from tools.workflow_design.planning.decision_support.task_structuring.routing.fast_process.fast_process.command import cmd_fast_process

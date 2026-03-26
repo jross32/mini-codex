@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.execution.operations.tool_functions.python_compile.python_compile_batch.command import cmd_python_compile_batch

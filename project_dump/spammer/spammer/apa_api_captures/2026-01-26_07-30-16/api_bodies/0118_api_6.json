@@ -1,0 +1,710 @@
+[
+  {
+    "data": {
+      "match": {
+        "id": 48118118,
+        "isFinalized": true,
+        "isTournament": false,
+        "tableNumber": null,
+        "division": {
+          "id": 417524,
+          "electronicScoringEnabled": true,
+          "__typename": "Division",
+          "scheduleInEdit": false,
+          "type": "NINE"
+        },
+        "league": {
+          "id": 894,
+          "esEnabled": true,
+          "__typename": "League",
+          "name": "Rio Grande Valley APA",
+          "currentSessionId": 137,
+          "isElectronicPaymentsEnabled": true,
+          "country": {
+            "id": 1,
+            "__typename": "Country"
+          }
+        },
+        "__typename": "Match",
+        "type": "NINE",
+        "startTime": "2025-11-13T20:00:00-06:00",
+        "week": 11,
+        "isBye": false,
+        "isMine": true,
+        "isScored": true,
+        "scoresheet": null,
+        "isPaid": true,
+        "timeZone": {
+          "id": "94",
+          "name": "America/Chicago",
+          "__typename": "TimeZone"
+        },
+        "location": {
+          "id": 110627,
+          "phone": "+19566203223",
+          "name": "DK's Stix & Stuff",
+          "address": {
+            "id": 67556,
+            "name": "DK's Stix & Stuff",
+            "address1": "1655 Ruben Torres Blvd",
+            "address2": "#205",
+            "city": "Brownsville",
+            "zip": "78521",
+            "latitude": 25.9525609,
+            "longitude": -97.4941973,
+            "__typename": "Address"
+          },
+          "__typename": "HostLocation"
+        },
+        "home": {
+          "id": 12867593,
+          "name": "Cue-ligans",
+          "number": "22207",
+          "isMine": true,
+          "league": {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "__typename": "League"
+          },
+          "division": {
+            "id": 417524,
+            "type": "NINE",
+            "__typename": "Division"
+          },
+          "roster": [
+            {
+              "id": 91052648,
+              "memberNumber": "78500261",
+              "displayName": "William McGinnis",
+              "matchesWon": 1,
+              "matchesPlayed": 8,
+              "pa": 0.35625,
+              "ppm": 7.125,
+              "skillLevel": 6,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 1689161,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91040488,
+              "memberNumber": "78502221",
+              "displayName": "Justin Ross",
+              "matchesWon": 2,
+              "matchesPlayed": 8,
+              "pa": 0.41875,
+              "ppm": 8.375,
+              "skillLevel": 2,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3400522,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91041133,
+              "memberNumber": "78501548",
+              "displayName": "Ethan Boone",
+              "matchesWon": 5,
+              "matchesPlayed": 11,
+              "pa": 0.4818181818181818,
+              "ppm": 9.636363636363637,
+              "skillLevel": 7,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 2532146,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91043355,
+              "memberNumber": "78504318",
+              "displayName": "Rik Cavazos",
+              "matchesWon": 7,
+              "matchesPlayed": 10,
+              "pa": 0.61,
+              "ppm": 12.2,
+              "skillLevel": 3,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3432311,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91040489,
+              "memberNumber": "78503663",
+              "displayName": "Rigo Almaraz",
+              "matchesWon": 5,
+              "matchesPlayed": 8,
+              "pa": 0.59375,
+              "ppm": 11.875,
+              "skillLevel": 5,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3220735,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91052651,
+              "memberNumber": "78501902",
+              "displayName": "Bryan Edwards",
+              "matchesWon": 4,
+              "matchesPlayed": 10,
+              "pa": 0.45,
+              "ppm": 9,
+              "skillLevel": 3,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3353843,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91074593,
+              "memberNumber": "78504465",
+              "displayName": "Luis Sandoval",
+              "matchesWon": 5,
+              "matchesPlayed": 10,
+              "pa": 0.545,
+              "ppm": 10.9,
+              "skillLevel": 3,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3434645,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91074586,
+              "memberNumber": "78504506",
+              "displayName": "Ivan Sanchez",
+              "matchesWon": 4,
+              "matchesPlayed": 6,
+              "pa": 0.5,
+              "ppm": 10,
+              "skillLevel": 4,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3434939,
+                "__typename": "Member"
+              }
+            }
+          ],
+          "__typename": "Team"
+        },
+        "away": {
+          "id": 12864638,
+          "name": "A-Rack-Nophobia",
+          "number": "22205",
+          "isMine": false,
+          "league": {
+            "id": 894,
+            "slug": "RioGrandeValley",
+            "__typename": "League"
+          },
+          "division": {
+            "id": 417524,
+            "type": "NINE",
+            "__typename": "Division"
+          },
+          "roster": [
+            {
+              "id": 91016326,
+              "memberNumber": "78503069",
+              "displayName": "Noel Canales",
+              "matchesWon": 5,
+              "matchesPlayed": 9,
+              "pa": 0.5111111111111111,
+              "ppm": 10.222222222222221,
+              "skillLevel": 4,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3091445,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016323,
+              "memberNumber": "78501571",
+              "displayName": "Enrique Espino",
+              "matchesWon": 3,
+              "matchesPlayed": 5,
+              "pa": 0.58,
+              "ppm": 11.6,
+              "skillLevel": 6,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 2545076,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016329,
+              "memberNumber": "78502109",
+              "displayName": "Justin Urbano",
+              "matchesWon": 6,
+              "matchesPlayed": 10,
+              "pa": 0.5349999999999999,
+              "ppm": 10.7,
+              "skillLevel": 5,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3314754,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016325,
+              "memberNumber": "78502399",
+              "displayName": "Francisco Preciado",
+              "matchesWon": 5,
+              "matchesPlayed": 10,
+              "pa": 0.485,
+              "ppm": 9.7,
+              "skillLevel": 4,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 2790949,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016324,
+              "memberNumber": "78501630",
+              "displayName": "Marcos Saldivar",
+              "matchesWon": 10,
+              "matchesPlayed": 13,
+              "pa": 0.6461538461538462,
+              "ppm": 12.923076923076923,
+              "skillLevel": 5,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 2572364,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016328,
+              "memberNumber": "78503919",
+              "displayName": "Agapito Gonzalez",
+              "matchesWon": 3,
+              "matchesPlayed": 5,
+              "pa": 0.52,
+              "ppm": 10.4,
+              "skillLevel": 8,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3292337,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016327,
+              "memberNumber": "78508336",
+              "displayName": "Nacho Pennington",
+              "matchesWon": 6,
+              "matchesPlayed": 10,
+              "pa": 0.54,
+              "ppm": 10.8,
+              "skillLevel": 4,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 2756591,
+                "__typename": "Member"
+              }
+            },
+            {
+              "id": 91016330,
+              "memberNumber": "78502242",
+              "displayName": "Lizzetty Lara",
+              "matchesWon": 5,
+              "matchesPlayed": 13,
+              "pa": 0.48461538461538456,
+              "ppm": 9.692307692307692,
+              "skillLevel": 2,
+              "__typename": "NineBallPlayer",
+              "member": {
+                "id": 3399554,
+                "__typename": "Member"
+              }
+            }
+          ],
+          "__typename": "Team"
+        },
+        "session": {
+          "id": 137,
+          "name": "Fall 2025",
+          "year": 2025,
+          "__typename": "Session"
+        },
+        "fees": {
+          "amount": 45,
+          "tax": 0,
+          "total": 45,
+          "__typename": "Fees"
+        },
+        "orderItems": [
+          {
+            "id": 1495967,
+            "order": {
+              "id": 2104500,
+              "member": {
+                "id": 3400522,
+                "firstName": "Justin",
+                "lastName": "Ross",
+                "__typename": "Member"
+              },
+              "__typename": "Order"
+            },
+            "__typename": "MatchOrder"
+          }
+        ],
+        "results": [
+          {
+            "homeAway": "HOME",
+            "overUnder": 0,
+            "forfeits": 0,
+            "matchesWon": 1,
+            "matchesPlayed": 5,
+            "points": {
+              "bonus": 15,
+              "penalty": 0,
+              "won": 33,
+              "adjustment": 0,
+              "sportsmanship": 0,
+              "total": 48,
+              "skillLevelViolationAdjustment": 0,
+              "__typename": "MatchResultPoints"
+            },
+            "scores": [
+              {
+                "id": 120114212,
+                "player": {
+                  "id": 91074586,
+                  "displayName": "Ivan Sanchez",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 1,
+                "playerPosition": 2,
+                "skillLevel": 4,
+                "innings": 25,
+                "defensiveShots": 1,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 9,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 2,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "L",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114213,
+                "player": {
+                  "id": 91040489,
+                  "displayName": "Rigo Almaraz",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 2,
+                "playerPosition": 1,
+                "skillLevel": 5,
+                "innings": 28,
+                "defensiveShots": 5,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 29,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 6,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "L",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9B",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114215,
+                "player": {
+                  "id": 91052648,
+                  "displayName": "William McGinnis",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 3,
+                "playerPosition": 1,
+                "skillLevel": 6,
+                "innings": 30,
+                "defensiveShots": 1,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 39,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 7,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "L",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114218,
+                "player": {
+                  "id": 91040488,
+                  "displayName": "Justin Ross",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 4,
+                "playerPosition": 2,
+                "skillLevel": 2,
+                "innings": 21,
+                "defensiveShots": 0,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 13,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 6,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "L",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114220,
+                "player": {
+                  "id": 91074586,
+                  "displayName": "Ivan Sanchez",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 5,
+                "playerPosition": 2,
+                "skillLevel": 4,
+                "innings": 34,
+                "defensiveShots": 5,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 31,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 12,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "W",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              }
+            ],
+            "__typename": "MatchResult"
+          },
+          {
+            "homeAway": "AWAY",
+            "overUnder": 0,
+            "forfeits": 0,
+            "matchesWon": 4,
+            "matchesPlayed": 5,
+            "points": {
+              "bonus": 15,
+              "penalty": 0,
+              "won": 67,
+              "adjustment": 0,
+              "sportsmanship": 0,
+              "total": 82,
+              "skillLevelViolationAdjustment": 0,
+              "__typename": "MatchResultPoints"
+            },
+            "scores": [
+              {
+                "id": 120114211,
+                "player": {
+                  "id": 91016327,
+                  "displayName": "Nacho Pennington",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 1,
+                "playerPosition": 1,
+                "skillLevel": 4,
+                "innings": 25,
+                "defensiveShots": 0,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 31,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 18,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "W",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114219,
+                "player": {
+                  "id": 91016328,
+                  "displayName": "Agapito Gonzalez",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 5,
+                "playerPosition": 1,
+                "skillLevel": 8,
+                "innings": 34,
+                "defensiveShots": 1,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 61,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 8,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "L",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114216,
+                "player": {
+                  "id": 91016324,
+                  "displayName": "Marcos Saldivar",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 3,
+                "playerPosition": 2,
+                "skillLevel": 5,
+                "innings": 30,
+                "defensiveShots": 1,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 38,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 13,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "W",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114217,
+                "player": {
+                  "id": 91016330,
+                  "displayName": "Lizzetty Lara",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 4,
+                "playerPosition": 1,
+                "skillLevel": 2,
+                "innings": 21,
+                "defensiveShots": 0,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 19,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 14,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "W",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              },
+              {
+                "id": 120114214,
+                "player": {
+                  "id": 91016329,
+                  "displayName": "Justin Urbano",
+                  "__typename": "NineBallPlayer"
+                },
+                "matchPositionNumber": 2,
+                "playerPosition": 2,
+                "skillLevel": 4,
+                "innings": 28,
+                "defensiveShots": 0,
+                "eightBallWins": null,
+                "eightOnBreak": null,
+                "eightBallBreakAndRun": null,
+                "nineBallPoints": 31,
+                "nineOnSnap": 0,
+                "nineBallBreakAndRun": 0,
+                "nineBallMatchPointsEarned": 14,
+                "mastersEightBallWins": null,
+                "mastersNineBallWins": null,
+                "winLoss": "W",
+                "matchForfeited": false,
+                "doublesMatch": false,
+                "dateTimeStamp": "2025-11-19T18:54:55Z",
+                "teamSlot": "9A",
+                "eightBallMatchPointsEarned": null,
+                "incompleteMatch": false,
+                "__typename": "MatchScore"
+              }
+            ],
+            "__typename": "MatchResult"
+          }
+        ]
+      }
+    }
+  }
+]

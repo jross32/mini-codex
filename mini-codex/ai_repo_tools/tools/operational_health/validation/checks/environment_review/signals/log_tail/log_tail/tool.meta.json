@@ -1,0 +1,16 @@
+{
+  "description": "Read the last N lines of a log file and return a structured summary",
+  "args": [
+    {
+      "name": "log_path",
+      "type": "str"
+    },
+    {
+      "name": "lines",
+      "type": "int",
+      "optional": true,
+      "default": 50
+    }
+  ],
+  "returns": "tail_lines, error_count, warning_count, last_tool_used"
+}

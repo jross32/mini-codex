@@ -1,0 +1,15 @@
+{
+  "pixels": [],
+  "cdn_headers": {},
+  "cors_requests": [],
+  "security_headers": {},
+  "api_patterns": [
+    {
+      "rest_methods_detected": [
+        "GET"
+      ],
+      "api_endpoints_by_method": {},
+      "likely_rest_api": false
+    }
+  ]
+}

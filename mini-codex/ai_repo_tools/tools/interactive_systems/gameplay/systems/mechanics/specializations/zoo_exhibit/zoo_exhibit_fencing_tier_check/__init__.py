@@ -1,0 +1,1 @@
+from .command import cmd_zoo_exhibit_fencing_tier_check

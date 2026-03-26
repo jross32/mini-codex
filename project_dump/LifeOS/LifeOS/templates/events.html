@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}Events | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-3">
+  <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <div>
+      <div class="subtle text-uppercase small">Calendar</div>
+      <h3 class="fw-bold mb-0">Events & Appointments</h3>
+    </div>
+    <form class="d-flex gap-2 flex-wrap" method="post" action="{{ url_for('events_add') }}">
+      <input name="title" class="form-control form-control-sm bg-dark text-light" placeholder="Event title" required>
+      <input type="date" name="date" class="form-control form-control-sm bg-dark text-light" required>
+      <input type="time" name="time" class="form-control form-control-sm bg-dark text-light">
+      <select name="type" class="form-select form-select-sm bg-dark text-light">
+        <option value="work">Work</option>
+        <option value="health">Health</option>
+        <option value="personal">Personal</option>
+        <option value="general" selected>General</option>
+      </select>
+      <button class="btn btn-info btn-sm">Add</button>
+    </form>
+  </div>
+</div>
+<div class="card card-soft p-3">
+  <div class="list-plain">
+    {% for e in data.events %}
+    <li class="d-flex justify-content-between align-items-start flex-wrap gap-2 py-2 border-bottom border-secondary-subtle">
+      <div class="flex-grow-1">
+        <div class="fw-semibold">{{ e.title }}</div>
+        <div class="subtle small">{{ e.date }} {{ e.time }}</div>
+        <div class="subtle small text-capitalize">Status: {{ e.status or 'upcoming' }}</div>
+      </div>
+      <div class="d-flex align-items-center gap-2 flex-wrap">
+        <span class="pill text-uppercase">{{ e.type }}</span>
+        {% if e.status != 'done' %}
+        <form method="post" action="{{ url_for('events_complete', event_id=e.id) }}">
+          <button class="btn btn-sm btn-success">Done</button>
+        </form>
+        {% endif %}
+        <button class="btn btn-sm btn-outline-info" data-bs-toggle="collapse" data-bs-target="#event-edit-{{ e.id }}">Edit</button>
+        <form method="post" action="{{ url_for('events_delete', event_id=e.id) }}">
+          <button class="btn btn-sm btn-outline-danger">Remove</button>
+        </form>
+      </div>
+      <div class="collapse w-100" id="event-edit-{{ e.id }}">
+        <form class="card card-soft p-2 bg-dark mt-2" method="post" action="{{ url_for('events_update', event_id=e.id) }}">
+          <div class="row g-2">
+            <div class="col-12">
+              <input name="title" class="form-control form-control-sm bg-dark text-light" value="{{ e.title }}">
+            </div>
+            <div class="col-6">
+              <input type="date" name="date" class="form-control form-control-sm bg-dark text-light" value="{{ e.date }}">
+            </div>
+            <div class="col-6">
+              <input type="time" name="time" class="form-control form-control-sm bg-dark text-light" value="{{ e.time }}">
+            </div>
+            <div class="col-6">
+              <select name="type" class="form-select form-select-sm bg-dark text-light">
+                <option value="work" {% if e.type=='work' %}selected{% endif %}>Work</option>
+                <option value="health" {% if e.type=='health' %}selected{% endif %}>Health</option>
+                <option value="personal" {% if e.type=='personal' %}selected{% endif %}>Personal</option>
+                <option value="general" {% if e.type=='general' %}selected{% endif %}>General</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <select name="status" class="form-select form-select-sm bg-dark text-light">
+                <option value="upcoming" {% if e.status=='upcoming' %}selected{% endif %}>Upcoming</option>
+                <option value="done" {% if e.status=='done' %}selected{% endif %}>Done</option>
+              </select>
+            </div>
+          </div>
+          <div class="mt-2 text-end">
+            <button class="btn btn-sm btn-info">Save</button>
+          </div>
+        </form>
+      </div>
+    </li>
+    {% else %}
+    <li class="text-secondary small">No events yet. Add one above.</li>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

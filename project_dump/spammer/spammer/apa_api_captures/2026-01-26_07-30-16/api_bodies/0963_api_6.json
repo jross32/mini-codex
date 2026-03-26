@@ -1,0 +1,435 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2532146,
+        "firstName": "Ethan",
+        "lastName": "Boone",
+        "initials": "EB",
+        "aliases": [
+          {
+            "id": 1999070,
+            "displayName": "Ethan Boone",
+            "memberNumber": "78501548",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT",
+              "NINE"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 6,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 7,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 1999070,
+        "pastTeams": [
+          {
+            "id": 84250209,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 4,
+            "matchesWon": 1,
+            "session": {
+              "id": 118,
+              "name": "Fall 2021",
+              "__typename": "Session"
+            },
+            "skillLevel": 7,
+            "rank": 4,
+            "team": {
+              "id": 11929014,
+              "name": "Dead On",
+              "division": {
+                "id": 331892,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 83598768,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 117,
+              "name": "Summer 2021",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 2,
+            "team": {
+              "id": 11839292,
+              "name": "Dead On",
+              "division": {
+                "id": 324868,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 83037882,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 116,
+              "name": "Spring 2021",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 5,
+            "team": {
+              "id": 11756006,
+              "name": "Dead On",
+              "division": {
+                "id": 316634,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 81704006,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 10,
+            "matchesWon": 5,
+            "session": {
+              "id": 113,
+              "name": "Spring 2020",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 3,
+            "team": {
+              "id": 11568671,
+              "name": "Dead On",
+              "division": {
+                "id": 298681,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 81159227,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 11,
+            "matchesWon": 8,
+            "session": {
+              "id": 112,
+              "name": "Fall 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 1,
+            "team": {
+              "id": 11496316,
+              "name": "Dead On",
+              "division": {
+                "id": 291821,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80648700,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 12,
+            "matchesWon": 10,
+            "session": {
+              "id": 111,
+              "name": "Summer 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 1,
+            "team": {
+              "id": 11425900,
+              "name": "Dead On",
+              "division": {
+                "id": 285072,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80083512,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 10,
+            "matchesWon": 8,
+            "session": {
+              "id": 109,
+              "name": "Spring 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 2,
+            "team": {
+              "id": 11347670,
+              "name": "Dead On",
+              "division": {
+                "id": 277577,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 80084074,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "",
+            "matchesPlayed": 5,
+            "matchesWon": 2,
+            "session": {
+              "id": 109,
+              "name": "Spring 2019",
+              "__typename": "Session"
+            },
+            "skillLevel": 7,
+            "rank": 26,
+            "team": {
+              "id": 11347747,
+              "name": "Dilly Dilly",
+              "division": {
+                "id": 277583,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 79730649,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 108,
+              "name": "Fall 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 4,
+            "team": {
+              "id": 11302802,
+              "name": "Dead On",
+              "division": {
+                "id": 272381,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 79762977,
+            "isActive": true,
+            "role": "CO_CAPTAIN",
+            "rosterPosition": 2,
+            "nickName": "",
+            "matchesPlayed": 7,
+            "matchesWon": 4,
+            "session": {
+              "id": 108,
+              "name": "Fall 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 7,
+            "rank": 15,
+            "team": {
+              "id": 11291774,
+              "name": "Dilly Dilly",
+              "division": {
+                "id": 272398,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677472,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 1,
+            "matchesWon": 1,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 7,
+            "rank": null,
+            "team": {
+              "id": 12951833,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 425316,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          },
+          {
+            "id": 91677910,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": null,
+            "team": {
+              "id": 12951917,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91041128,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "",
+            "matchesPlayed": 12,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 6,
+            "rank": 3,
+            "team": {
+              "id": 12867592,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91041133,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 3,
+            "nickName": "",
+            "matchesPlayed": 11,
+            "matchesWon": 5,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 7,
+            "rank": 11,
+            "team": {
+              "id": 12867593,
+              "name": "Cue-ligans",
+              "division": {
+                "id": 417524,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

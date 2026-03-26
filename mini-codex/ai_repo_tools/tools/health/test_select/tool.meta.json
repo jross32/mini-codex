@@ -1,0 +1,14 @@
+{
+  "description": "Recommend next files to read based on already-read files",
+  "args": [
+    {
+      "name": "read_files_json",
+      "type": "str"
+    },
+    {
+      "name": "last_read_file",
+      "type": "str"
+    }
+  ],
+  "returns": "recommended list of files to read next"
+}

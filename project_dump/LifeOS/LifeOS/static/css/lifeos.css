@@ -1,0 +1,116 @@
+.nav-shell {
+  background: linear-gradient(135deg, #0b1c2d 0%, #0a1220 70%, #060c16 100%);
+  border-bottom: 1px solid rgba(0,191,255,0.35);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.55);
+}
+.brand-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  background: radial-gradient(circle at 30% 30%, #7cf4ff, #12d6ff 50%, #0b9ad1 100%);
+  box-shadow: 0 0 12px rgba(12,214,255,0.7);
+}
+body {
+  background: radial-gradient(circle at 18% 12%, rgba(12,214,255,0.08), transparent 32%),
+              radial-gradient(circle at 82% 8%, rgba(255,215,0,0.06), transparent 28%),
+              #050910;
+}
+.card-soft {
+  background: #0c1320;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+}
+.pill {
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid rgba(0,191,255,0.35);
+  background: rgba(0,191,255,0.12);
+  color: #a8ecff;
+  font-size: 0.85rem;
+}
+.section-title {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.list-plain {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-plain li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.progress {
+  height: 8px;
+}
+.badge-soft {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+.kpi-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.subtle {
+  color: #9fb4c9;
+}
+.hero {
+  background: linear-gradient(120deg, rgba(12,214,255,0.12), rgba(255,215,0,0.12));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.5);
+}
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.kanban-column {
+  background: #0b101b;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 0.75rem;
+  min-height: 260px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.4);
+}
+.kanban-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.6rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+.heat-cell {
+  height: 22px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.heat-cell.on { background: linear-gradient(135deg, #12d6ff, #38ef7d); border-color: rgba(0,191,255,0.4); }
+.heat-cell.mid { background: linear-gradient(135deg, #11b5e5, #1f9fff); }
+@media (max-width: 767.98px) {
+  .nav-shell { position: sticky; top: 0; z-index: 1030; }
+  .grid-2 { grid-template-columns: 1fr; }
+  .kanban { grid-template-columns: 1fr; }
+  .hero { padding: 0.75rem; }
+  .pill { display: inline-flex; width: auto; margin-top: 0.25rem; }
+  .quick-add { flex-direction: column; }
+  .quick-add .form-control,
+  .quick-add .form-select,
+  .quick-add .btn { width: 100%; }
+}

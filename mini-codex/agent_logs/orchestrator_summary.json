@@ -1,0 +1,86 @@
+{
+  "success": false,
+  "mode": "orchestrator_workers",
+  "allow_unbounded_growth": false,
+  "max_total_workers": 16,
+  "workers_spawned": 0,
+  "workers": [
+    {
+      "worker": "toolkit_upgrade_worker",
+      "status": "complete",
+      "steps": 6,
+      "tools_used": [
+        "friction_summarizer",
+        "tool_audit",
+        "tool_improver"
+      ],
+      "final_summary": "Goal: improve toolkit with friction-driven iterative upgrades. Steps: 6. Status: complete. Tools used: friction_summarizer, tool_audit, tool_improver Toolmaker iteration: 3/3.",
+      "benchmark": {
+        "trusted": false,
+        "trust_score": 0.378,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": false,
+        "collaboration_ready": false,
+        "success_rate": 0.5,
+        "avg_usefulness": 2.167,
+        "avg_uncertainty_reduction": 2.0,
+        "avg_next_step_quality": 1.667
+      }
+    },
+    {
+      "worker": "repo_inspector_worker",
+      "status": "complete",
+      "steps": 7,
+      "tools_used": [
+        "repo_map",
+        "fast_process",
+        "fast_analyze",
+        "ai_read",
+        "test_select"
+      ],
+      "final_summary": "Goal: inspect architecture and analyze repository structure. Steps: 7. Status: complete. Tools used: repo_map, fast_process, fast_analyze, ai_read, test_select Toolmaker iteration: 0/1. Synthesis: Read 3 main files. Likely entry: AISH_COMMAND_CONTRACT.md. Structure: root(3 files). Unknown: subdirs not explored, some files not read.",
+      "benchmark": {
+        "trusted": false,
+        "trust_score": 0.78,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": false,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      }
+    },
+    {
+      "worker": "quality_gate_worker",
+      "status": "failed",
+      "steps": 4,
+      "tools_used": [
+        "repo_health_check",
+        "lint_check",
+        "lint_check",
+        "lint_check"
+      ],
+      "final_summary": "Tool-based quality gate failed.",
+      "benchmark": {
+        "trusted": false,
+        "trust_score": 0.618,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": false,
+        "collaboration_ready": true,
+        "success_rate": 0.75,
+        "avg_usefulness": 3.25,
+        "avg_uncertainty_reduction": 2.5,
+        "avg_next_step_quality": 2.5
+      }
+    },
+    {
+      "worker": "agent_core_upgrade_worker",
+      "status": "skipped",
+      "steps": 0,
+      "tools_used": [],
+      "final_summary": "Skipped due to earlier gate failure."
+    }
+  ],
+  "summary": "Orchestrator ran 4 worker phases with 2 successful executions."
+}

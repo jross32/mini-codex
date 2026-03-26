@@ -1,0 +1,14 @@
+{
+  "description": "Compare two file paths and return a structured change summary",
+  "args": [
+    {
+      "name": "file_a",
+      "type": "str"
+    },
+    {
+      "name": "file_b",
+      "type": "str"
+    }
+  ],
+  "returns": "lines_added, lines_removed, functions_changed, imports_changed"
+}

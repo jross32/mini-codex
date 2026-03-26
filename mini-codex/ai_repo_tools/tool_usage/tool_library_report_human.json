@@ -1,0 +1,243 @@
+{
+  "title": "Tool Library Report",
+  "subtitle": "Inventory, usage, and weighted complexity scoring for the toolkit",
+  "total_tools": 448,
+  "category_filter": null,
+  "top_n": 10,
+  "broken_tool_count": 18,
+  "top_used": [
+    {
+      "tool": "agent_audit",
+      "usage_count": 562,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "lint_check",
+      "usage_count": 441,
+      "category": "health"
+    },
+    {
+      "tool": "toolmaker",
+      "usage_count": 404,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "agent_improver",
+      "usage_count": 281,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "cmd_run",
+      "usage_count": 115,
+      "category": "execution"
+    },
+    {
+      "tool": "ai_read",
+      "usage_count": 94,
+      "category": "reading"
+    },
+    {
+      "tool": "tool_audit",
+      "usage_count": 88,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_improver",
+      "usage_count": 72,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "repo_map",
+      "usage_count": 52,
+      "category": "discovery"
+    },
+    {
+      "tool": "test_select",
+      "usage_count": 46,
+      "category": "health"
+    }
+  ],
+  "top_complexity": [
+    {
+      "tool": "tool_audit",
+      "complexity_score": 84.3,
+      "complexity_tier": "platform",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_library_report",
+      "complexity_score": 83.05,
+      "complexity_tier": "platform",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "toolmaker",
+      "complexity_score": 78.2,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_improver",
+      "complexity_score": 73.3,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "artifact_read",
+      "complexity_score": 69.6,
+      "complexity_tier": "orchestrator",
+      "category": "reading"
+    },
+    {
+      "tool": "ai_read",
+      "complexity_score": 66.45,
+      "complexity_tier": "orchestrator",
+      "category": "reading"
+    },
+    {
+      "tool": "trust_trend",
+      "complexity_score": 65.35,
+      "complexity_tier": "orchestrator",
+      "category": "evaluation"
+    },
+    {
+      "tool": "bench_compare",
+      "complexity_score": 63.67,
+      "complexity_tier": "orchestrator",
+      "category": "evaluation"
+    },
+    {
+      "tool": "fast_analyze",
+      "complexity_score": 62.4,
+      "complexity_tier": "orchestrator",
+      "category": "discovery"
+    },
+    {
+      "tool": "agent_improver",
+      "complexity_score": 61.32,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    }
+  ],
+  "broken_tools_preview": [
+    {
+      "tool": "economy_system_generator",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/system_generation/shared_systems/economy/generators/economy_system_generator/command.py"
+    },
+    {
+      "tool": "engine_directory_materializer",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/materialization/filesystem_execution/directory_layouts/writers/engine_directory_materializer/command.py"
+    },
+    {
+      "tool": "engine_directory_plan_compiler",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/planning/filesystem_plans/directory_layouts/compilers/engine_directory_plan_compiler/command.py"
+    },
+    {
+      "tool": "engine_mode_router",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/engine_building/routing/mode_selection/game_profiles/engine_mode_router/command.py"
+    },
+    {
+      "tool": "engine_module_materializer",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/materialization/module_execution/python_layouts/writers/engine_module_materializer/command.py"
+    },
+    {
+      "tool": "engine_module_plan_compiler",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/planning/module_plans/python_layouts/compilers/engine_module_plan_compiler/command.py"
+    },
+    {
+      "tool": "engine_quality_gate",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/validation/quality_gates/engine_outputs/reviewers/engine_quality_gate/command.py"
+    },
+    {
+      "tool": "engine_report_aggregator",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/reporting/aggregation/engine_outputs/summaries/engine_report_aggregator/command.py"
+    },
+    {
+      "tool": "entity_system_generator",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/system_generation/shared_systems/entities/generators/entity_system_generator/command.py"
+    },
+    {
+      "tool": "game_type_config_loader",
+      "category": "execution",
+      "command_path": "ai_repo_tools/tools/project_generation/multi_project/configuration/loading/game_type_configs/normalization/game_type_config_loader/command.py"
+    }
+  ],
+  "category_summary": {
+    "toolmaker": {
+      "count": 8,
+      "usage_total": 1430,
+      "max_complexity": 84.3,
+      "avg_complexity": 65.48,
+      "description": "Meta-tools that audit, improve, and create other tools"
+    },
+    "reading": {
+      "count": 25,
+      "usage_total": 104,
+      "max_complexity": 69.6,
+      "avg_complexity": 18.81,
+      "description": "Parse and extract structured content from files"
+    },
+    "execution": {
+      "count": 47,
+      "usage_total": 175,
+      "max_complexity": 60.87,
+      "avg_complexity": 20.58,
+      "description": "Generic Heroes: file/module generation, batch parsing, test execution - works for ANY project type (RPG, web, pipeline, etc)"
+    },
+    "planning": {
+      "count": 19,
+      "usage_total": 40,
+      "max_complexity": 56.97,
+      "avg_complexity": 16.99,
+      "description": "Decide what to read, run, and do next"
+    },
+    "evaluation": {
+      "count": 34,
+      "usage_total": 60,
+      "max_complexity": 65.35,
+      "avg_complexity": 22.46,
+      "description": "Measure quality, performance, and impact of changes"
+    },
+    "discovery": {
+      "count": 25,
+      "usage_total": 62,
+      "max_complexity": 62.4,
+      "avg_complexity": 16.82,
+      "description": "Understand the contents and structure of a codebase"
+    },
+    "health": {
+      "count": 23,
+      "usage_total": 533,
+      "max_complexity": 60.9,
+      "avg_complexity": 20.44,
+      "description": "Validate environment, dependencies, syntax, and logs"
+    },
+    "game_systems": {
+      "count": 260,
+      "usage_total": 6,
+      "max_complexity": 41.95,
+      "avg_complexity": 6.18,
+      "description": "Atomic tools for building RPG games - character, combat, monsters, UI, shops, persistence"
+    },
+    "networking": {
+      "count": 7,
+      "usage_total": 7,
+      "max_complexity": 40.68,
+      "avg_complexity": 20.8,
+      "description": "Network diagnostics and connectivity probes (defensive/observational)"
+    }
+  },
+  "notes": [
+    "Merged usage counts from agent_logs/tool_observations_summary.json.",
+    "Merged usage metadata from ai_repo_tools/tool_usage/usage_counter_ai.json."
+  ]
+}

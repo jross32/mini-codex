@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.long_function.long_function_risk_score.command import cmd_long_function_risk_score

@@ -1,0 +1,11 @@
+{
+  "description": "Generate a deterministic processing plan from repository structure",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    }
+  ],
+  "returns": "primary_orientation_doc, recommended_followups, planned_reads"
+}

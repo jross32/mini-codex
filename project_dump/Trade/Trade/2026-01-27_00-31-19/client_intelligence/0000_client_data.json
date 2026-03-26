@@ -1,0 +1,27 @@
+{
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://crypto-trader-console--justinwross32.replit.app/favicon.svg",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-27T00:32:07.349982"
+    }
+  ],
+  "js_errors": [],
+  "performance": {
+    "dns_time": 84,
+    "tcp_time": 102,
+    "ttfb": 342,
+    "dom_interactive": 741,
+    "dom_complete": 2842,
+    "load_time": 2842,
+    "heap_used": 6532923,
+    "heap_limit": 2160066560
+  },
+  "state_snapshots": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 851051,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 83599183,
+            "team": {
+              "id": 11839350,
+              "name": "The Reckoning",
+              "number": "24114",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.525,
+            "ppm": 10.5,
+            "matchesWon": 2,
+            "matchesPlayed": 4,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 42,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

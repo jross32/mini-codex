@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini-codex Mission Control</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-page="mission">
+  <div class="wrap">
+    <div class="shell">
+      <header class="topbar">
+        <div class="eyebrow">mini-codex live lab</div>
+        <nav class="nav-links" aria-label="Dashboard pages">
+          <a class="nav-link active" href="/mission">Mission Control</a>
+          <a class="nav-link" href="/evolution">Evolution Lab</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-main">
+          <div class="eyebrow">operations deck</div>
+          <h1 class="hero-title">Run the swarm from a live command bridge.</h1>
+          <p class="hero-copy">
+            WebSocket-fed telemetry, richer orchestration controls, and direct access to worker trust and benchmark detail.
+          </p>
+          <div class="hero-meta">
+            <div id="statusChip" class="status-chip status-offline"><span class="status-dot"></span><span id="statusText">Connecting...</span></div>
+            <div class="mini-chip"><span>Last update</span><strong id="lastUpdate">waiting</strong></div>
+            <div class="mini-chip"><span>Route</span><strong>mission control</strong></div>
+          </div>
+          <div class="hero-stat-grid">
+            <div class="hero-stat">
+              <div class="hero-stat-label">Repo Power</div>
+              <div id="heroPower" class="hero-stat-value">0</div>
+              <div class="hero-stat-sub">Composite from completion, trust, and tool coverage.</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-label">Evolution Stage</div>
+              <div id="heroStage" class="hero-stat-value">Seed</div>
+              <div id="heroStageSub" class="hero-stat-sub">Waiting for the first strong run.</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="section-title">
+            <h2>Live Stream</h2>
+            <p>Streaming over WebSockets instead of polling.</p>
+          </div>
+          <div class="empty-state">
+            This page holds the direct controls. Evolution Lab is now a separate route, but both pages subscribe to the same live backend stream.
+          </div>
+          <a class="primary nav-cta" href="/evolution">Open Evolution Lab</a>
+        </div>
+      </section>
+
+      <section class="page-grid">
+        <div class="column">
+          <section class="section">
+            <div class="section-title">
+              <h2>System Pulse</h2>
+              <p>Live worker and benchmark telemetry.</p>
+            </div>
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-label">Workers Spawned</div>
+                <div id="metricWorkers" class="metric-value">0</div>
+                <div id="metricWorkersSub" class="metric-sub">of 0 max workers</div>
+                <div class="bar"><div id="barWorkers" class="bar-fill"></div></div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-label">Success Rate</div>
+                <div id="metricSuccess" class="metric-value">0%</div>
+                <div class="metric-sub">Average benchmark success across workers</div>
+                <div class="bar"><div id="barSuccess" class="bar-fill"></div></div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-label">Usefulness</div>
+                <div id="metricUseful" class="metric-value">0.0</div>
+                <div class="metric-sub">Average evaluator usefulness out of 5</div>
+                <div class="bar"><div id="barUseful" class="bar-fill"></div></div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-label">Trusted Workers</div>
+                <div id="metricTrusted" class="metric-value">0</div>
+                <div id="metricTrustedSub" class="metric-sub">0 running / 0 failed</div>
+                <div class="bar"><div id="barTrusted" class="bar-fill"></div></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Worker Constellation</h2>
+              <p>Click a worker to inspect role, trust state, and tool chain.</p>
+            </div>
+            <div id="workerGrid" class="worker-grid"></div>
+          </section>
+        </div>
+
+        <div class="column">
+          <section class="section">
+            <div class="section-title">
+              <h2>Selected Worker</h2>
+              <p id="selectedWorkerHint">Pick a worker card to inspect.</p>
+            </div>
+            <div id="workerDetails" class="details-grid">
+              <div class="empty-state">No worker selected yet. Choose one from the constellation to inspect tools, trust thresholds, and summary output.</div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Launch Commands</h2>
+              <p>Richer orchestration controls wired into the dashboard launcher.</p>
+            </div>
+            <form id="commandForm" class="command-form">
+              <div class="command-grid">
+                <label>
+                  Command
+                  <select id="commandName">
+                    <option value="map">map</option>
+                    <option value="inspect">inspect</option>
+                    <option value="orchestrate">orchestrate</option>
+                    <option value="auto">auto</option>
+                  </select>
+                </label>
+                <label>
+                  Repo Path
+                  <input id="commandRepo" type="text" value="." placeholder=". or subfolder path">
+                </label>
+              </div>
+              <label>
+                Goal
+                <textarea id="commandGoal" placeholder="Optional for map/orchestrate. Required for inspect and auto."></textarea>
+              </label>
+              <div id="orchestrateControls" class="command-grid triple-grid">
+                <label>
+                  Max Workers
+                  <input id="commandWorkers" type="number" min="1" step="1" placeholder="16">
+                </label>
+                <label>
+                  Iterations
+                  <input id="commandIterations" type="number" min="1" step="1" placeholder="3">
+                </label>
+                <label>
+                  Trust Threshold
+                  <input id="commandTrust" type="number" min="0" max="1" step="0.01" placeholder="0.84">
+                </label>
+              </div>
+              <label id="unboundedWrap" class="toggle-row">
+                <input id="commandUnbounded" type="checkbox">
+                <span>Allow unbounded growth</span>
+              </label>
+              <div id="commandHint" class="empty-state">Use orchestrate for long-running swarm growth. These settings flow directly into the AISH orchestrator command.</div>
+              <div class="command-actions">
+                <button class="primary" type="submit">Launch AISH Command</button>
+                <button id="quickInspect" class="secondary" type="button">Quick Inspect Current Repo</button>
+                <button id="quickOrchestrate" class="secondary" type="button">Quick Orchestrate x16</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Recent Commands</h2>
+              <p>Background command history from the launcher API.</p>
+            </div>
+            <div id="commandFeed" class="command-feed"></div>
+          </section>
+
+          <section class="section">
+            <div class="section-title">
+              <h2>Live Events</h2>
+              <p>Latest worker events from the orchestration layer.</p>
+            </div>
+            <div id="eventFeed" class="event-feed"></div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

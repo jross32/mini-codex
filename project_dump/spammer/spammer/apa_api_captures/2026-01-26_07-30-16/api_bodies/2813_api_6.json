@@ -1,0 +1,46 @@
+[
+  {
+    "data": {
+      "team": {
+        "id": 12864718,
+        "name": "A-Rack-Nophobia",
+        "number": "02205",
+        "isTied": false,
+        "standing": 1,
+        "division": {
+          "id": 417530,
+          "name": "Thursday Brownsville DJ",
+          "number": "022",
+          "timeOfPlay": "1900-01-01T20:00:00Z",
+          "nightOfPlay": "Thursday",
+          "format": "8-Ball Open",
+          "state": "CURRENT",
+          "isTournament": false,
+          "tournament": null,
+          "__typename": "Division"
+        },
+        "location": {
+          "id": 111405,
+          "name": "The Lucky Barrel",
+          "address": {
+            "id": 70019,
+            "name": "The Lucky Barrel",
+            "__typename": "Address"
+          },
+          "__typename": "HostLocation"
+        },
+        "session": {
+          "id": 137,
+          "name": "Fall 2025",
+          "__typename": "Session"
+        },
+        "league": {
+          "id": 894,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "__typename": "Team"
+      }
+    }
+  }
+]

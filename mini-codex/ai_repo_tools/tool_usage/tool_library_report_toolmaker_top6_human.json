@@ -1,0 +1,92 @@
+{
+  "title": "Tool Library Report",
+  "subtitle": "Inventory, usage, and weighted complexity scoring for the toolkit",
+  "total_tools": 7,
+  "category_filter": "toolmaker",
+  "top_n": 6,
+  "broken_tool_count": 0,
+  "top_used": [
+    {
+      "tool": "agent_audit",
+      "usage_count": 562,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "toolmaker",
+      "usage_count": 403,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "agent_improver",
+      "usage_count": 281,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_audit",
+      "usage_count": 87,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_improver",
+      "usage_count": 72,
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_library_report",
+      "usage_count": 12,
+      "category": "toolmaker"
+    }
+  ],
+  "top_complexity": [
+    {
+      "tool": "tool_audit",
+      "complexity_score": 84.3,
+      "complexity_tier": "platform",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_library_report",
+      "complexity_score": 83.05,
+      "complexity_tier": "platform",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "toolmaker",
+      "complexity_score": 78.2,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "tool_improver",
+      "complexity_score": 73.3,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "agent_improver",
+      "complexity_score": 61.32,
+      "complexity_tier": "orchestrator",
+      "category": "toolmaker"
+    },
+    {
+      "tool": "agent_audit",
+      "complexity_score": 57.78,
+      "complexity_tier": "high",
+      "category": "toolmaker"
+    }
+  ],
+  "broken_tools_preview": [],
+  "category_summary": {
+    "toolmaker": {
+      "count": 7,
+      "usage_total": 1424,
+      "max_complexity": 84.3,
+      "avg_complexity": 70.82,
+      "description": "Meta-tools that audit, improve, and create other tools"
+    }
+  },
+  "notes": [
+    "Merged usage counts from agent_logs/tool_observations_summary.json.",
+    "Merged usage metadata from ai_repo_tools/tool_usage/usage_counter_ai.json."
+  ]
+}

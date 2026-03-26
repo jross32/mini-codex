@@ -1,0 +1,2 @@
+
+from .aish_tests_reorganizer import cmd_aish_tests_reorganizer

@@ -1,0 +1,5 @@
+{
+  "description": "Scan all toolkit tools and score them on quality dimensions (0-5); return worst-first ranked list",
+  "args": [],
+  "returns": "tools_found, candidates (worst-first), perfect_tools, improvement_order, summary"
+}

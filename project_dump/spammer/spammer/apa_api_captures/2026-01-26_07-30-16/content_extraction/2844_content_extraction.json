@@ -1,0 +1,73 @@
+{
+  "structured_data": [],
+  "rendered_text": "LoginEmail AddressPasswordLog InForgot Password?Don't have an account?Sign UpTermsPrivacy",
+  "forms": [
+    {
+      "id": "form_0",
+      "action": "https://accounts.poolplayers.com/login?redirect_uri=https%3A%2F%2Fleague.poolplayers.com%2Ftoken%3Fredirect_path%3D%2Fnews%2Fleague%2FRioGrandeValley&client_name=Member+Services",
+      "method": "get",
+      "fields": [
+        {
+          "type": "input",
+          "name": "email",
+          "inputType": "text",
+          "label": "",
+          "required": false,
+          "placeholder": ""
+        },
+        {
+          "type": "input",
+          "name": "password",
+          "inputType": "password",
+          "label": "",
+          "required": false,
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Forgot Password?",
+        "href": "/forgot",
+        "title": "",
+        "target": "_self",
+        "class": "back_link__XOeGJ"
+      }
+    ],
+    "external": [
+      {
+        "text": "Sign Up",
+        "href": "https://join.poolplayers.com",
+        "title": "",
+        "target": "_self",
+        "class": "back_link__XOeGJ"
+      },
+      {
+        "text": "Terms",
+        "href": "https://poolplayers.com/legal/apa-terms-of-use-agreement/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      },
+      {
+        "text": "Privacy",
+        "href": "https://poolplayers.com/legal/privacy-policy/",
+        "title": "",
+        "target": "_blank",
+        "class": ""
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Sign Up",
+        "href": "https://join.poolplayers.com",
+        "title": "",
+        "target": "_self",
+        "class": "back_link__XOeGJ"
+      }
+    ],
+    "navigation": []
+  }
+}

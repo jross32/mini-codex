@@ -1,0 +1,22 @@
+{
+  "description": "Fetch TLS certificate metadata for a host:port",
+  "args": [
+    {
+      "name": "host",
+      "type": "str"
+    },
+    {
+      "name": "port",
+      "type": "int",
+      "optional": true,
+      "default": 443
+    },
+    {
+      "name": "timeout_seconds",
+      "type": "int",
+      "optional": true,
+      "default": 8
+    }
+  ],
+  "returns": "subject, issuer, not_before, not_after, serial_number, summary"
+}

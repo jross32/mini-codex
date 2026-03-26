@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.saveload_serialize.saveload_serialize_inventory.command import cmd_saveload_serialize_inventory

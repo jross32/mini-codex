@@ -1,0 +1,1 @@
+from .command import cmd_directory_structure_generator

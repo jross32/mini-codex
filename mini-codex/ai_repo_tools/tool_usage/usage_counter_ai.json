@@ -1,0 +1,18 @@
+{
+  "schema": "tool_usage.v1",
+  "generated_at_utc": "2026-03-26T17:06:55.857762+00:00",
+  "source": "missing",
+  "total_calls": 2,
+  "tools": {
+    "tool_usage_counter_refresh": {
+      "count": 1,
+      "last_called_utc": "2026-03-26T16:57:13.819650+00:00",
+      "last_summary": "Rebuilt usage counters for 0 tools"
+    },
+    "tool_usage_counter_show": {
+      "count": 1,
+      "last_called_utc": "2026-03-26T17:06:55.857762+00:00",
+      "last_summary": "Loaded tool usage counters"
+    }
+  }
+}

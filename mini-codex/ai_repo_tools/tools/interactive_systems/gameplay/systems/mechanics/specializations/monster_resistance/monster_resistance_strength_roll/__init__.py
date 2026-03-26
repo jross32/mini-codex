@@ -1,0 +1,1 @@
+from .command import cmd_monster_resistance_strength_roll

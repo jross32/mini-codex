@@ -1,0 +1,1 @@
+from tools.operational_health.validation.checks.environment_review.signals.hardcoded_secret.hardcoded_secret_scan.command import cmd_hardcoded_secret_scan

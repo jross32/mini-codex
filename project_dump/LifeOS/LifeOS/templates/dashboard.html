@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+{% block title %}Life OS | Dashboard{% endblock %}
+{% block content %}
+<div class="hero mb-4">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
+    <div>
+      <div class="subtle text-uppercase small">Daily Overview</div>
+      {% set first = (user.name.split(' ')[0]) if user and user.name else (user.username.split(' ')[0] if user and user.username else 'there') %}
+      <h2 class="fw-bold mb-1">Hi {{ first }}</h2>
+      <div class="subtle">Focus: {{ data.user.focus if data.user else 'Set your focus' }}</div>
+    </div>
+    <div class="d-flex gap-2 flex-wrap">
+      <span class="pill"><i class="fa-solid fa-bullseye me-1"></i>{{ data.meta.open_tasks }} open tasks</span>
+      <span class="pill"><i class="fa-solid fa-calendar-day me-1"></i>{{ data.meta.today_events }} today</span>
+      <span class="pill"><i class="fa-solid fa-triangle-exclamation me-1"></i>{{ data.meta.overdue_tasks }} overdue</span>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mb-3">
+  <div class="col-12">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-bell me-2"></i>Reminders</div>
+          <div class="subtle small">Coming up</div>
+        </div>
+        <a class="pill" href="{{ url_for('reminders_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for r in data.reminders %}
+        <li class="d-flex justify-content-between">
+          <span class="fw-semibold">{{ r.title }}</span>
+          <span class="subtle">{{ r.due }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mb-3">
+  <div class="col-md-4">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-diagram-project me-2"></i>Projects</div>
+          <div class="subtle small">Active: {{ data.projects|length }}</div>
+        </div>
+        <a class="pill" href="{{ url_for('projects_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for p in data.projects[:2] %}
+        <li class="d-flex justify-content-between">
+          <span class="fw-semibold">{{ p.name }}</span>
+          <span class="badge badge-soft">{{ p.progress }}%</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-list-check me-2"></i>Tasks</div>
+          <div class="subtle small">{{ data.meta.open_tasks }} open ? {{ data.meta.overdue_tasks }} overdue</div>
+        </div>
+        <a class="pill" href="{{ url_for('tasks_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for t in data.tasks[:3] %}
+        <li>
+          <div class="fw-semibold">{{ t.title }}</div>
+          <div class="subtle small">{{ t.project }} ? {{ t.due }}</div>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-calendar-week me-2"></i>Events</div>
+          <div class="subtle small">Today/Next</div>
+        </div>
+        <a class="pill" href="{{ url_for('events_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for e in data.events[:3] %}
+        <li class="d-flex justify-content-between align-items-center">
+          <div>
+            <div class="fw-semibold">{{ e.title }}</div>
+            <div class="subtle small">{{ e.date }} ? {{ e.time }}</div>
+          </div>
+          <span class="badge badge-soft">{{ e.type }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row g-3 mb-3">
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-person-running me-2"></i>Habits</div>
+          <div class="subtle small">Streaks at a glance</div>
+        </div>
+        <a class="pill" href="{{ url_for('habits_page') }}">Go</a>
+      </div>
+      <div class="d-flex gap-2 flex-wrap">
+        {% for h in data.habits %}
+        <span class="pill">{{ h.name }} · {{ h.streak }}d</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-wallet me-2"></i>Finance</div>
+          <div class="subtle small">Accounts snapshot</div>
+        </div>
+        <a class="pill" href="{{ url_for('finance_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for acct in data.finances.accounts[:3] %}
+        <li class="d-flex justify-content-between">
+          <span class="fw-semibold">{{ acct.name }}</span>
+          <span class="text-info">${{ '%.2f'|format(acct.balance) }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-7">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-dumbbell me-2"></i>Health</div>
+          <div class="subtle small">Recent sessions</div>
+        </div>
+        <a class="pill" href="{{ url_for('health_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for w in data.workouts[:3] %}
+        <li class="d-flex justify-content-between">
+          <div>
+            <div class="fw-semibold">{{ w.title }}</div>
+            <div class="subtle small">{{ w.date }} · {{ w.details }}</div>
+          </div>
+          <span class="badge bg-primary">{{ w.intensity }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-3">
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-note-sticky me-2"></i>Notes</div>
+          <div class="subtle small">Latest snippets</div>
+        </div>
+        <a class="pill" href="{{ url_for('notes_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for n in data.notes[:3] %}
+        <li>
+          <div class="fw-semibold">{{ n.title }}</div>
+          <div class="subtle small">{{ n.excerpt }}</div>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-cart-arrow-down me-2"></i>Wishlist</div>
+          <div class="subtle small">Quick look</div>
+        </div>
+        <a class="pill" href="{{ url_for('wishlist_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for w in data.wishlist[:3] %}
+        <li class="d-flex justify-content-between">
+          <span class="fw-semibold">{{ w.item }}</span>
+          <span class="text-info">${{ w.cost }}</span>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-3">
+  <div class="col-lg-7">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-rocket me-2"></i>Today’s Focus</div>
+          <div class="subtle small">Quick jot space</div>
+        </div>
+      </div>
+      <div class="mb-2">
+        <textarea id="quickNoteText" class="form-control bg-dark text-light" rows="3" placeholder="Capture a quick note, intent, or reminder..."></textarea>
+      </div>
+      <button class="btn btn-info btn-sm w-100" id="quickNoteSave">Save note</button>
+    </div>
+  </div>
+  <div class="col-lg-5">
+    <div class="card card-soft p-3 h-100">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div>
+          <div class="section-title"><i class="fa-solid fa-lightbulb me-2"></i>Quick Notes</div>
+          <div class="subtle small">Recent snippets</div>
+        </div>
+        <a class="pill" href="{{ url_for('notes_page') }}">Go</a>
+      </div>
+      <div class="list-plain">
+        {% for n in data.notes[:4] %}
+        <li>
+          <div class="fw-semibold">{{ n.title }}</div>
+          <div class="subtle small">{{ n.excerpt }}</div>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+  (() => {
+    const btn = document.getElementById('quickNoteSave');
+    const textarea = document.getElementById('quickNoteText');
+    const list = document.querySelector('.card .list-plain'); // quick notes list (right column)
+    btn?.addEventListener('click', async () => {
+      const text = (textarea.value || '').trim();
+      if (!text) return;
+      btn.disabled = true;
+      btn.textContent = 'Saving...';
+      try {
+        const res = await fetch('/api/notes', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ title: 'Quick note', excerpt: text, tags: [] })
+        });
+        const data = await res.json();
+        if (data.ok && data.note && list) {
+          const li = document.createElement('li');
+          li.innerHTML = `<div class="fw-semibold">${data.note.title}</div><div class="subtle small">${data.note.excerpt}</div>`;
+          list.prepend(li);
+          textarea.value = '';
+        }
+      } catch (e) {
+        console.error(e);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Save note';
+      }
+    });
+  })();
+</script>
+{% endblock %}

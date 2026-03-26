@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "generateAccessToken": {
+        "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im9seWR1dTRod0xkdHBJTEFsRGVtZi1YYjZNWjhueWg2bC1UdzN6bTRZQnMifQ.eyJjYW5WaWV3TWFnYXppbmUiOnRydWUsImFwcGxpY2F0aW9uUmVmcmVzaFRva2VuSWQiOiI2ODk5ODQyIiwiaWF0IjoxNzY5NDM1MDI4LCJleHAiOjE3Njk0MzU5MjgsImlzcyI6IkFQQSIsInN1YiI6IjIzNDk5NTAifQ.h6pasOP9rDURZuldZPQb1p7zSzpV8rZui4GNGKKj4ma98k5Oc36fNOzpgYvmDrBtlhe2l4FFTVQc6rQh39-yWhNisNAVePwdGpCgUBYX1nXEQj-eoIzDdy7Jh8t685YOzwoirQd5dkChqNPTxQdt7ea7EOPfrm30JSAY6nhwMXP1FbHWvmF0oU7wPaM6jLzCNEpBLp5lZqcvzf0twV8Rx5kKLTd1P2scXlNwB3QCuJAq6c_eZpnWwp8JDeJp5mVeW_aHk45GFOmvmDi2Fg6t1U0aW7LwcyVcBAR4Ke-g_UvYsleEIewDIeYKCgIPmBQnoTbc_GOebgprEuQZnwc49Q",
+        "__typename": "AccessTokenPayload"
+      }
+    }
+  }
+]

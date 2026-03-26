@@ -1,0 +1,47 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2939168,
+        "sessions": [
+          {
+            "id": 138,
+            "name": "Spring 2026",
+            "__typename": "Session"
+          },
+          {
+            "id": 137,
+            "name": "Fall 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 136,
+            "name": "Summer 2025",
+            "__typename": "Session"
+          },
+          {
+            "id": 132,
+            "name": "Spring 2024",
+            "__typename": "Session"
+          },
+          {
+            "id": 130,
+            "name": "Fall 2023",
+            "__typename": "Session"
+          },
+          {
+            "id": 129,
+            "name": "Summer 2023",
+            "__typename": "Session"
+          },
+          {
+            "id": 123,
+            "name": "Summer 2022",
+            "__typename": "Session"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

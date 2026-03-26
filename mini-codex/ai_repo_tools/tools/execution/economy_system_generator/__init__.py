@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.system_generation.shared_systems.economy.generators.economy_system_generator.command import cmd_economy_system_generator

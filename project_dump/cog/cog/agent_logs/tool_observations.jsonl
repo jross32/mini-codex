@@ -1,0 +1,4 @@
+{"timestamp": "2026-03-25T07:15:18.621088+00:00", "tool": "cmd_run", "args_count": 1, "success": false, "exit_code": 1, "failure_category": "unknown", "weak_result": true, "gap_signals": ["test_failures"]}
+{"timestamp": "2026-03-25T07:16:04.675892+00:00", "tool": "cmd_run", "args_count": 1, "success": false, "exit_code": 1, "failure_category": "unknown", "weak_result": true, "gap_signals": ["test_failures"]}
+{"timestamp": "2026-03-25T07:18:57.220509+00:00", "tool": "cmd_run", "args_count": 1, "success": false, "exit_code": 1, "failure_category": "unknown", "weak_result": true, "gap_signals": ["test_failures"]}
+{"timestamp": "2026-03-25T07:20:27.101110+00:00", "tool": "cmd_run", "args_count": 1, "success": false, "exit_code": 1, "failure_category": "missing_dependency", "weak_result": true, "gap_signals": ["test_failures"]}

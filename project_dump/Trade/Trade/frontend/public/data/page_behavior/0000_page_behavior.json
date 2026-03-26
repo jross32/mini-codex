@@ -1,0 +1,33 @@
+{
+  "interactions": {
+    "clicks": 0,
+    "formFills": 0,
+    "navigationEvents": 0
+  },
+  "performance": {
+    "first-paint": "602.80ms",
+    "first-contentful-paint": "1585.20ms",
+    "total_resources": 7,
+    "total_size_kb": "2370.93",
+    "script_size_kb": "816.67",
+    "style_size_kb": "114.15",
+    "image_size_kb": "1439.81"
+  },
+  "a11y_issues": [],
+  "third_party_scripts": [
+    {
+      "src": "/assets/index-tK98ROfa.js",
+      "external": false,
+      "async": false,
+      "defer": false,
+      "type": "module"
+    },
+    {
+      "src": "https://replit-cdn.com/replit-pill/replit-pill.global.js",
+      "external": true,
+      "async": false,
+      "defer": false,
+      "type": "text/javascript"
+    }
+  ]
+}

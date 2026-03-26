@@ -1,0 +1,1 @@
+from tools.interactive_systems.gameplay.systems.mechanics.specializations.character_encumbrance.character_encumbrance_calc.command import cmd_character_encumbrance_calc

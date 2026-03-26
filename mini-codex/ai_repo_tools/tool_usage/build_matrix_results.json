@@ -1,0 +1,23 @@
+{
+  "matrix": [
+    {
+      "game_type": "rpg",
+      "project_name": "rpg_engine_case",
+      "success": true,
+      "result_path": "ai_repo_tools\\tool_usage\\engine_build_last_result.json"
+    },
+    {
+      "game_type": "cyberpunk",
+      "project_name": "cyberpunk_bar_management_sim",
+      "success": true,
+      "result_path": "ai_repo_tools\\tool_usage\\engine_build_last_result.json"
+    },
+    {
+      "game_type": "roguelike",
+      "project_name": "roguelike_survival_sim",
+      "success": true,
+      "result_path": "ai_repo_tools\\tool_usage\\engine_build_last_result.json"
+    }
+  ],
+  "generated_at_utc": "2026-03-26T16:53:12.595443+00:00"
+}

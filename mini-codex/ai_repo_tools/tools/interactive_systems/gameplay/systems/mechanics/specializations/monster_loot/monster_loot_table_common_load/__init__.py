@@ -1,0 +1,1 @@
+from .command import cmd_monster_loot_table_common_load

@@ -1,0 +1,1 @@
+from tools.network_observability.diagnostics.connectivity.transport_analysis.probes.network_interface.network_interface_info.command import cmd_network_interface_info

@@ -1,0 +1,11 @@
+{
+  "description": "Parse agent log files and return a structured step-by-step tool trace",
+  "args": [
+    {
+      "name": "log_path",
+      "type": "str",
+      "optional": true
+    }
+  ],
+  "returns": "steps list with tool, args, outcome per step"
+}

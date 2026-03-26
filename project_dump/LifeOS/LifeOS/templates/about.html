@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}About | Life OS{% endblock %}
+{% block content %}
+<div class="container py-4" style="max-width: 860px;">
+  <div class="card card-soft p-4">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+      <div>
+        <div class="subtle text-uppercase small">Life OS</div>
+        <h4 class="fw-bold mb-0">Your personal command center</h4>
+      </div>
+      <span class="pill">Private • Multi-Module • Mobile-Friendly</span>
+    </div>
+    <p class="subtle mb-3">
+      Life OS is a single-user hub that mirrors a modern productivity suite: projects, tasks, calendar, goals/habits, health, finances, notes, reminders, and wishlist—each tailored to your tracking profile so you only see what you care about.
+    </p>
+    <div class="row g-3">
+      <div class="col-12 col-md-6">
+        <div class="card card-soft h-100 p-3">
+          <div class="fw-semibold mb-1">Core Experience</div>
+          <ul class="subtle small mb-0">
+            <li>Personalized onboarding & “Tailor Profile” controls.</li>
+            <li>Dashboard cards that respect your module toggles.</li>
+            <li>Quick add + edit directly on Tasks, Events, Reminders, Notes.</li>
+            <li>Mobile-friendly layout with dark theme.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card card-soft h-100 p-3">
+          <div class="fw-semibold mb-1">Modules</div>
+          <ul class="subtle small mb-0">
+            <li>Projects & Tasks: Kanban, priorities, quick add/edit.</li>
+            <li>Calendar: events/appointments with status tracking.</li>
+            <li>Goals & Habits: streaks, targets, reflections.</li>
+            <li>Finance & Health: budgets/accounts and workout logs.</li>
+            <li>Notes, Reminders, Wishlist: fast capture and management.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card card-soft mt-3 p-3">
+      <div class="fw-semibold mb-1">Security & Access</div>
+      <div class="subtle small mb-0">
+        Sign-in sessions honor “Remember this browser”; all module pages require authentication; write endpoints use lightweight token gating when enabled.
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,106 @@
+{
+  "https://league.poolplayers.com/RioGrandeValley": {
+    "url": "https://league.poolplayers.com/RioGrandeValley",
+    "depth": 0,
+    "parents": [],
+    "discovered_from": []
+  },
+  "https://league.poolplayers.com/": {
+    "url": "https://league.poolplayers.com/",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Member Services"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/login": {
+    "url": "https://league.poolplayers.com/login",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Login"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/rules": {
+    "url": "https://league.poolplayers.com/rules",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Rules"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/help": {
+    "url": "https://league.poolplayers.com/help",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Need Help?"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/news": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/news",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "News"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/events": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/events",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Events"
+      }
+    ]
+  },
+  "https://league.poolplayers.com/RioGrandeValley/divisions": {
+    "url": "https://league.poolplayers.com/RioGrandeValley/divisions",
+    "depth": 1,
+    "parents": [
+      "https://league.poolplayers.com/RioGrandeValley"
+    ],
+    "discovered_from": [
+      {
+        "from": "https://league.poolplayers.com/RioGrandeValley",
+        "source": "a[href]",
+        "text": "Divisions"
+      }
+    ]
+  }
+}

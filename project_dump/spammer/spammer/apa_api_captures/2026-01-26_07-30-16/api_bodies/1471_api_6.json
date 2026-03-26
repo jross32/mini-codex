@@ -1,0 +1,353 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2792334,
+        "firstName": "Bruno",
+        "lastName": "Contreras",
+        "initials": "BC",
+        "aliases": [
+          {
+            "id": 2538616,
+            "displayName": "Macho Alpha Contreras",
+            "memberNumber": "78502539",
+            "league": {
+              "id": 894,
+              "slug": "RioGrandeValley",
+              "name": "Rio Grande Valley APA",
+              "isDefault": true,
+              "number": "785",
+              "__typename": "League"
+            },
+            "formats": [
+              "EIGHT"
+            ],
+            "stats": [
+              {
+                "__typename": "EightBallLifetimeStatistics",
+                "skillLevel": 4,
+                "CLA": 0
+              },
+              {
+                "__typename": "NineBallLifetimeStatistics",
+                "skillLevel": 0,
+                "CLA": 0
+              }
+            ],
+            "__typename": "Alias"
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  },
+  {
+    "data": {
+      "alias": {
+        "id": 2538616,
+        "pastTeams": [
+          {
+            "id": 90503746,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 7,
+            "matchesWon": 3,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 8,
+            "team": {
+              "id": 12766850,
+              "name": "Palochones",
+              "division": {
+                "id": 408941,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91056643,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 1,
+            "matchesWon": 0,
+            "session": {
+              "id": 136,
+              "name": "Summer 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12869209,
+              "name": "Palochones",
+              "division": {
+                "id": 417918,
+                "isTournament": true,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 78852050,
+            "isActive": false,
+            "role": "MEMBER",
+            "rosterPosition": null,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 3,
+            "matchesWon": 0,
+            "session": {
+              "id": 107,
+              "name": "Summer 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 13,
+            "team": {
+              "id": 11176001,
+              "name": "Palochones",
+              "division": {
+                "id": 262376,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 78337334,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 104,
+              "name": "Spring 2018",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 9,
+            "team": {
+              "id": 11105246,
+              "name": "Palochones",
+              "division": {
+                "id": 256113,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 77612209,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 10,
+            "matchesWon": 6,
+            "session": {
+              "id": 103,
+              "name": "Fall 2017",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 1,
+            "team": {
+              "id": 11005420,
+              "name": "Palochones",
+              "division": {
+                "id": 247101,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 77155801,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 12,
+            "matchesWon": 6,
+            "session": {
+              "id": 102,
+              "name": "Summer 2017",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 1,
+            "team": {
+              "id": 10943370,
+              "name": "Palochones",
+              "division": {
+                "id": 241909,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 76280547,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 8,
+            "matchesWon": 4,
+            "session": {
+              "id": 99,
+              "name": "Spring 2017",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 7,
+            "team": {
+              "id": 10818914,
+              "name": "Palochones",
+              "division": {
+                "id": 231149,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 75817243,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 9,
+            "matchesWon": 3,
+            "session": {
+              "id": 98,
+              "name": "Fall 2016",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 8,
+            "team": {
+              "id": 10758395,
+              "name": "Palochones",
+              "division": {
+                "id": 225437,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 75646001,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 5,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 10,
+            "matchesWon": 4,
+            "session": {
+              "id": 97,
+              "name": "Summer 2016",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 16,
+            "team": {
+              "id": 10736515,
+              "name": "Palochones",
+              "division": {
+                "id": 220730,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "currentTeams": [
+          {
+            "id": 91677904,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 0,
+            "matchesWon": 0,
+            "session": {
+              "id": 138,
+              "name": "Spring 2026",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": null,
+            "team": {
+              "id": 12951916,
+              "name": "Palochones",
+              "division": {
+                "id": 425322,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          },
+          {
+            "id": 91016728,
+            "isActive": true,
+            "role": "MEMBER",
+            "rosterPosition": 8,
+            "nickName": "Macho Alpha",
+            "matchesPlayed": 7,
+            "matchesWon": 1,
+            "session": {
+              "id": 137,
+              "name": "Fall 2025",
+              "__typename": "Session"
+            },
+            "skillLevel": 4,
+            "rank": 21,
+            "team": {
+              "id": 12864719,
+              "name": "Palochones",
+              "division": {
+                "id": 417530,
+                "isTournament": false,
+                "__typename": "Division"
+              },
+              "__typename": "Team"
+            },
+            "__typename": "EightBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

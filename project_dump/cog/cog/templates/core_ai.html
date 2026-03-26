@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Cognitia Core — Chat</h1>
+<form method="POST" class="row">
+  {{ csrf_token() }}
+  <input type="text" name="prompt" placeholder="Message the Core AI..." required autofocus />
+  <button type="submit">Send</button>
+</form>
+<div class="chat">
+  {% for t, role, content in history %}
+    <div class="msg {{ 'you' if role=='user' else 'ai' }}">
+      <div class="meta">{{ t }} — {{ role }}</div>
+      <div class="bubble">{{ content }}</div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

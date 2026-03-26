@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2532146,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 280037,
+            "teamNumber": "10986396",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV WPCQ 2018 8 BALL",
+              "id": 17729,
+              "startTime": "2018-06-08T20:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 314303,
+            "teamNumber": "11105429",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV BEST OF THE REST 2018 9 BALL",
+              "id": 17727,
+              "startTime": "2018-05-26T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 305235,
+            "teamNumber": "11105429",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV SPRING TRICUP 2018 9 BALL",
+              "id": 17725,
+              "startTime": "2018-05-19T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 292256,
+            "teamNumber": "11005599",
+            "skillLevel": "7",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL TRICUP 2017 9 BALL",
+              "id": 17723,
+              "startTime": "2018-01-27T09:00:00-06:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 292219,
+            "teamNumber": "11005426",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV FALL TRICUP 2017 8 BALL",
+              "id": 17722,
+              "startTime": "2018-01-13T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 277209,
+            "teamNumber": "10986396",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Rackless Behavior",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV SUMMER TRICUP 8 BALL",
+              "id": 17720,
+              "startTime": "2017-09-09T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 68941,
+            "teamNumber": "00016",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "16",
+            "disqualified": null,
+            "tournament": {
+              "name": "Summer 2016 JnJ Heat 2",
+              "id": 14469,
+              "startTime": "2016-07-16T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 189340,
+            "teamNumber": "10466362",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "The Chalking Dead",
+            "disqualified": null,
+            "tournament": {
+              "name": "2015-16 8 Ball City Cup",
+              "id": 12732,
+              "startTime": "2016-06-18T00:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 219228,
+            "teamNumber": "10636586",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "The Chalking Dead",
+            "disqualified": null,
+            "tournament": {
+              "name": "Spring 2016 8 Ball Tri-Cup",
+              "id": 14289,
+              "startTime": "2016-06-04T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 49262,
+            "teamNumber": "00003",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "3",
+            "disqualified": null,
+            "tournament": {
+              "name": "2016 JnJ Vegas Qualifer",
+              "id": 10937,
+              "startTime": "2016-02-20T09:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+from tools.quality_assurance.evaluation.measurement.risk_analysis.scoring.duplicate_name.duplicate_name_risk_score.command import cmd_duplicate_name_risk_score

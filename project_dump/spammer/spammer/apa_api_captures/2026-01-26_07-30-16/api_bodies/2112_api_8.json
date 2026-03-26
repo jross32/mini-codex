@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2864295,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 85749585,
+            "team": {
+              "id": 12134244,
+              "name": "Sour Patch Kids",
+              "number": "22108",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.5791666666666667,
+            "ppm": 11.583333333333334,
+            "matchesWon": 8,
+            "matchesPlayed": 12,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 0,
+            "nineBallMatchPointsEarned": 139,
+            "nineOnSnaps": 0,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

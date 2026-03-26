@@ -1,0 +1,11 @@
+{
+  "description": "Fast deterministic repo analysis with orientation doc references",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    }
+  ],
+  "returns": "orientation_docs, top_extensions, file counts"
+}

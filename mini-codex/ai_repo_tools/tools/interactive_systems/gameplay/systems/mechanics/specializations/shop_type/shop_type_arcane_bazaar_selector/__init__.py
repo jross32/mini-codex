@@ -1,0 +1,1 @@
+from .command import cmd_shop_type_arcane_bazaar_selector

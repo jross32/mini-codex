@@ -1,0 +1,17 @@
+{
+  "tool_counts": {
+    "cmd_run": 39,
+    "repo_map": 42,
+    "ai_read": 162,
+    "test_select": 42,
+    "env_check": 32,
+    "fast_process": 13
+  },
+  "failure_counts": {
+    "missing_dependency": 37,
+    "unknown": 32
+  },
+  "weak_result_counts": {},
+  "gap_signal_counts": {},
+  "last_updated": "2026-03-25T21:10:23.902870+00:00"
+}

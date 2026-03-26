@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Reminders | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-3">
+  <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <div>
+      <div class="subtle text-uppercase small">Reminders</div>
+      <h3 class="fw-bold mb-0">Stay on Track</h3>
+    </div>
+    <form class="d-flex gap-2 flex-wrap" method="post" action="{{ url_for('reminders_add') }}">
+      <input name="title" class="form-control form-control-sm bg-dark text-light" placeholder="Reminder" required>
+      <input type="date" name="due" class="form-control form-control-sm bg-dark text-light">
+      <button class="btn btn-info btn-sm">Add</button>
+    </form>
+  </div>
+</div>
+<div class="card card-soft p-3">
+  <div class="list-plain">
+    {% for r in data.reminders %}
+    <li class="d-flex justify-content-between align-items-start flex-wrap gap-2 py-2 border-bottom border-secondary-subtle">
+      <div>
+        <div class="fw-semibold">{{ r.title }}</div>
+        <div class="subtle small">{{ r.due }}</div>
+        <div class="subtle small text-capitalize">Status: {{ r.status or 'open' }}</div>
+      </div>
+      <div class="d-flex gap-2 flex-wrap">
+        {% if r.status != 'done' %}
+        <form method="post" action="{{ url_for('reminders_complete', reminder_id=r.id) }}">
+          <button class="btn btn-sm btn-success">Complete</button>
+        </form>
+        {% endif %}
+        <button class="btn btn-sm btn-outline-info" data-bs-toggle="collapse" data-bs-target="#reminder-edit-{{ r.id }}">Edit</button>
+        <form method="post" action="{{ url_for('reminders_delete', reminder_id=r.id) }}">
+          <button class="btn btn-sm btn-outline-danger">Remove</button>
+        </form>
+      </div>
+      <div class="collapse w-100" id="reminder-edit-{{ r.id }}">
+        <form class="card card-soft p-2 bg-dark mt-2" method="post" action="{{ url_for('reminders_update', reminder_id=r.id) }}">
+          <div class="row g-2">
+            <div class="col-12">
+              <input name="title" class="form-control form-control-sm bg-dark text-light" value="{{ r.title }}">
+            </div>
+            <div class="col-6">
+              <input type="date" name="due" class="form-control form-control-sm bg-dark text-light" value="{{ r.due }}">
+            </div>
+            <div class="col-6">
+              <select name="status" class="form-select form-select-sm bg-dark text-light">
+                <option value="open" {% if r.status=='open' %}selected{% endif %}>Open</option>
+                <option value="done" {% if r.status=='done' %}selected{% endif %}>Done</option>
+              </select>
+            </div>
+          </div>
+          <div class="mt-2 text-end">
+            <button class="btn btn-sm btn-info">Save</button>
+          </div>
+        </form>
+      </div>
+    </li>
+    {% else %}
+    <li class="text-secondary small">No reminders yet.</li>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

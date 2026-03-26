@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.validation.quality_gates.blueprint_validation.generated_projects.game_blueprint_validator.command import cmd_game_blueprint_validator

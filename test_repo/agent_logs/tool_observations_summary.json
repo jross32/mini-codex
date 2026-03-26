@@ -1,0 +1,16 @@
+{
+  "tool_counts": {
+    "ai_read": 4,
+    "bad_tool_name": 1,
+    "repo_map": 2,
+    "test_select": 1
+  },
+  "failure_counts": {
+    "missing_path": 1,
+    "missing_argument": 1,
+    "runtime_error": 1
+  },
+  "weak_result_counts": {},
+  "gap_signal_counts": {},
+  "last_updated": "2026-03-25T06:55:38.612623+00:00"
+}

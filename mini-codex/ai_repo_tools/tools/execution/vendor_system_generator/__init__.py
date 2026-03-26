@@ -1,0 +1,1 @@
+from tools.project_generation.multi_project.system_generation.shared_systems.vendors.generators.vendor_system_generator.command import cmd_vendor_system_generator

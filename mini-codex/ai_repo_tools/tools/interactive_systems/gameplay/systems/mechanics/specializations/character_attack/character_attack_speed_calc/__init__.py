@@ -1,0 +1,1 @@
+from .command import cmd_character_attack_speed_calc

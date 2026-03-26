@@ -1,0 +1,172 @@
+[
+  {
+    "data": {
+      "member": {
+        "id": 2644426,
+        "playerTournaments": [
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 655941,
+            "teamNumber": "12649731",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2025 BOTR Cameron 9",
+              "id": 52783,
+              "startTime": "2025-05-11T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 241696,
+            "teamNumber": "78505",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 8 BALL MIDSOUTH INVITATIONAL",
+              "id": 48701,
+              "startTime": "2024-11-08T14:00:00-06:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 238406,
+            "teamNumber": "78505",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Borrachos",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 48700,
+              "startTime": "2024-09-27T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 581726,
+            "teamNumber": "12337070",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "2024 CAMERON WPCQ 9 BALL",
+              "id": 43406,
+              "startTime": "2024-05-17T00:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 597863,
+            "teamNumber": "12384042",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL BEST OF THE REST 2024",
+              "id": 45944,
+              "startTime": "2024-05-12T00:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 206764,
+            "teamNumber": "78591",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Palochones",
+            "disqualified": null,
+            "tournament": {
+              "name": "2023 APA 9 BALL MIDSOUTH INVITATIONAL",
+              "id": 42839,
+              "startTime": "2023-09-29T14:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 527736,
+            "teamNumber": "12119291",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Bad Boys",
+            "disqualified": null,
+            "tournament": {
+              "name": "CAMERON 8 BALL 2023 WPCQ",
+              "id": 40313,
+              "startTime": "2023-05-19T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 439260,
+            "teamNumber": "11756002",
+            "skillLevel": "6",
+            "standing": null,
+            "teamName": "Hollywood Daze",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 9 BALL 2021 WPCQ",
+              "id": 31846,
+              "startTime": "2021-07-09T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 431689,
+            "teamNumber": "11568752",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Hollywood Daze",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 9 BALL",
+              "id": 26029,
+              "startTime": "2021-06-05T20:00:00-05:00",
+              "type": "NINE",
+              "__typename": "Tournament"
+            }
+          },
+          {
+            "__typename": "TeamPlayerTournament",
+            "id": 425205,
+            "teamNumber": "11568670",
+            "skillLevel": "5",
+            "standing": null,
+            "teamName": "Pool Addicts",
+            "disqualified": null,
+            "tournament": {
+              "name": "RGV 2020 WPCQ 8 BALL",
+              "id": 26028,
+              "startTime": "2021-05-14T20:00:00-05:00",
+              "type": "EIGHT",
+              "__typename": "Tournament"
+            }
+          }
+        ],
+        "__typename": "Member"
+      }
+    }
+  }
+]

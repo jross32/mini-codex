@@ -1,0 +1,1 @@
+from tools.repository_intelligence.discovery.scanning.pattern_analysis.signals.fast_analyze.fast_analyze.command import cmd_fast_analyze

@@ -1,0 +1,1 @@
+from .command import cmd_shop_player_affordability_check

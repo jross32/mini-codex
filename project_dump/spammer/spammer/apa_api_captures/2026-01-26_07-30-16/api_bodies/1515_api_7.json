@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "alias": {
+        "id": 2538537,
+        "league": {
+          "id": 894,
+          "currentSessionId": 137,
+          "slug": "RioGrandeValley",
+          "__typename": "League"
+        },
+        "players": [
+          {
+            "id": 79656308,
+            "team": {
+              "id": 11291783,
+              "name": "Rackless Behavior",
+              "number": "23303",
+              "active": true,
+              "__typename": "Team"
+            },
+            "pa": 0.67,
+            "ppm": 13.4,
+            "matchesWon": 10,
+            "matchesPlayed": 10,
+            "miniSlams": 0,
+            "nineBallBreakAndRuns": 3,
+            "nineBallMatchPointsEarned": 134,
+            "nineOnSnaps": 2,
+            "skunks": 0,
+            "__typename": "NineBallPlayer"
+          }
+        ],
+        "__typename": "Alias"
+      }
+    }
+  }
+]

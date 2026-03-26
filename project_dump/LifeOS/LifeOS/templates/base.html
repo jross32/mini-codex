@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Life OS{% endblock %}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/lifeos.css') }}" rel="stylesheet">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg nav-shell sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2 text-light fw-bold" href="{{ url_for('dashboard') }}">
+        <span class="brand-dot"></span> Life OS
+      </a>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {% set mods = profile.modules if profile else {} %}
+          {% if mods.get('projects_tasks',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('projects_page') }}">Projects</a></li>{% endif %}
+          {% if mods.get('projects_tasks',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('tasks_page') }}">Tasks</a></li>{% endif %}
+          {% if mods.get('events',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('events_page') }}">Events</a></li>{% endif %}
+          {% if mods.get('goals_habits',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('habits_page') }}">Habits</a></li>{% endif %}
+          {% if mods.get('finance',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('finance_page') }}">Finance</a></li>{% endif %}
+          {% if mods.get('fitness',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('health_page') }}">Health</a></li>{% endif %}
+          {% if mods.get('notes',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('notes_page') }}">Notes</a></li>{% endif %}
+          {% if mods.get('wishlist',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('wishlist_page') }}">Wishlist</a></li>{% endif %}
+          {% if mods.get('reminders',{}).enabled %}<li class="nav-item"><a class="nav-link" href="{{ url_for('reminders_page') }}">Reminders</a></li>{% endif %}
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('howto') }}">How To</a></li>
+        </ul>
+        {% if user %}
+        <span class="badge bg-info text-dark me-2">{{ user.name or user.username }}</span>
+        <a class="nav-link text-secondary" href="{{ url_for('tailor_profile') }}">Tailor Profile</a>
+        <a class="nav-link text-secondary" href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+        <a class="nav-link text-secondary" href="{{ url_for('login') }}">Login</a>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    {% block content %}{% endblock %}
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

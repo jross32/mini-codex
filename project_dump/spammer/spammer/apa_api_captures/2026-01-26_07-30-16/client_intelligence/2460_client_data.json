@@ -1,0 +1,27 @@
+{
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_HTTP2_PING_FAILED",
+      "location": {
+        "url": "https://league.poolplayers.com/RioGrandeValley/member/3314754/3132870/eight/134/12537011",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "args": [],
+      "timestamp": "2026-01-26T08:57:41.971362"
+    }
+  ],
+  "js_errors": [],
+  "performance": {
+    "dns_time": 0,
+    "tcp_time": 0,
+    "ttfb": 8848,
+    "dom_interactive": -1769439432797,
+    "dom_complete": -1769439432797,
+    "load_time": -1769439432797,
+    "heap_used": 1682668,
+    "heap_limit": 2160066560
+  },
+  "state_snapshots": []
+}

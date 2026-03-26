@@ -1,0 +1,1 @@
+from .command import cmd_shop_faction_discount_apply

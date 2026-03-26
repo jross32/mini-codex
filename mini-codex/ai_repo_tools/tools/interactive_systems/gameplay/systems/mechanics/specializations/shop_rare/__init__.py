@@ -1,0 +1,1 @@
+# shop_rare package.

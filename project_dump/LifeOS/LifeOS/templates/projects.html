@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Projects | Life OS{% endblock %}
+{% block content %}
+<div class="hero mb-4">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <div class="subtle text-uppercase small">Projects</div>
+      <h3 class="fw-bold mb-0">All Projects</h3>
+    </div>
+    <span class="pill">Total: {{ data.projects|length }}</span>
+  </div>
+</div>
+<div class="grid-2">
+  {% for p in data.projects %}
+  <div class="card card-soft p-3">
+    <div class="d-flex justify-content-between align-items-center mb-1">
+      <div class="fw-semibold">{{ p.name }}</div>
+      <span class="badge badge-soft">{{ p.status }}</span>
+    </div>
+    <div class="subtle small mb-2">Tags: {{ p.tags|join(', ') }}</div>
+    <div class="progress" role="progressbar" aria-valuenow="{{ p.progress }}" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-info" style="width: {{ p.progress }}%"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

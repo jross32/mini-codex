@@ -1,0 +1,1040 @@
+{
+  "schema": "tool_library_report.v1",
+  "generated_at_utc": "2026-03-26T17:34:21Z",
+  "total_tools": 7,
+  "total_tools_all": 442,
+  "category_filter": "toolmaker",
+  "top_n": 6,
+  "broken_tool_count": 0,
+  "categories": {
+    "toolmaker": {
+      "count": 7,
+      "usage_total": 1424,
+      "max_complexity": 84.3,
+      "avg_complexity": 70.82,
+      "description": "Meta-tools that audit, improve, and create other tools"
+    }
+  },
+  "top_used": [
+    {
+      "tool": "agent_audit",
+      "category": "toolmaker",
+      "description": "Audit agent-core policy state against observed friction and propose bounded tuning recommendations",
+      "args": [
+        {
+          "name": "mode",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "health_score, recommendations, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_audit/agent_audit/command.py",
+      "usage_count": 562,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 57.78,
+      "complexity_tier": "high",
+      "complexity_components": {
+        "size": 9.833333333333334,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 1.75,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 118,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 5,
+        "classes": 0,
+        "branch_weight": 26.0,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 9,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "toolmaker",
+      "category": "toolmaker",
+      "description": "Scaffold a complete new tool from a spec and wire it into the toolkit atomically",
+      "args": [
+        {
+          "name": "name",
+          "type": "str"
+        },
+        {
+          "name": "category",
+          "type": "str"
+        },
+        {
+          "name": "description",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "args_spec_json",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "returns_desc",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "files_created, files_modified, errors, next_step, summary",
+      "command_path": "ai_repo_tools/tools/toolmaker/toolmaker/command.py",
+      "usage_count": 403,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 78.2,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 10.0,
+        "dependencies": 7.800000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 331,
+        "imports": 12,
+        "tool_imports": 2,
+        "functions": 20,
+        "classes": 0,
+        "branch_weight": 77.5,
+        "max_nesting": 3,
+        "arg_count": 5,
+        "optional_args": 3,
+        "fs_effects": 4,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "agent_improver",
+      "category": "toolmaker",
+      "description": "Apply bounded policy tuning updates to the agent core state",
+      "args": [
+        {
+          "name": "recommendations_json",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "applied changes, before/after core state, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_improver/agent_improver/command.py",
+      "usage_count": 281,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 61.32,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 10.666666666666666,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 2.4499999999999997,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 128,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 7,
+        "classes": 0,
+        "branch_weight": 29.0,
+        "max_nesting": 4,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_audit",
+      "category": "toolmaker",
+      "description": "Scan all toolkit tools and score them on quality dimensions (0-5); return worst-first ranked list",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 20
+        }
+      ],
+      "returns": "tools_found, candidates (worst-first), perfect_tools, improvement_order, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_audit/tool_audit/command.py",
+      "usage_count": 87,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 84.3,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 4.199999999999999
+      },
+      "complexity_details": {
+        "loc": 319,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 16,
+        "classes": 0,
+        "branch_weight": 73.5,
+        "max_nesting": 4,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 1,
+        "process_effects": 0,
+        "network_effects": 8,
+        "tool_calls": 3,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_improver",
+      "category": "toolmaker",
+      "description": "Apply deterministic in-place improvements to an existing tool and all associated files",
+      "args": [
+        {
+          "name": "tool_name",
+          "type": "str"
+        }
+      ],
+      "returns": "patches_applied, files_modified, warnings, elapsed_ms, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_improver/tool_improver/command.py",
+      "usage_count": 72,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 73.3,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 2.0,
+        "dependencies": 6.7,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 5.6
+      },
+      "complexity_details": {
+        "loc": 490,
+        "imports": 13,
+        "tool_imports": 1,
+        "functions": 22,
+        "classes": 0,
+        "branch_weight": 99.25,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 0,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 3,
+        "tool_calls": 4,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_library_report",
+      "category": "toolmaker",
+      "description": "Generate a unified report of toolkit tools with descriptions, usage counts, and weighted complexity scoring.",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 10
+        }
+      ],
+      "returns": "success, summary, elapsed_ms",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_library/tool_library_report/command.py",
+      "usage_count": 12,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 83.05,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 8.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 4.55,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 629,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 13,
+        "classes": 0,
+        "branch_weight": 108.75,
+        "max_nesting": 5,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 35,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    }
+  ],
+  "top_complexity": [
+    {
+      "tool": "tool_audit",
+      "category": "toolmaker",
+      "description": "Scan all toolkit tools and score them on quality dimensions (0-5); return worst-first ranked list",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 20
+        }
+      ],
+      "returns": "tools_found, candidates (worst-first), perfect_tools, improvement_order, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_audit/tool_audit/command.py",
+      "usage_count": 87,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 84.3,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 4.199999999999999
+      },
+      "complexity_details": {
+        "loc": 319,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 16,
+        "classes": 0,
+        "branch_weight": 73.5,
+        "max_nesting": 4,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 1,
+        "process_effects": 0,
+        "network_effects": 8,
+        "tool_calls": 3,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_library_report",
+      "category": "toolmaker",
+      "description": "Generate a unified report of toolkit tools with descriptions, usage counts, and weighted complexity scoring.",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 10
+        }
+      ],
+      "returns": "success, summary, elapsed_ms",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_library/tool_library_report/command.py",
+      "usage_count": 12,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 83.05,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 8.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 4.55,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 629,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 13,
+        "classes": 0,
+        "branch_weight": 108.75,
+        "max_nesting": 5,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 35,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "toolmaker",
+      "category": "toolmaker",
+      "description": "Scaffold a complete new tool from a spec and wire it into the toolkit atomically",
+      "args": [
+        {
+          "name": "name",
+          "type": "str"
+        },
+        {
+          "name": "category",
+          "type": "str"
+        },
+        {
+          "name": "description",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "args_spec_json",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "returns_desc",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "files_created, files_modified, errors, next_step, summary",
+      "command_path": "ai_repo_tools/tools/toolmaker/toolmaker/command.py",
+      "usage_count": 403,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 78.2,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 10.0,
+        "dependencies": 7.800000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 331,
+        "imports": 12,
+        "tool_imports": 2,
+        "functions": 20,
+        "classes": 0,
+        "branch_weight": 77.5,
+        "max_nesting": 3,
+        "arg_count": 5,
+        "optional_args": 3,
+        "fs_effects": 4,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_improver",
+      "category": "toolmaker",
+      "description": "Apply deterministic in-place improvements to an existing tool and all associated files",
+      "args": [
+        {
+          "name": "tool_name",
+          "type": "str"
+        }
+      ],
+      "returns": "patches_applied, files_modified, warnings, elapsed_ms, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_improver/tool_improver/command.py",
+      "usage_count": 72,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 73.3,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 2.0,
+        "dependencies": 6.7,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 5.6
+      },
+      "complexity_details": {
+        "loc": 490,
+        "imports": 13,
+        "tool_imports": 1,
+        "functions": 22,
+        "classes": 0,
+        "branch_weight": 99.25,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 0,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 3,
+        "tool_calls": 4,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "agent_improver",
+      "category": "toolmaker",
+      "description": "Apply bounded policy tuning updates to the agent core state",
+      "args": [
+        {
+          "name": "recommendations_json",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "applied changes, before/after core state, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_improver/agent_improver/command.py",
+      "usage_count": 281,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 61.32,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 10.666666666666666,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 2.4499999999999997,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 128,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 7,
+        "classes": 0,
+        "branch_weight": 29.0,
+        "max_nesting": 4,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "agent_audit",
+      "category": "toolmaker",
+      "description": "Audit agent-core policy state against observed friction and propose bounded tuning recommendations",
+      "args": [
+        {
+          "name": "mode",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "health_score, recommendations, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_audit/agent_audit/command.py",
+      "usage_count": 562,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 57.78,
+      "complexity_tier": "high",
+      "complexity_components": {
+        "size": 9.833333333333334,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 1.75,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 118,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 5,
+        "classes": 0,
+        "branch_weight": 26.0,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 9,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    }
+  ],
+  "broken_tools": [],
+  "tools": [
+    {
+      "tool": "agent_audit",
+      "category": "toolmaker",
+      "description": "Audit agent-core policy state against observed friction and propose bounded tuning recommendations",
+      "args": [
+        {
+          "name": "mode",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "health_score, recommendations, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_audit/agent_audit/command.py",
+      "usage_count": 562,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 57.78,
+      "complexity_tier": "high",
+      "complexity_components": {
+        "size": 9.833333333333334,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 1.75,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 118,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 5,
+        "classes": 0,
+        "branch_weight": 26.0,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 9,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "agent_improver",
+      "category": "toolmaker",
+      "description": "Apply bounded policy tuning updates to the agent core state",
+      "args": [
+        {
+          "name": "recommendations_json",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "applied changes, before/after core state, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/agent_improver/agent_improver/command.py",
+      "usage_count": 281,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 61.32,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 10.666666666666666,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 3.0,
+        "dependencies": 2.8000000000000003,
+        "side_effects": 15.0,
+        "surface_area": 2.4499999999999997,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 128,
+        "imports": 7,
+        "tool_imports": 0,
+        "functions": 7,
+        "classes": 0,
+        "branch_weight": 29.0,
+        "max_nesting": 4,
+        "arg_count": 1,
+        "optional_args": 1,
+        "fs_effects": 2,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "bulk_tool_generator",
+      "category": "toolmaker",
+      "description": "Materialize any requested count of known named tools from the built-in expandable catalog (requires explicit approval token --user-approved-generator) and remove anonymous auto tools",
+      "args": [
+        {
+          "name": "count",
+          "type": "int",
+          "optional": true,
+          "default": 100
+        },
+        {
+          "name": "start_index",
+          "type": "int",
+          "optional": true,
+          "default": 1
+        },
+        {
+          "name": "replace_auto_tools",
+          "type": "bool",
+          "optional": true,
+          "default": true
+        }
+      ],
+      "returns": "generated_count, removed_auto_tool_count, generated_tools, seed_catalog_size, materialized_catalog_size, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/bulk_tool/bulk_tool_generator/command.py",
+      "usage_count": 7,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 57.77,
+      "complexity_tier": "high",
+      "complexity_components": {
+        "size": 10.416666666666666,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 9.0,
+        "dependencies": 4.0,
+        "side_effects": 7.2,
+        "surface_area": 1.75,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 125,
+        "imports": 10,
+        "tool_imports": 0,
+        "functions": 5,
+        "classes": 0,
+        "branch_weight": 19.5,
+        "max_nesting": 3,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 4,
+        "process_effects": 0,
+        "network_effects": 0,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_audit",
+      "category": "toolmaker",
+      "description": "Scan all toolkit tools and score them on quality dimensions (0-5); return worst-first ranked list",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 20
+        }
+      ],
+      "returns": "tools_found, candidates (worst-first), perfect_tools, improvement_order, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_audit/tool_audit/command.py",
+      "usage_count": 87,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 84.3,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 6.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 4.199999999999999
+      },
+      "complexity_details": {
+        "loc": 319,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 16,
+        "classes": 0,
+        "branch_weight": 73.5,
+        "max_nesting": 4,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 1,
+        "process_effects": 0,
+        "network_effects": 8,
+        "tool_calls": 3,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_improver",
+      "category": "toolmaker",
+      "description": "Apply deterministic in-place improvements to an existing tool and all associated files",
+      "args": [
+        {
+          "name": "tool_name",
+          "type": "str"
+        }
+      ],
+      "returns": "patches_applied, files_modified, warnings, elapsed_ms, summary",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_improver/tool_improver/command.py",
+      "usage_count": 72,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 73.3,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 2.0,
+        "dependencies": 6.7,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 5.6
+      },
+      "complexity_details": {
+        "loc": 490,
+        "imports": 13,
+        "tool_imports": 1,
+        "functions": 22,
+        "classes": 0,
+        "branch_weight": 99.25,
+        "max_nesting": 3,
+        "arg_count": 1,
+        "optional_args": 0,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 3,
+        "tool_calls": 4,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "tool_library_report",
+      "category": "toolmaker",
+      "description": "Generate a unified report of toolkit tools with descriptions, usage counts, and weighted complexity scoring.",
+      "args": [
+        {
+          "name": "output_format",
+          "type": "str",
+          "optional": true,
+          "default": "json"
+        },
+        {
+          "name": "category_filter",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "top_n",
+          "type": "int",
+          "optional": true,
+          "default": 10
+        }
+      ],
+      "returns": "success, summary, elapsed_ms",
+      "command_path": "ai_repo_tools/tools/tool_ecosystem/meta_operations/creation/improvement/automation/tool_library/tool_library_report/command.py",
+      "usage_count": 12,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 83.05,
+      "complexity_tier": "platform",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 8.0,
+        "interface": 9.0,
+        "dependencies": 10.100000000000001,
+        "side_effects": 15.0,
+        "surface_area": 4.55,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 629,
+        "imports": 14,
+        "tool_imports": 3,
+        "functions": 13,
+        "classes": 0,
+        "branch_weight": 108.75,
+        "max_nesting": 5,
+        "arg_count": 3,
+        "optional_args": 3,
+        "fs_effects": 9,
+        "process_effects": 0,
+        "network_effects": 35,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    },
+    {
+      "tool": "toolmaker",
+      "category": "toolmaker",
+      "description": "Scaffold a complete new tool from a spec and wire it into the toolkit atomically",
+      "args": [
+        {
+          "name": "name",
+          "type": "str"
+        },
+        {
+          "name": "category",
+          "type": "str"
+        },
+        {
+          "name": "description",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "args_spec_json",
+          "type": "str",
+          "optional": true
+        },
+        {
+          "name": "returns_desc",
+          "type": "str",
+          "optional": true
+        }
+      ],
+      "returns": "files_created, files_modified, errors, next_step, summary",
+      "command_path": "ai_repo_tools/tools/toolmaker/toolmaker/command.py",
+      "usage_count": 403,
+      "last_called_utc": null,
+      "usage_source": "observation_summary",
+      "complexity_score": 78.2,
+      "complexity_tier": "orchestrator",
+      "complexity_components": {
+        "size": 15.0,
+        "branching": 20.0,
+        "nesting": 4.0,
+        "interface": 10.0,
+        "dependencies": 7.800000000000001,
+        "side_effects": 15.0,
+        "surface_area": 5.0,
+        "orchestration": 1.4
+      },
+      "complexity_details": {
+        "loc": 331,
+        "imports": 12,
+        "tool_imports": 2,
+        "functions": 20,
+        "classes": 0,
+        "branch_weight": 77.5,
+        "max_nesting": 3,
+        "arg_count": 5,
+        "optional_args": 3,
+        "fs_effects": 4,
+        "process_effects": 0,
+        "network_effects": 7,
+        "tool_calls": 1,
+        "run_engine_calls": 0
+      }
+    }
+  ],
+  "complexity_model": {
+    "goal": "Score cognitive and operational complexity of each tool command implementation on a 0-100 scale.",
+    "components": [
+      "size",
+      "branching",
+      "nesting",
+      "interface",
+      "dependencies",
+      "side_effects",
+      "surface_area",
+      "orchestration"
+    ],
+    "tiers": {
+      "atomic": "0-19",
+      "moderate": "20-39",
+      "high": "40-59",
+      "orchestrator": "60-79",
+      "platform": "80+"
+    }
+  },
+  "notes": [
+    "Merged usage counts from agent_logs/tool_observations_summary.json.",
+    "Merged usage metadata from ai_repo_tools/tool_usage/usage_counter_ai.json."
+  ]
+}

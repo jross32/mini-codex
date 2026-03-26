@@ -1,0 +1,1 @@
+from .command import cmd_monster_element_weakness_assign

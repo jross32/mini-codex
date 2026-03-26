@@ -1,0 +1,11 @@
+{
+  "description": "Score repo readiness from preparation plan (0-100)",
+  "args": [
+    {
+      "name": "max_files",
+      "type": "int",
+      "optional": true
+    }
+  ],
+  "returns": "score, rating (strong/good/fair/weak)"
+}
