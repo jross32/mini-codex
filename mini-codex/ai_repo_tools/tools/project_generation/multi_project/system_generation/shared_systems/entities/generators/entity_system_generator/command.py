@@ -1,4 +1,4 @@
-﻿"""
+"""
 entity_system_generator - entity system generator
 
 Category: execution

@@ -1,4 +1,4 @@
-﻿"""
+"""
 vendor_system_generator - vendor system generator
 
 Category: execution

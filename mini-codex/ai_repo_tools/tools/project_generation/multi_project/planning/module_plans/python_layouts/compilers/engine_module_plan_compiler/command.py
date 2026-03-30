@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_module_plan_compiler - engine module plan compiler
 
 Category: execution

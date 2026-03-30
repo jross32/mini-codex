@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from typing import Dict, List
 
 from agent.agent_loop import run_agent
@@ -11,7 +12,46 @@ def _worker_log_path(repo_path: str, worker_name: str) -> str:
 
 
 def _emit_progress(message: str) -> None:
-    print(f"[orchestrator] {message}", flush=True)
+    print(f"[{message}] . . .", flush=True)
+
+
+def _runtime_status_path(repo_path: str) -> str:
+    return os.path.join(repo_path, "agent_logs", "orchestrator_runtime_status.json")
+
+
+def _autosave_path(repo_path: str) -> str:
+    return os.path.join(repo_path, "agent_logs", "orchestrator_autosave.json")
+
+
+def _utc_now() -> str:
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+def _write_json(path: str, payload: Dict) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, indent=2)
+
+
+def _write_runtime_status(
+    repo_path: str,
+    status: str,
+    activity: str,
+    autosaving: bool,
+    last_autosave_utc: str,
+) -> None:
+    payload = {
+        "generated_at": _utc_now(),
+        "status": status,
+        "activity": activity,
+        "autosaving": bool(autosaving),
+        "last_autosave_utc": last_autosave_utc,
+    }
+    try:
+        _write_json(_runtime_status_path(repo_path), payload)
+    except Exception:
+        # Runtime status is best-effort only.
+        pass
 
 
 def _summarize_worker(name: str, result: Dict) -> Dict:
@@ -158,11 +198,52 @@ def run_orchestrator_workflow(
       4) agent_core_upgrade_worker
     """
     iters = max(1, int(max_iterations))
+    autosave_interval_seconds = 60
+    last_autosave_utc = ""
+    last_autosave_ts = 0.0
+    current_activity = "Initializing orchestration"
+    interrupted = False
+
+    def set_activity(activity: str, autosaving: bool = False, status: str = "running") -> None:
+        nonlocal current_activity
+        current_activity = activity
+        _write_runtime_status(
+            repo_path=repo_path,
+            status=status,
+            activity=current_activity,
+            autosaving=autosaving,
+            last_autosave_utc=last_autosave_utc,
+        )
+
+    def maybe_autosave(summaries: List[Dict], index: int, workers: List[Dict], spawned_workers: int) -> None:
+        nonlocal last_autosave_ts, last_autosave_utc
+        now = time.time()
+        if (now - last_autosave_ts) < autosave_interval_seconds:
+            return
+
+        payload = {
+            "generated_at": _utc_now(),
+            "status": "running",
+            "activity": current_activity,
+            "index": index,
+            "workers_queued": len(workers),
+            "workers_spawned": spawned_workers,
+            "summaries": summaries,
+        }
+        try:
+            set_activity("Autosaving", autosaving=True, status="running")
+            _write_json(_autosave_path(repo_path), payload)
+            last_autosave_ts = now
+            last_autosave_utc = payload["generated_at"]
+        finally:
+            set_activity(current_activity, autosaving=False, status="running")
+
     _emit_progress(
         "starting run "
         f"iterations={iters} trust_threshold={trust_threshold} "
         f"max_total_workers={max_total_workers} allow_unbounded={allow_unbounded_growth}"
     )
+    set_activity("Starting orchestration")
 
     workers: List[Dict] = [
         {
@@ -207,10 +288,12 @@ def run_orchestrator_workflow(
     _emit_progress(f"worker cap resolved to {hard_cap}")
 
     while index < len(workers):
+        maybe_autosave(summaries=summaries, index=index, workers=workers, spawned_workers=spawned_workers)
         worker = workers[index]
         _emit_progress(
             f"worker {index + 1}/{len(workers)} starting: {worker['name']} mode={worker.get('mode')}"
         )
+        set_activity(f"Running worker {worker['name']}")
         if hard_failed:
             summaries.append(
                 {
@@ -234,11 +317,13 @@ def run_orchestrator_workflow(
                 tool = entry.get("tool")
                 args = entry.get("args", [])
                 _emit_progress(f"{worker['name']}: running tool {tool} args={args}")
+                set_activity(f"{worker['name']} running {tool}")
                 tool_result = run_tool(tool, args, repo_path, use_aish_auto=True)
                 tool_steps.append({"tool": tool, "success": bool(tool_result.get("success"))})
                 _emit_progress(
                     f"{worker['name']}: tool {tool} success={bool(tool_result.get('success'))}"
                 )
+                maybe_autosave(summaries=summaries, index=index, workers=workers, spawned_workers=spawned_workers)
                 if not tool_result.get("success"):
                     failed = True
                     break
@@ -273,7 +358,10 @@ def run_orchestrator_workflow(
                 memory_file=_worker_log_path(repo_path, worker["name"]),
                 use_aish_auto=True,
                 toolmaker_max_iterations=worker["toolmaker_max_iterations"],
-                progress_callback=lambda msg, name=worker["name"]: _emit_progress(f"{name}: {msg}"),
+                progress_callback=lambda msg, name=worker["name"]: (
+                    _emit_progress(f"{name}: {msg}"),
+                    set_activity(f"{name} {msg}")
+                ),
             )
             summary = _summarize_worker(worker["name"], result)
             trace_for_benchmark = result.get("trace", []) or []
@@ -317,9 +405,19 @@ def run_orchestrator_workflow(
 
         index += 1
 
-    overall_success = all(s["status"] in {"complete", "running", "skipped"} for s in summaries)
+    try:
+        maybe_autosave(summaries=summaries, index=index, workers=workers, spawned_workers=spawned_workers)
+    except KeyboardInterrupt:
+        interrupted = True
+        _emit_progress("interrupt received during autosave checkpoint")
+
+    if interrupted:
+        overall_success = False
+    else:
+        overall_success = all(s["status"] in {"complete", "running", "skipped"} for s in summaries)
     payload = {
         "success": overall_success,
+        "interrupted": interrupted,
         "mode": "orchestrator_workers",
         "allow_unbounded_growth": bool(allow_unbounded_growth),
         "max_total_workers": hard_cap,
@@ -333,15 +431,18 @@ def run_orchestrator_workflow(
 
     out_path = os.path.join(repo_path, "agent_logs", "orchestrator_summary.json")
     try:
-        os.makedirs(os.path.dirname(out_path), exist_ok=True)
-        with open(out_path, "w", encoding="utf-8") as fh:
-            json.dump(payload, fh, indent=2)
+        _write_json(out_path, payload)
     except Exception:
         payload["summary"] += " Failed to write orchestrator_summary.json."
 
     _emit_progress(
         f"run finished success={payload.get('success')} "
         f"workers_executed={len(summaries)} workers_spawned={spawned_workers}"
+    )
+    set_activity(
+        "Run interrupted" if interrupted else "Run complete",
+        autosaving=False,
+        status="stopped" if interrupted else "idle",
     )
 
     return payload

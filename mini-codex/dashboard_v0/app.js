@@ -10,7 +10,13 @@ const state = {
   wsPort: null,
   socket: null,
   reconnectTimer: null,
+  ellipsisFrame: 0,
 };
+
+function animatedEllipsis() {
+  const frames = ["", ".", "..", "..."];
+  return frames[state.ellipsisFrame % frames.length];
+}
 
 const stageConfig = [
   { key: "seed", label: "Seed", minLevel: 1, copy: "The system is waking up." },
@@ -169,8 +175,16 @@ function renderStatus() {
   if (!chip) {
     return;
   }
+  const runtime = (state.orchestrator && state.orchestrator.runtime_status) || {};
+  const activity = runtime.activity || (state.streamConnected ? "Streaming online" : "Reconnecting stream");
+  const lastAutosaveTs = runtime.last_autosave_utc ? new Date(runtime.last_autosave_utc).getTime() : 0;
+  const autosaveRecently = lastAutosaveTs ? (Date.now() - lastAutosaveTs) < 3000 : false;
+  const autosaving = Boolean(runtime.autosaving) || autosaveRecently;
+  const statusPrefix = autosaving ? "Autosaving" : `[${activity}]`;
+  const text = `${statusPrefix}${animatedEllipsis()}`;
+
   chip.className = `status-chip ${state.streamConnected ? "status-live" : "status-offline"}`;
-  el("statusText").textContent = state.streamConnected ? "WebSocket stream online" : "Reconnecting to stream";
+  el("statusText").textContent = text;
   el("lastUpdate").textContent = since(state.lastSuccessfulUpdate);
 }
 
@@ -664,6 +678,10 @@ async function init() {
     return;
   }
   attachHandlers();
+  window.setInterval(() => {
+    state.ellipsisFrame = (state.ellipsisFrame + 1) % 4;
+    renderStatus();
+  }, 1000);
   try {
     await bootstrapSnapshot();
     connectStream();

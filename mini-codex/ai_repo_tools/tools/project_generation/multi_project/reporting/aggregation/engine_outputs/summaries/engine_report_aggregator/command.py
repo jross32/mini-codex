@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_report_aggregator - engine report aggregator
 
 Category: execution

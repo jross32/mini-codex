@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_module_materializer - engine module materializer
 
 Category: execution

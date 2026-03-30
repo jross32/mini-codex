@@ -3,9 +3,9 @@
     {
       "key": "failure_penalty",
       "value": 4,
-      "reason": "Observed 17 failed tool runs in observation summary."
+      "reason": "Observed 280 failed tool runs in observation summary."
     }
   ],
-  "health_score": 49,
-  "timestamp_epoch": 1774482715
+  "health_score": 0,
+  "timestamp_epoch": 1774590744
 }

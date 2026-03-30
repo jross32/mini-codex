@@ -1,4 +1,4 @@
-﻿"""
+"""
 mission_system_generator - mission system generator
 
 Category: execution

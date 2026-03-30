@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_mode_router - engine mode router
 
 Category: execution

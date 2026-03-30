@@ -1,9 +1,10 @@
 {
-  "success": false,
+  "success": true,
+  "interrupted": false,
   "mode": "orchestrator_workers",
   "allow_unbounded_growth": false,
   "max_total_workers": 16,
-  "workers_spawned": 0,
+  "workers_spawned": 12,
   "workers": [
     {
       "worker": "toolkit_upgrade_worker",
@@ -53,7 +54,7 @@
     },
     {
       "worker": "quality_gate_worker",
-      "status": "failed",
+      "status": "complete",
       "steps": 4,
       "tools_used": [
         "repo_health_check",
@@ -61,26 +62,317 @@
         "lint_check",
         "lint_check"
       ],
-      "final_summary": "Tool-based quality gate failed.",
+      "final_summary": "Tool-based quality gate passed.",
       "benchmark": {
         "trusted": false,
-        "trust_score": 0.618,
+        "trust_score": 0.78,
         "trust_threshold": 0.84,
         "self_improvement_ready": false,
         "collaboration_ready": true,
-        "success_rate": 0.75,
-        "avg_usefulness": 3.25,
-        "avg_uncertainty_reduction": 2.5,
-        "avg_next_step_quality": 2.5
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
       }
     },
     {
       "worker": "agent_core_upgrade_worker",
-      "status": "skipped",
-      "steps": 0,
-      "tools_used": [],
-      "final_summary": "Skipped due to earlier gate failure."
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/1.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_1"
+    },
+    {
+      "worker": "autonomous_worker_1",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_2"
+    },
+    {
+      "worker": "autonomous_worker_2",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_3"
+    },
+    {
+      "worker": "autonomous_worker_3",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_4"
+    },
+    {
+      "worker": "autonomous_worker_4",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_5"
+    },
+    {
+      "worker": "autonomous_worker_5",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_6"
+    },
+    {
+      "worker": "autonomous_worker_6",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_7"
+    },
+    {
+      "worker": "autonomous_worker_7",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_8"
+    },
+    {
+      "worker": "autonomous_worker_8",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_9"
+    },
+    {
+      "worker": "autonomous_worker_9",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_10"
+    },
+    {
+      "worker": "autonomous_worker_10",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_11"
+    },
+    {
+      "worker": "autonomous_worker_11",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      },
+      "spawned_worker": "autonomous_worker_12"
+    },
+    {
+      "worker": "autonomous_worker_12",
+      "status": "complete",
+      "steps": 4,
+      "tools_used": [
+        "agent_audit",
+        "agent_improver",
+        "lint_check"
+      ],
+      "final_summary": "Goal: upgrade agent core with bounded policy tuning and collaborate safely with peer workers. Steps: 4. Status: complete. Tools used: agent_audit, agent_improver, lint_check Toolmaker iteration: 0/2.",
+      "benchmark": {
+        "trusted": true,
+        "trust_score": 0.88,
+        "trust_threshold": 0.84,
+        "self_improvement_ready": true,
+        "collaboration_ready": true,
+        "success_rate": 1.0,
+        "avg_usefulness": 4.0,
+        "avg_uncertainty_reduction": 3.0,
+        "avg_next_step_quality": 3.0
+      }
     }
   ],
-  "summary": "Orchestrator ran 4 worker phases with 2 successful executions."
+  "summary": "Orchestrator ran 16 worker phases with 16 successful executions."
 }

@@ -1,4 +1,4 @@
-﻿"""
+"""
 game_type_config_loader - game type config loader
 
 Category: execution

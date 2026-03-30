@@ -3,6 +3,7 @@ from agent.state import AgentState
 import re
 import os
 from agent.tool_policy import DEFAULT_SAFE_TOOLS, OPTIONAL_FAST_TOOLS
+from agent.skill_loader import get_skill_tool_hints
 
 
 def select_next_tool(state: AgentState) -> Optional[dict]:
@@ -25,6 +26,13 @@ def select_next_tool(state: AgentState) -> Optional[dict]:
     # 1. If no repo map has been run yet, do it first.
     if "repo_map" not in state.tools_used:
         return {"tool": "repo_map", "args": []}
+
+    # 1.4. Run any tool explicitly recommended by the active skills that hasn't
+    # been used yet.  Only safe/known tools are returned by get_skill_tool_hints,
+    # and repo_map is excluded because it already ran.
+    for hint_tool in get_skill_tool_hints(state.artifacts):
+        if hint_tool != "repo_map" and hint_tool not in state.tools_used:
+            return {"tool": hint_tool, "args": []}
 
     # 1.5. For broad inspect/analyze goals, run default-safe fast_process once
     # before manual-style ai_read sequencing.

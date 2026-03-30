@@ -100,7 +100,8 @@ Use `bench_compare` for this by default.
 - Default to AISH as the control plane and ai_repo_tools as the execution plane.
 - Use AISH commands for normal task execution; do not use direct tool invocation for normal tasks.
 - Direct tool invocation is reserved for tool creation/improvement maintenance when AISH is unavailable or insufficient.
-- Always maintain and consult a command-to-tool capability matrix for execution decisions.
+- Always maintain and consult a command
+-to-tool capability matrix for execution decisions.
 
 Required matrix fields:
 - command

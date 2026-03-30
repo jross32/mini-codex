@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_directory_plan_compiler - engine directory plan compiler
 
 Category: execution

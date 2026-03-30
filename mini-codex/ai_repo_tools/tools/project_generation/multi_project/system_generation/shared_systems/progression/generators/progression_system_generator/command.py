@@ -1,4 +1,4 @@
-﻿"""
+"""
 progression_system_generator - progression system generator
 
 Category: execution

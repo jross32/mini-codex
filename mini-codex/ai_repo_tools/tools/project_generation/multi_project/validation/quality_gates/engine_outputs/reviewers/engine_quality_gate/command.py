@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_quality_gate - engine quality gate
 
 Category: execution

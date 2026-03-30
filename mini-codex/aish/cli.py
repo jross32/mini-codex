@@ -59,8 +59,8 @@ Core commands:
   aish upgrade --repo <path> [--iterations N]
       Run friction-driven self-upgrade loop (audit -> improve -> lint -> validate)
 
-  aish orchestrate --repo <path> [--iterations N] [--trust-threshold F] [--max-workers N] [--unbounded]
-      Run trust-gated orchestrator workflow; prompts for max workers if not provided
+      aish orchestrate --repo <path> [--iterations N] [--trust-threshold F] [--max-workers N] [--unbounded] [--sleep-seconds N] [--once]
+          Run trust-gated orchestrator workflow forever by default; prompts for max workers if not provided
 
   aish tool <tool_name> --repo <path> [tool args...]
       Run any ai_repo_tools tool through AISH
@@ -291,6 +291,8 @@ def parse_args(args):
         trust_threshold = 0.84
         max_workers = None
         unbounded = False
+        forever = True
+        sleep_seconds = 5
 
         i = 1
         while i < len(args):
@@ -321,6 +323,20 @@ def parse_args(args):
             elif args[i] == "--unbounded":
                 unbounded = True
                 i += 1
+            elif args[i] == "--forever":
+                # Kept for backward compatibility. Forever is already default.
+                forever = True
+                i += 1
+            elif args[i] == "--once":
+                forever = False
+                i += 1
+            elif args[i] == "--sleep-seconds" and i + 1 < len(args):
+                try:
+                    sleep_seconds = int(args[i + 1])
+                except ValueError:
+                    print("Error: --sleep-seconds must be an integer")
+                    return None, None, None
+                i += 2
             else:
                 print(f"Error: unknown argument {args[i]}")
                 return None, None, None
@@ -335,6 +351,8 @@ def parse_args(args):
             "trust_threshold": trust_threshold,
             "max_workers": max_workers,
             "allow_unbounded_growth": unbounded,
+            "run_forever": forever,
+            "sleep_seconds": sleep_seconds,
             **default_kwargs,
         }, None
 
@@ -755,6 +773,8 @@ def dispatch(command, kwargs):
                 kwargs.get("trust_threshold", 0.84),
                 kwargs.get("max_workers", 16),
                 kwargs.get("allow_unbounded_growth", False),
+                kwargs.get("run_forever", False),
+                kwargs.get("sleep_seconds", 5),
             )
         if command == "tool":
             return commands.run_tool_command(

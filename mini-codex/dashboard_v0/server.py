@@ -259,6 +259,34 @@ def _average(values):
     return sum(filtered) / len(filtered)
 
 
+def _read_runtime_status(repo_root):
+    path = Path(repo_root) / "agent_logs" / "orchestrator_runtime_status.json"
+    if not path.exists():
+        return {
+            "status": "idle",
+            "activity": "Idle",
+            "autosaving": False,
+            "last_autosave_utc": None,
+        }
+    try:
+        data = _read_json(path)
+        if not isinstance(data, dict):
+            raise ValueError("invalid runtime status payload")
+        return {
+            "status": data.get("status", "idle"),
+            "activity": data.get("activity", "Idle"),
+            "autosaving": bool(data.get("autosaving", False)),
+            "last_autosave_utc": data.get("last_autosave_utc"),
+        }
+    except Exception:
+        return {
+            "status": "idle",
+            "activity": "Idle",
+            "autosaving": False,
+            "last_autosave_utc": None,
+        }
+
+
 def build_orchestrator_payload(repo_root):
     repo_root = Path(repo_root)
     summary_path = repo_root / "agent_logs" / "orchestrator_summary.json"
@@ -346,6 +374,7 @@ def build_orchestrator_payload(repo_root):
             ),
             "next_step_quality": _average([benchmark.get("avg_next_step_quality") for benchmark in benchmarks]),
         },
+        "runtime_status": _read_runtime_status(repo_root),
         "recent_worker_events": recent_worker_events,
     }
 

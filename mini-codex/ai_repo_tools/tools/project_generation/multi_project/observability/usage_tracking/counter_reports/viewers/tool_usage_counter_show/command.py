@@ -1,4 +1,4 @@
-﻿"""
+"""
 tool_usage_counter_show - tool usage counter show
 
 Category: execution

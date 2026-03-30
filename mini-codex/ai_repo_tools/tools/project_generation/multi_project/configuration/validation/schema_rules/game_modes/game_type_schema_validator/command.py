@@ -1,4 +1,4 @@
-﻿"""
+"""
 game_type_schema_validator - game type schema validator
 
 Category: execution

@@ -1,27 +1,27 @@
 {
   "tool_counts": {
-    "repo_map": 62,
-    "ai_read": 106,
-    "test_select": 51,
+    "repo_map": 85,
+    "ai_read": 168,
+    "test_select": 72,
     "artifact_read": 4,
     "env_check": 7,
-    "fast_analyze": 6,
-    "fast_process": 40,
+    "fast_analyze": 27,
+    "fast_process": 62,
     "cmd_run": 152,
     "bench_compare": 3,
     "fast_prepare": 1,
-    "fast_evaluate": 1,
+    "fast_evaluate": 2,
     "dep_graph": 3,
     "code_search": 2,
-    "tool_audit": 90,
-    "tool_improver": 75,
+    "tool_audit": 134,
+    "tool_improver": 153,
     "toolmaker": 481,
-    "repo_health_check": 32,
-    "lint_check": 445,
-    "friction_summarizer": 40,
+    "repo_health_check": 52,
+    "lint_check": 644,
+    "friction_summarizer": 63,
     "task_trace": 2,
-    "agent_audit": 562,
-    "agent_improver": 281,
+    "agent_audit": 835,
+    "agent_improver": 419,
     "trust_trend": 5,
     "git_changed_files": 7,
     "diff_check": 1,
@@ -102,9 +102,9 @@
     "game_v2_pipeline_orchestrator": 3
   },
   "failure_counts": {
-    "unknown": 19,
+    "unknown": 27,
     "missing_dependency": 38,
-    "runtime_error": 129,
+    "runtime_error": 207,
     "test_failure": 8,
     "missing_argument": 1
   },
@@ -114,5 +114,5 @@
   "gap_signal_counts": {
     "parse_fallback": 1
   },
-  "last_updated": "2026-03-26T23:18:44.230660+00:00"
+  "last_updated": "2026-03-27T05:52:45.787134+00:00"
 }

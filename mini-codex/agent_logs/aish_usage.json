@@ -9824,5 +9824,1165 @@
     "success": false,
     "duration_ms": 123341.75,
     "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:35:04.526433Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 7184.44,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:35:11.036286Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5806.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:35:18.893020Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 6509.73,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:35:25.949974Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5690.46,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:35:29.818485Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3177.85,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:35:39.025201Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4250.5,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:36:00.574985Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 114349.59,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:36:46.185868Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 4285.57,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:36:51.410525Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4177.13,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:36:56.114210Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 3739.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:36:57.073277Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 3977.26,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:36:59.796066Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3036.77,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:02.010402Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4064.87,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:03.947249Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 2933.74,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:06.849123Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 4046.63,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:10.351587Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 2622.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:12.490277Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3466.89,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:14.328446Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3368.94,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:24.462221Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4498.55,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:37:30.169587Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 203945.01,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:37:44.094469Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 83853.34,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:38:29.044478Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5488.88,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:35.422396Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4751.71,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:37.493427Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 4736.04,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:40.638911Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 4229.59,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:43.157232Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4796.04,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:50.797318Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5994.5,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:38:56.620270Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3946.07,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:39:02.898675Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4934.2,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:39:15.432456Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4899.36,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:39:39.339904Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 199098.68,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:39:45.268960Z",
+    "command": "tool:lint_check",
+    "tool": "lint_check",
+    "success": false,
+    "duration_ms": 8169.38,
+    "error": "<unknown>:1: SyntaxWarning: invalid escape sequence '\\:'\n<unknown>:15: SyntaxWarning: invalid escape sequence '\\:'"
+  },
+  {
+    "timestamp": "2026-03-26T23:40:37.274318Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 4953.27,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:40:44.252769Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5675.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:40:51.054311Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5783.22,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:40:57.269150Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5027.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:41:04.444890Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5698.67,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:41:15.668638Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5708.43,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:41:40.279111Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 320037.36,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:42:39.551905Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 7366.83,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:42:47.026647Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5945.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:42:54.521545Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 6256.94,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:43:00.589175Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4964.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:43:06.862148Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4964.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:43:20.080959Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4961.64,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:43:43.108418Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 442866.7,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:44:42.458126Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 6364.86,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:44:50.760866Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 6791.79,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:44:58.103323Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 6027.42,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:45:05.089564Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5650.3,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:45:11.737786Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5104.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:45:23.457741Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4581.08,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:45:46.716599Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 566474.96,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-26T23:46:46.074281Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 4442.48,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:46:51.968768Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5156.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:49:55.415965Z",
+    "command": "tool:lint_check",
+    "tool": "lint_check",
+    "success": true,
+    "duration_ms": 9005.0,
+    "error": "<unknown>:1: SyntaxWarning: invalid escape sequence '\\:'\n<unknown>:15: SyntaxWarning: invalid escape sequence '\\:'"
+  },
+  {
+    "timestamp": "2026-03-26T23:50:41.800867Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 6663.79,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:50:49.358954Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 6111.77,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:50:56.288387Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5379.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:51:03.189003Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5399.56,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:51:07.963724Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4043.67,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:51:20.871426Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 5356.37,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:55:28.654335Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 331500.02,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:10.895490Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5596.44,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:17.183054Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4910.06,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:23.479334Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5116.39,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:28.541958Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3805.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:33.396254Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3208.02,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:56:42.670383Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3920.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:57:45.232458Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5741.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:57:51.763723Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4712.22,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:57:58.269114Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5035.78,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:58:03.309187Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3653.22,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:58:08.459944Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3825.22,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:58:18.751794Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3833.69,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:28.865598Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 4224.7,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:32.710486Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 3035.25,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:37.721594Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 3685.63,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:42.727991Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3864.78,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:46.168599Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 2794.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-26T23:59:51.857995Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 1985.2,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:01:30.159072Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5384.5,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:01:36.923423Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5462.26,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:01:42.252059Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 4542.15,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:01:46.053240Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 2140.17,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:01:51.009013Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3493.6,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:02:01.425449Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3813.55,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:05:42.029054Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 281638.98,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:06:27.565643Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 6152.87,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:06:33.423599Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4346.8,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:06:39.180588Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5114.47,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:06:44.729333Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4247.74,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:06:49.552529Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3613.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:07:00.124179Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4071.62,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:10:48.120454Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 587730.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:11:31.166061Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5770.49,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:11:37.447375Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 4891.34,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:11:43.848629Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5139.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:11:49.228020Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4054.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:11:54.629340Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4089.6,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:12:04.842214Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4128.51,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:15:50.472873Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 890093.67,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:16:33.489723Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 6038.71,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:16:40.365716Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5291.14,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:16:46.822327Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5129.62,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:16:52.252760Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4089.6,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:16:57.234271Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3681.15,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:17:07.700254Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4050.31,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:20:51.833007Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 1191442.48,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:21:34.199373Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5684.41,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:21:40.612965Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5063.69,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:21:47.371329Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 4952.83,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:21:52.813115Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4197.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:21:58.184648Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4170.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:22:08.222420Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3619.54,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:25:54.323455Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 1493933.08,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:26:37.349826Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5744.27,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:26:43.922809Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5167.7,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:26:50.455060Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5194.69,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:26:55.959635Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4208.19,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:27:01.267370Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4142.89,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:27:11.022753Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3622.82,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:30:55.376848Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 1794986.61,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:31:37.976176Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5816.06,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:31:44.530270Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5212.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:31:50.965204Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5164.98,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:31:56.374563Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4156.05,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:32:01.484582Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3785.46,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:32:12.056300Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3884.54,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:35:59.478826Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 2099087.96,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:36:43.239597Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 5662.9,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:36:49.720727Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 5138.87,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:36:55.994053Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 5037.96,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:37:01.373408Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4146.94,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:37:06.284209Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 3585.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T00:37:16.988604Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 4332.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T03:38:50.813520Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 13070443.07,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-27T05:48:22.647849Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": false,
+    "duration_ms": 20851939.95,
+    "error": "orchestrator_failed"
+  },
+  {
+    "timestamp": "2026-03-27T05:48:53.675365Z",
+    "command": "tool:repo_map",
+    "tool": "repo_map",
+    "success": true,
+    "duration_ms": 2853.82,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:48:57.754859Z",
+    "command": "tool:fast_process",
+    "tool": "fast_process",
+    "success": true,
+    "duration_ms": 3451.49,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:49:01.863913Z",
+    "command": "tool:fast_analyze",
+    "tool": "fast_analyze",
+    "success": true,
+    "duration_ms": 3322.95,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:49:04.732147Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 2008.44,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:49:07.466407Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 1594.56,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:49:11.114222Z",
+    "command": "tool:ai_read",
+    "tool": "ai_read",
+    "success": true,
+    "duration_ms": 1295.94,
+    "error": null
+  },
+  {
+    "timestamp": "2026-03-27T05:52:24.262712Z",
+    "command": "orchestrate",
+    "tool": "orchestrator",
+    "success": true,
+    "duration_ms": 21093553.84,
+    "error": null
   }
 ]

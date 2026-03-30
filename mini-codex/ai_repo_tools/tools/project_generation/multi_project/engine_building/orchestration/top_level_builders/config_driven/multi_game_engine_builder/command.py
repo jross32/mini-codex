@@ -1,4 +1,4 @@
-﻿"""
+"""
 multi_game_engine_builder - multi game engine builder
 
 Category: execution

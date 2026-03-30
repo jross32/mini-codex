@@ -6,6 +6,7 @@ from agent.tool_runner import run_tool, parse_repo_map_result
 from agent.evaluator import evaluate_step
 from agent.memory import write_step_log
 from agent.tool_policy import extract_planned_reads_from_fast_process
+from agent.skill_loader import load_skills_for_goal
 
 
 class RepoAgent:
@@ -28,6 +29,10 @@ class RepoAgent:
         self.max_steps = max_steps
         self.memory_file = os.path.abspath(memory_file)
         self.progress_callback = progress_callback
+        # Load skills relevant to this goal and surface them in artifacts.
+        active_skills = load_skills_for_goal(goal)
+        if active_skills:
+            self.state.artifacts["active_skills"] = active_skills
 
     def _emit_progress(self, message: str) -> None:
         if not self.progress_callback:
@@ -42,6 +47,10 @@ class RepoAgent:
         self._emit_progress(
             f"starting goal='{self.state.goal}' max_steps={self.max_steps}"
         )
+        active_skills = self.state.artifacts.get("active_skills", [])
+        if active_skills:
+            names = ", ".join(s["name"] for s in active_skills)
+            self._emit_progress(f"skills matched: [{names}]")
         while not should_stop(self.state, self.max_steps):
             plan = select_next_tool(self.state)
             if not plan:
@@ -258,10 +267,14 @@ class RepoAgent:
         self._emit_progress(
             f"finished status={self.state.status} steps={self.state.steps_taken}"
         )
+        active_skill_names = [
+            s["name"] for s in self.state.artifacts.get("active_skills", [])
+        ]
         return {
             "final_summary": final_summary,
             "trace": self.state.trace,
             "status": self.state.status,
+            "active_skills": active_skill_names,
         }
 
     def _summary(self) -> str:

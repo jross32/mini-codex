@@ -1,4 +1,4 @@
-﻿"""
+"""
 engine_directory_materializer - engine directory materializer
 
 Category: execution

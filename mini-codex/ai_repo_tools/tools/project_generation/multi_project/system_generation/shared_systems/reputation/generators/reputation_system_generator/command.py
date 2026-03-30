@@ -1,4 +1,4 @@
-﻿"""
+"""
 reputation_system_generator - reputation system generator
 
 Category: execution

@@ -1,4 +1,4 @@
-﻿"""
+"""
 tool_usage_counter_refresh - tool usage counter refresh
 
 Category: execution

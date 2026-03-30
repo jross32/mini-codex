@@ -1,4 +1,4 @@
-﻿"""
+"""
 economy_system_generator - economy system generator
 
 Category: execution

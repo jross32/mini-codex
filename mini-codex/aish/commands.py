@@ -659,44 +659,84 @@ def orchestrate_agents(
     trust_threshold: float = 0.84,
     max_workers: Optional[int] = None,
     allow_unbounded_growth: bool = False,
+    run_forever: bool = True,
+    sleep_seconds: int = 5,
 ):
     """Run orchestrator + worker agents workflow for toolkit and agent-core evolution."""
     tracker = UsageTracker()
     started = time.perf_counter()
+    cycles = 0
+    last_result: Optional[Dict] = None
+
+    def _persist_forever_state(status: str, cycles: int, last_result: Optional[Dict] = None) -> None:
+        try:
+            path = os.path.join(repo_path, "agent_logs", "orchestrate_forever_state.json")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            payload = {
+                "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "status": status,
+                "cycles_completed": cycles,
+                "sleep_seconds": max(0, int(sleep_seconds or 0)),
+                "last_summary": (last_result or {}).get("summary"),
+                "last_success": (last_result or {}).get("success"),
+            }
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump(payload, fh, indent=2)
+        except Exception:
+            pass
 
     try:
         worker_cap = max_workers if max_workers is not None else _prompt_max_workers(default_value=16)
-        result = run_orchestrator_workflow(
-            repo_path=repo_path,
-            max_iterations=max_iterations,
-            trust_threshold=trust_threshold,
-            max_total_workers=worker_cap,
-            allow_unbounded_growth=allow_unbounded_growth,
-        )
-        success = bool(result.get("success", False))
-        _record(
-            tracker,
-            "orchestrate",
-            "orchestrator",
-            started,
-            success,
-            None if success else "orchestrator_failed",
-        )
+        while True:
+            if run_forever:
+                print(f"[orchestrate cycle {cycles + 1}] . . .", flush=True)
 
-        print("Orchestrator summary")
-        print("-" * 60)
-        for worker in result.get("workers", []):
-            benchmark = worker.get("benchmark", {})
-            trust = benchmark.get("trust_score")
-            trusted = benchmark.get("trusted")
-            trust_text = f", trust={trust}, trusted={trusted}" if trust is not None else ""
-            print(f"{worker.get('worker')}: {worker.get('status')} ({worker.get('steps')} steps{trust_text})")
-        print("-" * 60)
-        print(f"Workers spawned: {result.get('workers_spawned', 0)} / cap {result.get('max_total_workers')}")
-        print(result.get("summary", ""))
-        print("Detailed summary: agent_logs/orchestrator_summary.json")
-        return 0 if success else 1
+            result = run_orchestrator_workflow(
+                repo_path=repo_path,
+                max_iterations=max_iterations,
+                trust_threshold=trust_threshold,
+                max_total_workers=worker_cap,
+                allow_unbounded_growth=allow_unbounded_growth,
+            )
+            last_result = result
+            cycles += 1
+
+            success = bool(result.get("success", False))
+            _record(
+                tracker,
+                "orchestrate",
+                "orchestrator",
+                started,
+                success,
+                None if success else "orchestrator_failed",
+            )
+
+            print("Orchestrator summary")
+            print("-" * 60)
+            for worker in result.get("workers", []):
+                benchmark = worker.get("benchmark", {})
+                trust = benchmark.get("trust_score")
+                trusted = benchmark.get("trusted")
+                trust_text = f", trust={trust}, trusted={trusted}" if trust is not None else ""
+                print(f"{worker.get('worker')}: {worker.get('status')} ({worker.get('steps')} steps{trust_text})")
+            print("-" * 60)
+            print(f"Workers spawned: {result.get('workers_spawned', 0)} / cap {result.get('max_total_workers')}")
+            print(result.get("summary", ""))
+            print("Detailed summary: agent_logs/orchestrator_summary.json")
+
+            if not run_forever:
+                return 0 if success else 1
+
+            _persist_forever_state(status="running", cycles=cycles, last_result=last_result)
+            wait_seconds = max(0, int(sleep_seconds or 0))
+            print(f"[waiting before next cycle: {wait_seconds}s] . . .", flush=True)
+            time.sleep(wait_seconds)
     except Exception as exc:
         _record(tracker, "orchestrate", "orchestrator", started, False, str(exc))
         print(f"Error: {str(exc)}")
         return 1
+    except KeyboardInterrupt:
+        _persist_forever_state(status="stopped", cycles=cycles, last_result=last_result)
+        print("[keyboard interrupt received; orchestration stopped safely] . . .", flush=True)
+        print("Saved state: agent_logs/orchestrate_forever_state.json")
+        return 0
